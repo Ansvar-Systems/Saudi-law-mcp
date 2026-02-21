@@ -1,0 +1,73 @@
+{
+  "id": "sa-sdaia-governance",
+  "type": "statute",
+  "title": "لوائح وأنظمة هيئة البيانات والذكاء الاصطناعي (سدايا)",
+  "title_en": "Saudi Data and AI Authority (SDAIA) Governance Regulations",
+  "short_name": "SDAIA",
+  "status": "in_force",
+  "issued_date": "2021-09-01",
+  "in_force_date": "2021-09-01",
+  "url": "https://sdaia.gov.sa/ar/SDAIA/about/Pages/Regulations.aspx",
+  "description": "The Saudi Data and AI Authority (SDAIA), established by Royal Decree A/45 of 2019, governs data and AI in the Kingdom through a framework of regulations, standards and guidelines. SDAIA oversees the implementation of the Personal Data Protection Law, the National Data Governance Interim Regulations, and the National AI Ethics Principles, and coordinates data sharing and interoperability across government entities.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. SDAIA Mandate and Structure",
+      "content": "The Saudi Data and Artificial Intelligence Authority (SDAIA) is the supreme authority for data and AI in Saudi Arabia, reporting to the President of the Council of Ministers. SDAIA comprises: (1) the Data Management Office (NDMO) — responsible for national data governance, data quality standards, and overseeing government data sharing; (2) the National Information Centre (NIC) — responsible for government digital infrastructure and unified national data platforms; (3) the Data and AI Ethics Department — responsible for developing and implementing AI ethics principles and reviewing AI applications; (4) the Supervisory Department for the PDPL — responsible for supervising compliance with the Personal Data Protection Law and handling data subject complaints. SDAIA shall coordinate with CST on regulatory matters concerning digital infrastructure and with the NCA on cybersecurity aspects of data protection and AI systems."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. National Data Governance Framework",
+      "content": "SDAIA shall develop and maintain the National Data Governance Framework (NDGF) covering: (1) data quality standards — requirements for the accuracy, completeness, timeliness and consistency of data held by government entities; (2) data classification standards — a unified scheme for classifying data by sensitivity and regulatory status; (3) data sharing and exchange — standards and procedures for interoperability between government entities, including data sharing agreements, APIs and data catalogue requirements; (4) data lifecycle management — standards for the capture, storage, use, archiving and disposal of data; (5) open data standards — requirements for publishing data as open data in machine-readable formats. Government entities shall develop and maintain data governance frameworks compliant with the NDGF. Compliance shall be assessed annually by the NDMO."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. AI Governance and Ethics",
+      "content": "SDAIA's National AI Ethics Principles establish that AI systems used by government and in regulated sectors shall: (1) be fair and non-discriminatory — AI systems shall not produce biased outcomes that adversely affect individuals based on protected characteristics; (2) be transparent — users of AI systems shall be informed that they are interacting with an AI and shall be provided with an explanation of decisions made by AI where such decisions affect their rights; (3) be accountable — a human shall be responsible for decisions made with the support of AI systems; (4) be reliable and safe — AI systems shall be tested and validated before deployment and shall be monitored throughout their lifecycle; (5) protect privacy — AI systems shall process personal data only in accordance with the PDPL; (6) align with societal values and Islamic principles as expressed in Saudi law and policy. SDAIA shall issue sector-specific AI guidelines for high-risk applications including healthcare, financial services, law enforcement, and employment."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. National Data Exchange Platform",
+      "content": "SDAIA shall establish and operate the National Data Exchange Platform (Bayan) enabling secure, controlled data sharing between government entities. The Bayan platform shall: (1) provide a secure technical infrastructure for government data exchanges, using APIs and data feeds; (2) maintain a national data catalogue listing available government datasets and their accessibility conditions; (3) implement access controls ensuring that data is shared only with authorised entities for authorised purposes; (4) log all data exchanges for audit purposes; (5) implement data minimisation — ensuring that only the data necessary for the stated purpose is exchanged. Government entities shall not establish bilateral data sharing arrangements outside the Bayan platform without SDAIA approval. The Bayan platform shall be designed to ensure that personal data shared for one governmental purpose is not used for another without the appropriate legal basis."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Supervision of PDPL Compliance",
+      "content": "SDAIA's supervisory function for the Personal Data Protection Law includes: (1) receiving and processing complaints from data subjects regarding violations of their rights under the PDPL; (2) conducting investigations, including inspections and requests for documents and information; (3) issuing binding decisions requiring controllers to comply with the PDPL; (4) imposing administrative sanctions for violations in accordance with Article 10 of the PDPL; (5) cooperating with foreign data protection authorities on cross-border investigations. SDAIA shall process data subject complaints within 30 days. For complex complaints, the processing period may be extended to 90 days, with notification to the complainant. SDAIA shall publish an annual report on PDPL enforcement activities, including the number of complaints received, the outcome of investigations, and the sanctions imposed. SDAIA shall issue a binding interpretation of the PDPL and its Implementing Regulations upon request from controllers."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. AI Risk Assessment Requirements",
+      "content": "Entities deploying high-risk AI systems — systems that have the potential to significantly affect the rights, safety, or welfare of individuals — shall conduct an AI risk assessment before deployment. High-risk AI systems include: (1) AI systems used for biometric identification of persons; (2) AI systems used to make or support decisions on employment, education, credit, social benefits, or law enforcement; (3) AI systems that influence public opinion or information access at scale; (4) AI systems used in healthcare diagnosis or treatment decisions; (5) AI systems controlling critical infrastructure. The AI risk assessment shall cover: the intended purpose and technical description of the AI system; identification of potential harms and biases; testing and validation results; data quality and representativeness; human oversight mechanisms; and incident response procedures. Entities shall submit AI risk assessment reports for high-risk systems to SDAIA before deployment. SDAIA may prohibit deployment of AI systems where the risk assessment reveals unacceptable risks."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. National AI and Data Strategy",
+      "content": "SDAIA coordinates the implementation of the National Strategy for Data and AI (NSDAI) — a key pillar of Vision 2030 — which aims to: (1) establish Saudi Arabia as a leading global hub for data and AI; (2) build national data and AI capabilities and talent; (3) develop a data economy generating significant GDP contribution; (4) ensure that AI benefits are distributed across society; (5) position Saudi Arabia to attract global AI investment and partnerships. SDAIA shall publish an annual NSDAI progress report reviewed by the Council of Ministers. Key NSDAI programmes include: the National AI Academy — providing AI training for government employees; the AI startup ecosystem development programme; the National Data Marketplace — a platform for commercial data exchange; and international AI partnership initiatives."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "هيئة البيانات والذكاء الاصطناعي (SDAIA)",
+      "definition": "The Saudi Data and Artificial Intelligence Authority, the supreme authority for data and AI governance in Saudi Arabia, established by Royal Decree A/45 of 2019.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الذكاء الاصطناعي عالي المخاطر (High-Risk AI System)",
+      "definition": "An AI system that has the potential to significantly affect the rights, safety, or welfare of individuals, including systems used for biometric identification, employment decisions, credit decisions, or controlling critical infrastructure.",
+      "source_provision": "art6"
+    },
+    {
+      "term": "إطار حوكمة البيانات الوطني (National Data Governance Framework / NDGF)",
+      "definition": "The framework maintained by SDAIA covering data quality standards, data classification, data sharing, data lifecycle management, and open data requirements for government entities.",
+      "source_provision": "art2"
+    }
+  ]
+}

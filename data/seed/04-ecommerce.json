@@ -1,0 +1,79 @@
+{
+  "id": "sa-ecommerce",
+  "type": "statute",
+  "title": "نظام التجارة الإلكترونية",
+  "title_en": "E-Commerce Law",
+  "short_name": "ECL",
+  "status": "in_force",
+  "issued_date": "2019-07-09",
+  "in_force_date": "2019-07-09",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/da68e9a5-f1e2-4b5f-8c3d-a9b800f0b7f3/1",
+  "description": "The Saudi E-Commerce Law, issued by Royal Decree M/126 dated 9 July 2019, regulates electronic commercial transactions in the Kingdom of Saudi Arabia. The Law establishes disclosure obligations for e-commerce providers, consumer rights in online transactions, requirements for online contracts, and mechanisms for consumer complaints, and is administered by the Ministry of Commerce.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Definitions and Scope",
+      "content": "For the purposes of this Law: 'E-Commerce' means the purchase and sale of goods, products, or the provision of services through electronic means, including the Internet; 'E-Commerce Provider' means any natural person, entity or establishment providing goods or services through e-commerce, even if not officially registered; 'Consumer' means any person who buys goods, products or services through e-commerce for personal or family use; 'Electronic Platform' means any website, application or other electronic means used to conclude e-commerce transactions; 'Digital Content' means data produced and supplied in digital form, including software, audio, video, games, and digital texts; 'Electronic Contract' means a contract concluded by electronic means through which a commitment to provide goods, services or digital content is established. This Law applies to all e-commerce activities undertaken within the Kingdom of Saudi Arabia, and to e-commerce providers operating from outside the Kingdom who offer goods or services to consumers residing in the Kingdom."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Registration and Disclosure Obligations",
+      "content": "E-commerce providers operating in Saudi Arabia shall: (1) register their e-commerce activity with the Ministry of Commerce through the unified commercial registration system; (2) display on their electronic platform: (a) their commercial registration number; (b) the VAT registration number, where applicable; (c) the full legal name and physical address of the provider; (d) contact information including telephone number and electronic mail address; (e) a description of the goods or services offered; (f) the total price including all taxes and charges; (g) delivery terms and timelines; (h) the refund and returns policy; (i) the dispute resolution process available to consumers. E-commerce providers shall not engage in misleading commercial practices, including false claims about products, fabricated reviews, or deceptive pricing strategies. The Ministry of Commerce shall maintain a public register of licensed e-commerce providers."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Formation of Electronic Contracts",
+      "content": "An electronic contract shall be deemed concluded when the consumer's acceptance of the offer of the e-commerce provider is received by the provider. E-commerce providers shall: (1) clearly present the essential terms of the transaction to the consumer before the consumer confirms the order; (2) clearly indicate the commitment the consumer undertakes by placing the order, including the payment obligation; (3) provide an order confirmation electronically without undue delay after the order is placed, including: the order number; a description of the goods or services ordered; the total price; the delivery address; and the estimated delivery date. E-commerce providers shall not modify unilaterally the essential terms of a concluded contract without the consumer's written consent. Electronic contracts shall have the same legal validity as paper contracts. An e-commerce provider may not make the conclusion of a contract conditional on acceptance of terms unrelated to the subject matter of the transaction."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Consumer Rights and Returns",
+      "content": "Consumers shall have the right to return goods purchased through e-commerce and receive a full refund within 7 days of receipt of the goods, without giving any reason, provided that: (1) the goods are returned in their original condition and packaging; (2) goods that are subject to a health or hygiene risk once opened have not been opened. The 7-day return period shall not apply to: (1) goods made to the consumer's specific specifications; (2) perishable goods; (3) digital content supplied on a non-tangible medium and whose delivery has commenced with the consumer's express consent. Refunds shall be made using the same method of payment used by the consumer within 5 working days of receipt of the returned goods. Where goods delivered are defective or do not conform to the description, the consumer shall be entitled to demand replacement, repair, or refund regardless of the return period. E-commerce providers shall publish their returns policy in a clear and accessible manner on their electronic platform."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Protection of Consumer Data in E-Commerce",
+      "content": "E-commerce providers shall: (1) collect and process personal data of consumers only in accordance with the Personal Data Protection Law and only to the extent necessary for completing the transaction and providing the agreed service; (2) not share consumer personal data with third parties without the consumer's express consent, except where required by law; (3) implement appropriate technical and organisational measures to protect consumer personal data, including payment data, from unauthorised access, loss or theft; (4) comply with the requirements of the Saudi Personal Data Protection Law (PDPL) in relation to consumer data; (5) not store complete payment card numbers without compliance with applicable PCI DSS or equivalent standards; (6) notify consumers of any breach of security affecting their personal data in accordance with the PDPL notification requirements. E-commerce providers shall publish a privacy policy describing the categories of data collected, the purposes of collection, the data retention periods, and the rights of consumers regarding their data."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Electronic Payment and Financial Security",
+      "content": "Payments in e-commerce shall be effected through electronic payment methods licensed by the Saudi Central Bank (SAMA). E-commerce providers shall: (1) not store payment card credentials without the consumer's consent and without compliance with applicable payment security standards; (2) use secure, encrypted channels for all payment transactions; (3) not impose additional fees for the use of standard payment methods beyond those disclosed to the consumer before checkout; (4) provide consumers with a receipt or confirmation of payment. E-commerce providers shall be liable to consumers for financial losses arising from unauthorised transactions processed through their platform due to the provider's failure to implement adequate security measures. Fraudulent e-commerce transactions shall be subject to the Anti-Cyber Crime Law. SAMA shall establish specific cybersecurity requirements for e-commerce payment processing, with which all e-commerce providers shall comply."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. E-Commerce Platforms and Marketplace Operators",
+      "content": "Operators of electronic platforms that enable third-party sellers to offer goods or services to consumers ('marketplaces') shall: (1) verify the commercial registration of sellers before allowing them to list products on the platform; (2) clearly disclose to consumers the identity of the actual seller; (3) ensure that product listings on the platform comply with applicable laws; (4) implement a complaints mechanism for consumers regarding purchases made through the platform; (5) cooperate with the Ministry of Commerce in investigations of violations by sellers on the platform; (6) remove listings that are found to be in violation of this Law upon notification by the Ministry. Marketplace operators shall bear joint and several liability with sellers for violations where the marketplace directly participated in the violation or where the consumer could not reasonably have identified the actual seller. The Ministry of Commerce may establish specific obligations for large marketplace operators based on the number of consumers and transactions processed."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Enforcement and Sanctions",
+      "content": "The Ministry of Commerce shall supervise compliance with this Law and shall have the power to: (1) inspect e-commerce providers' records, systems and electronic platforms; (2) issue warnings and correction orders; (3) impose administrative fines for violations; (4) refer cases involving criminal conduct to the Bureau of Investigation and Public Prosecution. Administrative fines for violations: failure to register with the Ministry — fine of up to SAR 500,000; failure to display required information — fine of up to SAR 100,000 per violation; failure to comply with consumer return rights — fine of up to SAR 500,000; data protection violations — additional fines under the PDPL. In cases of repeated violations, the Ministry may order the suspension of e-commerce activity for up to 6 months. Violations resulting in systematic consumer harm may be referred to the competent court for criminal prosecution. Consumers who have suffered harm due to violations of this Law may file complaints with the Ministry of Commerce through the Unified Contact Centre (1900)."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "التجارة الإلكترونية (E-Commerce)",
+      "definition": "The purchase and sale of goods, products, or the provision of services through electronic means, including the Internet.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "مزود التجارة الإلكترونية (E-Commerce Provider)",
+      "definition": "Any natural person, entity or establishment providing goods or services through e-commerce, even if not officially registered.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "المستهلك (Consumer)",
+      "definition": "Any person who buys goods, products or services through e-commerce for personal or family use.",
+      "source_provision": "art1"
+    }
+  ]
+}

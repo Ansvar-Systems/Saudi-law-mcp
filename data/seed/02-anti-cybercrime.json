@@ -1,0 +1,79 @@
+{
+  "id": "sa-anti-cybercrime",
+  "type": "statute",
+  "title": "نظام مكافحة الجرائم المعلوماتية",
+  "title_en": "Anti-Cyber Crime Law",
+  "short_name": "ACCL",
+  "status": "in_force",
+  "issued_date": "2007-03-26",
+  "in_force_date": "2007-03-26",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e3bc0a74-fcc6-4e88-9e5b-a9b800f0b7f3/1",
+  "description": "The Saudi Anti-Cyber Crime Law, issued by Royal Decree M/17 dated 26 March 2007, defines cybercrimes and establishes criminal penalties for offences committed through information technology systems and networks. The Law covers unauthorised access, hacking, identity theft, online fraud, and content-related offences, and is enforced by the Presidency of State Security and the Bureau of Investigation and Public Prosecution.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Definitions",
+      "content": "The following terms shall have the meanings assigned to them for the purposes of this Law: 'Information Network' means any computer network that allows the exchange, reception and transmission of data and information, including the Internet; 'Information System' means any electronic system that controls, processes, stores or retrieves data and information; 'Information Technology Tool' means any electronic device, equipment or system capable of performing electronic operations; 'Cyber Crime' means any act committed through information networks or information technology tools in violation of this Law; 'Personal Privacy' means any information that relates to a natural person's private life and includes his image, voice recording, address, family affairs, health and financial matters; 'Electronic Commerce' means the purchase and sale of goods and services through information networks; 'Electronic Card' means any card that contains electronic data enabling its holder to carry out specified operations."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Unauthorised Access — Basic Offence",
+      "content": "The following acts shall constitute cybercrimes punishable by imprisonment for a period not exceeding one year and a fine not exceeding five hundred thousand Saudi Riyals (SAR 500,000), or either of these penalties: (1) unlawful access to a computer system or information network; (2) unlawful access to a computer system or information network for the purpose of obtaining data or information, or violating individual privacy without encroachment upon private, family or personal life; (3) unlawful access to websites or information systems to change their designs, destroy or modify them, or occupy their address; (4) exceeding the authorised access to a computer system or information network. The attempt to commit any of these acts shall be punishable by a penalty not exceeding half of the penalty prescribed for the completed offence. The mere possession of tools, programs or devices designed for unauthorised access, without actual use thereof, shall be punishable by a fine not exceeding SAR 100,000."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Aggravated Cybercrime Offences",
+      "content": "The following acts shall constitute cybercrimes punishable by imprisonment for a period not exceeding four years and a fine not exceeding three million Saudi Riyals (SAR 3,000,000), or either of these penalties: (1) unlawful access to a computer system or information network with the intent to threaten or blackmail a person to perform an act or refrain from an act; (2) invasion of another's privacy by unlawfully photographing, recording or transmitting images or sounds from a private place; (3) defaming others through information technology tools; (4) accessing banking, credit or financial data or information with the intent to obtain money, goods or services; (5) gaining unlawful access to codes and passwords enabling access to banking, financial or commercial data. Particularly aggravated offences carrying imprisonment of up to seven years and a fine of up to five million Saudi Riyals include: (1) attacks on critical national infrastructure through information networks; (2) hacking into government computer systems; (3) disruption of public services through cyberattacks."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Content Offences",
+      "content": "The following acts related to unlawful content shall constitute cybercrimes subject to the penalties set out in this Law: (1) the production, preparation, transmission or storage of material that infringes upon public order, religious values, public morals or personal privacy through information networks or information technology tools — imprisonment not exceeding one year and fine not exceeding SAR 500,000; (2) the production, preparation, transmission or storage of content related to terrorism or extremist groups — imprisonment not exceeding three years and fine not exceeding SAR 2,000,000; (3) the establishment or management of websites promoting terrorism or criminal activity — imprisonment not exceeding five years and fine not exceeding SAR 3,000,000; (4) unlawful access to content or data encrypted by the state for security purposes — imprisonment not exceeding ten years and fine not exceeding SAR 5,000,000. The court may additionally order the closure of websites used in committing the offences."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Financial Cybercrimes",
+      "content": "Financial cybercrimes shall be punishable by imprisonment for a period not exceeding three years and a fine not exceeding two million Saudi Riyals (SAR 2,000,000), or either of these penalties, including: (1) online fraud — obtaining money or services by deception through information networks; (2) identity theft — the impersonation of another person through information networks for the purpose of obtaining money, goods or services; (3) phishing — the collection of login credentials, banking information or personal data by deception; (4) using information networks to facilitate the laundering of proceeds of crime; (5) the establishment or operation of fraudulent websites designed to deceive users or collect their personal or financial information. Where the financial cybercrime involves the misappropriation of amounts exceeding SAR 1,000,000, the penalty shall be increased to imprisonment for up to five years and a fine of up to five million Saudi Riyals. Electronic evidence collected in compliance with applicable procedural rules shall be admissible in court proceedings."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Enforcement and Investigation",
+      "content": "The enforcement of this Law shall be the responsibility of: (1) the Presidency of State Security — for offences related to national security, terrorism, and attacks on state infrastructure; (2) the Directorate General of Investigation (mabahith) — for offences threatening public order; (3) the Bureau of Investigation and Public Prosecution — for all other cybercrimes. Investigators shall have the power to: (1) access and examine information systems and devices where there are grounds for suspecting cybercrimes; (2) request providers of information networks and internet services to preserve and provide electronic evidence; (3) intercept electronic communications with the appropriate judicial authorisation; (4) request assistance from relevant bodies including the Communications, Space and Technology Commission (CST). Service providers shall cooperate with lawful requests from competent authorities within the time limits specified by those authorities. Electronic service providers shall maintain technical logs for a period of at least one year, which shall be provided to competent authorities upon lawful request."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Corporate Liability and Aggravating Factors",
+      "content": "A legal entity shall be jointly and severally liable for payment of fines imposed on persons who commit cybercrimes in its name or on its behalf, where the offence was the result of the legal entity's failure to exercise adequate supervision or control. In determining the appropriate penalty, the following shall be considered aggravating factors: (1) commission of the offence as part of an organised criminal group; (2) the defendant holds a position of authority or trust; (3) the offence involved violation of personal privacy; (4) the offence resulted in substantial financial loss to victims; (5) the offence targeted vulnerable persons including minors or the elderly. In addition to the prescribed penalties, the court may order: (1) confiscation of equipment and tools used in committing the offence; (2) publication of the verdict in one or more daily newspapers at the defendant's expense; (3) prohibition on using information technology services for a specified period following release."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Preservation of Evidence and Judicial Cooperation",
+      "content": "Information and communication technology service providers operating in Saudi Arabia shall: (1) preserve log data and technical records relating to cybercrime investigations for the period prescribed by the relevant authorities; (2) provide competent authorities with the technical means necessary to access and retrieve data as part of lawful investigations; (3) not disclose to suspects or third parties that an investigation is under way, except on judicial orders. International cooperation in cybercrime investigations shall be conducted through: (1) bilateral mutual legal assistance treaties (MLATs); (2) the Arab Convention on Combating Information Technology Offences; (3) through formal channels of the International Criminal Police Organization (INTERPOL). Requests from foreign authorities for judicial cooperation in cybercrime cases shall be handled by the Bureau of Investigation and Public Prosecution in coordination with the Ministry of Foreign Affairs. Evidence obtained through international cooperation shall be admissible in Saudi courts in accordance with applicable procedural rules."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "شبكة المعلومات (Information Network)",
+      "definition": "Any computer network that allows the exchange, reception and transmission of data and information, including the Internet.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الجريمة المعلوماتية (Cyber Crime)",
+      "definition": "Any act committed through information networks or information technology tools in violation of this Law.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الخصوصية الشخصية (Personal Privacy)",
+      "definition": "Any information that relates to a natural person's private life and includes his image, voice recording, address, family affairs, health and financial matters.",
+      "source_provision": "art1"
+    }
+  ]
+}

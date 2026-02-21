@@ -1,0 +1,73 @@
+{
+  "id": "sa-cloud-computing",
+  "type": "statute",
+  "title": "لوائح الحوسبة السحابية (هيئة الاتصالات والفضاء والتقنية)",
+  "title_en": "Cloud Computing Regulatory Framework (CITC/CST)",
+  "short_name": "CCRF",
+  "status": "in_force",
+  "issued_date": "2018-12-01",
+  "in_force_date": "2018-12-01",
+  "url": "https://www.cst.gov.sa/ar/regulations/cloud-computing",
+  "description": "The Saudi Cloud Computing Regulatory Framework, issued by the Communications, Space and Technology Commission (CST), establishes the rules and requirements for cloud service providers operating in Saudi Arabia and for subscribers to cloud services. The framework covers cloud service classifications, data sovereignty requirements, security standards, and the rights and obligations of cloud service providers and consumers in the Kingdom.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Purpose and Applicability",
+      "content": "This Regulatory Framework governs cloud computing services provided within or from outside the Kingdom of Saudi Arabia to subscribers in the Kingdom. It applies to: (1) cloud service providers (CSPs) offering Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) to subscribers in Saudi Arabia; (2) subscribers — public and private organisations using cloud services; (3) intermediaries facilitating the subscription to cloud services. The framework aims to: (1) ensure cloud services meet the security and reliability standards required for their use in Saudi Arabia; (2) protect the data of Saudi subscribers; (3) promote a competitive cloud market in the Kingdom; (4) align with Vision 2030 objectives for digital transformation. CST shall have the authority to issue guidance, directions and amendments to this framework in accordance with its regulatory mandate."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Data Classification and Localisation",
+      "content": "Cloud subscribers in Saudi Arabia shall classify their data according to the following sensitivity levels: (1) Category 1 — Government data subject to special regulatory requirements, which must be stored and processed on servers physically located within the Kingdom of Saudi Arabia; (2) Category 2 — Sensitive data, including personal data, financial data and health data, which should be stored within the Kingdom or in a jurisdiction with adequate data protection laws and an agreement with the Kingdom; (3) Category 3 — General data, which may be stored and processed in any compliant cloud environment. Government bodies and critical infrastructure operators shall not store Category 1 data outside the Kingdom without written approval from CST and the relevant security authority. Cloud service providers serving government entities shall demonstrate the location of their data processing infrastructure and shall not relocate such infrastructure without notifying CST."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Security Requirements for Cloud Service Providers",
+      "content": "Cloud service providers operating in Saudi Arabia shall: (1) obtain certification under ISO/IEC 27001 or equivalent internationally recognised information security standard; (2) additionally obtain certification under ISO/IEC 27017 (cloud-specific controls) and ISO/IEC 27018 (personal data in the cloud); (3) conduct penetration testing of their cloud infrastructure no less frequently than annually and provide results to CST upon request; (4) implement multi-tenant data isolation ensuring that one subscriber cannot access another subscriber's data; (5) implement encryption at rest and in transit using algorithms that meet the standards published by the National Cybersecurity Authority (NCA); (6) implement identity and access management (IAM) controls including multi-factor authentication for privileged access; (7) maintain audit logs of all access to subscriber data and provide these to subscribers on request; (8) implement business continuity and disaster recovery capabilities with Recovery Time Objective (RTO) and Recovery Point Objective (RPO) appropriate to the service level offered."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Subscriber Rights and Contractual Requirements",
+      "content": "Cloud service agreements between providers and subscribers in Saudi Arabia shall include: (1) a clear description of the services, including performance guarantees and service level agreements (SLAs); (2) specification of the data storage location; (3) data portability commitments enabling subscribers to export their data in a standard format; (4) the provider's incident notification obligations, including timelines; (5) the procedure for termination of the service and data deletion or return; (6) the provider's subcontracting arrangements and the subscriber's rights regarding subcontractors; (7) audit rights for subscribers, including the right to receive third-party audit reports. Cloud service subscribers shall have the right to: (1) receive notification of any change in the service that materially affects the subscriber's data or systems; (2) export their data within 30 days of termination of the service; (3) have their data permanently deleted upon termination of the service, with written confirmation."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Incident Reporting",
+      "content": "Cloud service providers shall: (1) notify affected subscribers and CST of any security incident that may have compromised subscriber data or disrupted services within 24 hours of detecting the incident; (2) provide an initial incident report within 72 hours containing: the nature of the incident; the data categories and approximate number of subscribers affected; the likely consequences; and the measures taken to contain the incident; (3) provide a detailed post-incident report within 30 days; (4) cooperate with CST investigations of incidents. Incidents involving government subscriber data shall additionally be reported to the National Cybersecurity Authority (NCA) within 12 hours. Cloud service providers shall maintain an incident register and report summary statistics on incidents to CST annually. CST may publish information about significant incidents where this is in the public interest and where doing so does not compromise ongoing investigations."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Compliance Assessment and Registration",
+      "content": "Cloud service providers wishing to provide services to government entities or to process Category 1 data shall: (1) register with CST as an authorised government cloud service provider; (2) undergo an initial compliance assessment conducted or approved by CST; (3) submit to periodic compliance assessments, no less frequently than every two years; (4) maintain continuous compliance with the security requirements of this framework. The registration process shall include: submission of a completed application form; technical architecture documentation; evidence of applicable certifications; references from existing customers; a compliance self-assessment against the CST cloud security requirements. CST shall publish a list of registered authorised government cloud service providers, which shall be updated quarterly. Cloud service providers failing to maintain registration requirements shall be removed from the register and shall cease providing services to government entities pending restoration of compliance."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Enforcement",
+      "content": "CST shall have the following enforcement powers in relation to this framework: (1) conduct audits and inspections of cloud service providers; (2) issue compliance notices requiring cloud service providers to remedy identified deficiencies within specified periods; (3) suspend or revoke registration of non-compliant providers; (4) impose financial penalties in accordance with the Telecommunications Act; (5) refer cases of criminal conduct to the competent authorities. Subscribers that are government entities shall report non-compliance of cloud service providers to CST. Disputes between cloud service subscribers and providers shall be resolved through the dispute resolution mechanism established by CST. CST shall publish enforcement guidelines and a summary of enforcement actions taken on an annual basis."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "مزود خدمات الحوسبة السحابية (Cloud Service Provider)",
+      "definition": "An entity offering cloud computing services including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) to subscribers in Saudi Arabia.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "المشترك (Subscriber)",
+      "definition": "A public or private organisation using cloud computing services.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الحكومية (Government Data / Category 1)",
+      "definition": "Government data subject to special regulatory requirements that must be stored and processed on servers physically located within the Kingdom of Saudi Arabia.",
+      "source_provision": "art2"
+    }
+  ]
+}

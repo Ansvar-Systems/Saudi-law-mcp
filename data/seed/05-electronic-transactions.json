@@ -1,0 +1,73 @@
+{
+  "id": "sa-electronic-transactions",
+  "type": "statute",
+  "title": "نظام التعاملات الإلكترونية",
+  "title_en": "Electronic Transactions Law",
+  "short_name": "ETL",
+  "status": "in_force",
+  "issued_date": "2007-03-26",
+  "in_force_date": "2007-03-26",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a7f2b3c4-d5e6-4f78-9a0b-a9b800f0b7f3/1",
+  "description": "The Saudi Electronic Transactions Law, issued by Royal Decree M/18 dated 26 March 2007, establishes the legal framework for electronic transactions, electronic signatures, and electronic documents in Saudi Arabia. The Law ensures the legal validity of electronic records, contracts and signatures, and sets out the conditions for their equivalence to paper documents and handwritten signatures.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Definitions",
+      "content": "For the purposes of this Law: 'Electronic Transaction' means a transaction conducted wholly or partly using electronic means; 'Electronic Document' means a document issued, transferred, received or stored using electronic means; 'Electronic Signature' means electronic data in the form of letters, numbers, codes, symbols, marks, sounds or other data in electronic form, which is created by the signatory or on behalf of the signatory, and which uniquely identifies the signatory and is logically associated with the document signed; 'Digital Signature' means an electronic signature that uses asymmetric cryptography techniques, resulting in a transformed version of the document that can be decrypted using the public key of the signatory; 'Certification Service Provider' means an entity that issues electronic signature certificates and confirms the authenticity of electronic signatures; 'Accreditation Authority' means the authority responsible for accrediting certification service providers, determined by the regulatory framework."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Legal Validity of Electronic Transactions",
+      "content": "Electronic transactions, electronic documents and electronic signatures shall have the same legal validity, effect and enforceability as paper transactions, paper documents and handwritten signatures, subject to the requirements of this Law. An electronic document shall not be denied legal effect or admissibility as evidence in legal proceedings solely on the ground that it is in electronic form. Where a law requires a document to be in writing, an electronic document satisfies that requirement if: (1) the information contained in the electronic document is accessible and usable for subsequent reference; (2) the electronic document is capable of being retained and preserved. Where a law requires a signature, an electronic signature satisfies that requirement if: (1) it identifies the signatory; (2) it indicates the signatory's approval of the document; (3) it is reliable in terms of its connection to the signatory and the document. Courts shall assess the admissibility of electronic evidence based on the reliability of the method used to create, store and communicate the electronic document."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Electronic Signatures",
+      "content": "An electronic signature that meets the following conditions shall have the same legal effect as a handwritten signature: (1) it is uniquely linked to the signatory; (2) it is capable of identifying the signatory; (3) it is created using means under the signatory's sole control; (4) it is linked to the data signed in such a way that any subsequent alteration of the data is detectable. A digital signature using asymmetric cryptography supported by a qualified certificate issued by an accredited certification service provider shall constitute a secure electronic signature and shall enjoy a presumption of authenticity and integrity. Certification service providers shall: (1) obtain accreditation from the accreditation authority before issuing certificates used in legally significant transactions; (2) maintain records of all certificates issued; (3) ensure the accuracy of certificate information; (4) revoke certificates upon receipt of reliable information of compromise. The government shall use secure electronic signatures for all digital government services requiring authentication."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Government Electronic Services",
+      "content": "Government agencies shall implement electronic services in accordance with the objectives of Vision 2030 and the Saudi Digital Government Authority's digital transformation strategy. Government agencies providing electronic services shall: (1) ensure the availability of electronic alternatives to all paper-based administrative procedures; (2) accept electronic documents and electronic signatures on equal terms with paper documents and handwritten signatures; (3) implement secure authentication mechanisms, including the national identity system (Absher), for government digital services requiring personal identification; (4) comply with the standards for digital government services issued by the Saudi Digital Government Authority; (5) ensure the accessibility of electronic services for persons with disabilities. Data shared between government agencies shall be governed by the Data Sharing and Exchange Framework issued by the National Data Management Office. Government agencies shall publish annual reports on the usage and performance of their electronic services."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Data Retention and Integrity",
+      "content": "Where a law requires that records be retained for a specified period, that requirement is satisfied in relation to electronic records if: (1) the information contained in the electronic record is accessible and can be used for subsequent reference; (2) the electronic record is retained in the format in which it was originally created, sent or received, or in a format which can be demonstrated to accurately represent the original information; (3) the information allows identification of the origin and destination of the record and the time and date when it was sent or received. Electronic records shall be deemed original unless evidence of alteration is produced. Organisations retaining electronic records shall implement appropriate measures to protect the integrity and authenticity of those records, including audit trails, access controls, and backup procedures. The period of retention of electronic records shall comply with the requirements of applicable laws and regulations."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Certification Service Providers",
+      "content": "Certification service providers (CSPs) issuing electronic signature certificates for use in legally significant transactions shall obtain accreditation from the relevant accreditation authority. Accredited CSPs shall: (1) comply with the technical standards for certificate issuance and management published by the accreditation authority; (2) maintain a secure and reliable certificate management infrastructure; (3) verify the identity of certificate applicants before issuing certificates; (4) publish and maintain a certificate revocation list (CRL) accessible to relying parties; (5) maintain records of all certificates issued and revoked; (6) notify the accreditation authority immediately of any security breach affecting the certificate infrastructure. The accreditation authority shall publish and maintain a trusted list of accredited CSPs accessible to the public. Certificates issued by accredited CSPs of other states may be recognised by the accreditation authority where the foreign CSP meets requirements equivalent to those under this Law."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Liability and Penalties",
+      "content": "A certification service provider shall be liable to persons who have reasonably relied on a certificate issued by it if the CSP has: (1) failed to meet the requirements of this Law in issuing the certificate; (2) issued the certificate based on false information provided by the applicant where the CSP failed to verify the information as required; (3) failed to revoke a certificate in the required circumstances. A person who uses a false electronic signature or certificate with intent to defraud or cause damage to another shall be subject to criminal penalties under the Anti-Cyber Crime Law. An organisation that generates a false electronic signature purportedly belonging to another shall be liable to that person for any resulting damage. Disputes arising from electronic transactions that cannot be resolved by the parties shall be submitted to the relevant judicial authority. Where an electronic signature dispute concerns a government transaction, it shall be referred to the administrative courts."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "التعامل الإلكتروني (Electronic Transaction)",
+      "definition": "A transaction conducted wholly or partly using electronic means.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "التوقيع الإلكتروني (Electronic Signature)",
+      "definition": "Electronic data in the form of letters, numbers, codes, symbols, marks, sounds or other data in electronic form, which is created by the signatory or on behalf of the signatory, and which uniquely identifies the signatory and is logically associated with the document signed.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "مزود خدمات التصديق (Certification Service Provider)",
+      "definition": "An entity that issues electronic signature certificates and confirms the authenticity of electronic signatures.",
+      "source_provision": "art1"
+    }
+  ]
+}

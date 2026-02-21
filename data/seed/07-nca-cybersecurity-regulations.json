@@ -1,0 +1,79 @@
+{
+  "id": "sa-nca-cybersecurity",
+  "type": "statute",
+  "title": "الضوابط الأساسية للأمن السيبراني (الهيئة الوطنية للأمن السيبراني)",
+  "title_en": "Essential Cybersecurity Controls (National Cybersecurity Authority)",
+  "short_name": "ECC",
+  "status": "in_force",
+  "issued_date": "2018-11-01",
+  "in_force_date": "2018-11-01",
+  "url": "https://nca.gov.sa/ar/pages/ecc",
+  "description": "The Essential Cybersecurity Controls (ECC) issued by the National Cybersecurity Authority (NCA) establish the minimum cybersecurity requirements for government agencies and critical national infrastructure organisations in Saudi Arabia. The ECC framework covers cybersecurity governance, risk management, defence controls, resilience, and third-party security requirements, and forms the foundation of Saudi Arabia's national cybersecurity posture.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Mandate and Applicability",
+      "content": "The National Cybersecurity Authority (NCA) is the national reference authority for cybersecurity in Saudi Arabia, established by Royal Decree A/57 of 2017. The NCA has the mandate to establish, review and update cybersecurity policies, frameworks, standards and guidelines to build and enhance the cybersecurity posture of the Kingdom. The Essential Cybersecurity Controls (ECC) shall apply mandatorily to: (1) all government entities, whether ministries, agencies, or public bodies; (2) operators of critical national infrastructure in all sectors designated by the NCA; (3) entities providing essential services to government. Private sector entities providing cloud, telecommunications or technology services to government entities shall comply with the ECC requirements applicable to their services. Compliance with the ECC shall be assessed periodically by the NCA and compliance status shall be reported to the Board of Directors or equivalent governance body of each covered entity."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Cybersecurity Governance Requirements",
+      "content": "Covered entities shall implement the following cybersecurity governance controls: (1) establish a cybersecurity governance structure with clear roles and responsibilities at Board, executive and operational levels; (2) appoint a Chief Information Security Officer (CISO) or equivalent, who shall report to the Board or a senior executive; (3) develop, approve and regularly review a cybersecurity strategy aligned with the organisation's business objectives and the national cybersecurity strategy; (4) maintain a cybersecurity policy framework comprising: an overarching cybersecurity policy; supporting policies on specific topics (access management, incident response, etc.); and operational procedures implementing those policies; (5) allocate adequate resources — budget, personnel and technology — for the cybersecurity programme; (6) integrate cybersecurity into the organisational risk management framework; (7) establish a cybersecurity awareness and training programme for all staff; (8) include cybersecurity as a standing agenda item in Board and senior management meetings."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Asset Management and Risk Management",
+      "content": "Covered entities shall: (1) maintain a comprehensive and up-to-date asset inventory covering hardware, software, data, and services; (2) classify all information assets according to their sensitivity and criticality using at least the four-level classification: Public, Internal, Confidential, Restricted; (3) conduct a cybersecurity risk assessment at least annually, covering all identified assets and the threats and vulnerabilities applicable to them; (4) implement a risk treatment plan addressing identified risks through mitigation, transfer, avoidance or acceptance; (5) define and apply asset management controls throughout the asset lifecycle, from procurement to disposal; (6) implement secure disposal procedures for end-of-life equipment and media, ensuring complete erasure of data; (7) track changes to the asset inventory and ensure the inventory is updated within 24 hours of any change; (8) identify critical assets that require enhanced security measures."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Identity and Access Management",
+      "content": "Covered entities shall implement the following identity and access management controls: (1) implement a formal access management process with documented procedures for granting, modifying and revoking access; (2) apply the principle of least privilege — grant only the minimum access necessary for each role; (3) implement multi-factor authentication (MFA) for all remote access to systems and for all privileged accounts; (4) prohibit the use of shared or generic accounts for privileged operations; (5) conduct periodic access reviews, at least quarterly for privileged accounts and annually for standard accounts; (6) implement immediate account revocation procedures triggered upon termination or change of role; (7) log all privileged access events and retain logs for at least 12 months; (8) implement privileged access workstations (PAWs) for administration of critical systems; (9) implement password management requirements including minimum length (at least 12 characters), complexity, and regular rotation for privileged accounts."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Network Security and Defence Controls",
+      "content": "Covered entities shall implement the following network security controls: (1) implement network segmentation separating the internal network from external networks, between different security zones, and isolating critical systems; (2) deploy and maintain a firewall at all network boundaries with regularly reviewed and documented rulesets; (3) deploy intrusion detection and prevention systems (IDS/IPS) at critical network points; (4) implement encrypted communications for all connections carrying sensitive data, using current cryptographic protocols (TLS 1.2 or higher); (5) prohibit direct internet access from internal systems without traffic inspection; (6) implement a DMZ for all systems that must be accessible from external networks; (7) implement controls to prevent unauthorised connection of devices to internal networks; (8) monitor network traffic for anomalies and threats using a security information and event management (SIEM) system; (9) implement DNS filtering to block access to known malicious domains."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Incident Management",
+      "content": "Covered entities shall establish and maintain an incident management capability: (1) develop, maintain and test an incident response plan covering the full incident lifecycle: detection, analysis, containment, eradication, recovery and post-incident review; (2) establish a Computer Security Incident Response Team (CSIRT) or engage a managed security service provider; (3) define incident severity levels and escalation procedures; (4) report cybersecurity incidents to the NCA within the following timelines: critical incidents — within 3 hours; high severity incidents — within 12 hours; medium severity incidents — within 24 hours; (5) conduct post-incident analysis and implement lessons learned; (6) participate in national cybersecurity exercises organised by the NCA; (7) subscribe to threat intelligence feeds and incorporate threat intelligence into detection and response activities; (8) maintain a record of all cybersecurity incidents including root cause analysis and remediation actions."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Third-Party and Supply Chain Security",
+      "content": "Covered entities shall manage cybersecurity risks arising from third-party relationships: (1) conduct cybersecurity due diligence on third-party service providers before engagement and periodically during the relationship; (2) include cybersecurity requirements in contracts with third parties, including: compliance with the ECC requirements applicable to the services provided; incident notification obligations; audit rights; and data handling requirements; (3) maintain an up-to-date register of third-party relationships and the cybersecurity risks they present; (4) implement ongoing monitoring of the cybersecurity posture of critical third-party providers; (5) assess supply chain risks for hardware and software procured for critical systems; (6) implement controls to prevent the introduction of counterfeit, tampered or otherwise compromised hardware or software; (7) not grant third parties direct access to critical systems without implementing additional controls including multi-factor authentication and enhanced logging."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Compliance Assessment",
+      "content": "Compliance with the ECC shall be assessed through: (1) self-assessment by the covered entity, conducted annually using the NCA's compliance assessment tool; (2) independent assessment by a qualified third-party assessor, conducted at least every two years; (3) NCA-led assessment, conducted at the NCA's discretion based on risk or following a significant incident. Compliance assessment results shall be reported to: (1) the Board or equivalent governance body; (2) the NCA in accordance with the NCA's reporting requirements. Entities found to be non-compliant shall develop and submit to the NCA a remediation plan with defined timelines. Persistent non-compliance may result in: reporting to the relevant supervisory authority; restriction on the use of government digital services; or other measures as determined by the NCA. The NCA shall publish an annual national cybersecurity report including aggregate compliance statistics."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "الهيئة الوطنية للأمن السيبراني (NCA)",
+      "definition": "The National Cybersecurity Authority of Saudi Arabia, established by Royal Decree A/57 of 2017 as the national reference authority for cybersecurity.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الضوابط الأساسية للأمن السيبراني (Essential Cybersecurity Controls / ECC)",
+      "definition": "The minimum cybersecurity requirements issued by the NCA for government agencies and critical national infrastructure organisations in Saudi Arabia.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الحادثة السيبرانية (Cybersecurity Incident)",
+      "definition": "An event that has resulted in, or may result in, a violation of cybersecurity policies, controls or procedures, including unauthorised access, denial of service, malware infection, data breach, or system compromise.",
+      "source_provision": "art6"
+    }
+  ]
+}

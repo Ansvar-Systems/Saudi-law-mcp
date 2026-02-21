@@ -1,0 +1,108 @@
+{
+  "id": "sa-pdpl",
+  "type": "statute",
+  "title": "نظام حماية البيانات الشخصية",
+  "title_en": "Personal Data Protection Law (PDPL)",
+  "short_name": "PDPL",
+  "status": "in_force",
+  "issued_date": "2021-09-16",
+  "in_force_date": "2023-09-14",
+  "url": "https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawEn.pdf",
+  "description": "The Saudi Personal Data Protection Law (PDPL), issued by Royal Decree M/19 dated 16 September 2021 and administered by the Saudi Data and AI Authority (SDAIA), establishes the legal framework for the collection, processing, storage, and transfer of personal data in Saudi Arabia. The Law applies to any processing of personal data that occurs within Saudi Arabia, or that relates to persons residing in Saudi Arabia, and imposes obligations on data controllers to obtain consent, ensure data accuracy, and implement appropriate security measures.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Definitions",
+      "content": "The following terms and phrases, wherever mentioned in this Law, shall have the meanings assigned to them hereunder, unless the context requires otherwise: 'Personal Data' means any data, regardless of its source or form, that leads to identifying an individual specifically, or makes it possible to identify him directly or indirectly, including name, personal identification number, addresses, contact numbers, license numbers, records, property, bank account and credit card numbers, fixed or moving pictures of the individual, and other data of similar nature; 'Sensitive Data' means data that reveals racial or ethnic origin, religious or political beliefs, data relating to criminal convictions, health and medical data, data of genetic and biometric nature aiming to specifically identify an individual, data related to children, and data revealing privacy of family life; 'Processing' means any operation or set of operations carried out on personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, amendment, retrieval, use, disclosure, provision, dissemination, or deletion; 'Controller' means any individual or entity, public or private, that determines the purposes and means of processing of personal data, whether carried out directly or on behalf of others; 'Processor' means any individual or entity, public or private, that processes personal data on behalf of the controller."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Scope of Application",
+      "content": "This Law applies to: (1) any processing of personal data that is carried out in the Kingdom of Saudi Arabia; (2) the processing of personal data of persons residing in the Kingdom by controllers or processors not established in the Kingdom, where such processing is related to offering goods or services to such persons, or monitoring their behaviour within the Kingdom. This Law does not apply to: (1) personal data processed by individuals for purely personal or household activities; (2) personal data processed by competent security authorities for the purpose of combating crime and protecting national security; (3) personal data that is collected and used exclusively for personal, family or household purposes of a natural person; (4) data processed for statistical, research or archiving purposes carried out by relevant authorities in accordance with applicable laws. Controllers established outside the Kingdom that are subject to this Law shall designate a representative in the Kingdom of Saudi Arabia to act on their behalf in dealings with the supervisory authority."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Principles of Personal Data Processing",
+      "content": "Personal data shall be processed in compliance with the following principles: (1) Lawfulness, fairness and transparency — processing shall be lawful, fair and transparent to the data subject; (2) Purpose limitation — data shall be collected for specified, explicit and legitimate purposes and not further processed in a manner inconsistent with those purposes; (3) Data minimisation — data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which it is processed; (4) Accuracy — data shall be accurate and, where necessary, kept up to date; every reasonable step must be taken to erase or rectify inaccurate data without delay; (5) Storage limitation — data shall be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the data is processed; (6) Integrity and confidentiality — data shall be processed in a manner that ensures appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage; (7) Accountability — the controller shall be responsible for, and be able to demonstrate, compliance with these principles."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Lawful Bases for Processing",
+      "content": "Processing of personal data shall be lawful only where: (1) the data subject has given consent to the processing for one or more specific purposes; (2) processing is necessary for the performance of a contract to which the data subject is party or for taking pre-contractual steps at the request of the data subject; (3) processing is necessary for compliance with a legal obligation to which the controller is subject; (4) processing is necessary to protect the vital interests of the data subject or another person; (5) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (6) processing is necessary for the purposes of the legitimate interests of the controller or a third party, except where such interests are overridden by the fundamental rights and interests of the data subject. Processing of sensitive data shall be permitted only in cases expressly provided by this Law and its Implementing Regulations and shall require explicit consent or an overriding legal basis established by law."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Rights of Data Subjects",
+      "content": "Data subjects shall have the following rights: (1) the right to obtain information about what personal data is collected and processed; (2) the right to access their personal data and receive a copy thereof; (3) the right to correct inaccurate or incomplete personal data; (4) the right to request erasure of their personal data when: the purpose of processing has been fulfilled; the data subject withdraws consent; the data is no longer needed; the processing is unlawful; (5) the right to restrict processing in certain circumstances; (6) the right to object to processing in certain circumstances, including processing for direct marketing; (7) the right not to be subject to a decision based solely on automated processing, where such a decision produces significant effects. Controllers shall respond to data subject requests within 30 days, which period may be extended by up to 30 additional days where the complexity of the request so requires. Responses shall be provided free of charge unless the request is manifestly unfounded or excessive."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Obligations of Controllers",
+      "content": "Controllers shall: (1) implement appropriate technical and organisational measures to ensure personal data is processed in compliance with this Law; (2) record all processing activities under their responsibility and make such records available to the supervisory authority on request; (3) implement privacy by design and privacy by default principles; (4) only use processors that provide sufficient guarantees to implement appropriate technical and organisational measures; (5) conclude written data processing agreements with processors; (6) conduct data protection impact assessments before processing that is likely to result in a high risk; (7) designate a data protection officer where required by the Implementing Regulations; (8) notify the supervisory authority and affected data subjects of personal data breaches in accordance with the timelines set out in the Implementing Regulations; (9) maintain appropriate records of consents obtained from data subjects; (10) implement procedures for honouring data subject rights requests within the prescribed timeframes."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Cross-Border Transfer of Personal Data",
+      "content": "Personal data may not be transferred outside the Kingdom of Saudi Arabia unless: (1) the transfer serves an interest of the Kingdom or achieves a benefit for the data subject and does not prejudice national security or the vital interests of the Kingdom; (2) adequate protection is afforded to the personal data to be transferred, comparable to the protection provided by this Law; (3) the supervisory authority has approved the transfer through an adequacy decision or has approved the use of standard contractual clauses or binding corporate rules. The Implementing Regulations shall specify: the categories of personal data that may not be transferred outside the Kingdom under any circumstances; the countries and international organisations to which transfer is permissible without prior approval; the approved mechanisms for safeguarding transfers. Controllers shall document all cross-border transfers and be prepared to demonstrate compliance with this Article upon request by the supervisory authority."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Personal Data Breach Notification",
+      "content": "In the event of a personal data breach, the controller shall: (1) notify the supervisory authority (SDAIA) within 72 hours of becoming aware of the breach, unless the breach is unlikely to result in a risk to the rights and freedoms of data subjects; (2) notify affected data subjects without undue delay where the breach is likely to result in a high risk; (3) document all personal data breaches, including the facts relating to the breach, its effects, and the remedial action taken. The notification to the supervisory authority shall include: a description of the nature of the breach; the categories and approximate number of data subjects concerned; the categories and approximate number of data records concerned; the likely consequences of the breach; the measures taken or proposed to address the breach. A controller's failure to notify a data breach within the prescribed period shall constitute a violation of this Law and shall result in the imposition of sanctions under Article 10. The supervisory authority may publish information about breaches where it considers this to be in the public interest."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Supervisory Authority (SDAIA)",
+      "content": "The Saudi Data and Artificial Intelligence Authority (SDAIA) shall act as the supervisory authority for this Law. SDAIA shall: (1) monitor and enforce compliance with this Law; (2) issue Implementing Regulations, guidelines and binding interpretations; (3) process complaints from data subjects; (4) conduct investigations and inspections; (5) impose administrative sanctions for violations; (6) cooperate with competent authorities in other states on data protection matters; (7) promote awareness and understanding of data protection rights and obligations. The National Data Management Office (NDMO), operating under SDAIA, shall be responsible for developing data governance frameworks and standards. SDAIA shall publish annual reports on the implementation of this Law. SDAIA may issue binding guidance to controllers and processors on specific issues, which shall have the same legal effect as the Implementing Regulations once published in the Official Gazette."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Sanctions and Penalties",
+      "content": "Violations of this Law shall be subject to the following penalties: (1) disclosure of sensitive data for personal gain — imprisonment for up to two years and a fine not exceeding SAR 3,000,000 (three million Saudi Riyals), or either of these penalties; (2) transfer of personal data outside the Kingdom in violation of Article 7 — fine not exceeding SAR 5,000,000 (five million Saudi Riyals); (3) other violations of this Law — fine not exceeding SAR 1,000,000 (one million Saudi Riyals), which may be doubled upon repetition; (4) failure to cooperate with the supervisory authority — fine not exceeding SAR 2,000,000 (two million Saudi Riyals). In determining the appropriate penalty, the supervisory authority shall take into account: the nature, gravity and duration of the violation; the intentional or negligent character of the violation; prior violations; the level of cooperation with the supervisory authority; and any other relevant factors. The supervisory authority may additionally order: suspension of processing activities; deletion of unlawfully processed data; issuance of a public notification of the violation."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Health Data and Sensitive Processing",
+      "content": "The processing of health and medical data, genetic data, and biometric data for the purpose of uniquely identifying an individual ('sensitive data') shall be subject to enhanced requirements: (1) explicit consent shall be required unless processing is necessary for: preventive or occupational medicine; medical diagnosis or treatment; management of health services; or a public health emergency; (2) health data may only be processed by healthcare practitioners, healthcare institutions, and persons subject to professional secrecy obligations; (3) health data may be processed for research purposes only where anonymised or where specific legislative authorisation exists; (4) genetic data shall only be processed with explicit consent or for mandatory medical purposes; (5) biometric data for identification purposes shall only be processed where strictly necessary and subject to explicit consent or legal mandate. Processors of health data shall implement additional security measures including: strict access controls; audit logging; staff confidentiality obligations; and technical measures to prevent re-identification of anonymised data."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Children's Data",
+      "content": "The processing of personal data of minors (persons under the age of 18) shall be subject to the following requirements: (1) where consent is the lawful basis for processing, consent shall be obtained from the minor's guardian where the minor is under 13 years of age; (2) controllers offering information society services to minors shall make reasonable efforts to verify the age of the user and, where applicable, obtain parental consent; (3) controllers shall not process children's data for the purpose of targeted advertising based on profiling; (4) controllers shall not process children's data in a manner that causes harm or adversely affects the rights, interests or welfare of the child; (5) privacy notices directed at minors shall be written in plain language appropriate for the age group. The Implementing Regulations shall prescribe specific technical standards for age verification and parental consent mechanisms. SDAIA shall issue guidance for online services on implementing child-appropriate data protection measures."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "البيانات الشخصية (Personal Data)",
+      "definition": "Any data, regardless of its source or form, that leads to identifying an individual specifically, or makes it possible to identify him directly or indirectly, including name, personal identification number, addresses, contact numbers, license numbers, records, property, bank account and credit card numbers, fixed or moving pictures of the individual, and other data of similar nature.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الحساسة (Sensitive Data)",
+      "definition": "Data that reveals racial or ethnic origin, religious or political beliefs, data relating to criminal convictions, health and medical data, data of genetic and biometric nature aiming to specifically identify an individual, data related to children, and data revealing privacy of family life.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "المتحكم في البيانات (Controller)",
+      "definition": "Any individual or entity, public or private, that determines the purposes and means of processing of personal data, whether carried out directly or on behalf of others.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "المعالجة (Processing)",
+      "definition": "Any operation or set of operations carried out on personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, amendment, retrieval, use, disclosure, provision, dissemination, or deletion.",
+      "source_provision": "art1"
+    }
+  ]
+}
