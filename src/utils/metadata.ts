@@ -30,12 +30,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (laws.boe.gov.sa) — Government (State Chancellery of Saudi)',
-    jurisdiction: 'EE',
+    data_source: 'Saudi Bureau of Experts Legal Portal (laws.boe.gov.sa)',
+    jurisdiction: 'SA',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Saudi). ' +
-      'Always verify with the official Official Legal Database portal (laws.boe.gov.sa).',
+      'This data is sourced from the Saudi Bureau of Experts legal portal. ' +
+      'Authoritative versions are maintained by the Saudi Bureau of Experts at the Council of Ministers. ' +
+      'Always verify with the official portal (laws.boe.gov.sa).',
     freshness,
   };
 }

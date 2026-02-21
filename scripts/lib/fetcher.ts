@@ -20,6 +20,8 @@ const USER_AGENT = 'Ansvar-Law-MCP/1.0 (+https://github.com/Ansvar-Systems/Saudi
 const MIN_DELAY_MS = 1200;
 const MAX_BUFFER = 50 * 1024 * 1024;
 const META_MARKER = '__ANSVAR_FETCH_META__';
+const CURL_CONNECT_TIMEOUT_SECONDS = 15;
+const CURL_MAX_TIME_SECONDS = 60;
 
 let lastRequestAt = 0;
 
@@ -47,6 +49,8 @@ async function curlFetch(url: string): Promise<FetchResult> {
   const args = [
     '-skL',
     '--compressed',
+    '--connect-timeout', String(CURL_CONNECT_TIMEOUT_SECONDS),
+    '--max-time', String(CURL_MAX_TIME_SECONDS),
     '-A', USER_AGENT,
     '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     '--write-out', `\n${META_MARKER}%{http_code}|%{url_effective}|%{content_type}`,

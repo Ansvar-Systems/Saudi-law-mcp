@@ -449,8 +449,8 @@ function buildDatabase(): void {
     insertMeta.run('schema_version', '2');
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
-    insertMeta.run('jurisdiction', 'EE');
-    insertMeta.run('source', 'official-source');
+    insertMeta.run('jurisdiction', 'SA');
+    insertMeta.run('source', 'laws.boe.gov.sa');
     insertMeta.run('licence', 'See sources.yml');
   });
   writeMeta();

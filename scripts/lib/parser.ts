@@ -2,15 +2,28 @@
  * Parser utilities for Saudi legislation pages served by laws.boe.gov.sa.
  */
 
-export interface SaudiLawTarget {
-  order: number;
-  file_stem: string;
+export interface SaudiLawSearchResult {
+  law_id: string;
+  title_ar: string;
+  summary?: string;
+  detail_url: string;
+}
+
+export interface SearchPageParseResult {
+  total_results?: number;
+  max_page_number: number;
+  results: SaudiLawSearchResult[];
+}
+
+export interface SaudiLawDescriptor {
   id: string;
+  file_stem: string;
   law_id: string;
   short_name: string;
   title_ar: string;
   title_en_fallback?: string;
-  description: string;
+  description?: string;
+  detail_url: string;
 }
 
 export interface ParsedProvision {
@@ -41,6 +54,26 @@ export interface ParsedLawSeed {
   provisions: ParsedProvision[];
   definitions: ParsedDefinition[];
 }
+
+interface CoreOverride {
+  id: string;
+  file_stem: string;
+  short_name: string;
+  title_en_fallback?: string;
+}
+
+const CORE_LAW_OVERRIDES = new Map<string, CoreOverride>([
+  ['b7cfae89-828e-4994-b167-adaa00e37188', { id: 'sa-pdpl', file_stem: 'personal-data-protection', short_name: 'PDPL', title_en_fallback: 'Personal Data Protection Law' }],
+  ['25df73d6-0f49-4dc5-b010-a9a700f2ec1d', { id: 'sa-anti-cybercrime', file_stem: 'anti-cybercrime', short_name: 'Anti-Cyber Crime Law', title_en_fallback: 'Anti-Cyber Crime Law' }],
+  ['ae610645-e094-48ef-814e-aeb4009d244f', { id: 'sa-telecommunications-ict', file_stem: 'telecommunications-ict', short_name: 'Telecommunications and ICT Law', title_en_fallback: 'Telecommunications and Information Technology Law' }],
+  ['360de590-0286-4fa5-a243-aa9100c31979', { id: 'sa-ecommerce', file_stem: 'ecommerce', short_name: 'E-Commerce Law', title_en_fallback: 'E-Commerce Law' }],
+  ['6f509360-2c39-4358-ae2a-a9a700f2ed16', { id: 'sa-electronic-transactions', file_stem: 'electronic-transactions', short_name: 'Electronic Transactions Law', title_en_fallback: 'Electronic Transactions Law' }],
+  ['4a8842df-9cd1-4ee7-bf97-a9a700f180d4', { id: 'sa-anti-money-laundering', file_stem: 'anti-money-laundering', short_name: 'AML Law', title_en_fallback: 'Anti-Money Laundering Law' }],
+  ['57694209-3eed-46c7-a5d8-a9ed012761d4', { id: 'sa-counter-terrorism-financing', file_stem: 'counter-terrorism-financing', short_name: 'CFT Law', title_en_fallback: 'Law on Combating Terrorism Crimes and Financing' }],
+  ['63dc01a6-fc5c-4600-9171-a9a700f2d222', { id: 'sa-credit-information', file_stem: 'credit-information', short_name: 'Credit Information Law', title_en_fallback: 'Credit Information Law' }],
+  ['f327464b-2f5a-475d-aa94-a9a700f2e817', { id: 'sa-cst-regulation', file_stem: 'cst-regulation', short_name: 'CST Regulation', title_en_fallback: 'Regulation of the Communications, Space and Technology Commission' }],
+  ['cb98b088-6d6f-41a7-8633-acfc00b6db02', { id: 'sa-dga-regulation', file_stem: 'dga-regulation', short_name: 'DGA Regulation', title_en_fallback: 'Regulation of the Digital Government Authority' }],
+]);
 
 const EXACT_ORDINALS = new Map<string, number>([
   ['الأولى', 1],
@@ -152,14 +185,40 @@ function htmlToText(html: string): string {
   const decoded = decodeHtmlEntities(withBreaks);
   const stripped = stripTags(decoded);
 
-  return normalizeWhitespace(stripped
-    .replace(/\n\s*\n/g, '\n')
-    .replace(/\s*\n\s*/g, '\n')
-    .replace(/\n{3,}/g, '\n\n'));
+  return normalizeWhitespace(
+    stripped
+      .replace(/\n\s*\n/g, '\n')
+      .replace(/\s*\n\s*/g, '\n')
+      .replace(/\n{3,}/g, '\n\n'),
+  );
 }
 
 function escapeRegExp(input: string): string {
   return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function absoluteUrl(pathOrUrl: string): string {
+  if (/^https?:\/\//i.test(pathOrUrl)) {
+    return pathOrUrl;
+  }
+
+  if (pathOrUrl.startsWith('/')) {
+    return `https://laws.boe.gov.sa${pathOrUrl}`;
+  }
+
+  return `https://laws.boe.gov.sa/${pathOrUrl}`;
+}
+
+function deriveShortName(title: string): string {
+  const cleaned = normalizeWhitespace(
+    title
+      .replace(/^نظام\s+/, '')
+      .replace(/^تنظيم\s+/, '')
+      .replace(/^اللائحة\s+/, ''),
+  );
+
+  if (!cleaned) return normalizeWhitespace(title);
+  return cleaned.length > 90 ? `${cleaned.slice(0, 90).trim()}...` : cleaned;
 }
 
 function extractSystemInfoValue(html: string, labelAr: string): string | undefined {
@@ -219,9 +278,7 @@ function extractBriefDescription(html: string): string | undefined {
 
   const text = normalizeWhitespace(htmlToText(match[1]));
   if (!text) return undefined;
-
-  if (text.length <= 900) return text;
-  return text.slice(0, 900).trim();
+  return text.length > 900 ? `${text.slice(0, 900).trim()}...` : text;
 }
 
 function normalizeOrdinalRaw(rawHeading: string): string {
@@ -320,12 +377,7 @@ function dedupeProvisions(provisions: ParsedProvision[]): ParsedProvision[] {
 
   for (const provision of provisions) {
     const existing = byRef.get(provision.provision_ref);
-    if (!existing) {
-      byRef.set(provision.provision_ref, provision);
-      continue;
-    }
-
-    if (provision.content.length > existing.content.length) {
+    if (!existing || provision.content.length > existing.content.length) {
       byRef.set(provision.provision_ref, provision);
     }
   }
@@ -342,16 +394,14 @@ function findMatchingDivEnd(html: string, openDivIndex: number): number {
   let match: RegExpExecArray | null;
 
   while ((match = divTagRegex.exec(html)) !== null) {
-    const tag = match[0];
+    const tag = match[0].toLowerCase();
 
     if (!started) {
-      if (!tag.toLowerCase().startsWith('<div')) {
-        continue;
-      }
+      if (!tag.startsWith('<div')) continue;
       started = true;
     }
 
-    if (tag.toLowerCase().startsWith('</div')) {
+    if (tag.startsWith('</div')) {
       depth--;
     } else {
       depth++;
@@ -367,18 +417,13 @@ function findMatchingDivEnd(html: string, openDivIndex: number): number {
 
 function collectClassDivBlocks(html: string, classFragment: string): string[] {
   const blocks: string[] = [];
-  const openRegex = new RegExp(
-    `<div\\b[^>]*class=\"[^\"]*${escapeRegExp(classFragment)}[^\"]*\"[^>]*>`,
-    'gi',
-  );
+  const openRegex = new RegExp(`<div\\b[^>]*class="[^"]*${escapeRegExp(classFragment)}[^"]*"[^>]*>`, 'gi');
 
   let match: RegExpExecArray | null;
   while ((match = openRegex.exec(html)) !== null) {
     const start = match.index;
     const end = findMatchingDivEnd(html, start);
-    if (end <= start) {
-      continue;
-    }
+    if (end <= start) continue;
 
     blocks.push(html.slice(start, end));
     openRegex.lastIndex = end;
@@ -388,11 +433,7 @@ function collectClassDivBlocks(html: string, classFragment: string): string[] {
 }
 
 function stripFirstClassDiv(blockHtml: string, classFragment: string): string {
-  const openRegex = new RegExp(
-    `<div\\b[^>]*class=\"[^\"]*${escapeRegExp(classFragment)}[^\"]*\"[^>]*>`,
-    'i',
-  );
-
+  const openRegex = new RegExp(`<div\\b[^>]*class="[^"]*${escapeRegExp(classFragment)}[^"]*"[^>]*>`, 'i');
   const match = openRegex.exec(blockHtml);
   if (!match) return blockHtml;
 
@@ -440,6 +481,90 @@ function extractArticleBlocks(html: string): Array<{ heading: string; contentHtm
   return articles;
 }
 
+function parseTotalResults(html: string): number | undefined {
+  const match = html.match(/عدد النتائج[\s\S]*?<span>\s*([0-9٠-٩]+)\s*<\/span>/i);
+  if (!match) return undefined;
+
+  const parsed = Number(toAsciiDigits(match[1]));
+  return Number.isFinite(parsed) ? parsed : undefined;
+}
+
+function parseMaxPageNumber(html: string): number {
+  const pageMatches = Array.from(html.matchAll(/PageNumber=(\d+)/g));
+  if (!pageMatches.length) return 1;
+
+  let max = 1;
+  for (const match of pageMatches) {
+    const parsed = Number(match[1]);
+    if (Number.isFinite(parsed) && parsed > max) {
+      max = parsed;
+    }
+  }
+
+  return max;
+}
+
+export function parseSearchPage(html: string): SearchPageParseResult {
+  const results: SaudiLawSearchResult[] = [];
+  const seen = new Set<string>();
+
+  const linkRegex = /<a class="result-keyword-title" href="([^"]*\/BoeLaws\/Laws\/LawDetails\/([0-9a-f-]{36})\/1)">([\s\S]*?)<\/a>/gi;
+  let match: RegExpExecArray | null;
+
+  while ((match = linkRegex.exec(html)) !== null) {
+    const href = match[1];
+    const lawId = match[2].toLowerCase();
+    const title = normalizeWhitespace(htmlToText(match[3]));
+    if (!lawId || !title || seen.has(lawId)) continue;
+
+    const nearby = html.slice(match.index, match.index + 2500);
+    const summaryMatch = nearby.match(/<p class="result-keyword-desc">([\s\S]*?)<\/p>/i);
+    const summary = summaryMatch ? normalizeWhitespace(htmlToText(summaryMatch[1])) : undefined;
+
+    results.push({
+      law_id: lawId,
+      title_ar: title,
+      summary,
+      detail_url: absoluteUrl(href),
+    });
+
+    seen.add(lawId);
+  }
+
+  return {
+    total_results: parseTotalResults(html),
+    max_page_number: parseMaxPageNumber(html),
+    results,
+  };
+}
+
+export function buildLawDescriptor(search: SaudiLawSearchResult): SaudiLawDescriptor {
+  const override = CORE_LAW_OVERRIDES.get(search.law_id);
+
+  if (override) {
+    return {
+      id: override.id,
+      file_stem: override.file_stem,
+      law_id: search.law_id,
+      short_name: override.short_name,
+      title_ar: search.title_ar,
+      title_en_fallback: override.title_en_fallback,
+      description: search.summary,
+      detail_url: search.detail_url,
+    };
+  }
+
+  return {
+    id: `sa-law-${search.law_id}`,
+    file_stem: `law-${search.law_id}`,
+    law_id: search.law_id,
+    short_name: deriveShortName(search.title_ar),
+    title_ar: search.title_ar,
+    description: search.summary,
+    detail_url: search.detail_url,
+  };
+}
+
 export function extractAvailableLanguageIds(html: string): number[] {
   const match = html.match(/<select[^>]*id="ddlLawLanguages"[^>]*>([\s\S]*?)<\/select>/i);
   if (!match) return [1];
@@ -464,9 +589,9 @@ export function extractEnglishTitle(html: string): string | undefined {
   return /[A-Za-z]/.test(title) ? title : undefined;
 }
 
-export function parseSaudiLawHtml(html: string, target: SaudiLawTarget): ParsedLawSeed {
-  const title = extractLawTitle(html) ?? target.title_ar;
-  const description = extractBriefDescription(html) ?? target.description;
+export function parseSaudiLawHtml(html: string, law: SaudiLawDescriptor): ParsedLawSeed {
+  const title = extractLawTitle(html) ?? law.title_ar;
+  const description = extractBriefDescription(html) ?? law.description;
 
   const issuedDate = parseGregorianDate(extractSystemInfoValue(html, 'تاريخ الإصدار'));
   const publicationDate = parseGregorianDate(extractSystemInfoValue(html, 'تاريخ النشر'));
@@ -475,16 +600,15 @@ export function parseSaudiLawHtml(html: string, target: SaudiLawTarget): ParsedL
   const provisions: ParsedProvision[] = [];
   const definitions: ParsedDefinition[] = [];
   const seenDefinitionTerms = new Set<string>();
-  let index = 0;
 
+  let index = 0;
   for (const article of extractArticleBlocks(html)) {
     index++;
     const heading = article.heading;
     const articleHtml = article.contentHtml;
     const content = normalizeWhitespace(htmlToText(articleHtml));
 
-    if (!heading || !content) continue;
-    if (content.length < 8) continue;
+    if (!heading || !content || content.length < 8) continue;
 
     const section = parseSectionNumber(heading, index);
     const provisionRef = `art${section}`;
@@ -504,120 +628,17 @@ export function parseSaudiLawHtml(html: string, target: SaudiLawTarget): ParsedL
   const dedupedProvisions = dedupeProvisions(provisions);
 
   return {
-    id: target.id,
+    id: law.id,
     type: 'statute',
     title,
-    title_en: target.title_en_fallback,
-    short_name: target.short_name,
+    title_en: law.title_en_fallback,
+    short_name: law.short_name,
     status,
     issued_date: issuedDate,
     in_force_date: publicationDate ?? issuedDate,
-    url: `https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/${target.law_id}/1`,
+    url: law.detail_url,
     description,
     provisions: dedupedProvisions,
     definitions,
   };
 }
-
-export const TARGET_SAUDI_LAWS: SaudiLawTarget[] = [
-  {
-    order: 1,
-    file_stem: 'personal-data-protection',
-    id: 'sa-pdpl',
-    law_id: 'b7cfae89-828e-4994-b167-adaa00e37188',
-    short_name: 'PDPL',
-    title_ar: 'نظام حماية البيانات الشخصية',
-    title_en_fallback: 'Personal Data Protection Law',
-    description: 'Saudi Arabia’s core personal data protection framework governing lawful processing, data subject rights, disclosures, transfers, and enforcement.',
-  },
-  {
-    order: 2,
-    file_stem: 'anti-cybercrime',
-    id: 'sa-anti-cybercrime',
-    law_id: '25df73d6-0f49-4dc5-b010-a9a700f2ec1d',
-    short_name: 'Anti-Cyber Crime Law',
-    title_ar: 'نظام مكافحة جرائم المعلوماتية',
-    title_en_fallback: 'Anti-Cyber Crime Law',
-    description: 'Defines cyber offenses, establishes criminal penalties, and sets the legal basis for prosecution of information crimes in Saudi Arabia.',
-  },
-  {
-    order: 3,
-    file_stem: 'telecommunications-ict',
-    id: 'sa-telecommunications-ict',
-    law_id: 'ae610645-e094-48ef-814e-aeb4009d244f',
-    short_name: 'Telecommunications and ICT Law',
-    title_ar: 'نظام الاتصالات وتقنية المعلومات',
-    title_en_fallback: 'Telecommunications and Information Technology Law',
-    description: 'Regulates telecommunications and information technology services, licensing, user rights, and sector obligations.',
-  },
-  {
-    order: 4,
-    file_stem: 'ecommerce',
-    id: 'sa-ecommerce',
-    law_id: '360de590-0286-4fa5-a243-aa9100c31979',
-    short_name: 'E-Commerce Law',
-    title_ar: 'نظام التجارة الإلكترونية',
-    title_en_fallback: 'E-Commerce Law',
-    description: 'Governs online commercial activities, consumer protection, and obligations of e-commerce service providers.',
-  },
-  {
-    order: 5,
-    file_stem: 'electronic-transactions',
-    id: 'sa-electronic-transactions',
-    law_id: '6f509360-2c39-4358-ae2a-a9a700f2ed16',
-    short_name: 'Electronic Transactions Law',
-    title_ar: 'نظام التعاملات الإلكترونية',
-    title_en_fallback: 'Electronic Transactions Law',
-    description: 'Recognizes electronic records and signatures and sets legal rules for electronic transactions and authentication service providers.',
-  },
-  {
-    order: 6,
-    file_stem: 'anti-money-laundering',
-    id: 'sa-anti-money-laundering',
-    law_id: '4a8842df-9cd1-4ee7-bf97-a9a700f180d4',
-    short_name: 'AML Law',
-    title_ar: 'نظام مكافحة غسل الأموال',
-    title_en_fallback: 'Anti-Money Laundering Law',
-    description: 'Sets anti-money laundering offenses, preventive obligations, reporting duties, and sanctions.',
-  },
-  {
-    order: 7,
-    file_stem: 'counter-terrorism-financing',
-    id: 'sa-counter-terrorism-financing',
-    law_id: '57694209-3eed-46c7-a5d8-a9ed012761d4',
-    short_name: 'CFT Law',
-    title_ar: 'نظام مكافحة جرائم الإرهاب وتمويله',
-    title_en_fallback: 'Law on Combating Terrorism Crimes and Financing',
-    description: 'Defines terrorism and terrorism financing offenses and specifies investigative and judicial powers and penalties.',
-  },
-  {
-    order: 8,
-    file_stem: 'credit-information',
-    id: 'sa-credit-information',
-    law_id: '63dc01a6-fc5c-4600-9171-a9a700f2d222',
-    short_name: 'Credit Information Law',
-    title_ar: 'نظام المعلومات الائتمانية',
-    title_en_fallback: 'Credit Information Law',
-    description: 'Regulates credit information collection, disclosure, correction rights, and operational controls for credit bureaus.',
-  },
-  {
-    order: 9,
-    file_stem: 'cst-regulation',
-    id: 'sa-cst-regulation',
-    law_id: 'f327464b-2f5a-475d-aa94-a9a700f2e817',
-    short_name: 'CST Regulation',
-    title_ar: 'تنظيم هيئة الاتصالات والفضاء والتقنية',
-    title_en_fallback: 'Regulation of the Communications, Space and Technology Commission',
-    description: 'Defines the mandate, governance, and regulatory powers of the communications, space, and technology authority.',
-  },
-  {
-    order: 10,
-    file_stem: 'dga-regulation',
-    id: 'sa-dga-regulation',
-    law_id: 'cb98b088-6d6f-41a7-8633-acfc00b6db02',
-    short_name: 'DGA Regulation',
-    title_ar: 'تنظيم هيئة الحكومة الرقمية',
-    title_en_fallback: 'Regulation of the Digital Government Authority',
-    description: 'Defines the governance framework and authority powers for digital government implementation and oversight.',
-  },
-];

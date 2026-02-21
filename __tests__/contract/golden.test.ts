@@ -20,11 +20,11 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 10 legal documents (excluding EU cross-refs)', () => {
+  it('should have full-corpus legal documents (excluding EU cross-refs)', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
     ).get() as { cnt: number };
-    expect(row.cnt).toBe(10);
+    expect(row.cnt).toBeGreaterThanOrEqual(500);
   });
 
   it('should have at least 300 provisions', () => {
@@ -75,7 +75,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('All 10 laws are present', () => {
+describe('Core laws are present', () => {
   const expectedDocs = [
     'sa-anti-cybercrime',
     'sa-anti-money-laundering',

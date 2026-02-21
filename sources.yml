@@ -14,8 +14,8 @@ sources:
       url: "https://www.boe.gov.sa/ar/Pages/TermsOfUse.aspx"
       summary: "Official legislative texts are publicly accessible on the government portal."
     coverage:
-      scope: "Saudi statutes/regulations focused on data protection, cybercrime, telecom/ICT, e-commerce, AML/CFT, credit information, and digital governance"
-      limitations: "This dataset currently includes 10 high-priority laws/regulations from the portal, not the full corpus"
+      scope: "Full searchable corpus of Saudi laws and regulations listed in the Bureau of Experts legal portal at ingestion time"
+      limitations: "Coverage depends on what is publicly listed and accessible on the portal without authentication"
     languages:
       - "ar"
       - "en"

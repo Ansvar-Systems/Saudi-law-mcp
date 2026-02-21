@@ -44,12 +44,12 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
       eu_references: safeCount(db, 'SELECT COUNT(*) as count FROM eu_references'),
     },
     data_source: {
-      name: 'Official Legal Database',
-      authority: 'Government (State Chancellery of Saudi)',
+      name: 'Saudi Bureau of Experts Legal Portal',
+      authority: 'Saudi Bureau of Experts at the Council of Ministers',
       url: 'https://laws.boe.gov.sa',
-      license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
-      jurisdiction: 'EE',
-      languages: ['en'],
+      license: 'Government terms of use (see https://www.boe.gov.sa/ar/Pages/TermsOfUse.aspx)',
+      jurisdiction: 'SA',
+      languages: ['ar', 'en'],
     },
   };
 }

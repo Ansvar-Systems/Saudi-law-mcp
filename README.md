@@ -23,7 +23,7 @@ npx @ansvar/saudi-law-mcp
 
 ## Data Sources
 
-Official legislation ingested from the Saudi Bureau of Experts portal (`laws.boe.gov.sa`) covering 10 high-priority cyber/data/ICT laws and regulations.
+Official legislation ingested from the Saudi Bureau of Experts portal (`laws.boe.gov.sa`) covering the full searchable corpus of Saudi laws and regulations available on the portal at ingestion time.
 
 ## License
 

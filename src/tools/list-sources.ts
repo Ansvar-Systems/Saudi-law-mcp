@@ -44,15 +44,13 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Official Legal Database',
-          authority: 'Government (State Chancellery of Saudi)',
+          name: 'Saudi Bureau of Experts Legal Portal',
+          authority: 'Saudi Bureau of Experts at the Council of Ministers',
           url: 'https://laws.boe.gov.sa',
-          license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+          license: 'Government terms of use (see https://www.boe.gov.sa/ar/Pages/TermsOfUse.aspx)',
           coverage:
-            'All Commonwealth (federal) Acts and legislative instruments, ' +
-            'including privacy, cybersecurity, critical infrastructure, ' +
-            'corporations, consumer, telecommunications, and criminal law',
-          languages: ['en'],
+            'Full searchable corpus of Saudi laws and regulations available on the portal at ingestion time',
+          languages: ['ar', 'en'],
         },
       ],
       database: {
