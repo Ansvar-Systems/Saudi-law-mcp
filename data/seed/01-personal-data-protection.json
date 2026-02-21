@@ -2,106 +2,367 @@
   "id": "sa-pdpl",
   "type": "statute",
   "title": "نظام حماية البيانات الشخصية",
-  "title_en": "Personal Data Protection Law (PDPL)",
+  "title_en": "Personal Data Protection Law",
   "short_name": "PDPL",
   "status": "in_force",
   "issued_date": "2021-09-16",
-  "in_force_date": "2023-09-14",
-  "url": "https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawEn.pdf",
-  "description": "The Saudi Personal Data Protection Law (PDPL), issued by Royal Decree M/19 dated 16 September 2021 and administered by the Saudi Data and AI Authority (SDAIA), establishes the legal framework for the collection, processing, storage, and transfer of personal data in Saudi Arabia. The Law applies to any processing of personal data that occurs within Saudi Arabia, or that relates to persons residing in Saudi Arabia, and imposes obligations on data controllers to obtain consent, ensure data accuracy, and implement appropriate security measures.",
+  "in_force_date": "2021-09-24",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b7cfae89-828e-4994-b167-adaa00e37188/1",
+  "description": "تضمن النظام: تعريفات، نطاق تطبيق النظام، عدم إخلال أحكام النظام مع أحكام أنظمة أخرى، حقوق صاحب البيانات الشخصية، معالجة البيانات الشخصية أو تغيير الغرض من معالجتها، اختيار جهة المعالجة، تحديد مدد لممارسة حق الوصول إلى البيانات، جمع البيانات، محتوى البيانات، إتلاف البيانات، اعتماد سياسة لخصوصية البيانات، وسائل وعناصر جمع البيانات، الإفصاح عن البيانات، تعديل وتحديث البيانات، الاحتفاظ بالبيانات، المحافظة على البيانات، تسرب أو تلف البيانات، تقويم آثار معالجة البيانات، معالجة البيانات الصحية والائتمانية، وسائل الاتصال الشخصية، تصوير الوثائق الرسمية، نقل البيانات، جهة إشراف تطبيق النظام، سجلات البيانات، إنشاء بوابة إلكترونية، الشكاوى، المخالفات والعقوبات، لجنة نظر المخالفات، ضبط المخالفات، المحافظة على أسرار البيانات، إصدار اللوائح، النشر والنفاذ",
   "provisions": [
     {
       "provision_ref": "art1",
       "section": "1",
-      "title": "Article 1. Definitions",
-      "content": "The following terms and phrases, wherever mentioned in this Law, shall have the meanings assigned to them hereunder, unless the context requires otherwise: 'Personal Data' means any data, regardless of its source or form, that leads to identifying an individual specifically, or makes it possible to identify him directly or indirectly, including name, personal identification number, addresses, contact numbers, license numbers, records, property, bank account and credit card numbers, fixed or moving pictures of the individual, and other data of similar nature; 'Sensitive Data' means data that reveals racial or ethnic origin, religious or political beliefs, data relating to criminal convictions, health and medical data, data of genetic and biometric nature aiming to specifically identify an individual, data related to children, and data revealing privacy of family life; 'Processing' means any operation or set of operations carried out on personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, amendment, retrieval, use, disclosure, provision, dissemination, or deletion; 'Controller' means any individual or entity, public or private, that determines the purposes and means of processing of personal data, whether carried out directly or on behalf of others; 'Processor' means any individual or entity, public or private, that processes personal data on behalf of the controller."
+      "title": "المادة الأولى",
+      "content": "لغرض تطبيق هذا النظام، يُقصد بالألفاظ والعبارات الآتية -أينما وردت في هذا النظام- المعاني المبينة أمام كل منها، ما لم يقتضِ السياق غير ذلك: - النظام: نظام حماية البيانات الشخصية. - اللوائح: اللوائح التنفيذية للنظام. - الجهة المختصة: الجهة التي يصدر بتحديدها قرار من مجلس الوزراء. - البيانات الشخصية: كل بيان -مهما كان مصدره أو شكله- من شأنه أن يؤدي إلى معرفة الفرد على وجه التحديد، أو يجعل التعرف عليه ممكنًا بصفة مباشرة أو غير مباشرة، ومن ذلك: الاسم، ورقم الهوية الشخصية، والعناوين، وأرقام التواصل، وأرقام الرُّخص والسجلات والممتلكات الشخصية، وأرقام الحسابات البنكية والبطاقات الائتمانية، وصور الفرد الثابتة أو المتحركة، وغير ذلك من البيانات ذات الطابع الشخصي. - المُعالجة: أي عملية تُجرى على البيانات الشخصية بأي وسيلة كانت يدوية أو آلية، ومن ذلك: عمليات الجمع، والتسجيل، والحفظ، والفهرسة، والترتيب، والتنسيق، والتخزين، والتعديل، والتحديث، والدمج، والاسترجاع، والاستعمال، والإفصاح، والنقل، والنشر، والمشاركة في البيانات أو الربط البيني، والحجب، والمسح، والإتلاف. - الجمع: حصول جهة التحكم على البيانات الشخصية وفقاً لأحكام النظام، سواء من صاحبها مُباشرةً أو ممن يُمثله أو ممن له الولاية الشرعية عليه أو من طرف آخر. - الإتلاف: كل عمل يؤدي إلى إزالة البيانات الشخصية ويجعل من المتعذر الاطلاع عليها أو استعادتها مرة أخرى. - الإفصاح: تمكين أي شخص -عدا جهة التحكم- من الحصول على البيانات الشخصية أو استعمالها أو الاطلاع عليها بأي وسيلة ولأي غرض. - النقل: نقل البيانات الشخصية من مكان إلى آخر لمعالجتها. - النشر: بث أي من البيانـات الشخصية عبـر وسيلـة نشـر مقـروءة أو مسموعـة أو مرئية، أو إتاحتها. - البيانات الحساسة: كل بيان شخصي يتضمن الإشارة إلى أصل الفرد العرقي أو أصله القبلي، أو معتقده الديني أو الفكري أو السياسي، أو يدل على عضويته في جمعيات أو مؤسسات أهلية. وكذلك البيانات الجنائية والأمنية، أو بيانات السمات الحيوية التي تحدد الهوية، أو البيانات الوراثية، أو البيانات الائتمانية، أو البيانات الصحية، وبيانات تحديد الموقع، والبيانات التي تدل على أن الفرد مجهول الأبوين أو أحدهما. - البيانات الوراثية: كل بيان شخصي يتعلق بالخصائص الوراثية أو المكتسبة لشخص طبيعي، يحدد بشكل فريد السمات الفيسيولوجية أو الصحية لذلك الشخص، ويستخلص من تحليل عينة بيولوجية للشخص كتحليل الأحماض النووية أو تحليل أي عينة أخرى تؤدي إلى استخلاص بيانات وراثية. - البيانات الصحية: كل بيان شخصي يتعلق بحالة الفرد الصحية، سواء الجسدية أو العقلية أو النفسية أو المتعلقة بالخدمات الصحية الخاصة به. - الخدمات الصحية: الخدمات المتعلقة بصحة الفرد، ومن ذلك الخدمات الوقائية والعلاجية والتأهيلية والتنويم وتوفير الدواء. - البيانات الائتمانية: كل بيان شخصي يتعلق بطلب الفرد الحصول على تمويل، أو حصوله عليه، سواء لغرض شخصي أو عائلي، من جهة تُمارس التمويل، بما في ذلك أي بيان يتعلق بقدرته على الحصول على ائتمان أو بقدرته على الوفاء به أو بتاريخه الائتماني. - صاحب البيانات الشخصية: الفرد الذي تتعلق به البيانات الشخصية أو من يمثله أو من له الولاية الشرعية عليه. - الجهة العامة: أي وزارة أو مصلحة أو مؤسسة عامة أو هيئة عامة، أو أي جهة عامة مستقلة في المملكة، أو أي من الجهات التابعة لها. - جهة التحكم: أي جهة عامة، وأي شخصية ذات صفة طبيعية أو اعتبارية خاصة؛ تحدد الغرض من معالجة البيانات الشخصية وكيفية ذلك؛ سواء أباشرت معالجة البيانات بوساطتها أم بوساطة جهة المعالجة. - جهة المعالجة: أي جهة عامة، وأي شخصية ذات صفة طبيعية أو اعتبارية خاصة؛ تعالج البيانات الشخصية لمصلحة جهة التحكم ونيابةً عنها."
     },
     {
       "provision_ref": "art2",
       "section": "2",
-      "title": "Article 2. Scope of Application",
-      "content": "This Law applies to: (1) any processing of personal data that is carried out in the Kingdom of Saudi Arabia; (2) the processing of personal data of persons residing in the Kingdom by controllers or processors not established in the Kingdom, where such processing is related to offering goods or services to such persons, or monitoring their behaviour within the Kingdom. This Law does not apply to: (1) personal data processed by individuals for purely personal or household activities; (2) personal data processed by competent security authorities for the purpose of combating crime and protecting national security; (3) personal data that is collected and used exclusively for personal, family or household purposes of a natural person; (4) data processed for statistical, research or archiving purposes carried out by relevant authorities in accordance with applicable laws. Controllers established outside the Kingdom that are subject to this Law shall designate a representative in the Kingdom of Saudi Arabia to act on their behalf in dealings with the supervisory authority."
+      "title": "المادة الثانية",
+      "content": "- يُطبق النظام على أي عملية مُعالجة لبيانات شخصية تتعلق بالأفراد تتم في المملكة بأي وسيلة كانت، بما في ذلك معالجة البيانات الشخصية المتعلقة بالأفراد المقيمين في المملكة بأي وسيلة كانت من أي جهة خارج المملكة. ويشمل ذلك بيانات المتوفى إذا كانت ستؤدي إلى معرفته أو معرفة أحد أفراد أُسرته على وجه التحديد. - يُستثنى من نطاق تطبيق النظام، قيام الفرد بمعالجة البيانات الشخصية لأغراض لا تتجاوز الاستخدام الشخصي أو العائلي، ما دام أنه لم ينشرها أو يفصح عنها للغير. وتحدد اللوائح المقصود بالاستخدام الشخصي والعائلي المنصوص عليهما في هذه الفقرة."
     },
     {
       "provision_ref": "art3",
       "section": "3",
-      "title": "Article 3. Principles of Personal Data Processing",
-      "content": "Personal data shall be processed in compliance with the following principles: (1) Lawfulness, fairness and transparency — processing shall be lawful, fair and transparent to the data subject; (2) Purpose limitation — data shall be collected for specified, explicit and legitimate purposes and not further processed in a manner inconsistent with those purposes; (3) Data minimisation — data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which it is processed; (4) Accuracy — data shall be accurate and, where necessary, kept up to date; every reasonable step must be taken to erase or rectify inaccurate data without delay; (5) Storage limitation — data shall be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the data is processed; (6) Integrity and confidentiality — data shall be processed in a manner that ensures appropriate security, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage; (7) Accountability — the controller shall be responsible for, and be able to demonstrate, compliance with these principles."
+      "title": "المادة الثالثة",
+      "content": "لا تخل الأحكام والإجراءات المنصوص عليها في النظام بأي حكم يمنح حقًّا لصاحب البيانات الشخصية أو يقرر حماية أفضل لها، ينص عليه نظام آخر أو اتفاقية دولية تكون المملكة طرفاً فيها."
     },
     {
       "provision_ref": "art4",
       "section": "4",
-      "title": "Article 4. Lawful Bases for Processing",
-      "content": "Processing of personal data shall be lawful only where: (1) the data subject has given consent to the processing for one or more specific purposes; (2) processing is necessary for the performance of a contract to which the data subject is party or for taking pre-contractual steps at the request of the data subject; (3) processing is necessary for compliance with a legal obligation to which the controller is subject; (4) processing is necessary to protect the vital interests of the data subject or another person; (5) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (6) processing is necessary for the purposes of the legitimate interests of the controller or a third party, except where such interests are overridden by the fundamental rights and interests of the data subject. Processing of sensitive data shall be permitted only in cases expressly provided by this Law and its Implementing Regulations and shall require explicit consent or an overriding legal basis established by law."
+      "title": "المادة الرابعة",
+      "content": "يكون لصاحب البيانات الشخصية -وفقاً للأحكام الواردة في النظام- الحقوق الآتية: - الحق في العلم، ويشمل ذلك إحاطته علماً بالمسوغ النظامي أو العملي المعتبر لجمع بياناته الشخصية، والغرض من ذلك، وألاَّ تعالج بياناته لاحقاً بصورة تتنافى مع الغرض من جمعها أو في غير الأحوال المنصوص عليها في المادة (العاشرة) من النظام. - الحق في وصوله إلى بياناته الشخصية المتوافرة لدى جهة التحكم، ويشمل ذلك الاطلاع عليها، والحصول على نسخة منها بصيغة واضحة ومطابقة لمضمون السجلات وبلا مقابل مادي -وفقاً لما تحدده اللوائح- وذلك دون إخلال بما يقضي به نظام المعلومات الائتمانية فيما يخص المقابل المالي، ودون إخلال بما تقضي به المادة (التاسعة) من النظام. - الحق في طلب تصحيح بياناته الشخصية المتوافرة لدى جهة التحكم، أو إتمامها، أو تحديثها. - الحق في طلب إتلاف بياناته الشخصية المتوافرة لدى جهة التحكم مما انتهت الحاجة إليه منها، وذلك دون إخلال بما تقضي به المادة (الثامنة عشرة) من النظام. - الحقوق الأخرى المنصوص عليها في النظام، التي تُبينها اللوائح."
     },
     {
       "provision_ref": "art5",
       "section": "5",
-      "title": "Article 5. Rights of Data Subjects",
-      "content": "Data subjects shall have the following rights: (1) the right to obtain information about what personal data is collected and processed; (2) the right to access their personal data and receive a copy thereof; (3) the right to correct inaccurate or incomplete personal data; (4) the right to request erasure of their personal data when: the purpose of processing has been fulfilled; the data subject withdraws consent; the data is no longer needed; the processing is unlawful; (5) the right to restrict processing in certain circumstances; (6) the right to object to processing in certain circumstances, including processing for direct marketing; (7) the right not to be subject to a decision based solely on automated processing, where such a decision produces significant effects. Controllers shall respond to data subject requests within 30 days, which period may be extended by up to 30 additional days where the complexity of the request so requires. Responses shall be provided free of charge unless the request is manifestly unfounded or excessive."
+      "title": "المادة الخامسة",
+      "content": "- فيما عدا الأحوال المنصوص عليها في النظام، لا تجوز معالجة البيانات الشخصية أو تغيير الغرض من معالجتها إلاَّ بعد موافقة صاحبها. وتُبين اللوائح شروط الموافقة، والأحوال التي يجب فيها أن تكون الموافقة كتابية، والشروط والأحكام المتعلقة بالحصول على الموافقة من الولي الشرعي إذا كان صاحب البيانات الشخصية ناقص أو عديم الأهلية. - في جميع الأحوال، يجوز لصاحب البيانات الشخصية الرجوع عن الموافقة المشار إليها في الفقرة (1) من هذه المادة في أي وقت، وتحدد اللوائح الضوابط اللازمة لذلك."
     },
     {
       "provision_ref": "art6",
       "section": "6",
-      "title": "Article 6. Obligations of Controllers",
-      "content": "Controllers shall: (1) implement appropriate technical and organisational measures to ensure personal data is processed in compliance with this Law; (2) record all processing activities under their responsibility and make such records available to the supervisory authority on request; (3) implement privacy by design and privacy by default principles; (4) only use processors that provide sufficient guarantees to implement appropriate technical and organisational measures; (5) conclude written data processing agreements with processors; (6) conduct data protection impact assessments before processing that is likely to result in a high risk; (7) designate a data protection officer where required by the Implementing Regulations; (8) notify the supervisory authority and affected data subjects of personal data breaches in accordance with the timelines set out in the Implementing Regulations; (9) maintain appropriate records of consents obtained from data subjects; (10) implement procedures for honouring data subject rights requests within the prescribed timeframes."
+      "title": "المادة السادسة",
+      "content": "لا تخضع معالجة البيانات الشخصية للموافقة المشار إليها في الفقرة (1) من المادة (الخامسة) من النظام، في الأحوال الآتية: - عندما تُحقق المعالجة مصلحة متحققة لصاحب البيانات وكان الاتصال به متعذراً أو كان من الصعب تحقيق ذلك. - عندما تكون المعالجة بمقتضى نظام آخر أو تنفيذاً لاتفاق سابق يكون صاحب البيانات الشخصية طرفاً فيه. - إذا كانت جهة التحكم جهة عامة، وكانت تلك المعالجة مطلوبة لأغراض أمنية أو لاستيفاء مُتطلبات قضائية."
     },
     {
       "provision_ref": "art7",
       "section": "7",
-      "title": "Article 7. Cross-Border Transfer of Personal Data",
-      "content": "Personal data may not be transferred outside the Kingdom of Saudi Arabia unless: (1) the transfer serves an interest of the Kingdom or achieves a benefit for the data subject and does not prejudice national security or the vital interests of the Kingdom; (2) adequate protection is afforded to the personal data to be transferred, comparable to the protection provided by this Law; (3) the supervisory authority has approved the transfer through an adequacy decision or has approved the use of standard contractual clauses or binding corporate rules. The Implementing Regulations shall specify: the categories of personal data that may not be transferred outside the Kingdom under any circumstances; the countries and international organisations to which transfer is permissible without prior approval; the approved mechanisms for safeguarding transfers. Controllers shall document all cross-border transfers and be prepared to demonstrate compliance with this Article upon request by the supervisory authority."
+      "title": "المادة السابعة",
+      "content": "لا يجوز أن تكون الموافقة المشار إليها في الفقرة (1) من المادة (الخامسة) من النظام شرطاً لإسداء خدمة أو تقديم منفعة، ما لم تكن الخدمة أو المنفعة ذات علاقة بمعالجة البيانات الشخصية التي صدرت الموافقة عليها."
     },
     {
       "provision_ref": "art8",
       "section": "8",
-      "title": "Article 8. Personal Data Breach Notification",
-      "content": "In the event of a personal data breach, the controller shall: (1) notify the supervisory authority (SDAIA) within 72 hours of becoming aware of the breach, unless the breach is unlikely to result in a risk to the rights and freedoms of data subjects; (2) notify affected data subjects without undue delay where the breach is likely to result in a high risk; (3) document all personal data breaches, including the facts relating to the breach, its effects, and the remedial action taken. The notification to the supervisory authority shall include: a description of the nature of the breach; the categories and approximate number of data subjects concerned; the categories and approximate number of data records concerned; the likely consequences of the breach; the measures taken or proposed to address the breach. A controller's failure to notify a data breach within the prescribed period shall constitute a violation of this Law and shall result in the imposition of sanctions under Article 10. The supervisory authority may publish information about breaches where it considers this to be in the public interest."
+      "title": "المادة الثامنة",
+      "content": "مع مراعاة ما ينص عليه النظام واللوائح في شأن الإفصاح عن البيانات الشخصية، على جهة التحكم عند اختيارها جهة المعالجة أن تلتزم باختيار الجهة التي توفر الضمانات اللازمة لتنفيذ أحكام النظام واللوائح، وعليها التحقق بصفة مستمرة من التزام تلك الجهة بالتعليمات التي توجهها إليها في جميع ما يتعلق بحماية البيانات الشخصية بما لا يتعارض مع أحكام النظام واللوائح، ولا يخل ذلك بمسؤولياتها تجاه صاحب البيانات الشخصية أو الجهة المختصة بحسب الأحوال. وتحدد اللوائح الأحكام اللازمة لذلك، على أن تشتمل على الأحكام المتعلقة بأي تعاقدات لاحقة تقوم بها جهة المعالجة."
     },
     {
       "provision_ref": "art9",
       "section": "9",
-      "title": "Article 9. Supervisory Authority (SDAIA)",
-      "content": "The Saudi Data and Artificial Intelligence Authority (SDAIA) shall act as the supervisory authority for this Law. SDAIA shall: (1) monitor and enforce compliance with this Law; (2) issue Implementing Regulations, guidelines and binding interpretations; (3) process complaints from data subjects; (4) conduct investigations and inspections; (5) impose administrative sanctions for violations; (6) cooperate with competent authorities in other states on data protection matters; (7) promote awareness and understanding of data protection rights and obligations. The National Data Management Office (NDMO), operating under SDAIA, shall be responsible for developing data governance frameworks and standards. SDAIA shall publish annual reports on the implementation of this Law. SDAIA may issue binding guidance to controllers and processors on specific issues, which shall have the same legal effect as the Implementing Regulations once published in the Official Gazette."
+      "title": "المادة التاسعة",
+      "content": "- يجوز لجهة التحكم تحديد مدد لممارسة حق الوصول إلى البيانات الشخصية المقرر في الفقرة (2) من المادة (الرابعة) من النظام، وتتولى الجهة المختصة تحديد المدة المناسبة لذلك. ويجوز كذلك لجهة التحكم تقييد هذا الحق في الأحوال الآتية: أ- إذا كان ذلك ضروريًّا لحماية صاحب البيانات الشخصية أو غيره من أي ضرر؛ وفق الأحكام التي تحددها اللوائح. ب- إذا كانت جهة التحكم جهة عامة، وكان التقييد مطلوباً لأغراض أمنية أو لتنفيذ نظام آخر أو لاستيفاء مُتطلبات قضائية. - يجب على جهة التحكم ألا تُمكِّن صاحب البيانات الشخصية من الوصول إليها متى تحقق أيٌ من الأحوال المنصوص عليها في الفقرات (1) و(2) و(3) و(4) و(5) و(6) من المادة (السادسة عشرة) من النظام."
     },
     {
       "provision_ref": "art10",
       "section": "10",
-      "title": "Article 10. Sanctions and Penalties",
-      "content": "Violations of this Law shall be subject to the following penalties: (1) disclosure of sensitive data for personal gain — imprisonment for up to two years and a fine not exceeding SAR 3,000,000 (three million Saudi Riyals), or either of these penalties; (2) transfer of personal data outside the Kingdom in violation of Article 7 — fine not exceeding SAR 5,000,000 (five million Saudi Riyals); (3) other violations of this Law — fine not exceeding SAR 1,000,000 (one million Saudi Riyals), which may be doubled upon repetition; (4) failure to cooperate with the supervisory authority — fine not exceeding SAR 2,000,000 (two million Saudi Riyals). In determining the appropriate penalty, the supervisory authority shall take into account: the nature, gravity and duration of the violation; the intentional or negligent character of the violation; prior violations; the level of cooperation with the supervisory authority; and any other relevant factors. The supervisory authority may additionally order: suspension of processing activities; deletion of unlawfully processed data; issuance of a public notification of the violation."
+      "title": "المادة العاشرة",
+      "content": "لا يجوز لجهة التحكم جمع البيانات الشخصية إلاَّ من صاحبها مباشرةً، ولا تجوز كذلك مُعالجة تلك البيانات إلاَّ لتحقيق الغرض الذي جُمعت من أجله. ومع ذلك، يجوز لجهة التحكم جمع البيانات الشخصية من غير صاحبها مباشرةً، أو مُعالجتها لغرض آخر غير الذي جمعت من أجله، وذلك في الأحوال الآتية: - إذا وافق صاحب البيانات الشخصية على ذلك، وفقاً لأحكام النظام. - إذا كانت البيانات الشخصية متاحة للعموم، أو جرى جمعها من مصدر متاح للعموم. - إذا كانت جهة التحكم جهة عامة، وكان جمع البيانات الشخصية من غير صاحبها مباشرةً، أو مُعالجتها لغرض آخر غير الذي جمعت من أجله؛ مطلوباً لأغراض أمنية أو لتنفيذ نظام آخر أو لاستيفاء مُتطلبات قضائية وفق الأحكام التي تحددها اللوائح. - إذا كان التقيد بهذا الحظر قد يُلحق ضرراً بصاحب البيانات الشخصية أو يؤثر على مصالحه الحيوية؛ وفق الأحكام التي تحددها اللوائح. - إذا كان جمع البيانات الشخصية أو معالجتها ضروريًّا لحماية الصحة أو السلامة العامة أو حماية حياة فرد أو أفراد معينين أو حماية صحتهم. وتبيّن اللوائح الضوابط والإجراءات المتعلقة بذلك. - إذا كانت البيانات الشخصية لن تُسجل أو تُحفظ في صيغة تجعل من الممكن تحديد هوية صاحبها ومعرفته بصورة مباشرة أو غير مباشرة. وتبيّن اللوائح الضوابط والإجراءات المتعلقة بذلك."
     },
     {
       "provision_ref": "art11",
       "section": "11",
-      "title": "Article 11. Health Data and Sensitive Processing",
-      "content": "The processing of health and medical data, genetic data, and biometric data for the purpose of uniquely identifying an individual ('sensitive data') shall be subject to enhanced requirements: (1) explicit consent shall be required unless processing is necessary for: preventive or occupational medicine; medical diagnosis or treatment; management of health services; or a public health emergency; (2) health data may only be processed by healthcare practitioners, healthcare institutions, and persons subject to professional secrecy obligations; (3) health data may be processed for research purposes only where anonymised or where specific legislative authorisation exists; (4) genetic data shall only be processed with explicit consent or for mandatory medical purposes; (5) biometric data for identification purposes shall only be processed where strictly necessary and subject to explicit consent or legal mandate. Processors of health data shall implement additional security measures including: strict access controls; audit logging; staff confidentiality obligations; and technical measures to prevent re-identification of anonymised data."
+      "title": "المادة الحادية عشرة",
+      "content": "- يجب أن يكون الغرض من جمع البيانات الشخصية ذا علاقة مُباشرة بأغراض جهة التحكم، وألاَّ يتعارض مع أي حكم مقرر نظاماً. - يجب ألاَّ تتعارض طُرق جمع البيانات الشخصية ووسائلها مع أي حكم مقرر نظاماً، وأن تكون ملائمة لظروف صاحبها، ومباشرة وواضحة وآمنة، وخالية من أساليب الخداع أو التضليل أو الابتزاز. - يجب أن يكون مُحتوى البيانات الشخصية ملائماً ومقصوراً على الحد الأدنى اللازم لتحقيق الغرض من جمعها، مع تجنب شموله على ما يؤدي إلى معرفة صاحبها بصورة محددة متى تحقق الغرض من جمعها. وتحدد اللوائح الضوابط اللازمة لذلك. - إذا اتضح أن البيانات الشخصية التي تجمع لم تعد ضرورية لتحقيق الغرض من جمعها، فعلى جهة التحكم التوقف عن جمعها، وإتلاف ما سبق أن جمعته منها فوراً."
     },
     {
       "provision_ref": "art12",
       "section": "12",
-      "title": "Article 12. Children's Data",
-      "content": "The processing of personal data of minors (persons under the age of 18) shall be subject to the following requirements: (1) where consent is the lawful basis for processing, consent shall be obtained from the minor's guardian where the minor is under 13 years of age; (2) controllers offering information society services to minors shall make reasonable efforts to verify the age of the user and, where applicable, obtain parental consent; (3) controllers shall not process children's data for the purpose of targeted advertising based on profiling; (4) controllers shall not process children's data in a manner that causes harm or adversely affects the rights, interests or welfare of the child; (5) privacy notices directed at minors shall be written in plain language appropriate for the age group. The Implementing Regulations shall prescribe specific technical standards for age verification and parental consent mechanisms. SDAIA shall issue guidance for online services on implementing child-appropriate data protection measures."
+      "title": "المادة الثانية عشرة",
+      "content": "على جهة التحكم أن تعتمد سياسة لخصوصية البيانات الشخصية، وأن تجعلها متاحة لأصحابها ليطلعوا عليها قبل جمع بياناتهم. على أن تشتمل تلك السياسة على تحديد الغرض من جمعها، ومُحتوى البيانات الشخصية المطلوب جمعها، وطريقة جمعها، ووسيلة حفظها، وكيفية معالجتها، وكيفية إتلافها، وحقوق صاحبها فيما يتعلق بها، وكيفية ممارسة هذه الحقوق."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "المادة الثالثة عشرة",
+      "content": "على جهة التحكم، في حالة جمع البيانات الشخصية من صاحبها مباشرةً، اتخاذ الوسائل الكافية لإحاطته علماً بالعناصر الآتية قبل البدء في جمع بياناته: - المسوغ النظامي أو العملي المعتبر لجمع بياناته الشخصية. - الغرض من جمع بياناته الشخصية، وما إذا كان جمعها كلها أو بعضها إلزاميًّا أم اختياريًّا، وإحاطته كذلك بأن بياناته لن تعالج لاحقاً بصورة تتنافى مع الغرض من جمعها أو في غير الأحوال المنصوص عليها في المادة (العاشرة) من النظام. - هوية من يجمع البيانات الشخصية وعنوان مرجعه عند الاقتضاء، ما لم يكن جمعها لأغراض أمنية. - الجهة أو الجهات التي سَيُجرى إفصاح البيانات الشخصية إليها، وصفتها، وما إذا كانت البيانات الشخصية ستنقل أو سيفصح عنها أو ستعالج خارج المملكة. - الآثار والأخطار المحتملة التي تترتب على عدم إتمام إجراء جمع البيانات الشخصية. - حقوقه المنصوص عليها في المادة (الرابعة) من النظام. - العناصر الأخرى التي تحددها اللوائح بحسب طبيعة النشاط الذي تمارسه جهة التحكم."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "المادة الرابعة عشرة",
+      "content": "لا يجوز لجهة التحكم أن تعالج البيانات الشخصية دون اتخاذ خطوات كافية للتحقق من دقتها واكتمالها وحداثتها وارتباطها بالغرض الذي جُمعت من أجله وفقاً لأحكام النظام."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "المادة الخامسة عشرة",
+      "content": "لا يجوز لجهة التحكم الإفصاح عن البيانات الشخصية إلاَّ في الأحوال الآتية: - إذا وافق صاحب البيانات الشخصية على الإفصاح وفقاً لأحكام النظام. - إذا كانت البيانات الشخصية قد جرى جمعها من مصدر متاح للعموم. - إذا كانت الجهة التي تطلب الإفصاح جهة عامة، وذلك لأغراض أمنية أو لتنفيذ نظام آخر أو لاستيفاء مُتطلبات قضائية وفق الأحكام التي تحددها اللوائح. - إذا كان الإفصاح ضروريًّا لحماية الصحة أو السلامة العامة أو حماية حياة فرد أو أفراد معينين أو حماية صحتهم. وتبيّن اللوائح الضوابط والإجراءات المتعلقة بذلك. - إذا كان الإفصاح سيقتصر على معالجتها لاحقاً بطريقة لا تؤدي إلى معرفة هوية صاحب البيانات الشخصية أو أي فرد آخر على وجه التحديد. وتبيّن اللوائح الضوابط والإجراءات المتعلقة بذلك."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "المادة السادسة عشرة",
+      "content": "على جهة التحكم ألاّ تفصح عن البيانات الشخصية في الأحوال المنصوص عليها في الفقرات (1) و(2) و(5) من المادة (الخامسة عشرة) من النظام، متى اتصف الإفصاح بأيٍّ مما يأتي: - أنه يمثل خطراً على الأمن، أو يسيء إلى سمعة المملكة، أو يتعارض مع مصالحها. - أنه يؤثر على علاقات المملكة مع دولة أخرى. - أنه يمنع من كشف جريمة أو يمس حقوق متهم في الحصول على محاكمة عادلة أو يؤثر في سلامة إجراءات جنائية قائمة. - أنه يعرض سلامة فرد أو أفراد للخطر. - أنه يترتب عليه انتهاك خصوصية فرد آخر غير صاحب البيانات الشخصية وفق ما تحدده اللوائح. - أنه يتعارض مع مصلحة ناقص أو عديم للأهلية. - أنه يخل بالتزامات مهنية مقررة نظاماً. - أنه ينطوي عليه إخلال بالتزام أو إجراء أو حكم قضائي. - أنه يكشف عن مصدر سري لمعلومات تحتم المصلحة العامة عدم الكشف عنه."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "المادة السابعة عشرة",
+      "content": "- إذا جرى تصحيح خطأ أو إكمال نقص أو إجراء تحديث في البيانات الشخصية، فعلى جهة التحكم أن تُشعر أي جهة أخرى انتقلت إليها تلك البيانات بأي تعديل يطرأ عليها، وأن تتيح لها ذلك التعديل. - توضح اللوائح المدد الزمنية للتصحيح والتحديث، وأنواع التصحيح، والإجراءات المطلوبة لتفادي الآثار المترتبة على معالجة بيانات شخصية غير صحيحة أو غير دقيقة أو غير حديثة."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "المادة الثامنة عشرة",
+      "content": "- على جهة التحكم إتلاف البيانات الشخصية فور انتهاء الغرض من جمعها. ومع ذلك، يجوز لها الاحتفاظ بتلك البيانات بعد انتهاء الغرض من جمعها إذا تمت إزالة كل ما يؤدي إلى معرفة صاحبها على وجه التحديد وفق الضوابط التي تحددها اللوائح. - على جهة التحكم الاحتفاظ بالبيانات الشخصية حتى بعد انتهاء الغرض من جمعها في الحالتين الآتيتين: أ- إذا توافر مسوغ نظامي يوجب الاحتفاظ بها مدة مُحددة، وفي هذه الحالة يُجرى إتلافها بعد انتهاء هذه المدة أو انتهاء الغرض من جمعها، أيهما أطول. ب- إذا كانت البيانات الشخصية متصلة اتصالاً وثيقاً بقضية منظورة أمام جهة قضائية وكان الاحتفاظ بها مطلوباً لهذا الغرض، وفي هذه الحالة يُجرى إتلافها بعد استكمال الإجراءات القضائية الخاصة بالقضية."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "المادة التاسعة عشرة",
+      "content": "على جهة التحكم اتخاذ ما يلزم من إجراءات ووسائل تنظيمية وإدارية وتقنية تضمن المحافظة على البيانات الشخصية، بما في ذلك عند نقلها؛ وذلك وفقاً للأحكام والضوابط التي تحددها اللوائح."
+    },
+    {
+      "provision_ref": "art20",
+      "section": "20",
+      "title": "المادة العشرون",
+      "content": "- تُشعر جهة التحكم الجهة المختصة فور علمها بحدوث تسرّب أو تلف لبيانات شخصية أو حدوث وصول غير مشروع إليها. - تحدد اللوائح الأحوال التي يجب فيها على جهة التحكم إشعار صاحب البيانات الشخصية في حالة حدوث تسرّب أو تلف لبياناته الشخصية أو حدوث وصول غير مشروع إليها. وإذا كان من شأن حدوث أيٍّ مما سبق أن يرتب ضرراً جسيماً على بياناته أو على نفسه، فيجب على جهة التحكم إشعاره فوراً."
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "المادة الحادية والعشرون",
+      "content": "على جهة التحكم الاستجابة لطلبات صاحب البيانات الشخصية المتعلقة بحقوقه المنصوص عليها في النظام خلال مدة محددة وعبر وسيلة مناسبة تبينهما اللوائح."
+    },
+    {
+      "provision_ref": "art22",
+      "section": "22",
+      "title": "المادة الثانية والعشرون",
+      "content": "على جهة التحكم إجراء تقويم للآثار المترتبة على معالجة البيانات الشخصية لأي منتج أو خدمة تقدم للعموم بحسب طبيعة النشاط الذي تمارسه جهة التحكم، وتحدد اللوائح الأحكام اللازمة لذلك."
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "المادة الثالثة والعشرون",
+      "content": "تُحدد اللوائح الضوابط والإجراءات الإضافية -بما لا يتعارض مع أحكام النظام- في شأن معالجة البيانات الصحية بما يكفل المحافظة على خصوصية أصحابها ويحمي حقوقهم الواردة في النظام، على أن تشتمل على ما يأتي: - قصر حق الاطلاع على البيانات الصحية -بما فيها الملفات الطبية- على أقل عدد ممكن من الموظفين أو العاملين وبالقدر اللازم فقط لتقديم الخدمات الصحية اللازمة. - تقييد إجراءات وعمليات مُعالجة البيانات الصحية إلى أقل قدر ممكن من الموظفين والعاملين لتقديم الخدمات الصحية أو توفير برامج التأمين الصحي."
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "المادة الرابعة والعشرون",
+      "content": "تُحدد اللوائح الضوابط والإجراءات الإضافية -بما لا يتعارض مع أحكام النظام- في شأن معالجة البيانات الائتمانية بما يكفل المحافظة على خصوصية أصحابها ويحمي حقوقهم الواردة في النظام ونظام المعلومات الائتمانية، على أن تشتمل على ما يأتي: - اتخاذ ما يلزم للتحقق من توافر الموافقة الكتابية من صاحب البيانات الشخصية على جمع هذه البيانات أو تغيير الغرض من جمعها أو الإفصاح عنها أو نشرها وفق أحكام النظام ونظام المعلومات الائتمانية. - وجوب إشعار صاحب البيانات الشخصية عند ورود طلب الإفصاح عن بياناته الائتمانية من أي جهة."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "المادة الخامسة والعشرون",
+      "content": "فيما عدا المواد التوعوية التي ترسلها الجهات العامة، لا يجوز لجهة التحكم استخدام وسائل الاتصال الشخصية -بما فيها العناوين البريدية والإلكترونية- الخاصة بصاحب البيانات الشخصية لأجل إرسال مواد دعائية أو توعوية، إلاَّ وفقاً لما يأتي: - أن تؤخذ موافقة المتلقي المستهدف على إرسال هذه المواد إليه. - أن يوفر مرسل المواد آلية واضحة -بحسب ما تحدده اللوائح- تُمكن المتلقي المستهدف من إبداء رغبته في التوقف عن إرسالها إليه عند رغبته في ذلك. وتحدد اللوائح الأحكام المتعلقة بالمواد الدعائية والتوعوية المشار إليها في هذه المادة، وشروط وأحوال موافقة المتلقي المستهدف على إرسال هذه المواد إليه."
+    },
+    {
+      "provision_ref": "art26",
+      "section": "26",
+      "title": "المادة السادسة والعشرون",
+      "content": "فيما عدا البيانات الحساسة، تجوز معالجة البيانات الشخصية لأغراض تسويقية، إذا جرى جمعها من صاحبها مباشرةً ووافق على ذلك وفق أحكام النظام. وتحدد اللوائح الضوابط اللازمة لذلك."
+    },
+    {
+      "provision_ref": "art27",
+      "section": "27",
+      "title": "المادة السابعة والعشرون",
+      "content": "يجوز جمع البيانات الشخصية أو مُعالجتها لأغراض علمية أو بحثية أو إحصائية دون موافقة صاحبها، في الأحوال الآتية: - إذا لم تتضمن البيانات الشخصية ما يدل على هوية صاحبها على وجه التحديد. - إذا كان سَيُجرى إتلاف ما يدل على هوية صاحب البيانات الشخصية على وجه التحديد خلال عملية مُعالجتها وقبل الإفصاح عنها لأي جهة أُخرى ولم تكن تلك البيانات بيانات حساسة. - إذا كان جمع البيانات الشخصية أو معالجتها لهذه الأغراض يقتضيها نظام آخر أو تنفيذاً لاتفاق سابق يكون صاحبها طرفاً فيه. وتحدد اللوائح الضوابط اللازمة لما ورد في هذه المادة."
+    },
+    {
+      "provision_ref": "art28",
+      "section": "28",
+      "title": "المادة الثامنة والعشرون",
+      "content": "لا يجوز تصوير الوثائق الرسمية التي تحدد هوية صاحب البيانات الشخصية أو نسخها، إلاَّ عندما يكون ذلك تنفيذاً لأحكام نظام، أو عندما تطلب جهة عامة مختصة تصوير تلك الوثائق أو نسخها وفق ما تحدده اللوائح."
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "المادة التاسعة والعشرون",
+      "content": "فيما عدا حالات الضرورة القصوى للمحافظة على حياة صاحب البيانات خارج المملكة أو مصالحه الحيوية أو الوقاية من عدوى مرضية أو فحصها أو معالجتها، لا يجوز لجهة التحكم نقل البيانات الشخصية إلى خارج المملكة أو الإفصاح عنها لجهة خارج المملكة إلاَّ إذا كان ذلك تنفيذاً لالتزام بموجب اتفاقية تكون المملكة طرفاً فيه، أو لخدمة مصالح المملكة، أو لأغراض أخرى وفقاً لما تحدده اللوائح، وذلك بعد أن تتوافر الشروط الآتية: - ألاَّ يترتب على النقل أو الإفصاح مساس بالأمن الوطني أو بمصالح المملكة الحيوية. - أن تقدم ضمانات كافية للمحافظة على البيانات الشخصية التي سَيُجرى نقلها أو الإفصاح عنها وعلى سريتها، بحيث لا تقل معايير حماية البيانات الشخصية عن المعايير الواردة في النظام واللوائح. - أن يقتصر النقل أو الإفصاح على الحد الأدنى من البيانات الشخصية الذي تدعو الحاجة إليه. - موافقة الجهة المختصة على النقل أو الإفصاح وفقاً لما تحدده اللوائح. وفيما عدا الشرط الوارد في الفقرة (1) من هذه المادة، يجوز للجهة المختصة أن تعفي جهة التحكم -في كل حالة على حدة- من الالتزام بأحد الشروط المشار إليها؛ متى قدَّرت الجهة المختصة منفردة أو بالاشتراك مع جهات أخرى أن البيانات الشخصية سيتوافر لها مستوى مقبول من الحماية خارج المملكة، ولم تكن تلك البيانات بيانات حساسة."
+    },
+    {
+      "provision_ref": "art30",
+      "section": "30",
+      "title": "المادة الثلاثون",
+      "content": "- مع عدم الإخلال بأحكام النظام، وما للبنك المركزي السعودي من صلاحيات وفقاً لما تقضي به النصوص النظامية ذات العلاقة، تكون الجهة المختصة الجهة المشرفة على تطبيق أحكام النظام واللوائح. - على جهة التحكم أن تعيّن أو تحدد شخصاً (أو أكثر) من منسوبيها ليكون مسؤولاً عن التزامها بتطبيق أحكام النظام واللوائح. وتحدد اللوائح الأحكام المتعلقة بما ورد في هذه الفقرة. - على جهة التحكم التعاون مع الجهة المختصة في سبيل مباشرتها مهماتها المتعلقة بالإشراف على تطبيق أحكام النظام واللوائح، وعليها كذلك اتخاذ ما يلزم من إجراءات حيال المسائل المتعلقة بذلك التي تحيلها الجهة المختصة إليها. وللجهة المختصة طلب الوثائق أو المعلومات اللازمة من جهة التحكم للتأكد من التزامها بأحكام النظام واللوائح. - يجوز للجهة المختصة -وفق ما تقدره- تفويض غيرها من الجهات في مباشرة بعض المهمات الموكولة إليها المتعلقة بالإشراف على تطبيق أحكام النظام واللوائح."
+    },
+    {
+      "provision_ref": "art31",
+      "section": "31",
+      "title": "المادة الحادية والثلاثون",
+      "content": "دون إخلال بما ورد في المادة (الثامنة عشرة) من النظام، تحتفظ جهة التحكم بسجلات لمدة تحددها اللوائح لأنشطة معالجة البيانات الشخصية بحسب طبيعة النشاط الذي تمارسه جهة التحكم؛ لتكون متاحة عندما تطلبها الجهة المختصة. على أن تشمل السجلات حدًّا أدنى من البيانات الآتية: - تفاصيل الاتصال الخاصة بجهة التحكم. - الغرض من معالجة البيانات الشخصية. - وصف فئات أصحاب البيانات الشخصية. - أي جهة جرى (أو سَيُجرى) إفصاح البيانات الشخصية إليها. - ما إذا جرى (أو سَيُجرى) نقل البيانات الشخصية إلى خارج المملكة أو الإفصاح عنها لجهة خارج المملكة. - المدة الزمنية المتوقعة للاحتفاظ بالبيانات الشخصية."
+    },
+    {
+      "provision_ref": "art32",
+      "section": "32",
+      "title": "المادة الثانية والثلاثون",
+      "content": "- تقوم الجهة المختصة بإنشاء بوابة إلكترونية لغرض بناء سجل وطني عن جهات التحكم، تهدف إلى مراقبة ومتابعة التزام تلك الجهات بأحكام النظام واللوائح، وتقديم الخدمات المرتبطة بإجراءات حماية البيانات الشخصية لجهات التحكم؛ وذلك وفق ما تحدده اللوائح. - تلتزم جميع جهات التحكم بالتسجيل في البوابة المشار إليها في الفقرة (1) من هذه المادة، وتستحصل الجهة المختصة رسماً سنويّاً ثابتاً بما لا يتجاوز (مائة ألف) ريال؛ عن تسجيل جهات التحكم ذات الصفة الاعتبارية الخاصة في البوابة المشار إليها في الفقرة (1) من هذه المادة، على أن تحدد اللوائح مقدار الرسم السنوي الثابت بما لا يتجاوز الحد الأقصى المقرر، وذلك بحسب طبيعة النشاط الذي تمارسه تلك الجهات. - يخصص في البوابة سجل خاص لكل جهة تحكم تدون فيه السجلات المشار إليها في المادة (الحادية والثلاثين) من النظام وغيرها من الوثائق أو المعلومات اللازمة ذات الصلة بمعالجة البيانات الشخصية."
+    },
+    {
+      "provision_ref": "art33",
+      "section": "33",
+      "title": "المادة الثالثة والثلاثون",
+      "content": "- تختص الجهة المختصة بالموافقة على ممارسة الأنشطة التجارية أو المهنية أو غير الربحية المرتبطة بحماية البيانات الشخصية في المملكة وفقاً لما تحدده اللوائح. - يجب على الجهة التي في خارج المملكة -عند معالجتها لبيانات شخصية تتعلق بالأفراد المقيمين في المملكة بأي وسيلة كانت- أن تعين ممثلاً لها في المملكة ترخص له الجهة المختصة لمباشرة التزاماته المقررة بموجب أحكام النظام واللوائح. ولا يخل هذا التعيين بمسؤوليات تلك الجهة تجاه صاحب البيانات الشخصية أو الجهة المختصة بحسب الأحوال. وتبين اللوائح الأحكام المتعلقة بالترخيص وحدود علاقة الممثل بالجهة التي في خارج المملكة التي يمثلها. - يجوز للجهة المختصة الترخيص لجهات تتولى إصدار شهادات اعتماد لجهة التحكم وجهة المعالجة، على أن تضع الجهة المختصة القواعد المنظمة لإصدار تلك الشهادات."
+    },
+    {
+      "provision_ref": "art34",
+      "section": "34",
+      "title": "المادة الرابعة والثلاثون",
+      "content": "يجوز لصاحب البيانات الشخصية التقدم إلى الجهة المختصة بأي شكوى ناشئة من تطبيق النظام واللوائح. وتحدد اللوائح ضوابط معالجة الجهة المختصة للشكاوى التي يقدمها صاحب البيانات الشخصية الناشئة من تطبيق النظام واللوائح."
+    },
+    {
+      "provision_ref": "art35",
+      "section": "35",
+      "title": "المادة الخامسة والثلاثون",
+      "content": "- مع عدم الإخلال بأي عقوبة أشد منصوص عليها في نظام آخر، تكون عقوبة ارتكاب المخالفات الآتية وفقاً لما دون أمامها: أ- كل من أفصح عن بيانات حساسة أو نشرها مخالفًا أحكام النظام: يعاقب بالسجن مدة لا تزيد على (سنتين) وبغرامة لا تزيد على (ثلاثة ملايين) ريال، أو بإحدى هاتين العقوبتين؛ إذا كان ذلك بقصد الإضرار بصاحب البيانات أو بقصد تحقيق منفعة شخصية. ب- كل من خالف أحكام المادة (التاسعة والعشرين) من النظام: يعاقب بالسجن مدة لا تزيد على (سنة) وبغرامة لا تزيد على (مليون) ريال، أو بإحدى هاتين العقوبتين. - تختص النيابة العامة بمهمة التحقيق، والادعاء أمام المحكمة المختصة عن المخالفات المنصوص عليها في هذه المادة. - تتولى المحكمة المختصة النظر في الدعاوى الناشئة من تطبيق هذه المادة وإيقاع العقوبات المقررة. - يجوز للمحكمة المختصة مضاعفة عقوبة الغرامة في حالة العود حتى لو ترتب عليها تجاوز الحد الأقصى لها على ألا تتجاوز ضعف هذا الحد."
+    },
+    {
+      "provision_ref": "art36",
+      "section": "36",
+      "title": "المادة السادسة والثلاثون",
+      "content": "- فيما لم يرد في شأنه نص خاص في المادة (الخامسة والثلاثين) من النظام، ودون إخلال بأيِّ عقوبة أشد منصوص عليها في نظام آخر؛ تُعاقَب بالإنذار أو بغرامة لا تزيد على (خمسة ملايين) ريال، كلُّ شخصية ذات صفة طبيعية أو اعتبارية خاصة -مشمولة بأحكام النظام- خالفت أيًّا من أحكام النظام أو اللوائح. وتجوز مضاعفة عقوبة الغرامة في حالة تكرار المخالفة حتى لو ترتب عليها تجاوز الحد الأقصى لها على ألا تتجاوز ضعف هذا الحد. - تكوّن بقرار من رئيس الجهة المختصة، لجنة (أو أكثر) لا يقل عدد أعضائها عن (ثلاثة)، ويسمى أحدهم رئيساً، ويكون من بينهم مستشار شرعي أو نظامي؛ تتولى النظر في المخالفات وإيقاع عقوبة الإنذار أو الغرامة المنصوص عليها في الفقرة (1) من هذه المادة، وذلك بحسب نوع المخالفة المرتكبة وجسامتها ومدى تأثيرها، على أن يعتمد قرار اللجنة رئيس الجهة المختصة أو من يفوضه بذلك. ويصدر رئيس الجهة المختصة -بقرار منه- قواعد عمل اللجنة، وتحدد فيها مكافآت أعضائها. - يحق لمن صدر ضده قرار من اللجنة المنصوص عليها في الفقرة (2) من هذه المادة التظلم منه أمام المحكمة المختصة."
+    },
+    {
+      "provision_ref": "art37",
+      "section": "37",
+      "title": "المادة السابعة والثلاثون",
+      "content": "- يتولى الموظفون أو العاملون -الذين يصدر بتسميتهم قرار من رئيس الجهة المختصة- ضبط المخالفات المنصوص عليها في النظام أو اللوائح. - للجهة المختصة الحق في حجز الوسائل أو الأدوات المستخدمة في ارتكاب المخالفة إلى حين البت فيها."
+    },
+    {
+      "provision_ref": "art38",
+      "section": "38",
+      "title": "المادة الثامنة والثلاثون",
+      "content": "- مع عدم الإخلال بحقوق الغير حسن النية، يجوز للمحكمة المختصة الحكم بمصادرة الأموال المتحصلة من جراء ارتكاب المخالفات المنصوص عليها في النظام. - يجوز للمحكمة المختصة أو اللجنة المنصوص عليها في الفقرة (2) من المادة (السادسة والثلاثين) -بحسب الأحوال- تضمين الحكم أو القرار الصادر من أي منهما بتحديد العقوبة النصَّ على نشر ملخصه على نفقة المحكوم عليه أو المخالف في صحيفة محلية (أو أكثر) تصدر في مكان إقامته، أو في أي وسيلة أخرى مناسبة، وذلك بحسب نوع المخالفة المرتكبة وجسامتها ومدى تأثيرها، على أن يكون النشر بعد اكتساب الحكم الصفة القطعية، أو تحصن القرار بفوات ميعاد التظلم منه، أو صدور حكم نهائي برفض التظلم منه."
+    },
+    {
+      "provision_ref": "art39",
+      "section": "39",
+      "title": "المادة التاسعة والثلاثون",
+      "content": "دون إخلال بما ورد في المادة (الخامسة والثلاثين) والفقرة (1) من المادة (السادسة والثلاثين) من النظام، يجب على الجهة العامة مساءلة أي من منسوبيها -تأديبيًّا- في حال مخالفته أيًّا من أحكام النظام واللوائح؛ وفق أحكام وإجراءات المساءلة والتأديب المقررة نظاماً."
+    },
+    {
+      "provision_ref": "art40",
+      "section": "40",
+      "title": "المادة الأربعون",
+      "content": "مع عدم الإخلال بإيقاع العقوبات المنصوص عليها في النظام، لمن لحقه ضرر -نتيجةَ ارتكاب أي من المخالفات المنصوص عليها في النظام أو اللوائح- حق المطالبة أمام المحكمة المختصة بالتعويض عن الضرر المادي أو المعنوي بما يتناسب مع حجم الضرر."
+    },
+    {
+      "provision_ref": "art41",
+      "section": "41",
+      "title": "المادة الحادية والأربعون",
+      "content": "يلتزم كل من باشر عملاً من أعمال معالجة البيانات الشخصية بالمحافظة على الأسرار المتعلقة بالبيانات حتى بعد انتهاء علاقته الوظيفية أو التعاقدية."
+    },
+    {
+      "provision_ref": "art42",
+      "section": "42",
+      "title": "المادة الثانية والأربعون",
+      "content": "يصدر رئيس الجهة المختصة اللوائح، وذلك في مدة لا تتجاوز (مائة وثمانين) يوماً من تاريخ صدور النظام، على أن يُنسِّق -قبل إصدارها- مع وزارة الاتصالات وتقنية المعلومات ووزارة الخارجية وهيئة الاتصالات وتقنية المعلومات والهيئة الوطنية للأمن السيبراني والمجلس الصحي السعودي والبنك المركزي السعودي، كلٌّ فيما يخصه."
+    },
+    {
+      "provision_ref": "art43",
+      "section": "43",
+      "title": "المادة الثالثة والأربعون",
+      "content": "يُعمل بالنظام بعد (مائة وثمانين) يوماً من تاريخ نشره في الجريدة الرسمية."
     }
   ],
   "definitions": [
     {
-      "term": "البيانات الشخصية (Personal Data)",
-      "definition": "Any data, regardless of its source or form, that leads to identifying an individual specifically, or makes it possible to identify him directly or indirectly, including name, personal identification number, addresses, contact numbers, license numbers, records, property, bank account and credit card numbers, fixed or moving pictures of the individual, and other data of similar nature.",
+      "term": "النظام",
+      "definition": "نظام حماية البيانات الشخصية.",
       "source_provision": "art1"
     },
     {
-      "term": "البيانات الحساسة (Sensitive Data)",
-      "definition": "Data that reveals racial or ethnic origin, religious or political beliefs, data relating to criminal convictions, health and medical data, data of genetic and biometric nature aiming to specifically identify an individual, data related to children, and data revealing privacy of family life.",
+      "term": "اللوائح",
+      "definition": "اللوائح التنفيذية للنظام.",
       "source_provision": "art1"
     },
     {
-      "term": "المتحكم في البيانات (Controller)",
-      "definition": "Any individual or entity, public or private, that determines the purposes and means of processing of personal data, whether carried out directly or on behalf of others.",
+      "term": "الجهة المختصة",
+      "definition": "الجهة التي يصدر بتحديدها قرار من مجلس الوزراء.",
       "source_provision": "art1"
     },
     {
-      "term": "المعالجة (Processing)",
-      "definition": "Any operation or set of operations carried out on personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, amendment, retrieval, use, disclosure, provision, dissemination, or deletion.",
+      "term": "البيانات الشخصية",
+      "definition": "كل بيان -مهما كان مصدره أو شكله- من شأنه أن يؤدي إلى معرفة الفرد على وجه التحديد، أو يجعل التعرف عليه ممكنًا بصفة مباشرة أو غير مباشرة، ومن ذلك: الاسم، ورقم الهوية الشخصية، والعناوين، وأرقام التواصل، وأرقام الرُّخص والسجلات والممتلكات الشخصية، وأرقام الحسابات البنكية والبطاقات الائتمانية، وصور الفرد الثابتة أو المتحركة، وغير ذلك من البيانات ذات الطابع الشخصي.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "المُعالجة",
+      "definition": "أي عملية تُجرى على البيانات الشخصية بأي وسيلة كانت يدوية أو آلية، ومن ذلك: عمليات الجمع، والتسجيل، والحفظ، والفهرسة، والترتيب، والتنسيق، والتخزين، والتعديل، والتحديث، والدمج، والاسترجاع، والاستعمال، والإفصاح، والنقل، والنشر، والمشاركة في البيانات أو الربط البيني، والحجب، والمسح، والإتلاف.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الجمع",
+      "definition": "حصول جهة التحكم على البيانات الشخصية وفقاً لأحكام النظام، سواء من صاحبها مُباشرةً أو ممن يُمثله أو ممن له الولاية الشرعية عليه أو من طرف آخر.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الإتلاف",
+      "definition": "كل عمل يؤدي إلى إزالة البيانات الشخصية ويجعل من المتعذر الاطلاع عليها أو استعادتها مرة أخرى.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الإفصاح",
+      "definition": "تمكين أي شخص -عدا جهة التحكم- من الحصول على البيانات الشخصية أو استعمالها أو الاطلاع عليها بأي وسيلة ولأي غرض.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "النقل",
+      "definition": "نقل البيانات الشخصية من مكان إلى آخر لمعالجتها.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "النشر",
+      "definition": "بث أي من البيانـات الشخصية عبـر وسيلـة نشـر مقـروءة أو مسموعـة أو مرئية، أو إتاحتها.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الحساسة",
+      "definition": "كل بيان شخصي يتضمن الإشارة إلى أصل الفرد العرقي أو أصله القبلي، أو معتقده الديني أو الفكري أو السياسي، أو يدل على عضويته في جمعيات أو مؤسسات أهلية. وكذلك البيانات الجنائية والأمنية، أو بيانات السمات الحيوية التي تحدد الهوية، أو البيانات الوراثية، أو البيانات الائتمانية، أو البيانات الصحية، وبيانات تحديد الموقع، والبيانات التي تدل على أن الفرد مجهول الأبوين أو أحدهما.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الوراثية",
+      "definition": "كل بيان شخصي يتعلق بالخصائص الوراثية أو المكتسبة لشخص طبيعي، يحدد بشكل فريد السمات الفيسيولوجية أو الصحية لذلك الشخص، ويستخلص من تحليل عينة بيولوجية للشخص كتحليل الأحماض النووية أو تحليل أي عينة أخرى تؤدي إلى استخلاص بيانات وراثية.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الصحية",
+      "definition": "كل بيان شخصي يتعلق بحالة الفرد الصحية، سواء الجسدية أو العقلية أو النفسية أو المتعلقة بالخدمات الصحية الخاصة به.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الخدمات الصحية",
+      "definition": "الخدمات المتعلقة بصحة الفرد، ومن ذلك الخدمات الوقائية والعلاجية والتأهيلية والتنويم وتوفير الدواء.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات الائتمانية",
+      "definition": "كل بيان شخصي يتعلق بطلب الفرد الحصول على تمويل، أو حصوله عليه، سواء لغرض شخصي أو عائلي، من جهة تُمارس التمويل، بما في ذلك أي بيان يتعلق بقدرته على الحصول على ائتمان أو بقدرته على الوفاء به أو بتاريخه الائتماني.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "صاحب البيانات الشخصية",
+      "definition": "الفرد الذي تتعلق به البيانات الشخصية أو من يمثله أو من له الولاية الشرعية عليه.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الجهة العامة",
+      "definition": "أي وزارة أو مصلحة أو مؤسسة عامة أو هيئة عامة، أو أي جهة عامة مستقلة في المملكة، أو أي من الجهات التابعة لها.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "جهة التحكم",
+      "definition": "أي جهة عامة، وأي شخصية ذات صفة طبيعية أو اعتبارية خاصة؛ تحدد الغرض من معالجة البيانات الشخصية وكيفية ذلك؛ سواء أباشرت معالجة البيانات بوساطتها أم بوساطة جهة المعالجة.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "جهة المعالجة",
+      "definition": "أي جهة عامة، وأي شخصية ذات صفة طبيعية أو اعتبارية خاصة؛ تعالج البيانات الشخصية لمصلحة جهة التحكم ونيابةً عنها.",
       "source_provision": "art1"
     }
   ]

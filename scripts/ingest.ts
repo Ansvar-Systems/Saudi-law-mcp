@@ -1,30 +1,23 @@
 #!/usr/bin/env tsx
 /**
- * Saudi Law MCP -- Ingestion Pipeline
+ * Saudi Law MCP -- Real BOE ingestion pipeline.
  *
- * Fetches Saudi legislation from the Sejm ELI API (api.sejm.gov.pl).
- * The Sejm (Saudi Parliament) provides free public access to all legislation
- * published in Dziennik Ustaw (Journal of Laws) via the ELI API.
- *
- * Strategy:
- * 1. For each act, fetch the HTML text from the ELI API endpoint
- * 2. Parse articles (Art.) from the structured HTML
- * 3. Write seed JSON files for the database builder
- *
- * Usage:
- *   npm run ingest                    # Full ingestion
- *   npm run ingest -- --limit 5       # Test with 5 acts
- *   npm run ingest -- --skip-fetch    # Reuse cached pages
- *
- * Data source: api.sejm.gov.pl (Chancellery of the Sejm of the Republic of Poland)
- * License: Saudi legislation is public domain under Art. 4 of the Copyright Act
+ * Source portal: https://laws.boe.gov.sa (Saudi Bureau of Experts)
+ * Method: HTML scraping of official law detail pages
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { fetchWithRateLimit } from './lib/fetcher.js';
-import { parseSaudiHtml, KEY_SAUDI_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import {
+  TARGET_SAUDI_LAWS,
+  extractAvailableLanguageIds,
+  extractEnglishTitle,
+  parseSaudiLawHtml,
+  type ParsedLawSeed,
+  type SaudiLawTarget,
+} from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -32,19 +25,37 @@ const __dirname = path.dirname(__filename);
 const SOURCE_DIR = path.resolve(__dirname, '../data/source');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
 
-/** ELI API base URL for the Sejm */
-const ELI_API_BASE = 'https://api.sejm.gov.pl/eli/acts/DU';
+interface CliArgs {
+  limit: number | null;
+  skipFetch: boolean;
+}
 
-function parseArgs(): { limit: number | null; skipFetch: boolean } {
+interface IngestResult {
+  id: string;
+  title: string;
+  status: 'OK' | 'SKIPPED' | 'ERROR';
+  provisions: number;
+  definitions: number;
+  message?: string;
+  url: string;
+}
+
+function parseArgs(): CliArgs {
   const args = process.argv.slice(2);
   let limit: number | null = null;
   let skipFetch = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
-      limit = parseInt(args[i + 1], 10);
+      const parsed = Number(args[i + 1]);
+      if (Number.isFinite(parsed) && parsed > 0) {
+        limit = parsed;
+      }
       i++;
-    } else if (args[i] === '--skip-fetch') {
+      continue;
+    }
+
+    if (args[i] === '--skip-fetch') {
       skipFetch = true;
     }
   }
@@ -52,135 +63,169 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
   return { limit, skipFetch };
 }
 
-/**
- * Build the ELI API URL for fetching an act's HTML text.
- * Pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- */
-function buildTextUrl(act: ActIndexEntry): string {
-  return `${ELI_API_BASE}/${act.year}/${act.poz}/text.html`;
+function lawDetailUrl(lawId: string, langId: 1 | 2): string {
+  return `https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/${lawId}/${langId}`;
 }
 
-async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean): Promise<void> {
-  console.log(`\nProcessing ${acts.length} Saudi Acts from api.sejm.gov.pl...\n`);
+function orderPrefix(order: number): string {
+  return String(order).padStart(2, '0');
+}
 
+function sourcePath(target: SaudiLawTarget, langId: 1 | 2): string {
+  return path.join(SOURCE_DIR, `${orderPrefix(target.order)}-${target.id}-${langId === 1 ? 'ar' : 'en'}.html`);
+}
+
+function seedPath(target: SaudiLawTarget): string {
+  return path.join(SEED_DIR, `${orderPrefix(target.order)}-${target.file_stem}.json`);
+}
+
+function ensureDirectories(): void {
   fs.mkdirSync(SOURCE_DIR, { recursive: true });
   fs.mkdirSync(SEED_DIR, { recursive: true });
+}
 
-  let processed = 0;
-  let skipped = 0;
-  let failed = 0;
-  let totalProvisions = 0;
-  let totalDefinitions = 0;
-  const results: { act: string; provisions: number; definitions: number; status: string }[] = [];
+function clearOldSeedFiles(): void {
+  const existing = fs.readdirSync(SEED_DIR).filter(file => file.endsWith('.json'));
+  for (const file of existing) {
+    fs.unlinkSync(path.join(SEED_DIR, file));
+  }
+}
 
-  for (const act of acts) {
-    const sourceFile = path.join(SOURCE_DIR, `${act.id}.html`);
-    const seedFile = path.join(SEED_DIR, `${act.id}.json`);
+async function fetchOrLoad(url: string, cacheFile: string, skipFetch: boolean): Promise<string> {
+  if (skipFetch && fs.existsSync(cacheFile)) {
+    return fs.readFileSync(cacheFile, 'utf8');
+  }
 
-    // Skip if seed already exists and we're in skip-fetch mode
-    if (skipFetch && fs.existsSync(seedFile)) {
-      const existing = JSON.parse(fs.readFileSync(seedFile, 'utf-8')) as ParsedAct;
-      const provCount = existing.provisions?.length ?? 0;
-      const defCount = existing.definitions?.length ?? 0;
-      totalProvisions += provCount;
-      totalDefinitions += defCount;
-      results.push({ act: act.shortName, provisions: provCount, definitions: defCount, status: 'cached' });
-      skipped++;
-      processed++;
-      continue;
-    }
+  const response = await fetchWithRateLimit(url);
+  fs.writeFileSync(cacheFile, response.body, 'utf8');
+  return response.body;
+}
 
-    try {
-      let html: string;
+async function ingestTarget(target: SaudiLawTarget, skipFetch: boolean): Promise<IngestResult> {
+  const arUrl = lawDetailUrl(target.law_id, 1);
 
-      if (fs.existsSync(sourceFile) && skipFetch) {
-        html = fs.readFileSync(sourceFile, 'utf-8');
-        console.log(`  Using cached ${act.shortName} (${act.dziennikRef}) (${(html.length / 1024).toFixed(0)} KB)`);
-      } else {
-        const textUrl = buildTextUrl(act);
-        process.stdout.write(`  Fetching ${act.shortName} (${act.dziennikRef})...`);
-        const result = await fetchWithRateLimit(textUrl);
+  try {
+    const arabicHtml = await fetchOrLoad(arUrl, sourcePath(target, 1), skipFetch);
+    const seed = parseSaudiLawHtml(arabicHtml, target);
 
-        if (result.status !== 200) {
-          console.log(` HTTP ${result.status}`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `HTTP ${result.status}` });
-          failed++;
-          processed++;
-          continue;
+    const availableLanguages = extractAvailableLanguageIds(arabicHtml);
+    if (availableLanguages.includes(2)) {
+      try {
+        const englishHtml = await fetchOrLoad(lawDetailUrl(target.law_id, 2), sourcePath(target, 2), skipFetch);
+        const englishTitle = extractEnglishTitle(englishHtml);
+        if (englishTitle) {
+          seed.title_en = englishTitle;
         }
-
-        html = result.body;
-
-        // Validate that we got real legislation content, not a bot challenge
-        if (html.includes('window["bobcmn"]') || !html.includes('unit_arti')) {
-          console.log(` BLOCKED (bot challenge or no article content)`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'BLOCKED' });
-          failed++;
-          processed++;
-          continue;
-        }
-
-        fs.writeFileSync(sourceFile, html);
-        console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        console.warn(`  WARN ${target.id}: unable to fetch English variant (${message})`);
       }
-
-      const parsed = parseSaudiHtml(html, act);
-      fs.writeFileSync(seedFile, JSON.stringify(parsed, null, 2));
-      totalProvisions += parsed.provisions.length;
-      totalDefinitions += parsed.definitions.length;
-      console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`);
-      results.push({
-        act: act.shortName,
-        provisions: parsed.provisions.length,
-        definitions: parsed.definitions.length,
-        status: 'OK',
-      });
-    } catch (error) {
-      const msg = error instanceof Error ? error.message : String(error);
-      console.log(`  ERROR ${act.shortName}: ${msg}`);
-      results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `ERROR: ${msg.substring(0, 80)}` });
-      failed++;
     }
 
-    processed++;
-  }
+    if (!seed.provisions.length) {
+      return {
+        id: target.id,
+        title: seed.title,
+        status: 'ERROR',
+        provisions: 0,
+        definitions: 0,
+        message: 'No provisions extracted from official page',
+        url: seed.url,
+      };
+    }
 
-  console.log(`\n${'='.repeat(72)}`);
-  console.log('Ingestion Report');
-  console.log('='.repeat(72));
-  console.log(`\n  Source:       api.sejm.gov.pl (Sejm ELI API)`);
-  console.log(`  License:     Public domain (Art. 4 Saudi Copyright Act)`);
-  console.log(`  Processed:   ${processed}`);
-  console.log(`  Cached:      ${skipped}`);
-  console.log(`  Failed:      ${failed}`);
-  console.log(`  Total provisions:  ${totalProvisions}`);
-  console.log(`  Total definitions: ${totalDefinitions}`);
-  console.log(`\n  Per-Act breakdown:`);
-  console.log(`  ${'Act'.padEnd(20)} ${'Provisions'.padStart(12)} ${'Definitions'.padStart(13)} ${'Status'.padStart(10)}`);
-  console.log(`  ${'-'.repeat(20)} ${'-'.repeat(12)} ${'-'.repeat(13)} ${'-'.repeat(10)}`);
-  for (const r of results) {
-    console.log(`  ${r.act.padEnd(20)} ${String(r.provisions).padStart(12)} ${String(r.definitions).padStart(13)} ${r.status.padStart(10)}`);
+    fs.writeFileSync(seedPath(target), `${JSON.stringify(seed, null, 2)}\n`, 'utf8');
+
+    return {
+      id: seed.id,
+      title: seed.title,
+      status: 'OK',
+      provisions: seed.provisions.length,
+      definitions: seed.definitions.length,
+      url: seed.url,
+    };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return {
+      id: target.id,
+      title: target.title_ar,
+      status: 'ERROR',
+      provisions: 0,
+      definitions: 0,
+      message,
+      url: arUrl,
+    };
   }
-  console.log('');
 }
 
 async function main(): Promise<void> {
   const { limit, skipFetch } = parseArgs();
+  const targets = limit ? TARGET_SAUDI_LAWS.slice(0, limit) : TARGET_SAUDI_LAWS;
 
-  console.log('Saudi Law MCP -- Ingestion Pipeline');
-  console.log('====================================\n');
-  console.log(`  Source: api.sejm.gov.pl (Chancellery of the Sejm)`);
-  console.log(`  Format: ELI HTML (structured legislation text)`);
-  console.log(`  License: Public domain (Art. 4 Saudi Copyright Act)`);
+  console.log('Saudi Law MCP -- Real Data Ingestion');
+  console.log('====================================');
+  console.log('Source: https://laws.boe.gov.sa (Saudi Bureau of Experts)');
+  console.log(`Targets: ${targets.length}`);
+  if (skipFetch) {
+    console.log('Mode: --skip-fetch (using cached source HTML when available)');
+  }
 
-  if (limit) console.log(`  --limit ${limit}`);
-  if (skipFetch) console.log(`  --skip-fetch`);
+  ensureDirectories();
+  if (!skipFetch) {
+    clearOldSeedFiles();
+  }
 
-  const acts = limit ? KEY_SAUDI_ACTS.slice(0, limit) : KEY_SAUDI_ACTS;
-  await fetchAndParseActs(acts, skipFetch);
+  const results: IngestResult[] = [];
+
+  for (const target of targets) {
+    const prefix = `${orderPrefix(target.order)} ${target.id}`;
+    process.stdout.write(`\n[${prefix}] Fetching and parsing...`);
+
+    const result = await ingestTarget(target, skipFetch);
+    results.push(result);
+
+    if (result.status === 'OK') {
+      console.log(` OK (${result.provisions} provisions, ${result.definitions} definitions)`);
+      continue;
+    }
+
+    if (result.status === 'SKIPPED') {
+      console.log(` SKIPPED (${result.message ?? ''})`);
+      continue;
+    }
+
+    console.log(` ERROR (${result.message ?? 'unknown error'})`);
+  }
+
+  const successful = results.filter(r => r.status === 'OK');
+  const failed = results.filter(r => r.status === 'ERROR');
+
+  const totalProvisions = successful.reduce((sum, row) => sum + row.provisions, 0);
+  const totalDefinitions = successful.reduce((sum, row) => sum + row.definitions, 0);
+
+  console.log('\n' + '='.repeat(92));
+  console.log('Ingestion Summary');
+  console.log('='.repeat(92));
+  console.log(`Succeeded: ${successful.length}`);
+  console.log(`Failed:    ${failed.length}`);
+  console.log(`Provisions extracted: ${totalProvisions}`);
+  console.log(`Definitions extracted: ${totalDefinitions}`);
+  console.log('');
+
+  for (const row of results) {
+    const status = row.status.padEnd(6, ' ');
+    console.log(`${status} ${row.id.padEnd(34, ' ')} provisions=${String(row.provisions).padStart(4, ' ')}  ${row.url}`);
+    if (row.message) {
+      console.log(`       reason: ${row.message}`);
+    }
+  }
+
+  if (!successful.length) {
+    throw new Error('No laws were ingested successfully.');
+  }
 }
 
 main().catch(error => {
-  console.error('Fatal error:', error);
+  console.error('\nFatal ingestion error:', error);
   process.exit(1);
 });

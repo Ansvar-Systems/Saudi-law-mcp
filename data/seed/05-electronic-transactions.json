@@ -3,71 +3,199 @@
   "type": "statute",
   "title": "نظام التعاملات الإلكترونية",
   "title_en": "Electronic Transactions Law",
-  "short_name": "ETL",
+  "short_name": "Electronic Transactions Law",
   "status": "in_force",
-  "issued_date": "2007-03-26",
-  "in_force_date": "2007-03-26",
-  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a7f2b3c4-d5e6-4f78-9a0b-a9b800f0b7f3/1",
-  "description": "The Saudi Electronic Transactions Law, issued by Royal Decree M/18 dated 26 March 2007, establishes the legal framework for electronic transactions, electronic signatures, and electronic documents in Saudi Arabia. The Law ensures the legal validity of electronic records, contracts and signatures, and sets out the conditions for their equivalence to paper documents and handwritten signatures.",
+  "issued_date": "2007-03-27",
+  "in_force_date": "2007-04-17",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6f509360-2c39-4358-ae2a-a9a700f2ed16/1",
+  "description": "يتضمن النظام مايلى: التعريفات الخاصة بالألفاظ وعبارات النظام – أهداف النظام ونطاق تنفيذه - الآثار النظامية للتعاملات والسجلات والتوقيعات الإلكترونية – إنعقاد التعامل الإلكتروني – التوقيع الإلكتروني – إختصاصات الوزارة والهيئة -المركز الوطني للتصديق الرقمي - واجبات مقدم خدمات التصديق - مسؤوليات صاحب الشهاده – المخالفات والعقوبات- أحكام ختامية .",
   "provisions": [
     {
       "provision_ref": "art1",
       "section": "1",
-      "title": "Article 1. Definitions",
-      "content": "For the purposes of this Law: 'Electronic Transaction' means a transaction conducted wholly or partly using electronic means; 'Electronic Document' means a document issued, transferred, received or stored using electronic means; 'Electronic Signature' means electronic data in the form of letters, numbers, codes, symbols, marks, sounds or other data in electronic form, which is created by the signatory or on behalf of the signatory, and which uniquely identifies the signatory and is logically associated with the document signed; 'Digital Signature' means an electronic signature that uses asymmetric cryptography techniques, resulting in a transformed version of the document that can be decrypted using the public key of the signatory; 'Certification Service Provider' means an entity that issues electronic signature certificates and confirms the authenticity of electronic signatures; 'Accreditation Authority' means the authority responsible for accrediting certification service providers, determined by the regulatory framework."
+      "title": "المادة الأولى:",
+      "content": "يقصد بالألفاظ والعبارات الآتية -أينما وردت في هذا النظام- المعاني المبينة أمام كل منها، ما لم يقتض السياق خلاف ذلك: 1 - الوزارة : وزارة الاتصالات وتقنية المعلومات . 2- الوزير : وزير الاتصالات وتقنية المعلومات . 3 - الهيئة : هيئة الاتصالات وتقنية المعلومات . 4 - المحافظ : محافظ هيئة الاتصالات وتقنية المعلومات . 5 - اللائحة : اللائحة التنفيذية لهذا النظام. 6 - المركز : المركز الوطني للتصديق الرقمي . 7 - الحاسب الآلي : أي جهاز إلكتروني ثابت أو منقول، سلكي أو لاسلكي، يحتوي على نظام معالجة البيانات أو تخزينها أو إرسالها أو استقبالها أو تصفحها يؤدي وظائف محددة بحسب البرامج والأوامر المعطاة له . 8 - الشخص : أي شخص ذي صفة طبيعية أو اعتبارية عامة أو خاصة . 9 - إلكتروني : تقنية استعمال وسائل كهربائية أو كهرومغناطيسية أو بصرية أو أي شكل آخر من وسائل التقنية المشابهة . 10 - التعاملات الإلكترونية : أي تبادل أو تراسل أو تعاقد أو أي إجراء آخر يبرم أو ينفذ - بشكل كلي أو جزئي - بوسيلة إلكترونية. 11 - البيانات الإلكترونية : بيانات ذات خصائص إلكترونية في شكل نصوص أو رموز أو صور أو رسوم أو أصوات أو غير ذلك من الصيغ الإلكترونية، مجتمعة أو متفرقة 12 - منظومة بيانات إلكترونية : جهاز أو برنامج إلكتروني أو أكثر يستخدم لإنشاء البيانات الإلكترونية أو استخراجها أو إرسالها أو بثها أو تسلمها أو تخزينها أو عرضها أو معالجتها. 13 - السجل الإلكتروني : البيانات التي تنشأ أو ترسل أو تسلم أو تبث أو تحفظ بوسيلة إلكترونية، وتكون قابلة للاسترجاع أو الحصول عليها بشكل يمكن فهمها. 14 - التوقيع الإلكتروني : بيانات إلكترونية مدرجة في تعامل إلكتروني أو مضافة إليه أو مرتبطة به منطقيّا تستخدم لإثبات هوية الموقع وموافقته على التعامل الإلكتروني واكتشاف أي تعديل يطرأ على هذا التعامل بعد التوقيع عليه. 15 - منظومة التوقيع الإلكتروني : منظومة بيانات إلكترونية معدة بشكل خاص لتعمل مستقلة أو بالاشتراك مع منظومة بيانات إلكترونية أخرى، لإنشاء توقيع إلكتروني . 16 - الموقِّع: شخص يجري توقيعا إلكترونيّا على تعامل إلكتروني باستخدام منظومة توقيع إلكتروني . 17 - شهادة التصديق الرقمي : وثيقة إلكترونية يصدرها مقدم خدمات تصديق، تستخدم لتأكيد هوية الشخص الحائز على منظومة التوقيع الإلكتروني ، وتحتوي على بيانات التحقق من توقيعه. 18 - الوسيط : شخص يتسلم تعاملا إلكترونيا من المنشئ ويسلمه إلى شخص آخر، أو يقوم بغير ذلك من الخدمات المتعلقة بذلك التعامل. 19 - المنشئ: شخص غير الوسيط يرسل تعاملا إلكترونيا . 20 - المرسل إليه : شخص غير الوسيط وجه المنشئ تعامله إليه. 21- مقدم خدمات التصديق : شخص مرخص له بإصدار شهادات التصديق الرقمي ، أو أية خدمة أو مهمة متعلقة بها وبالتوقيعات الإلكترونية وفقا لهذا النظام."
     },
     {
       "provision_ref": "art2",
       "section": "2",
-      "title": "Article 2. Legal Validity of Electronic Transactions",
-      "content": "Electronic transactions, electronic documents and electronic signatures shall have the same legal validity, effect and enforceability as paper transactions, paper documents and handwritten signatures, subject to the requirements of this Law. An electronic document shall not be denied legal effect or admissibility as evidence in legal proceedings solely on the ground that it is in electronic form. Where a law requires a document to be in writing, an electronic document satisfies that requirement if: (1) the information contained in the electronic document is accessible and usable for subsequent reference; (2) the electronic document is capable of being retained and preserved. Where a law requires a signature, an electronic signature satisfies that requirement if: (1) it identifies the signatory; (2) it indicates the signatory's approval of the document; (3) it is reliable in terms of its connection to the signatory and the document. Courts shall assess the admissibility of electronic evidence based on the reliability of the method used to create, store and communicate the electronic document."
+      "title": "المادة الثانية:",
+      "content": "يهدف هذا النظام إلى ضبط التعاملات والتوقيعات الإلكترونية ، وتنظيمها، وتوفير إطار نظامي لها بما يؤدي إلى تحقيق ما يلي: 1 - إرساء قواعد نظامية موحدة لاستخدام التعاملات والتوقيعات الإلكترونية وتسهيل تطبيقها في القطاعين العام والخاص بوساطة سجلات إلكترونية يعول عليها. 2 - إضفاء الثقة في صحة التعاملات والتوقيعات والسجلات الإلكترونية وسلامتها. 3 - تيسير استخدام التعاملات والتوقيعات الإلكترونية على الصعيدين المحلي والدولي للاستفادة منها في جميع المجالات، كالإجراءات الحكومية والتجارة والطب والتعليم والدفع المالي الإلكتروني . 4 - إزالة العوائق أمام استخدام التعاملات والتوقيعات الإلكترونية . 5 - منع إساءة الاستخدام والاحتيال في التعاملات والتوقيعات الإلكترونية ."
     },
     {
       "provision_ref": "art3",
       "section": "3",
-      "title": "Article 3. Electronic Signatures",
-      "content": "An electronic signature that meets the following conditions shall have the same legal effect as a handwritten signature: (1) it is uniquely linked to the signatory; (2) it is capable of identifying the signatory; (3) it is created using means under the signatory's sole control; (4) it is linked to the data signed in such a way that any subsequent alteration of the data is detectable. A digital signature using asymmetric cryptography supported by a qualified certificate issued by an accredited certification service provider shall constitute a secure electronic signature and shall enjoy a presumption of authenticity and integrity. Certification service providers shall: (1) obtain accreditation from the accreditation authority before issuing certificates used in legally significant transactions; (2) maintain records of all certificates issued; (3) ensure the accuracy of certificate information; (4) revoke certificates upon receipt of reliable information of compromise. The government shall use secure electronic signatures for all digital government services requiring authentication."
+      "title": "المادة الثالثة:",
+      "content": "يسري هذا النظام على التعاملات والتوقيعات الإلكترونية ، ويستثنى من أحكامه ما يلي: 1 - التعاملات المتعلقة بالأحوال الشخصية. 2 - إصدار الصكوك المتعلقة بالتصرفات الواردة على العقار. وذلك ما لم يصدر من الجهة المسؤولة عن هذه التعاملات ما يسمح بإجرائها إلكترونيا، وفق ضوابط تضعها تلك الجهة بالاتفاق مع الوزارة."
     },
     {
       "provision_ref": "art4",
       "section": "4",
-      "title": "Article 4. Government Electronic Services",
-      "content": "Government agencies shall implement electronic services in accordance with the objectives of Vision 2030 and the Saudi Digital Government Authority's digital transformation strategy. Government agencies providing electronic services shall: (1) ensure the availability of electronic alternatives to all paper-based administrative procedures; (2) accept electronic documents and electronic signatures on equal terms with paper documents and handwritten signatures; (3) implement secure authentication mechanisms, including the national identity system (Absher), for government digital services requiring personal identification; (4) comply with the standards for digital government services issued by the Saudi Digital Government Authority; (5) ensure the accessibility of electronic services for persons with disabilities. Data shared between government agencies shall be governed by the Data Sharing and Exchange Framework issued by the National Data Management Office. Government agencies shall publish annual reports on the usage and performance of their electronic services."
+      "title": "المادة الرابعة:",
+      "content": "1- لا يلزم هذا النظام أي شخص بالتعامل الإلكتروني دون موافقته، ويمكن أن تكون هذه الموافقة صريحة أو ضمنية. 2- استثناء من الحكم الوارد من الفقرة (1) من هذه المادة، يجب أن تكون موافقة الجهة الحكومية على التعامل الإلكتروني صريحة مع مراعاة ما تحدده الجهة الحكومية من اشتراطات للتعامل الإلكتروني. 3- يجوز لمن يرغب في إجراء تعامل إلكتروني أن يضع شروطا إضافية خاصة به لقبول التعاملات والتوقيعات الإلكترونية على ألا تتعارض تلك الشروط مع أحكام هذا النظام."
     },
     {
       "provision_ref": "art5",
       "section": "5",
-      "title": "Article 5. Data Retention and Integrity",
-      "content": "Where a law requires that records be retained for a specified period, that requirement is satisfied in relation to electronic records if: (1) the information contained in the electronic record is accessible and can be used for subsequent reference; (2) the electronic record is retained in the format in which it was originally created, sent or received, or in a format which can be demonstrated to accurately represent the original information; (3) the information allows identification of the origin and destination of the record and the time and date when it was sent or received. Electronic records shall be deemed original unless evidence of alteration is produced. Organisations retaining electronic records shall implement appropriate measures to protect the integrity and authenticity of those records, including audit trails, access controls, and backup procedures. The period of retention of electronic records shall comply with the requirements of applicable laws and regulations."
+      "title": "المادة الخامسة:",
+      "content": "1- يكون للتعاملات والسجلات والتوقيعات الإلكترونية حجيتها الملزمة، ولا يجوز نفي صحتها أو قابليتها للتنفيذ ولا منع تنفيذها بسبب أنها تمت كليا أو جزئيا بشكل إلكتروني بشرط أن تتم تلك التعاملات والسجلات والتوقيعات الإلكترونية بحسب الشروط المنصوص عليها في هذا النظام. 2- لا تفقد المعلومات التي تنتج من التعامل الإلكتروني حجيتها أو قابليتها للتنفيذ متى كان الاطلاع على تفاصيلها متاحًا ضمن منظومة البيانات الإلكترونية الخاصة بمنشئها وأشير إلى كيفية الاطلاع عليها."
     },
     {
       "provision_ref": "art6",
       "section": "6",
-      "title": "Article 6. Certification Service Providers",
-      "content": "Certification service providers (CSPs) issuing electronic signature certificates for use in legally significant transactions shall obtain accreditation from the relevant accreditation authority. Accredited CSPs shall: (1) comply with the technical standards for certificate issuance and management published by the accreditation authority; (2) maintain a secure and reliable certificate management infrastructure; (3) verify the identity of certificate applicants before issuing certificates; (4) publish and maintain a certificate revocation list (CRL) accessible to relying parties; (5) maintain records of all certificates issued and revoked; (6) notify the accreditation authority immediately of any security breach affecting the certificate infrastructure. The accreditation authority shall publish and maintain a trusted list of accredited CSPs accessible to the public. Certificates issued by accredited CSPs of other states may be recognised by the accreditation authority where the foreign CSP meets requirements equivalent to those under this Law."
+      "title": "المادة السادسة:",
+      "content": "1- مع عدم الإخلال بما تنص عليه المادة (الثالثة) من هذا النظام؛ إذا اشترط أي نظام في المملكة حفظ وثيقة أو معلومة لأي سبب فإن هذا الشرط يتحقق عندما تكون تلك الوثيقة أو المعلومة محفوظة أو مرسلة في شكل سجل إلكتروني ، بشرط مراعاة ما يلي: أ ) حفظ السجل الإلكتروني بالشكل الذي أنشئ أو أرسل أو تسلم به، أو بشكل يمكن من إثبات أن محتواه مطابق للمحتوى الذي أنشئ به أو أرسل به أو تم تسلمه به. ب ) بقاء السجل الإلكتروني محفوظا على نحو يتيح استخدامه والرجوع إليه لاحقا. ج ) أن تحفظ مع السجل الإلكتروني المعلومات التي تمكن من معرفة المنشئ والمرسل إليه، وتاريخ إرسالها وتسلمها ووقتهما. 2 - يجوز لأي شخص أن يستوفي - على مسؤوليته - المتطلبات المنصوص عليها في الفقرة (1) من هذه المادة بالاستعانة بخدمات شخص آخر. 3- تحدد اللائحة الإجراءات الخاصة بحفظ السجلات والبيانات الإلكترونية والشروط اللازمة لإبرازها بهيئتها الإلكترونية وشروط الاطلاع عليها وضوابطه."
     },
     {
       "provision_ref": "art7",
       "section": "7",
-      "title": "Article 7. Liability and Penalties",
-      "content": "A certification service provider shall be liable to persons who have reasonably relied on a certificate issued by it if the CSP has: (1) failed to meet the requirements of this Law in issuing the certificate; (2) issued the certificate based on false information provided by the applicant where the CSP failed to verify the information as required; (3) failed to revoke a certificate in the required circumstances. A person who uses a false electronic signature or certificate with intent to defraud or cause damage to another shall be subject to criminal penalties under the Anti-Cyber Crime Law. An organisation that generates a false electronic signature purportedly belonging to another shall be liable to that person for any resulting damage. Disputes arising from electronic transactions that cannot be resolved by the parties shall be submitted to the relevant judicial authority. Where an electronic signature dispute concerns a government transaction, it shall be referred to the administrative courts."
+      "title": "المادة السابعة:",
+      "content": "مع عدم الإخلال بما تنص عليه المادة (الثالثة) من هذا النظام؛ إذا اشترط أي نظام في المملكة أن تكون الوثيقة أو السجل أو المعلومة المقدمة إلى شخص آخر مكتوبة، فإن تقديمها في شكل إلكتروني يفي بهذا الغرض متى تحققت الأحكام الواردة في الفقرة (1) من المادة (السادسة)."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "المادة الثامنة:",
+      "content": "يعد السجل الإلكتروني أصلا بذاته عندما تستخدم وسائل وشروط فنية تؤكد سلامة المعلومات الواردة فيه من الوقت الذي أنشئ فيه بشكله النهائي على أنه سجل إلكتروني ، وتسمح بعرض المعلومات المطلوب تقديمها متى طلب ذلك، وتحدد اللائحة الوسائل والشروط الفنية المطلوبة."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "المادة التاسعة:",
+      "content": "1- يقبل التعامل الإلكتروني أو التوقيع الإلكتروني دليلا في الإثبات إذا استوفى سجله الإلكتروني متطلبات حكم المادة (الثامنة) من هذا النظام. 2 - يجوز قبول التعامل الإلكتروني أو التوقيع الإلكتروني قرينة في الإثبات، حتى وإن لم يستوف سجله الإلكتروني بمتطلبات حكم المادة (الثامنة) من هذا النظام. 3 - يعد كل من التعامل الإلكتروني والتوقيع الإلكتروني والسجل الإلكتروني حجة يعتد بها في التعاملات وأن كلا منها على أصله (لم يتغير منذ إنشائه) ما لم يظهر خلاف ذلك. 4 - يراعى عند تقدير حجية التعامل الإلكتروني مدى الثقة في الآتي: أ ) الطريقة التي استخدمت في إنشاء السجل الإلكتروني أو تخزينه أو إبلاغه، وإمكان التعديل عليه. ب ) الطريقة التي استخدمت في المحافظة على سلامة المعلومات. ج ) الطريقة التي حددت بها شخصية المنشئ."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "المادة العاشرة:",
+      "content": "1- يجوز التعبير عن الإيجاب والقبول في العقود بوساطة التعامل الإلكتروني ، ويعد العقد صحيحًا وقابلا للتنفيذ متى تم وفقًا لأحكام هذا النظام. 2- لا يفقد العقد صحته أو قابليته للتنفيذ لمجرد أنه تم بوساطة سجل إلكتروني واحد أو أكثر."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "المادة الحادية عشرة:",
+      "content": "1- يجوز أن يتم التعاقد من خلال منظومات بيانات إلكترونية آلية أو مباشرة بين منظومتي بيانات إلكترونية أو أكثر تكون معدة ومبرمجة مسبقًا للقيام بمثل هذه المهمات بوصفها ممثلة عن طرفي العقد. ويكون التعاقد صحيحا ونافذا ومنتجا لآثاره النظامية على الرغم من عدم التدخل المباشر لأي شخص ذي صفة طبيعية في عملية إبرام العقد. 2- يجوز أن يتم التعاقد بين منظومة بيانات إلكترونية آلية وشخص ذي صفة طبيعية، إذا كان يعلم - أو من المفترض أنه يعلم - أنه يتعامل مع منظومة آلية ستتولى مهمة إبرام العقد أو تنفيذه."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "المادة الثانية عشرة:",
+      "content": "يعد السجل الإلكتروني صادرًا من المنشئ إذا أرسله بنفسه، أو أرسله شخص آخر نيابة عنه، أو أرسل بوساطة منظومة آلية برمجها المنشأ لتعمل بشكل تلقائي بالنيابة عنه، ولا يعد الوسيط منشئًا للسجل، وتحدد اللائحة الإجراءات والأحكام المتعلقة بذلك."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "المادة الثالثة عشرة:",
+      "content": "1- يعد السجل الإلكتروني قد أرسل عندما يدخل منظومة بيانات لا تخضع لسيطرة المنشئ، وتوضح اللائحة المعايير الفنية لمنظومة البيانات، وطريقة تحديد وقت ومكان إرسال السجل الإلكتروني أو تسلمه. 2- يكون الإقرار بالتسلم بأي شكل من الأشكال التي تحددها اللائحة، ما لم يتفق المنشئ مع المرسل إليه على تحديد هذا الشكل."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "المادة الرابعة عشرة:",
+      "content": "1- إذا اشترط وجود توقيع خطي على مستند أو عقد أو نحوه، فإن التوقيع الإلكتروني الذي يتم وفقا لهذا النظام يعد مستوفيا لهذا الشرط، ويعد التوقيع الإلكتروني بمثابة التوقيع الخطي، وله الآثار النظامية نفسها. 2- يجب على من يرغب في إجراء توقيع إلكتروني أن يقوم بذلك وفقا لأحكام هذا النظام والضوابط والشروط والمواصفات التي تحددها اللائحة، وعليه مراعاة ما يلي: أ ) اتخاذ الاحتياطات اللازمة لتلافي أي استعمال غير مشروع لبيانات إنشاء التوقيع، أو المعدات الشخصية المتعلقة بتوقيعه، وتحدد اللائحة تلك الاحتياطات. ب ) إبلاغ مقدم خدمات التصديق عن أي استعمال غير مشروع لتوقيعه وفق الإجراءات التي تحددها اللائحة. 3 - إذا قدم توقيع إلكتروني في أي إجراء شرعي أو نظامي؛ فإن الأصل - ما لم يثبت العكس أو تتفق الأطراف المعنية على خلاف ذلك - صحة الأمور التالية: أ ) أن التوقيع الإلكتروني هو توقيع الشخص المحدد في شهادة التصديق الرقمي . ب ) أن التوقيع الإلكتروني قد وضعه الشخص المحدد في شهادة التصديق الرقمي ، وبحسب الغرض المحدد فيها. ج ) أن التعامل الإلكتروني لم يطرأ عليه تغيير منذ وضع التوقيع الإلكتروني عليه. 4 - إذا لم يستوف التوقيع الإلكتروني الضوابط والشروط المحددة في هذا النظام واللائحة، فإن أصل الصحة المقرر بموجب الفقرة (3) من هذه المادة لا يقوم للتوقيع ولا للتعامل الإلكتروني المرتبط به. 5- يجب على من يعتمد على التوقيع الإلكتروني لشخص آخر أن يبذل العناية اللازمة للتحقق من صحة التوقيع، وذلك باستخدام بيانات التحقق من التوقيع الإلكتروني وفق الإجراءات التي تحددها اللائحة."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "المادة الخامسة عشرة:",
+      "content": "يتم الإشراف على تطبيق أحكام هذا النظام وفقا للآتي: 1 - تقوم الوزارة بوضع السياسات العامة ورسم الخطط والبرامج التطويرية للتعاملات والتواقيع الإلكترونية ، ورفع مشروعات الأنظمة وأي تعديل مقترح عليها والتنسيق مع الجهات الحكومية وغيرها فيما يخص تطبيق هذا النظام، وتمثيل المملكة في الهيئات المحلية والإقليمية والدولية فيما يخص التعاملات والتواقيع الإلكترونية . ولها أن تمنح الهيئة أو أية جهة أخرى تراها صلاحية تمثيل المملكة نيابة عنها. 2 - تتولى الهيئة تطبيق هذا النظام، ولها في سبيل تحقيق ذلك الاختصاصات الآتية: أ ) إصدار التراخيص لمزاولة نشاط \" مقدم خدمات التصديق \"، وتجديدها وإيقاف العمل بها وإلغاؤها. وتوضح اللائحة الشروط والإجراءات اللازمة للحصول على الترخيص ومدته وتجديده ووقفه وإلغائه والتنازل عنه والتزامات المرخص له وضوابط إيقاف نشاط المرخص له وإجراءاته والآثار المترتبة على ذلك. ب ) التحقق من التزام مقدمي خدمات التصديق بالتراخيص الممنوحة لهم وبأحكام هذا النظام واللائحة والقرارات التي تصدرها الهيئة. ج ) اتخاذ الإجراءات اللازمة - وفقا لما تحدده اللائحة - لضمان استمرار الخدمات المقدمة إلى الأشخاص المتعاملين مع مقدم خدمات التصديق عند موافقتها على إيقاف نشاطه، أو الغاء ترخيصه أو عدم تجديده. د ) اقتراح مشروعات الأنظمة واللوائح ذات العلاقة بالتعاملات الإلكترونية وتعديلاتها، ورفعها إلى الوزارة لاتخاذ الإجراءات النظامية اللازمة. هـ) تحديد المقابل المالي لترخيص تقديم خدمات التصديق وذلك بموافقة الوزير."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "المادة السادسة عشرة:",
+      "content": "1- ينشأ في الوزارة - بموجب هذا النظام - مركز وطني للتصديق الرقمي، يتولى الإشراف على المهمات المتعلقة بإصدار شهادات التصديق الرقمي وإداراتها. 2- تحدد اللائحة القواعد الخاصة بتحديد مقر المركز وتشكيله واختصاصاته ومهماته وكيفية قيامه بأعماله. وللوزير الحق في منح الهيئة أو أية جهة أخرى صلاحيات القيام بمهمات المركز أو بعضها."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "المادة السابعة عشرة:",
+      "content": "يختص المركز باعتماد شهادات التصديق الرقمي الصادرة من الجهات الأجنبية خارج المملكة وتعامل هذه الشهادات معاملة نظيراتها بداخل المملكة، وذلك وفقا للضوابط والإجراءات التي تحددها اللائحة."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "المادة الثامنة عشرة:",
+      "content": "يجب على مقدم خدمات التصديق الالتزام بما يأتي: 1 - الحصول على الترخيص اللازم من الهيئة قبل البدء في ممارسة نشاطه. 2 - إصدار شهادات التصديق الرقمي ، وتسليمها وحفظها وفقا للترخيص الصادر له من الهيئة والضوابط والإجراءات التي تحددها اللائحة. 3 - استعمال وسائل موثوق بها لإصدار الشهادات وتسليمها وحفظها واتخاذ الوسائل اللازمة لحمايتها من التزوير والتدليس والتلف وفقا لما يحدد في اللائحة والترخيص الصادر له. 4 - إنشاء قاعدة بيانات للشهادات التي أصدرها وحفظ تلك البيانات وما يطرأ عليها من تعديل بما في ذلك الشهادات الموقوفة والملغاة، وأن يتيح الاطلاع إلكترونيا على تلك البيانات بصفة مستمرة. 5 - محافظته - ومن يتبعه من العاملين - على سرية المعلومات التي حصل عليها بسبب نشاطه، باستثناء المعلومات التي سمح صاحب الشهادة كتابيا أو إلكترونيا بنشرها أو الإعلام بها ، أو في الحالات المنصوص عليها نظاما. 6 - أخذ المعلومات ذات الصفة الشخصية من طالب الشهادة مباشرة، أو من غيره بشرط أخذ موافقة كتابية من طالب الشهادة على ذلك. 7 - إصدار الشهادات متضمنة البيانات الموضحة في اللائحة ومطابقة لشروط أمن الأنظمة وحمايتها وقواعد الأنظمة وحمايتها وقواعد شهادة التصديق الرقمي التي يضعها المركز. 8 - تسليم المعلومات والوثائق التي في حوزته إلى الهيئة وذلك في جميع حالات وقف نشاطه ليتم التصرف بها وفقا للأحكام والمعايير الموضحة في اللائحة."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "المادة التاسعة عشرة:",
+      "content": "لا يجوز لمقدم خدمات التصديق التوقف عن مزاولة نشاطه المرخص به أو التنازل عن الترخيص الصادر له أو الاندماج في جهة أخرى إلا بعد الحصول على موافقة كتابية مسبقة من الهيئة وفقا للإجراءات التي تحددها اللائحة."
+    },
+    {
+      "provision_ref": "art20",
+      "section": "20",
+      "title": "المادة العشرون:",
+      "content": "يتحمل مقدم خدمات التصديق مسؤولية ضمان صحة المعلومات المصدقة التي تضمنتها الشهادة وقت تسليمها وصحة العلاقة بين صاحب الشهادة وبياناتها الإلكترونية، وتقع عليه مسؤولية الضرر الذي يحدث لأي شخص وثق بحسن نية بصحة ذلك."
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "المادة الحادية والعشرون:",
+      "content": "يجب على مقدم خدمات التصديق إلغاء الشهادة أو إيقاف العمل بها عند طلب صاحبها ذلك أو في الحالات التي تحددها اللائحة. كما يجب عليه إبلاغ صاحب الشهادة فورا بالإلغاء أو الإيقاف وسبب ذلك، ورفع أي منهما فورا إذا انتفى السبب، ويكون مقدم خدمات التصديق مسؤولا عن الضرر الذي يحدث لأي شخص حسن النية نتيجة لعدم وقف العمل بالشهادة أو إلغائها."
+    },
+    {
+      "provision_ref": "art22",
+      "section": "22",
+      "title": "المادة الثانية والعشرون:",
+      "content": "1- يعد صاحب الشهادة مسؤولا عن سلامة منظومة التوقيع الإلكتروني الخاصة به وعن سريتها، ويعد صادرا منه كل استعمال لهذه المنظومة، وعليه التقيد بشروط استعمال شهادته وشروط إنشاء توقيعه الإلكتروني. 2- على صاحب الشهادة تقديم المعلومات صحيحة لمقدم خدمات التصديق أو لجميع الأطراف المطلوب منها أن تثق في توقيعه الإلكتروني. 3- على صاحب الشهادة إبلاغ مقدم خدمات التصديق بأي تغيير للمعلومات الواردة في الشهادة أو انتفاء سريتها. 4- لا يجوز لصاحب الشهادة التي أوقفت أو ألغيت إعادة استعمال عناصر التوقيع الإلكتروني للشهادة المعنية لدى مقدم خدمات تصديق آخر، وتوضح اللائحة الإجراءات اللازمة لمنع حدوث مثل هذا الأمر."
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "المادة الثالثة والعشرون:",
+      "content": "يعد مخالفة لأحكام هذا النظام؛ القيام بأي من الأعمال الآتية: 1 - ممارسة نشاط مقدم خدمات التصديق دون الحصول على ترخيص من الهيئة. 2 - استغلال مقدم خدمات التصديق المعلومات التي جمعها عن طالب الشهادة لأغراض أخرى خارج إطار أنشطة التصديق دون موافقة كتابية أو إلكترونية من صاحبها. 3 - إفشاء مقدم خدمات التصديق المعلومات التي اطلع عليها بحكم عمله ما لم يأذن له صاحب الشهادة - كتابيا أو إلكترونيا - بإفشائها أو في الحالات التي يسمح له بذلك نظامًا. 4 - قيام مقدم خدمات التصديق بتقديم بيانات كاذبة أو معلومات مضللة للهيئة أو أي سوء استخدام لخدمات التصديق. 5 - إنشاء شهادة رقمية أو توقيع إلكتروني أو نشرهما أو استعمالهما لغرض احتيالي أو لأي غرض غير مشروع. 6 - تزوير سجل إلكتروني أو توقيع إلكتروني أو شهادة تصديق رقمي أو استعمال أي من ذلك مع العلم بتزويره. 7 - تقديم معلومات خاطئة عمدا إلى مقدم خدمات التصديق أو تقديم معلومات خاطئة عمدا عن التوقيع الإلكتروني إلى أي من الأطراف الذين وثقوا بذلك التوقيع بموجب هذا النظام. 8 - الدخول على منظومة توقيع إلكتروني لشخص آخر دون تفويض صحيح أو نسخها أو إعادة تكوينها أو الاستيلاء عليها. 9 - انتحال شخص هوية شخصة آخر أو ادعاؤه زورًا بأنه مفوض عنه بطلب الحصول على شهادة التصديق الرقمي أو قبولها أو طلب تعليق العمل بها أو إلغائها. 10 - نشر شهادة مصادقة رقمية مزورة أو غير صحيحة أو ملغاة أو موقوف العمل بها أو وضعها في متناول شخص آخر مع العلم بحالها، ويستثنى من ذلك حق مقدم خدمات التصديق الوارد في الفقرة (4) من المادة (الثامنة عشرة)."
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "المادة الرابعة والعشرون:",
+      "content": "تم تعديل هذه المادة بموجب المرسوم الملكي رقم (م/57) بتاريخ 1 / 8 / 1436هـ، لتصبح بالنص الآتي: \" مع عدم الإخلال بأي عقوبة أشد ينص عليها نظام آخر، يعاقب كل من يرتكب أياً من الأعمال المنصوص عليها في المادة (الثالثة والعشرين) من هذا النظام بغرامة لا تزيد على (خمسة ملايين ريال) أو بالسجن مدة لا تزيد على (خمس سنوات) أو بهما معاً، ويجوز الحكم بمصادرة الأجهزة والمنظومات والبرامج المستخدمة في ارتكاب المخالفة. وللمحكمة المختصة أن تضمن حكمها النص على نشر ملخصه على نفقة المحكوم عليه في صحيفة محلية تصدر في مكان إقامته، أو في أقرب منطقة له إن لم يكن في مكان إقامته صحيفة محلية، أو بالطريقة التي تراها المحكمة مناسبة، وذلك بحسب نوع الجريمة المرتكبة، وجسامتها، وتأثيرها، على أن يكون النشر بعد اكتساب الحكم الصفة النهائية \"."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "المادة الخامسة والعشرون:",
+      "content": "تتولى الهيئة بالاستعانة والتنسيق مع الجهات المعنية مهمة الضبط والتفتيش على ما يقع من المخالفات المنصوص عليها في المادة (الثالثة والعشرين) من هذا النظام، وتعد محضرا بذلك، وللهيئة الحق في حجز الأجهزة والمنظومات والبرامج المستخدمة في ارتكاب المخالفة إلى حين البت فيها، ويحدد المحافظ بقرار منه أسماء الموظفين المختصين بهذه المهمة وكيفية إجراء الضبط والتفتيش."
+    },
+    {
+      "provision_ref": "art26",
+      "section": "26",
+      "title": "المادة السادسة والعشرون:",
+      "content": "يحال محضر ضبط المخالفات المنصوص عليه في المادة (الخامسة والعشرين) من هذا النظام - بعد مباشرة الهيئة لمهماتها - إلى هيئة التحقيق والادعاء العام لتتولى التحقيق والادعاء العام فيها وفقًا لنظامها أمام الجهة القضائية المختصة."
+    },
+    {
+      "provision_ref": "art27",
+      "section": "27",
+      "title": "المادة السابعة والعشرون:",
+      "content": "يحتفظ الشخص الذي لحقه ضرر - ناتج من المخالفات المنصوص عليها في هذا النظام أو عدم التقيد بأي من الضوابط والالتزامات الواردة فيه - بحقه في رفع دعوى أمام الجهة القضائية المختصة بطلب تعويضه عن الأضرار التي لحقت به."
+    },
+    {
+      "provision_ref": "art28",
+      "section": "28",
+      "title": "المادة الثامنة والعشرون:",
+      "content": "لا يخل تطبيق هذا النظام بالأحكام الواردة في الأنظمة ذات العلاقة، وخاصة ما يتعلق بحقوق الملكية الفكرية والاتفاقيات الدولية ذات الصلة التي تكون المملكة طرفا فيها."
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "المادة التاسعة والعشرون:",
+      "content": "يلتزم منسوبو الوزارة والهيئة والمركز بالمحافظة على سرية المعلومات الخاصة بمقدمي خدمات التصديق أو عملائهم التي اطلعوا عليها بسبب عملهم، وألا يفشوها لأي سبب كان إلا في الحالات المنصوص عليها نظامًا."
+    },
+    {
+      "provision_ref": "art30",
+      "section": "30",
+      "title": "المادة الثلاثون:",
+      "content": "يصدر الوزير اللائحة لهذا النظام، بناء على اقتراح من الهيئة وذلك خلال (مائة وعشرين) يوما من تاريخ صدور النظام."
+    },
+    {
+      "provision_ref": "art31",
+      "section": "31",
+      "title": "المادة الحادية والثلاثون:",
+      "content": "يعمل بهذا النظام بعد (مائة وعشرين) يوما من تاريخ نشره في الجريدة الرسمية."
     }
   ],
-  "definitions": [
-    {
-      "term": "التعامل الإلكتروني (Electronic Transaction)",
-      "definition": "A transaction conducted wholly or partly using electronic means.",
-      "source_provision": "art1"
-    },
-    {
-      "term": "التوقيع الإلكتروني (Electronic Signature)",
-      "definition": "Electronic data in the form of letters, numbers, codes, symbols, marks, sounds or other data in electronic form, which is created by the signatory or on behalf of the signatory, and which uniquely identifies the signatory and is logically associated with the document signed.",
-      "source_provision": "art1"
-    },
-    {
-      "term": "مزود خدمات التصديق (Certification Service Provider)",
-      "definition": "An entity that issues electronic signature certificates and confirms the authenticity of electronic signatures.",
-      "source_provision": "art1"
-    }
-  ]
+  "definitions": []
 }

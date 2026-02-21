@@ -3,77 +3,169 @@
   "type": "statute",
   "title": "نظام التجارة الإلكترونية",
   "title_en": "E-Commerce Law",
-  "short_name": "ECL",
+  "short_name": "E-Commerce Law",
   "status": "in_force",
-  "issued_date": "2019-07-09",
-  "in_force_date": "2019-07-09",
-  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/da68e9a5-f1e2-4b5f-8c3d-a9b800f0b7f3/1",
-  "description": "The Saudi E-Commerce Law, issued by Royal Decree M/126 dated 9 July 2019, regulates electronic commercial transactions in the Kingdom of Saudi Arabia. The Law establishes disclosure obligations for e-commerce providers, consumer rights in online transactions, requirements for online contracts, and mechanisms for consumer complaints, and is administered by the Ministry of Commerce.",
+  "issued_date": "2019-07-10",
+  "in_force_date": "2019-07-24",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/360de590-0286-4fa5-a243-aa9100c31979/1",
+  "description": "نظام التجارة الإلكترونية",
   "provisions": [
     {
       "provision_ref": "art1",
       "section": "1",
-      "title": "Article 1. Definitions and Scope",
-      "content": "For the purposes of this Law: 'E-Commerce' means the purchase and sale of goods, products, or the provision of services through electronic means, including the Internet; 'E-Commerce Provider' means any natural person, entity or establishment providing goods or services through e-commerce, even if not officially registered; 'Consumer' means any person who buys goods, products or services through e-commerce for personal or family use; 'Electronic Platform' means any website, application or other electronic means used to conclude e-commerce transactions; 'Digital Content' means data produced and supplied in digital form, including software, audio, video, games, and digital texts; 'Electronic Contract' means a contract concluded by electronic means through which a commitment to provide goods, services or digital content is established. This Law applies to all e-commerce activities undertaken within the Kingdom of Saudi Arabia, and to e-commerce providers operating from outside the Kingdom who offer goods or services to consumers residing in the Kingdom."
+      "title": "المادة الأولى",
+      "content": "لأغراض تطبيق أحكام هذا النظام، يقصد بالكلمات والعبارات الآتية -أينما وردت في النظام- المعاني المبينة أمام كل منها، ما لم يقتضِ السياق غير ذلك: النظام : نظام التجارة الإلكترونية. اللائحة : اللائحة التنفيذية للنظام. الوزارة : وزارة التجارة والاستثمار. الوزير : وزير التجارة والاستثمار. التجارة الإلكترونية : نشاط ذو طابع اقتصادي يباشره موفر الخدمة والمستهلك -بصورة كلية أو جزئية- بوسيلة إلكترونية؛ من أجل بيع منتجات أو تقديم خدمات أو الإعلان عنها أو تبادل البيانات الخاصة بها. البيانات : كل بيان مهما كان مصدره أو شكله، يستخدم بشكل مباشر أو غير مباشر عند التعامل بالتجارة الإلكترونية. الشخص : الشخص ذو الصفة الطبيعية أو الاعتبارية. التاجر : الشخص المقيد بالسجل التجاري الذي يزاول التجارة الإلكترونية. الممارس : الشخص غير المقيد بالسجل التجاري الذي يزاول التجارة الإلكترونية. موفر الخدمة : التاجر أو الممارس. المستهلك : الشخص الذي يتعامل بالتجارة الإلكترونية رغبةً في الحصول على المنتجات أو الخدمات التي يوفرها موفر الخدمة. العقد : الاتفاق الذي يُبرم إلكترونيًّا بين الأطراف الذين يتعاملون بالتجارة الإلكترونية. المحل الإلكتروني : منصة إلكترونية تتيح لموفر الخدمة عرض منتج أو بيعه، أو تقديم خدمة، أو الإعلان عنها أو تبادل البيانات الخاصة بها. جهات توثيق المحلات الإلكترونية : الجهات التي ترخص لها الوزارة بتولي عملية توثيق المحلات الإلكترونية. الخطاب الإلكتروني : بيان أو إعلان أو إشعار أو طلب أو عرض يوجهه أطراف العقد بوسيلة إلكترونية في مرحلة التفاوض في شأن العقد أو أثناء تنفيذه. الإعلان الإلكتروني : كل دعاية بوسيلة إلكترونية يقوم بها موفر الخدمة، تهدف إلى تشجيع بيع منتج أو تقديم خدمة بأسلوب مباشر أو غير مباشر. وسيلة إلكترونية : أي تقنية استعمال من وسائل تقنية الاتصالات والمعلومات سواء كانت كهربائية، أو كهرومغناطيسية، أو بصرية، أو ضوئية أو رقمية أو أي شكل آخر من وسائل التقنية المشابهة."
     },
     {
       "provision_ref": "art2",
       "section": "2",
-      "title": "Article 2. Registration and Disclosure Obligations",
-      "content": "E-commerce providers operating in Saudi Arabia shall: (1) register their e-commerce activity with the Ministry of Commerce through the unified commercial registration system; (2) display on their electronic platform: (a) their commercial registration number; (b) the VAT registration number, where applicable; (c) the full legal name and physical address of the provider; (d) contact information including telephone number and electronic mail address; (e) a description of the goods or services offered; (f) the total price including all taxes and charges; (g) delivery terms and timelines; (h) the refund and returns policy; (i) the dispute resolution process available to consumers. E-commerce providers shall not engage in misleading commercial practices, including false claims about products, fabricated reviews, or deceptive pricing strategies. The Ministry of Commerce shall maintain a public register of licensed e-commerce providers."
+      "title": "المادة الثانية",
+      "content": "تسري أحكام النظام على كلٍّ ممن يأتي: أ- موفر الخدمة داخل المملكة. ب- الممارس خارج المملكة الذي يقدم منتجات أو خدمات داخل المملكة من خلال عرضها بطريقة تمكن المستهلك من الوصول إليها. ج- المستهلك."
     },
     {
       "provision_ref": "art3",
       "section": "3",
-      "title": "Article 3. Formation of Electronic Contracts",
-      "content": "An electronic contract shall be deemed concluded when the consumer's acceptance of the offer of the e-commerce provider is received by the provider. E-commerce providers shall: (1) clearly present the essential terms of the transaction to the consumer before the consumer confirms the order; (2) clearly indicate the commitment the consumer undertakes by placing the order, including the payment obligation; (3) provide an order confirmation electronically without undue delay after the order is placed, including: the order number; a description of the goods or services ordered; the total price; the delivery address; and the estimated delivery date. E-commerce providers shall not modify unilaterally the essential terms of a concluded contract without the consumer's written consent. Electronic contracts shall have the same legal validity as paper contracts. An e-commerce provider may not make the conclusion of a contract conditional on acceptance of terms unrelated to the subject matter of the transaction."
+      "title": "المادة الثالثة",
+      "content": "- يقصد بمقر عمل موفر الخدمة لأغراض تطبيق أحكام النظام ما يأتي: أ- بالنسبة إلى التاجر، يكون مقر عمله عنوانه المحدد في سجله التجاري. ب- بالنسبة إلى الممارس، يكون مقر عمله المكان الذي يحدده في محله الإلكتروني، ما لم يثبت غير ذلك. - إذا كان لموفر الخدمة أكثر من مقر عمل ولم يحدد أحدها، يكون مقر العمل المعتد به هو المقر الأوثق صلة بالعقد، مع مراعاة الظروف التي كان الأطراف على علم بها أو توقعوها في أي وقت قبل إبرام العقد أو عند إبرامه. - إذا لم يكن للممارس ذي الشخصية الطبيعية مقر عمل، يكون المقر المعتد به محل إقامته النظامي، وتحدد اللائحة المعايير والشروط اللازمة لذلك. - لا يعد المكان مقر عمل لمجرد أنه يضم المعدات والتقنية الداعمة لنظام المعلومات الذي يستخدمه موفر الخدمة في إبرام العقد، أو يمكن فيه لأطراف أخرى أن تصل إلى نظام المعلومات المعني. - استخدام موفر الخدمة اسم نطاق أو عنوان بريد إلكتروني ذا صلة بدولة معينة لا ينشئ قرينة على أن مقر عمله يوجد في تلك الدولة."
     },
     {
       "provision_ref": "art4",
       "section": "4",
-      "title": "Article 4. Consumer Rights and Returns",
-      "content": "Consumers shall have the right to return goods purchased through e-commerce and receive a full refund within 7 days of receipt of the goods, without giving any reason, provided that: (1) the goods are returned in their original condition and packaging; (2) goods that are subject to a health or hygiene risk once opened have not been opened. The 7-day return period shall not apply to: (1) goods made to the consumer's specific specifications; (2) perishable goods; (3) digital content supplied on a non-tangible medium and whose delivery has commenced with the consumer's express consent. Refunds shall be made using the same method of payment used by the consumer within 5 working days of receipt of the returned goods. Where goods delivered are defective or do not conform to the description, the consumer shall be entitled to demand replacement, repair, or refund regardless of the return period. E-commerce providers shall publish their returns policy in a clear and accessible manner on their electronic platform."
+      "title": "المادة الرابعة",
+      "content": "إذا حدث خطأ من المستهلك في خطاب إلكتروني ولم تتح له تقنية الاتصال تداركه، فله أن يبلغ موفر الخدمة بموضع الخطأ فور علمه به خلال المهلة التي تحددها اللائحة، ويعد هذا الإبلاغ تداركاً للخطأ إن لم يكن قد استفاد من منتج موفر الخدمة أو خدمته أو حصل على منفعة من أي منهما."
     },
     {
       "provision_ref": "art5",
       "section": "5",
-      "title": "Article 5. Protection of Consumer Data in E-Commerce",
-      "content": "E-commerce providers shall: (1) collect and process personal data of consumers only in accordance with the Personal Data Protection Law and only to the extent necessary for completing the transaction and providing the agreed service; (2) not share consumer personal data with third parties without the consumer's express consent, except where required by law; (3) implement appropriate technical and organisational measures to protect consumer personal data, including payment data, from unauthorised access, loss or theft; (4) comply with the requirements of the Saudi Personal Data Protection Law (PDPL) in relation to consumer data; (5) not store complete payment card numbers without compliance with applicable PCI DSS or equivalent standards; (6) notify consumers of any breach of security affecting their personal data in accordance with the PDPL notification requirements. E-commerce providers shall publish a privacy policy describing the categories of data collected, the purposes of collection, the data retention periods, and the rights of consumers regarding their data."
+      "title": "المادة الخامسة",
+      "content": "- ما لم يتفق موفر الخدمة والمستهلك على مدة أخرى، ودون إخلال بما يقضي به نظام آخر، لا يجوز لموفر الخدمة الاحتفاظ ببيانات المستهلك الشخصية أو اتصالاته الإلكترونية إلاَّ في المدة التي تقتضيها طبيعة التعامل بالتجارة الإلكترونية، ويجب اتخاذ الوسائل اللازمة لحمايتها والحفاظ على خصوصيتها خلال مدة احتفاظه بها، ويكون موفر الخدمة مسؤولاً عن حماية البيانات الشخصية للمستهلك أو اتصالاته الإلكترونية التي تكون في عهدته أو تحت سيطرة الجهات التي يتعامل معها أو مع وكلائها. وتحدد اللائحة البيانات الشخصية التي يجب المحافظة على خصوصيتها وفقاً لأهميتها. - لا يجوز لموفر الخدمة استعمال بيانات المستهلك الشخصية أو اتصالاته الإلكترونية لأغراض غير مصرح لها أو مسموح بها، أو الإفصاح عنها لجهة أخرى، بمقابل أو بدون مقابل، إلا بموافقة المستهلك الذي تتعلق به البيانات الشخصية أو إذا اقتضت الأنظمة ذلك."
     },
     {
       "provision_ref": "art6",
       "section": "6",
-      "title": "Article 6. Electronic Payment and Financial Security",
-      "content": "Payments in e-commerce shall be effected through electronic payment methods licensed by the Saudi Central Bank (SAMA). E-commerce providers shall: (1) not store payment card credentials without the consumer's consent and without compliance with applicable payment security standards; (2) use secure, encrypted channels for all payment transactions; (3) not impose additional fees for the use of standard payment methods beyond those disclosed to the consumer before checkout; (4) provide consumers with a receipt or confirmation of payment. E-commerce providers shall be liable to consumers for financial losses arising from unauthorised transactions processed through their platform due to the provider's failure to implement adequate security measures. Fraudulent e-commerce transactions shall be subject to the Anti-Cyber Crime Law. SAMA shall establish specific cybersecurity requirements for e-commerce payment processing, with which all e-commerce providers shall comply."
+      "title": "المادة السادسة",
+      "content": "على موفر الخدمة الإفصاح في محله الإلكتروني عن البيانات الآتية: أ- اسمه أو أي بيان مميز له، وعنوانه، ما لم يكن مسجلاً لدى إحدى جهات توثيق المحلات الإلكترونية. ب- وسائل الاتصال به. ج- اسم السجل المقيد فيه ورقمه إن كان مقيداً في سجل تجاري أو سجل آخر متاح للعموم. د- البيانات الأخرى التي تحددها اللائحة."
     },
     {
       "provision_ref": "art7",
       "section": "7",
-      "title": "Article 7. E-Commerce Platforms and Marketplace Operators",
-      "content": "Operators of electronic platforms that enable third-party sellers to offer goods or services to consumers ('marketplaces') shall: (1) verify the commercial registration of sellers before allowing them to list products on the platform; (2) clearly disclose to consumers the identity of the actual seller; (3) ensure that product listings on the platform comply with applicable laws; (4) implement a complaints mechanism for consumers regarding purchases made through the platform; (5) cooperate with the Ministry of Commerce in investigations of violations by sellers on the platform; (6) remove listings that are found to be in violation of this Law upon notification by the Ministry. Marketplace operators shall bear joint and several liability with sellers for violations where the marketplace directly participated in the violation or where the consumer could not reasonably have identified the actual seller. The Ministry of Commerce may establish specific obligations for large marketplace operators based on the number of consumers and transactions processed."
+      "title": "المادة السابعة",
+      "content": "يلتزم موفر الخدمة بتقديم بيان للمستهلك يوضح فيه أحكام العقد المزمع إبرامه وشروطه, على أن يشتمل البيان على ما يأتي: أ- الإجراءات الواجب اتخاذها لإبرام العقد. ب- البيانات المتعلقة بموفر الخدمة. ج- الخصائص الأساسية للمنتجات أو الخدمات محل العقد. د- إجمالي السعر شاملاً جميع الرسوم أو الضرائب أو المبالغ الإضافية المتعلقة بالتسليم إن وجدت. هـ- ترتيبات الدفع والتسليم والتنفيذ. و- بيانات الضمان إن وجد. ز- البيانات الأخرى التي تحددها اللائحة. وتحدد اللائحة الضوابط اللازمة للبيانات التي يلتزم موفر الخدمة بتقديمها وفقاً لطبيعة كل عملية."
     },
     {
       "provision_ref": "art8",
       "section": "8",
-      "title": "Article 8. Enforcement and Sanctions",
-      "content": "The Ministry of Commerce shall supervise compliance with this Law and shall have the power to: (1) inspect e-commerce providers' records, systems and electronic platforms; (2) issue warnings and correction orders; (3) impose administrative fines for violations; (4) refer cases involving criminal conduct to the Bureau of Investigation and Public Prosecution. Administrative fines for violations: failure to register with the Ministry — fine of up to SAR 500,000; failure to display required information — fine of up to SAR 100,000 per violation; failure to comply with consumer return rights — fine of up to SAR 500,000; data protection violations — additional fines under the PDPL. In cases of repeated violations, the Ministry may order the suspension of e-commerce activity for up to 6 months. Violations resulting in systematic consumer harm may be referred to the competent court for criminal prosecution. Consumers who have suffered harm due to violations of this Law may file complaints with the Ministry of Commerce through the Unified Contact Centre (1900)."
+      "title": "المادة الثامنة",
+      "content": "على موفر الخدمة تقديم فاتورة إلى المستهلك بعد إبرام العقد مبين فيها تكاليف شراء كل منتج أو تقديم خدمة، وإجمالي السعر شاملاً جميع الرسوم أو الضرائب أو المبالغ الإضافية المتعلقة بالتسليم إن وجدت، وتاريخ التسليم ومكانه، وذلك وفق ما تحدده اللائحة."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "المادة التاسعة",
+      "content": "على موفر الخدمة الذي يمارس مهنة تخضع لتنظيم معين، وتتطلب ترخيصاً أو تصريحاً بممارستها، الإفصاح عما يأتي: أ- الجهة المسجل لديها، وبيانات الترخيص أو التصريح الصادر عنها. ب- اللقب المهني المعمول به، والدولة التي منحته. ج- البيانات الأخرى التي تحددها اللائحة."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "المادة العاشرة",
+      "content": "- يُعد الإعلان الإلكتروني من الوثائق التعاقدية المكملة للعقود وملزمة لأطراف العقد. - يجب أن يتضمن الإعلان الإلكتروني ما يأتي: أ- اسم المنتج أو الخدمة المعلن عنها. ب- اسم موفر الخدمة، وأي بيان مميز له، ما لم يكن مسجلاً لدى إحدى جهات توثيق المحلات الإلكترونية. ج- وسائل الاتصال بموفر الخدمة. د- البيانات الأخرى التي تحددها اللائحة."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "المادة الحادية عشرة",
+      "content": "يحظر تضمين الإعلان الإلكتروني ما يأتي: أ- عرضاً أو بياناً أو ادعاء كاذباً أو مصوغاً بعبارات من شأنها أن تؤدي بصورة مباشرة أو غير مباشرة إلى خداع المستهلك أو تضليله. ب- شعاراً أو علامة تجارية لا يملك موفر الخدمة حق استعمالها، أو علامة مقلدة."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "المادة الثانية عشرة",
+      "content": "مع عدم الإخلال بإيقاع العقوبات الواردة في المادة (الثامنة عشرة) من النظام، إذا ثبت أن موفر الخدمة خالف أيًّا من أحكام الفقرة (2) من المادة (العاشرة) أو المادة (الحادية عشرة) من النظام، فللوزارة إلزامه بإزالة المخالفة أو بسحب الإعلان خلال يوم واحد من تاريخ إبلاغه."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "المادة الثالثة عشرة",
+      "content": "- مع عدم الإخلال بأحكام الضمان الاتفاقية والنظامية، للمستهلك -في غير الحالات المنصوص عليها في الفقرة (2) من هذه المادة- فسخ العقد خلال الأيام السبعة التالية لتاريخ تسلمه المنتج أو لتاريخ التعاقد على تقديم الخدمة، ما دام أنه لم يستخدم منتج موفر الخدمة أو لم يستفد من خدمته أو لم يحصل على منفعة من أيّ منهما، وفي هذه الحالة يتحمل المستهلك التكاليف المترتبة على فسخ العقد إلا إذا اتفق أطراف العقد على غير ذلك. - لا يحق للمستهلك فسخ العقد بموجب الفقرة (1) من هذه المادة في الحالات الآتية: أ- إذا كان محل العقد منتجات مصنعة بناء على طلب المستهلك أو وفقاً لمواصفات حددها، ويستثنى من ذلك المنتجات التي بها عيب أو غير المطابقة للمواصفات المتفق عليها. ب- إذا كان محل العقد أشرطة فيديو أو أسطوانات أو أقراصاً مدمجة أو برامج معلوماتية جرى استخدامها. ج- إذا كان العقد يتناول شراء صحف أو مجلات أو منشورات أو كتب. د- إذا ظهر عيب في المنتج بسبب سوء حيازة المستهلك. هـ- إذا كان العقد يتناول تقديم خدمات إيواء أو نقل أو إطعام. و- إذا كان العقد يتناول شراء منتجات تحميل البرامج عبر الإنترنت، ويستثنى من ذلك البرامج التي بها عيب يحول دون إتمام التحميل أو غير المطابقة لما اتفق عليه. ز- الحالات الأخرى التي تحددها اللائحة وفق ما تستدعيه طبيعة المنتجات أو الخدمات."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "المادة الرابعة عشرة",
+      "content": "- ما لم يتفق موفر الخدمة والمستهلك على مدة أخرى لتسليم محل العقد أو تنفيذه، يحق للمستهلك فسخ العقد إذا تأخر موفر الخدمة عن التسليم أو التنفيذ مدة تزيد على (خمسة عشر) يوماً من تاريخ إبرام العقد أو عن الموعد المتفق عليه، وله استرداد ما دفعه بمقتضى العقد مقابل المنتج أو الخدمة أو غير ذلك من تكاليف ترتبت على هذا التأخير، ما لم يكن التأخير بسبب قوة قاهرة. - دون إخلال بما ورد في الفقرة (1) من هذه المادة، يلتزم موفر الخدمة بإبلاغ المستهلك عن أي تأخير متوقع أو صعوبات يكون لها تأثير جوهري في تسليم محل العقد أو تنفيذه."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "المادة الخامسة عشرة",
+      "content": "على التاجر أن يُقيِّد محله الإلكتروني في السجل التجاري وفقاً لنظام السجل التجاري، وتحدد اللائحة الضوابط اللازمة لذلك."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "المادة السادسة عشرة",
+      "content": "تشرف الوزارة على قطاع التجارة الإلكترونية، وتصدر -بحسب الحاجة- القواعد اللازمة لتنظيمه بما يعزز دور التجارة الإلكترونية ويحمي سلامة التعاملات بها، ويشمل ذلك تنظيم ما يأتي: أ- جهات توثيق المحلات الإلكترونية. ب- المنصات الإلكترونية التي تؤدي دور الوساطة بين موفر الخدمة والمستهلك."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "المادة السابعة عشرة",
+      "content": "إذا خالف موفر الخدمة أيًّا من أحكام النظام أو اللائحة، فللوزير -أو من ينيبه- أن يتخذ في الحالات العاجلة والضرورية قراراً بحجب المحل الإلكتروني -بالتنسيق مع الجهة المختصة- جزئيًّا أو كليًّا إلى أن تتم معالجة المخالفة أو البت فيها أيهما أسبق، وإحالة المخالفة إلى اللجنة المنصوص عليها في الفقرة (1) من المادة (التاسعة عشرة) من النظام خلال مدة أقصاها (ثلاثة) أيام اعتباراً من حجب المحل الإلكتروني؛ على أن تتخذ اللجنة قرارها في شأن المخالفة خلال مدة لا تتجاوز (عشرة) أيام اعتباراً من تاريخ الإحالة، وللجنة وقف قرار حجب المحل الإلكتروني جزئيًّا أو كليًّا إذا رأت مسوغاً لذلك."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "المادة الثامنة عشرة",
+      "content": "مع عدم الاخلال بأي عقوبة أشد ينص عليها نظام آخر، يعاقب كل من يخالف أيًّا من أحكام النظام أو اللائحة بواحدة أو أكثر من العقوبات الآتية: أ- الإنذار. ب- غرامة لا تزيد على (1.000.000) مليون ريال. ج- إيقاف مزاولة التجارة الإلكترونية مؤقتًا أو دائمًا. د- حجب المحل الإلكتروني -بالتنسيق مع الجهة المختصة- جزئيًّا أو كليًّا، مؤقتًا أو دائمًا."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "المادة التاسعة عشرة",
+      "content": "- تكوّن بقرار من الوزير لجنة (أو أكثر) تتولى النظر في مخالفات أحكام النظام أو اللائحة وتوقيع العقوبات المنصوص عليها في المادة (الثامنة عشرة) من النظام، على ألاّ يقل عدد أعضائها عن (ثلاثة) ويكون من بينهم مستشار نظامي على الأقل، وتصدر قرارات اللجنة بالأغلبية. ويصدر الوزير بقرار منه قواعد عمل اللجنة ويحدد مكافآت أعضائها. - يراعى في اختيار العقوبة جسامة المخالفة وتكرارها وحجم نشاط موفر الخدمة والضرر الذي وقع على الآخرين بسببها."
+    },
+    {
+      "provision_ref": "art20",
+      "section": "20",
+      "title": "المادة العشرون",
+      "content": "يجوز لمن صدر ضده أي قرار بناءً على النظام الاعتراض عليه أمام المحكمة الإدارية وفقاً لأحكام نظام المرافعات أمام ديوان المظالم."
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "المادة الحادية والعشرون",
+      "content": "يجوز تضمين القرار الصادر بتحديد العقوبة النص على نشر منطوقه على نفقة المخالف في صحيفة (أو أكثر) من الصحف المحلية التي تصدر في محل إقامته، أو في أي وسيلة أخرى مناسبة، وذلك بحسب نوع المخالفة المرتكبة وجسامتها وتأثيرها، على أن يكون النشر بعد تحصن القرار بمضي المدة المحددة نظاماً أو كان الحكم الصادر في شأنه مكتسباً للصفة القطعية."
+    },
+    {
+      "provision_ref": "art22",
+      "section": "22",
+      "title": "المادة الثانية والعشرون",
+      "content": "تتولى المحكمة المختصة الفصل في المنازعات، بما في ذلك دعاوى المطالبة بالتعويض الناشئة عن تطبيق أحكام النظام"
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "المادة الثالثة والعشرون",
+      "content": "يتولى موظفون -يصدر بتعيينهم قرار من الوزير- أعمال الرقابة والتفتيش على تعاملات التجارة الإلكترونية وضبط مخالفات أحكام النظام واللائحة."
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "المادة الرابعة والعشرون",
+      "content": "فيما لم يرد في شأنه نص خاص في النظام، تسري على التجارة الإلكترونية أحكام نظام التعاملات الإلكترونية والأنظمة الأخرى ذات الصلة."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "المادة الخامسة والعشرون",
+      "content": "يصدر الوزير اللائحة خلال (تسعين) يوماً من تاريخ نشر النظام في الجريدة الرسمية, ويعمل بها من تاريخ العمل به."
+    },
+    {
+      "provision_ref": "art26",
+      "section": "26",
+      "title": "المادة السادسة والعشرون",
+      "content": "يعمل بالنظام بعد مضي (تسعين) يوماً من تاريخ نشره في الجريدة الرسمية."
     }
   ],
-  "definitions": [
-    {
-      "term": "التجارة الإلكترونية (E-Commerce)",
-      "definition": "The purchase and sale of goods, products, or the provision of services through electronic means, including the Internet.",
-      "source_provision": "art1"
-    },
-    {
-      "term": "مزود التجارة الإلكترونية (E-Commerce Provider)",
-      "definition": "Any natural person, entity or establishment providing goods or services through e-commerce, even if not officially registered.",
-      "source_provision": "art1"
-    },
-    {
-      "term": "المستهلك (Consumer)",
-      "definition": "Any person who buys goods, products or services through e-commerce for personal or family use.",
-      "source_provision": "art1"
-    }
-  ]
+  "definitions": []
 }

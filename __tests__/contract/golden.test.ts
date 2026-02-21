@@ -27,14 +27,14 @@ describe('Database integrity', () => {
     expect(row.cnt).toBe(10);
   });
 
-  it('should have at least 77 provisions', () => {
+  it('should have at least 300 provisions', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(77);
+    expect(row.cnt).toBeGreaterThanOrEqual(300);
   });
 
   it('should have FTS index', () => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'data'"
+      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'البيانات'"
     ).get() as { cnt: number };
     expect(row.cnt).toBeGreaterThanOrEqual(0);
   });
@@ -43,7 +43,7 @@ describe('Database integrity', () => {
 describe('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
-      "SELECT content FROM legal_provisions WHERE document_id = 'sa-anti-cybercrime' AND section = '1'"
+      "SELECT content FROM legal_provisions WHERE document_id = 'sa-pdpl' AND section = '1'"
     ).get() as { content: string } | undefined;
     expect(row).toBeDefined();
     expect(row!.content.length).toBeGreaterThan(50);
@@ -53,7 +53,7 @@ describe('Article retrieval', () => {
 describe('Search', () => {
   it('should find results via FTS search', () => {
     const rows = db.prepare(
-      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'data'"
+      "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'البيانات'"
     ).get() as { cnt: number };
     expect(rows.cnt).toBeGreaterThan(0);
   });
@@ -69,7 +69,7 @@ describe('Negative tests', () => {
 
   it('should return no results for invalid section', () => {
     const row = db.prepare(
-      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'sa-anti-cybercrime' AND section = '999ZZZ-INVALID'"
+      "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'sa-pdpl' AND section = '999ZZZ-INVALID'"
     ).get() as { cnt: number };
     expect(row.cnt).toBe(0);
   });
@@ -79,14 +79,15 @@ describe('All 10 laws are present', () => {
   const expectedDocs = [
     'sa-anti-cybercrime',
     'sa-anti-money-laundering',
-    'sa-cloud-computing',
-    'sa-critical-infrastructure-ecc',
+    'sa-counter-terrorism-financing',
+    'sa-credit-information',
+    'sa-cst-regulation',
+    'sa-dga-regulation',
     'sa-ecommerce',
     'sa-electronic-transactions',
-    'sa-nca-cybersecurity',
     'sa-pdpl',
-    'sa-sdaia-governance',
-    'sa-telecommunications',  ];
+    'sa-telecommunications-ict',
+  ];
 
   for (const docId of expectedDocs) {
     it(`should contain document: ${docId}`, () => {

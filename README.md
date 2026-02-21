@@ -23,7 +23,7 @@ npx @ansvar/saudi-law-mcp
 
 ## Data Sources
 
-AI-generated seed data covering 10 key cybersecurity and data protection laws. Full official ingestion pending.
+Official legislation ingested from the Saudi Bureau of Experts portal (`laws.boe.gov.sa`) covering 10 high-priority cyber/data/ICT laws and regulations.
 
 ## License
 

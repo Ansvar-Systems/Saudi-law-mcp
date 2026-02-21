@@ -1,37 +1,16 @@
 /**
- * HTML parser for Saudi legislation from the Sejm ELI API (api.sejm.gov.pl).
- *
- * Parses the structured HTML served by the ELI text endpoint into seed JSON.
- * The HTML structure uses:
- *
- * - <div class="unit unit_chpt" id="chpt_N"> for chapters (Rozdział)
- * - <div class="unit unit_arti" id="chpt_N-arti_M"> for articles (Art.)
- * - <h3> inside articles for article number (Art. N.)
- * - <div class="unit unit_pass"> for numbered paragraphs (ustępy)
- * - <div class="unit unit_pint"> for numbered points (punkty)
- * - <div data-template="xText" class="pro-text"> for text content
- *
- * Saudi legislation references: Dz.U. YYYY poz. NNNN
- * API endpoint: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
+ * Parser utilities for Saudi legislation pages served by laws.boe.gov.sa.
  */
 
-export interface ActIndexEntry {
+export interface SaudiLawTarget {
+  order: number;
+  file_stem: string;
   id: string;
-  title: string;
-  titleEn: string;
-  shortName: string;
-  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issuedDate: string;
-  inForceDate: string;
-  /** ISAP display address, e.g. "Dz.U. 2018 poz. 1000" */
-  dziennikRef: string;
-  /** Year of publication in Dziennik Ustaw */
-  year: number;
-  /** Position number (poz.) in Dziennik Ustaw */
-  poz: number;
-  /** Human-readable URL on ISAP */
-  url: string;
-  description?: string;
+  law_id: string;
+  short_name: string;
+  title_ar: string;
+  title_en_fallback?: string;
+  description: string;
 }
 
 export interface ParsedProvision {
@@ -48,401 +27,597 @@ export interface ParsedDefinition {
   source_provision?: string;
 }
 
-export interface ParsedAct {
+export interface ParsedLawSeed {
   id: string;
   type: 'statute';
   title: string;
-  title_en: string;
+  title_en?: string;
   short_name: string;
   status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issued_date: string;
-  in_force_date: string;
+  issued_date?: string;
+  in_force_date?: string;
   url: string;
   description?: string;
   provisions: ParsedProvision[];
   definitions: ParsedDefinition[];
 }
 
-/**
- * Strip HTML tags and decode common entities, normalising whitespace.
- */
-function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
+const EXACT_ORDINALS = new Map<string, number>([
+  ['الأولى', 1],
+  ['الاولى', 1],
+  ['الأول', 1],
+  ['الاول', 1],
+  ['الثانية', 2],
+  ['الثالثة', 3],
+  ['الرابعة', 4],
+  ['الخامسة', 5],
+  ['السادسة', 6],
+  ['السابعة', 7],
+  ['الثامنة', 8],
+  ['التاسعة', 9],
+  ['العاشرة', 10],
+  ['الحادية عشرة', 11],
+  ['الحادي عشر', 11],
+  ['الثانية عشرة', 12],
+  ['الثالثة عشرة', 13],
+  ['الرابعة عشرة', 14],
+  ['الخامسة عشرة', 15],
+  ['السادسة عشرة', 16],
+  ['السابعة عشرة', 17],
+  ['الثامنة عشرة', 18],
+  ['التاسعة عشرة', 19],
+  ['العشرون', 20],
+  ['الثلاثون', 30],
+  ['الاربعون', 40],
+  ['الأربعون', 40],
+  ['الخمسون', 50],
+  ['الستون', 60],
+  ['السبعون', 70],
+  ['الثمانون', 80],
+  ['التسعون', 90],
+  ['المائة', 100],
+  ['المئة', 100],
+]);
+
+const ONES = new Map<string, number>([
+  ['الأولى', 1],
+  ['الاولى', 1],
+  ['الحادية', 1],
+  ['الأول', 1],
+  ['الاول', 1],
+  ['الثانية', 2],
+  ['الثالثة', 3],
+  ['الرابعة', 4],
+  ['الخامسة', 5],
+  ['السادسة', 6],
+  ['السابعة', 7],
+  ['الثامنة', 8],
+  ['التاسعة', 9],
+]);
+
+const TENS = new Map<string, number>([
+  ['العشرون', 20],
+  ['الثلاثون', 30],
+  ['الاربعون', 40],
+  ['الأربعون', 40],
+  ['الخمسون', 50],
+  ['الستون', 60],
+  ['السبعون', 70],
+  ['الثمانون', 80],
+  ['التسعون', 90],
+]);
+
+function toAsciiDigits(input: string): string {
+  return input
+    .replace(/[٠-٩]/g, ch => String(ch.charCodeAt(0) - 1632))
+    .replace(/[۰-۹]/g, ch => String(ch.charCodeAt(0) - 1776));
+}
+
+function decodeHtmlEntities(input: string): string {
+  return input
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
-    .replace(/&shy;/g, '')
+    .replace(/&ndash;/g, '–')
+    .replace(/&mdash;/g, '—')
+    .replace(/&nbsp/g, ' ')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(parseInt(dec, 10)));
+}
+
+function stripTags(input: string): string {
+  return input.replace(/<[^>]+>/g, ' ');
+}
+
+function normalizeWhitespace(input: string): string {
+  return input
     .replace(/\u00a0/g, ' ')
+    .replace(/[\u200E\u200F\u202A-\u202E]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-/**
- * Find the chapter heading (Rozdział) for a given article position.
- * Searches backwards from the article position for the nearest chapter div.
- */
-function findChapterHeading(html: string, articlePos: number): string | undefined {
-  const beforeArticle = html.substring(Math.max(0, articlePos - 10000), articlePos);
+function htmlToText(html: string): string {
+  const withBreaks = html
+    .replace(/<br\s*\/?\s*>/gi, '\n')
+    .replace(/<\/p>/gi, '\n')
+    .replace(/<\/li>/gi, '\n')
+    .replace(/<li[^>]*>/gi, '\n- ')
+    .replace(/<\/ol>/gi, '\n')
+    .replace(/<\/ul>/gi, '\n');
 
-  // Look for the last chapter heading: Rozdział N ... Title
-  // Pattern in ISAP HTML: <div class="unit unit_chpt"...> <h3> Rozdział N ... Title </h3>
-  const chapterMatches = [
-    ...beforeArticle.matchAll(/Rozdzia[łl]\s*&nbsp;\s*(\d+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
+  const decoded = decodeHtmlEntities(withBreaks);
+  const stripped = stripTags(decoded);
 
-  if (chapterMatches.length > 0) {
-    const last = chapterMatches[chapterMatches.length - 1];
-    const chapterNum = last[1].trim();
-    // Try to find the title in subsequent <P> or <SPAN> tags
-    const afterChapter = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterChapter.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
+  return normalizeWhitespace(stripped
+    .replace(/\n\s*\n/g, '\n')
+    .replace(/\s*\n\s*/g, '\n')
+    .replace(/\n{3,}/g, '\n\n'));
+}
 
-    return title
-      ? `Rozdział ${chapterNum} - ${title}`
-      : `Rozdział ${chapterNum}`;
+function escapeRegExp(input: string): string {
+  return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function extractSystemInfoValue(html: string, labelAr: string): string | undefined {
+  const pattern = new RegExp(
+    `<label[^>]*>\\s*${escapeRegExp(labelAr)}\\s*<\\/label>[\\s\\S]*?<span>\\s*([\\s\\S]*?)\\s*<\\/span>`,
+    'i',
+  );
+
+  const match = html.match(pattern);
+  if (!match) return undefined;
+
+  return normalizeWhitespace(htmlToText(match[1]));
+}
+
+function parseGregorianDate(input: string | undefined): string | undefined {
+  if (!input) return undefined;
+  const normalized = toAsciiDigits(input);
+
+  const directMatch = normalized.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  if (!directMatch) return undefined;
+
+  const day = directMatch[1];
+  const month = directMatch[2];
+  const year = directMatch[3];
+  return `${year}-${month}-${day}`;
+}
+
+function mapStatus(raw: string | undefined): ParsedLawSeed['status'] {
+  if (!raw) return 'in_force';
+
+  const value = raw.toLowerCase();
+
+  if (value.includes('لاغ') || value.includes('ملغ') || value.includes('repeal')) {
+    return 'repealed';
   }
 
-  // Also check for Dział (Division) used in larger codes
-  const dzialMatches = [
-    ...beforeArticle.matchAll(/Dzia[łl]\s*&nbsp;\s*([IVXLCDM]+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (dzialMatches.length > 0) {
-    const last = dzialMatches[dzialMatches.length - 1];
-    const dzialNum = last[1].trim();
-    const afterDzial = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterDzial.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Dział ${dzialNum} - ${title}`
-      : `Dział ${dzialNum}`;
+  if (value.includes('مسودة') || value.includes('draft') || value.includes('not yet')) {
+    return 'not_yet_in_force';
   }
+
+  if (value.includes('تحت') || value.includes('amend')) {
+    return 'amended';
+  }
+
+  return 'in_force';
+}
+
+function extractLawTitle(html: string): string | undefined {
+  const match = html.match(/<h1 class="system_title mb-5">\s*([\s\S]*?)\s*<\/h1>/i);
+  if (!match) return undefined;
+  return normalizeWhitespace(htmlToText(match[1]));
+}
+
+function extractBriefDescription(html: string): string | undefined {
+  const match = html.match(/<div class="col system_brief">[\s\S]*?<div class="HTMLContainer">([\s\S]*?)<\/div>/i);
+  if (!match) return undefined;
+
+  const text = normalizeWhitespace(htmlToText(match[1]));
+  if (!text) return undefined;
+
+  if (text.length <= 900) return text;
+  return text.slice(0, 900).trim();
+}
+
+function normalizeOrdinalRaw(rawHeading: string): string {
+  return normalizeWhitespace(
+    toAsciiDigits(
+      rawHeading
+        .replace(/المادة/gi, '')
+        .replace(/[():\-–—]/g, ' ')
+        .replace(/[\u064B-\u065F\u0670]/g, ''),
+    ),
+  );
+}
+
+function parseArabicOrdinal(heading: string): number | undefined {
+  const normalized = normalizeOrdinalRaw(heading);
+  if (!normalized) return undefined;
+
+  if (EXACT_ORDINALS.has(normalized)) {
+    return EXACT_ORDINALS.get(normalized);
+  }
+
+  const compoundMatch = normalized.match(/^(.+?)\s+و\s+(.+)$/);
+  if (compoundMatch) {
+    const onesPart = compoundMatch[1].trim();
+    const tensPart = compoundMatch[2].trim();
+    const ones = ONES.get(onesPart);
+    const tens = TENS.get(tensPart);
+
+    if (ones && tens) {
+      return ones + tens;
+    }
+  }
+
+  if (ONES.has(normalized)) return ONES.get(normalized);
+  if (TENS.has(normalized)) return TENS.get(normalized);
 
   return undefined;
 }
 
-/**
- * Parse HTML from the Sejm ELI API (api.sejm.gov.pl/eli/acts/DU/YYYY/POZ/text.html)
- * to extract provisions from a Saudi statute.
- *
- * The HTML uses div-based structure:
- *   <div class="unit unit_arti" id="chpt_N-arti_M" data-id="arti_M">
- *     <h3><B>Art. M.</B></h3>
- *     <div class="unit-inner">
- *       <div class="unit unit_pass">
- *         <h3>1.</h3>
- *         <div class="unit-inner">
- *           <div data-template="xText">...content...</div>
- *         </div>
- *       </div>
- *     </div>
- *   </div>
- */
-export function parseSaudiHtml(html: string, act: ActIndexEntry): ParsedAct {
-  const provisions: ParsedProvision[] = [];
-  const definitions: ParsedDefinition[] = [];
+function parseSectionNumber(heading: string, fallbackIndex: number): string {
+  const arabicDigits = toAsciiDigits(heading);
 
-  // Match all article divs: <div class="unit unit_arti ..." id="...-arti_N" data-id="arti_N">
-  const articleRegex = /<div[^>]*class="unit unit_arti[^"]*"[^>]*id="([^"]*-)?arti_(\d+[a-z_]*)"[^>]*data-id="arti_(\d+[a-z_]*)"[^>]*>/gi;
-  const articleStarts: { fullId: string; artNum: string; pos: number }[] = [];
-
-  let match: RegExpExecArray | null;
-  while ((match = articleRegex.exec(html)) !== null) {
-    // Skip nested articles inside amendment provisions (chpt_12-arti_111-arti_22_2 etc.)
-    const fullId = match[0];
-    const idAttr = fullId.match(/id="([^"]+)"/)?.[1] ?? '';
-    // Count how many "arti_" segments appear in the ID
-    const artiSegments = (idAttr.match(/arti_/g) ?? []).length;
-    if (artiSegments > 1) continue;
-
-    articleStarts.push({
-      fullId: idAttr,
-      artNum: match[3],
-      pos: match.index,
-    });
+  const numericMatch = arabicDigits.match(/(\d+)/);
+  if (numericMatch) {
+    return String(parseInt(numericMatch[1], 10));
   }
 
-  for (let i = 0; i < articleStarts.length; i++) {
-    const article = articleStarts[i];
-    const startPos = article.pos;
+  const englishMatch = heading.match(/Article\s+(\d+)/i);
+  if (englishMatch) {
+    return String(parseInt(englishMatch[1], 10));
+  }
 
-    // Extract content up to next article or end
-    const endPos = i + 1 < articleStarts.length
-      ? articleStarts[i + 1].pos
-      : html.length;
-    const articleHtml = html.substring(startPos, endPos);
+  const arabicOrdinal = parseArabicOrdinal(heading);
+  if (arabicOrdinal) {
+    return String(arabicOrdinal);
+  }
 
-    // Extract article number from <h3><B>Art. N.</B></h3> or <h3><B>Art. N<sup>...</B></h3>
-    const artHeadingMatch = articleHtml.match(
-      /<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*(\d+[a-z]*)\b/i
-    );
+  return String(fallbackIndex);
+}
 
-    const artNum = artHeadingMatch
-      ? artHeadingMatch[1].trim()
-      : article.artNum.replace(/_/g, '');
+function extractDefinitionsFromArticle(
+  articleHtml: string,
+  sourceProvision: string,
+  definitions: ParsedDefinition[],
+  seenTerms: Set<string>,
+): void {
+  const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+  let match: RegExpExecArray | null;
 
-    // Normalize: remove underscores from article numbers like "22_2"
-    const normalizedNum = artNum.replace(/_/g, '');
-    const provisionRef = `art${normalizedNum}`;
+  while ((match = listItemRegex.exec(articleHtml)) !== null) {
+    const text = normalizeWhitespace(htmlToText(match[1]));
+    if (!text || text.length < 8) continue;
 
-    // Find chapter heading
-    const chapter = findChapterHeading(html, startPos);
+    const separatorIndex = text.indexOf(':');
+    if (separatorIndex < 0) continue;
 
-    // Extract text content, stripping HTML
-    // Remove the article heading to avoid duplication
-    const contentHtml = articleHtml
-      .replace(/<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*\d+[a-z]*\.?\s*<\/B>\s*<\/h3>/i, '');
-    let content = stripHtml(contentHtml);
+    const term = normalizeWhitespace(text.slice(0, separatorIndex).replace(/^-+/, ''));
+    const definition = normalizeWhitespace(text.slice(separatorIndex + 1));
 
-    // Skip very short articles (likely just structural markers)
-    if (content.length < 5) continue;
+    if (term.length < 2 || term.length > 160 || definition.length < 6) continue;
 
-    // Cap content at 12K characters
-    if (content.length > 12000) {
-      content = content.substring(0, 12000);
+    const dedupeKey = term.toLowerCase();
+    if (seenTerms.has(dedupeKey)) continue;
+    seenTerms.add(dedupeKey);
+
+    definitions.push({
+      term,
+      definition,
+      source_provision: sourceProvision,
+    });
+  }
+}
+
+function dedupeProvisions(provisions: ParsedProvision[]): ParsedProvision[] {
+  const byRef = new Map<string, ParsedProvision>();
+
+  for (const provision of provisions) {
+    const existing = byRef.get(provision.provision_ref);
+    if (!existing) {
+      byRef.set(provision.provision_ref, provision);
+      continue;
     }
 
-    // Build a title from the first sentence or paragraph if meaningful
-    const title = `Art. ${normalizedNum}`;
+    if (provision.content.length > existing.content.length) {
+      byRef.set(provision.provision_ref, provision);
+    }
+  }
+
+  return Array.from(byRef.values()).sort((a, b) => Number(a.section) - Number(b.section));
+}
+
+function findMatchingDivEnd(html: string, openDivIndex: number): number {
+  const divTagRegex = /<\/?div\b[^>]*>/gi;
+  divTagRegex.lastIndex = openDivIndex;
+
+  let depth = 0;
+  let started = false;
+  let match: RegExpExecArray | null;
+
+  while ((match = divTagRegex.exec(html)) !== null) {
+    const tag = match[0];
+
+    if (!started) {
+      if (!tag.toLowerCase().startsWith('<div')) {
+        continue;
+      }
+      started = true;
+    }
+
+    if (tag.toLowerCase().startsWith('</div')) {
+      depth--;
+    } else {
+      depth++;
+    }
+
+    if (started && depth === 0) {
+      return divTagRegex.lastIndex;
+    }
+  }
+
+  return -1;
+}
+
+function collectClassDivBlocks(html: string, classFragment: string): string[] {
+  const blocks: string[] = [];
+  const openRegex = new RegExp(
+    `<div\\b[^>]*class=\"[^\"]*${escapeRegExp(classFragment)}[^\"]*\"[^>]*>`,
+    'gi',
+  );
+
+  let match: RegExpExecArray | null;
+  while ((match = openRegex.exec(html)) !== null) {
+    const start = match.index;
+    const end = findMatchingDivEnd(html, start);
+    if (end <= start) {
+      continue;
+    }
+
+    blocks.push(html.slice(start, end));
+    openRegex.lastIndex = end;
+  }
+
+  return blocks;
+}
+
+function stripFirstClassDiv(blockHtml: string, classFragment: string): string {
+  const openRegex = new RegExp(
+    `<div\\b[^>]*class=\"[^\"]*${escapeRegExp(classFragment)}[^\"]*\"[^>]*>`,
+    'i',
+  );
+
+  const match = openRegex.exec(blockHtml);
+  if (!match) return blockHtml;
+
+  const start = match.index;
+  const end = findMatchingDivEnd(blockHtml, start);
+  if (end <= start) return blockHtml;
+
+  return `${blockHtml.slice(0, start)}${blockHtml.slice(end)}`;
+}
+
+function extractFirstHtmlContainer(blockHtml: string): string | undefined {
+  const openRegex = /<div\b[^>]*class="HTMLContainer"[^>]*>/i;
+  const match = openRegex.exec(blockHtml);
+  if (!match) return undefined;
+
+  const start = match.index;
+  const openTagEnd = start + match[0].length;
+  const end = findMatchingDivEnd(blockHtml, start);
+  if (end <= openTagEnd) return undefined;
+
+  return blockHtml.slice(openTagEnd, end - 6);
+}
+
+function extractArticleBlocks(html: string): Array<{ heading: string; contentHtml: string }> {
+  const blocks = collectClassDivBlocks(html, 'article_item');
+  const articles: Array<{ heading: string; contentHtml: string }> = [];
+
+  for (const articleBlock of blocks) {
+    const headingMatch = articleBlock.match(/<h3 class="center">\s*([^<]+?)\s*<\/h3>/i);
+    if (!headingMatch) continue;
+
+    const heading = normalizeWhitespace(htmlToText(headingMatch[1]));
+    const headingLower = heading.toLowerCase();
+    if (!heading.startsWith('المادة') && !headingLower.startsWith('article')) {
+      continue;
+    }
+
+    const withoutButtons = stripFirstClassDiv(articleBlock, 'article_btns');
+    const contentHtml = extractFirstHtmlContainer(withoutButtons);
+    if (!contentHtml) continue;
+
+    articles.push({ heading, contentHtml });
+  }
+
+  return articles;
+}
+
+export function extractAvailableLanguageIds(html: string): number[] {
+  const match = html.match(/<select[^>]*id="ddlLawLanguages"[^>]*>([\s\S]*?)<\/select>/i);
+  if (!match) return [1];
+
+  const ids = new Set<number>();
+  const optionRegex = /<option[^>]*value="(\d+)"[^>]*>/gi;
+  let optionMatch: RegExpExecArray | null;
+
+  while ((optionMatch = optionRegex.exec(match[1])) !== null) {
+    const parsed = Number(optionMatch[1]);
+    if (Number.isFinite(parsed)) {
+      ids.add(parsed);
+    }
+  }
+
+  return ids.size > 0 ? Array.from(ids).sort((a, b) => a - b) : [1];
+}
+
+export function extractEnglishTitle(html: string): string | undefined {
+  const title = extractLawTitle(html);
+  if (!title) return undefined;
+  return /[A-Za-z]/.test(title) ? title : undefined;
+}
+
+export function parseSaudiLawHtml(html: string, target: SaudiLawTarget): ParsedLawSeed {
+  const title = extractLawTitle(html) ?? target.title_ar;
+  const description = extractBriefDescription(html) ?? target.description;
+
+  const issuedDate = parseGregorianDate(extractSystemInfoValue(html, 'تاريخ الإصدار'));
+  const publicationDate = parseGregorianDate(extractSystemInfoValue(html, 'تاريخ النشر'));
+  const status = mapStatus(extractSystemInfoValue(html, 'الحالة'));
+
+  const provisions: ParsedProvision[] = [];
+  const definitions: ParsedDefinition[] = [];
+  const seenDefinitionTerms = new Set<string>();
+  let index = 0;
+
+  for (const article of extractArticleBlocks(html)) {
+    index++;
+    const heading = article.heading;
+    const articleHtml = article.contentHtml;
+    const content = normalizeWhitespace(htmlToText(articleHtml));
+
+    if (!heading || !content) continue;
+    if (content.length < 8) continue;
+
+    const section = parseSectionNumber(heading, index);
+    const provisionRef = `art${section}`;
 
     provisions.push({
       provision_ref: provisionRef,
-      chapter,
-      section: normalizedNum,
-      title,
+      section,
+      title: heading,
       content,
     });
 
-    // Extract definitions from definition articles
-    // Saudi acts use "ilekroć mowa" (whenever mentioned), "rozumie się przez to"
-    // (this is understood as), or "oznacza" (means)
-    if (
-      content.includes('ilekro') ||
-      content.includes('rozumie si') ||
-      content.includes('oznacza') ||
-      content.includes('nale') && content.includes('rozumie')
-    ) {
-      extractDefinitions(content, provisionRef, definitions);
+    if (section === '1' || heading.includes('المادة الأولى') || heading.toLowerCase().includes('article 1')) {
+      extractDefinitionsFromArticle(articleHtml, provisionRef, definitions, seenDefinitionTerms);
     }
   }
 
+  const dedupedProvisions = dedupeProvisions(provisions);
+
   return {
-    id: act.id,
+    id: target.id,
     type: 'statute',
-    title: act.title,
-    title_en: act.titleEn,
-    short_name: act.shortName,
-    status: act.status,
-    issued_date: act.issuedDate,
-    in_force_date: act.inForceDate,
-    url: act.url,
-    description: act.description,
-    provisions,
+    title,
+    title_en: target.title_en_fallback,
+    short_name: target.short_name,
+    status,
+    issued_date: issuedDate,
+    in_force_date: publicationDate ?? issuedDate,
+    url: `https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/${target.law_id}/1`,
+    description,
+    provisions: dedupedProvisions,
     definitions,
   };
 }
 
-/**
- * Extract definitions from Saudi legal text.
- *
- * Saudi definitions typically use patterns like:
- *   - "«term» – oznacza ..." ("term" – means ...)
- *   - "N) term – ..." (numbered list of definitions)
- *   - "ilekroć ... mowa o «term» – rozumie się przez to ..."
- */
-function extractDefinitions(
-  text: string,
-  sourceProvision: string,
-  definitions: ParsedDefinition[],
-): void {
-  // Pattern: numbered definitions like "1) term - definition;"
-  const numberedDefRegex = /\d+\)\s+([^–\-]+?)\s+[–\-]\s+(.*?)(?=;\s*\d+\)|$)/g;
-  let defMatch: RegExpExecArray | null;
-
-  while ((defMatch = numberedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/;$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-
-  // Pattern: «quoted term» – definition
-  const quotedDefRegex = /[„«\u201e]([^"»\u201d]+)["\u201d»]\s*[–\-]\s*(.*?)(?=[;.]\s*[„«\u201e]|[;.]\s*$)/g;
-  while ((defMatch = quotedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/[;.]$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-}
-
-/**
- * Pre-configured list of key Saudi Acts to ingest.
- *
- * Source: api.sejm.gov.pl (Sejm ELI API)
- * URL pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * These are the most important Saudi statutes for cybersecurity, data protection,
- * and compliance use cases. References use the Dziennik Ustaw (Journal of Laws)
- * format: Dz.U. YYYY poz. NNNN.
- */
-export const KEY_SAUDI_ACTS: ActIndexEntry[] = [
+export const TARGET_SAUDI_LAWS: SaudiLawTarget[] = [
   {
-    id: 'dpa-2018',
-    title: 'Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych',
-    titleEn: 'Personal Data Protection Act 2018',
-    shortName: 'UODO 2018',
-    status: 'in_force',
-    issuedDate: '2018-05-10',
-    inForceDate: '2018-05-25',
-    dziennikRef: 'Dz.U. 2018 poz. 1000',
-    year: 2018,
-    poz: 1000,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000',
-    description: 'GDPR implementing provisions (RODO); establishes UODO (Urząd Ochrony Danych Osobowych) as the supervisory authority; covers certification, codes of conduct, and administrative penalties',
+    order: 1,
+    file_stem: 'personal-data-protection',
+    id: 'sa-pdpl',
+    law_id: 'b7cfae89-828e-4994-b167-adaa00e37188',
+    short_name: 'PDPL',
+    title_ar: 'نظام حماية البيانات الشخصية',
+    title_en_fallback: 'Personal Data Protection Law',
+    description: 'Saudi Arabia’s core personal data protection framework governing lawful processing, data subject rights, disclosures, transfers, and enforcement.',
   },
   {
-    id: 'ksc-2018',
-    title: 'Ustawa z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa',
-    titleEn: 'National Cybersecurity System Act 2018 (KSC)',
-    shortName: 'KSC',
-    status: 'in_force',
-    issuedDate: '2018-07-05',
-    inForceDate: '2018-08-28',
-    dziennikRef: 'Dz.U. 2018 poz. 1560',
-    year: 2018,
-    poz: 1560,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001560',
-    description: 'NIS Directive implementation; establishes national cybersecurity system with CSIRT teams (CSIRT NASK, CSIRT GOV, CSIRT MON); covers essential services operators and digital service providers',
+    order: 2,
+    file_stem: 'anti-cybercrime',
+    id: 'sa-anti-cybercrime',
+    law_id: '25df73d6-0f49-4dc5-b010-a9a700f2ec1d',
+    short_name: 'Anti-Cyber Crime Law',
+    title_ar: 'نظام مكافحة جرائم المعلوماتية',
+    title_en_fallback: 'Anti-Cyber Crime Law',
+    description: 'Defines cyber offenses, establishes criminal penalties, and sets the legal basis for prosecution of information crimes in Saudi Arabia.',
   },
   {
-    id: 'ksh-2000',
-    title: 'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych',
-    titleEn: 'Commercial Companies Code (KSH)',
-    shortName: 'KSH',
-    status: 'in_force',
-    issuedDate: '2000-09-15',
-    inForceDate: '2001-01-01',
-    dziennikRef: 'Dz.U. 2000 nr 94 poz. 1037',
-    year: 2000,
-    poz: 1037,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000940037',
-    description: 'Comprehensive commercial companies law governing partnerships (spółka jawna, komandytowa, etc.) and capital companies (sp. z o.o. and S.A.); corporate governance requirements',
+    order: 3,
+    file_stem: 'telecommunications-ict',
+    id: 'sa-telecommunications-ict',
+    law_id: 'ae610645-e094-48ef-814e-aeb4009d244f',
+    short_name: 'Telecommunications and ICT Law',
+    title_ar: 'نظام الاتصالات وتقنية المعلومات',
+    title_en_fallback: 'Telecommunications and Information Technology Law',
+    description: 'Regulates telecommunications and information technology services, licensing, user rights, and sector obligations.',
   },
   {
-    id: 'kodeks-karny-1997',
-    title: 'Ustawa z dnia 6 czerwca 1997 r. - Kodeks karny',
-    titleEn: 'Criminal Code (Kodeks karny)',
-    shortName: 'KK',
-    status: 'in_force',
-    issuedDate: '1997-06-06',
-    inForceDate: '1998-09-01',
-    dziennikRef: 'Dz.U. 1997 nr 88 poz. 553',
-    year: 1997,
-    poz: 553,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553',
-    description: 'Criminal Code; cybercrime provisions in Art. 267 (unauthorized access), Art. 268 (data destruction), Art. 268a (computer sabotage), Art. 269 (sabotage of critical systems), Art. 269a (DoS), Art. 269b (hacking tools)',
+    order: 4,
+    file_stem: 'ecommerce',
+    id: 'sa-ecommerce',
+    law_id: '360de590-0286-4fa5-a243-aa9100c31979',
+    short_name: 'E-Commerce Law',
+    title_ar: 'نظام التجارة الإلكترونية',
+    title_en_fallback: 'E-Commerce Law',
+    description: 'Governs online commercial activities, consumer protection, and obligations of e-commerce service providers.',
   },
   {
-    id: 'e-services-2002',
-    title: 'Ustawa z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną',
-    titleEn: 'Act on Provision of Electronic Services',
-    shortName: 'E-Services Act',
-    status: 'in_force',
-    issuedDate: '2002-07-18',
-    inForceDate: '2002-10-10',
-    dziennikRef: 'Dz.U. 2002 nr 144 poz. 1204',
-    year: 2002,
-    poz: 1204,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021441204',
-    description: 'E-Commerce Directive implementation; regulates electronic services, ISP liability, spam prohibition, electronic contracts',
+    order: 5,
+    file_stem: 'electronic-transactions',
+    id: 'sa-electronic-transactions',
+    law_id: '6f509360-2c39-4358-ae2a-a9a700f2ed16',
+    short_name: 'Electronic Transactions Law',
+    title_ar: 'نظام التعاملات الإلكترونية',
+    title_en_fallback: 'Electronic Transactions Law',
+    description: 'Recognizes electronic records and signatures and sets legal rules for electronic transactions and authentication service providers.',
   },
   {
-    id: 'telecom-2004',
-    title: 'Ustawa z dnia 16 lipca 2004 r. - Prawo telekomunikacyjne',
-    titleEn: 'Telecommunications Law',
-    shortName: 'PT',
-    status: 'in_force',
-    issuedDate: '2004-07-16',
-    inForceDate: '2004-09-03',
-    dziennikRef: 'Dz.U. 2004 nr 171 poz. 1800',
-    year: 2004,
-    poz: 1800,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20041711800',
-    description: 'Telecommunications regulation; data retention, communications security, network integrity obligations, UKE (Office of Electronic Communications) authority',
+    order: 6,
+    file_stem: 'anti-money-laundering',
+    id: 'sa-anti-money-laundering',
+    law_id: '4a8842df-9cd1-4ee7-bf97-a9a700f180d4',
+    short_name: 'AML Law',
+    title_ar: 'نظام مكافحة غسل الأموال',
+    title_en_fallback: 'Anti-Money Laundering Law',
+    description: 'Sets anti-money laundering offenses, preventive obligations, reporting duties, and sanctions.',
   },
   {
-    id: 'constitution-1997',
-    title: 'Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.',
-    titleEn: 'Constitution of the Republic of Poland',
-    shortName: 'Konstytucja RP',
-    status: 'in_force',
-    issuedDate: '1997-04-02',
-    inForceDate: '1997-10-17',
-    dziennikRef: 'Dz.U. 1997 nr 78 poz. 483',
-    year: 1997,
-    poz: 483,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483',
-    description: 'Supreme law; Art. 47 (privacy), Art. 49 (communication secrecy), Art. 51 (personal data protection), Art. 54 (freedom of expression)',
+    order: 7,
+    file_stem: 'counter-terrorism-financing',
+    id: 'sa-counter-terrorism-financing',
+    law_id: '57694209-3eed-46c7-a5d8-a9ed012761d4',
+    short_name: 'CFT Law',
+    title_ar: 'نظام مكافحة جرائم الإرهاب وتمويله',
+    title_en_fallback: 'Law on Combating Terrorism Crimes and Financing',
+    description: 'Defines terrorism and terrorism financing offenses and specifies investigative and judicial powers and penalties.',
   },
   {
-    id: 'kodeks-cywilny-1964',
-    title: 'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny',
-    titleEn: 'Civil Code (Kodeks cywilny)',
-    shortName: 'KC',
-    status: 'in_force',
-    issuedDate: '1964-04-23',
-    inForceDate: '1965-01-01',
-    dziennikRef: 'Dz.U. 1964 nr 16 poz. 93',
-    year: 1964,
-    poz: 93,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640160093',
-    description: 'Core private law; personality rights protection (Art. 23-24), contract law, liability for damages, electronic declarations of intent',
+    order: 8,
+    file_stem: 'credit-information',
+    id: 'sa-credit-information',
+    law_id: '63dc01a6-fc5c-4600-9171-a9a700f2d222',
+    short_name: 'Credit Information Law',
+    title_ar: 'نظام المعلومات الائتمانية',
+    title_en_fallback: 'Credit Information Law',
+    description: 'Regulates credit information collection, disclosure, correction rights, and operational controls for credit bureaus.',
   },
   {
-    id: 'banking-law-1997',
-    title: 'Ustawa z dnia 29 sierpnia 1997 r. - Prawo bankowe',
-    titleEn: 'Banking Law',
-    shortName: 'PB',
-    status: 'in_force',
-    issuedDate: '1997-08-29',
-    inForceDate: '1998-01-01',
-    dziennikRef: 'Dz.U. 1997 nr 140 poz. 939',
-    year: 1997,
-    poz: 939,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971400939',
-    description: 'Banking regulation; banking secrecy obligations, outsourcing of banking activities, IT security requirements for banks, cloud computing provisions',
+    order: 9,
+    file_stem: 'cst-regulation',
+    id: 'sa-cst-regulation',
+    law_id: 'f327464b-2f5a-475d-aa94-a9a700f2e817',
+    short_name: 'CST Regulation',
+    title_ar: 'تنظيم هيئة الاتصالات والفضاء والتقنية',
+    title_en_fallback: 'Regulation of the Communications, Space and Technology Commission',
+    description: 'Defines the mandate, governance, and regulatory powers of the communications, space, and technology authority.',
   },
   {
-    id: 'kpa-1960',
-    title: 'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego',
-    titleEn: 'Code of Administrative Procedure (KPA)',
-    shortName: 'KPA',
-    status: 'in_force',
-    issuedDate: '1960-06-14',
-    inForceDate: '1961-01-01',
-    dziennikRef: 'Dz.U. 1960 nr 30 poz. 168',
-    year: 1960,
-    poz: 168,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19600300168',
-    description: 'Administrative procedure code; governs proceedings before UODO (data protection authority), UKE, and other regulators; electronic administration provisions',
+    order: 10,
+    file_stem: 'dga-regulation',
+    id: 'sa-dga-regulation',
+    law_id: 'cb98b088-6d6f-41a7-8633-acfc00b6db02',
+    short_name: 'DGA Regulation',
+    title_ar: 'تنظيم هيئة الحكومة الرقمية',
+    title_en_fallback: 'Regulation of the Digital Government Authority',
+    description: 'Defines the governance framework and authority powers for digital government implementation and oversight.',
   },
 ];

@@ -7,7 +7,7 @@
     {
       "id": "sa-001",
       "category": "article_retrieval",
-      "description": "Retrieve data protection law Article 1 -- scope and purpose",
+      "description": "Retrieve PDPL Article 1 definitions",
       "tool": "get_provision",
       "input": {
         "document_id": "sa-pdpl",
@@ -15,7 +15,7 @@
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["data", "protection", "personal"],
+        "any_result_contains": ["البيانات", "الشخصية"],
         "fields_present": ["content", "provision_ref"],
         "text_not_empty": true
       }
@@ -31,7 +31,7 @@
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["cyber", "security", "information", "crime"],
+        "any_result_contains": ["المعلوماتية", "النظام"],
         "fields_present": ["content", "provision_ref"],
         "text_not_empty": true
       }
@@ -54,24 +54,24 @@
     {
       "id": "sa-004",
       "category": "search",
-      "description": "Full-text search for 'personal data' returns relevant provisions",
+      "description": "Full-text search for 'البيانات الشخصية' returns relevant provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "personal data"
+        "query": "البيانات الشخصية"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["personal data", "data protection", "data subject"]
+        "any_result_contains": ["البيانات", "الشخصية"]
       }
     },
     {
       "id": "sa-005",
       "category": "search",
-      "description": "Full-text search for 'cybersecurity' returns relevant provisions",
+      "description": "Full-text search for 'جرائم المعلوماتية' returns relevant provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "cybersecurity"
+        "query": "المعلوماتية"
       },
       "assertions": {
         "result_not_empty": true,
@@ -81,10 +81,10 @@
     {
       "id": "sa-006",
       "category": "search",
-      "description": "Full-text search for 'electronic' returns e-commerce or e-signature provisions",
+      "description": "Full-text search for 'التعاملات الإلكترونية' returns relevant provisions",
       "tool": "search_legislation",
       "input": {
-        "query": "electronic"
+        "query": "الإلكترونية"
       },
       "assertions": {
         "result_not_empty": true,

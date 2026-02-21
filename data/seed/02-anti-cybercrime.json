@@ -1,78 +1,161 @@
 {
   "id": "sa-anti-cybercrime",
   "type": "statute",
-  "title": "نظام مكافحة الجرائم المعلوماتية",
+  "title": "نظام مكافحة جرائم المعلوماتية",
   "title_en": "Anti-Cyber Crime Law",
-  "short_name": "ACCL",
+  "short_name": "Anti-Cyber Crime Law",
   "status": "in_force",
-  "issued_date": "2007-03-26",
-  "in_force_date": "2007-03-26",
-  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e3bc0a74-fcc6-4e88-9e5b-a9b800f0b7f3/1",
-  "description": "The Saudi Anti-Cyber Crime Law, issued by Royal Decree M/17 dated 26 March 2007, defines cybercrimes and establishes criminal penalties for offences committed through information technology systems and networks. The Law covers unauthorised access, hacking, identity theft, online fraud, and content-related offences, and is enforced by the Presidency of State Security and the Bureau of Investigation and Public Prosecution.",
+  "issued_date": "2007-03-27",
+  "in_force_date": "2007-03-27",
+  "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/25df73d6-0f49-4dc5-b010-a9a700f2ec1d/1",
+  "description": "يتضمن النظام مايلى: التعريفات بالألفاظ والعبارات التي تخص النظام – الهدف من النظام – عقوبات مرتكب الجرائم المعلوماتية - مسؤولية هيئة الاتصالات وتقنية المعلومات .",
   "provisions": [
     {
       "provision_ref": "art1",
       "section": "1",
-      "title": "Article 1. Definitions",
-      "content": "The following terms shall have the meanings assigned to them for the purposes of this Law: 'Information Network' means any computer network that allows the exchange, reception and transmission of data and information, including the Internet; 'Information System' means any electronic system that controls, processes, stores or retrieves data and information; 'Information Technology Tool' means any electronic device, equipment or system capable of performing electronic operations; 'Cyber Crime' means any act committed through information networks or information technology tools in violation of this Law; 'Personal Privacy' means any information that relates to a natural person's private life and includes his image, voice recording, address, family affairs, health and financial matters; 'Electronic Commerce' means the purchase and sale of goods and services through information networks; 'Electronic Card' means any card that contains electronic data enabling its holder to carry out specified operations."
+      "title": "المادة الأولى",
+      "content": "يقصد بالألفاظ والعبارات الآتية - أينما وردت في هذا النظام - المعاني المبينة أمامها ما لم يقتض السياق خلاف ذلك: - الشخص : أي شخص ذي صفة طبيعية أو اعتبارية ، عامة أو خاصة . - النظام المعلوماتي : مجموعة برامج وأدوات معدة لمعالجة البيانات وإدارتها، وتشمل الحاسبات الآلية . - الشبكة المعلوماتية : ارتباط بين أكثر من حاسب آلي أو نظام معلوماتي للحصول على البيانات وتبادلها، مثل الشبكات الخاصة والعامة والشبكة العالمية (الإنترنت) . - البيانات : المعلومات، أو الأوامر، أو الرسائل، أو الأصوات، أو الصور التي تعد، أو التي سبق إعدادها، لاستخدامها في الحاسب الآلي ، وكل ما يمكن تخزينه، ومعالجته، ونقله، وإنشاؤه بوساطة الحاسب الآلي ، كالأرقام والحروف والرموز وغيرها. - برامج الحاسب الآلي : مجموعة من الأوامر، والبيانات التي تتضمن توجيهات أو تطبيقات حين تشغيلها في الحاسب الآلي ، أو شبكات الحاسب الآلي ، وتقوم بأداء الوظيفة المطلوبة. - الحاسب الآلي : أي جهاز إلكتروني ثابت أو منقول سلكي أو لا سلكي يحتوي على نظام معالجة البيانات، أو تخزينها، أو إرسالها، أو استقبالها، أو تصفحها ، يؤدي وظائف محددة بحسب البرامج ، والأوامر المعطاة له. - الدخول غير المشروع : دخول شخص بطريقة متعمدة إلى حاسب آلي ، أو موقع إلكتروني أو نظام معلوماتي ، أو شبكة حاسبات آلية غير مصرح لذلك الشخص بالدخول إليها. - الجريمة المعلوماتية : أي فعل يرتكب متضمنًا استخدام الحاسب الآلي أو الشبكة المعلوماتية بالمخالفة لأحكام هذا النظام. - الموقع الإلكتروني : مكان إتاحة البيانات على الشبكة المعلوماتية من خلال عنوان محدد. - الالتقاط : مشاهدة البيانات ، أو الحصول عليها دون مسوغ نظامي صحيح ."
     },
     {
       "provision_ref": "art2",
       "section": "2",
-      "title": "Article 2. Unauthorised Access — Basic Offence",
-      "content": "The following acts shall constitute cybercrimes punishable by imprisonment for a period not exceeding one year and a fine not exceeding five hundred thousand Saudi Riyals (SAR 500,000), or either of these penalties: (1) unlawful access to a computer system or information network; (2) unlawful access to a computer system or information network for the purpose of obtaining data or information, or violating individual privacy without encroachment upon private, family or personal life; (3) unlawful access to websites or information systems to change their designs, destroy or modify them, or occupy their address; (4) exceeding the authorised access to a computer system or information network. The attempt to commit any of these acts shall be punishable by a penalty not exceeding half of the penalty prescribed for the completed offence. The mere possession of tools, programs or devices designed for unauthorised access, without actual use thereof, shall be punishable by a fine not exceeding SAR 100,000."
+      "title": "المادة الثانية",
+      "content": "يهدف هذا النظام إلى الحد من وقوع جرائم المعلوماتية ، وذلك بتحديد هذه الجرائم والعقوبات المقررة لكل منها ، وبما يؤدي إلى ما يأتي : - المساعدة على تحقيق الأمن المعلوماتي. - حفظ الحقوق المترتبة على الاستخدام المشروع للحاسبات الآلية والشبكات المعلوماتية . - حماية المصلحة العامة ، والأخلاق، والآداب العامة . - حماية الاقتصاد الوطني."
     },
     {
       "provision_ref": "art3",
       "section": "3",
-      "title": "Article 3. Aggravated Cybercrime Offences",
-      "content": "The following acts shall constitute cybercrimes punishable by imprisonment for a period not exceeding four years and a fine not exceeding three million Saudi Riyals (SAR 3,000,000), or either of these penalties: (1) unlawful access to a computer system or information network with the intent to threaten or blackmail a person to perform an act or refrain from an act; (2) invasion of another's privacy by unlawfully photographing, recording or transmitting images or sounds from a private place; (3) defaming others through information technology tools; (4) accessing banking, credit or financial data or information with the intent to obtain money, goods or services; (5) gaining unlawful access to codes and passwords enabling access to banking, financial or commercial data. Particularly aggravated offences carrying imprisonment of up to seven years and a fine of up to five million Saudi Riyals include: (1) attacks on critical national infrastructure through information networks; (2) hacking into government computer systems; (3) disruption of public services through cyberattacks."
+      "title": "المادة الثالثة",
+      "content": "يعاقب بالسجن مدة لا تزيد على سنة وبغرامة لا تزيد على خمسمائة ألف ريال، أو بإحدى هاتين العقوبتين ؛ كلُّ شخص يرتكب أيًا من الجرائم المعلوماتية الآتية: - التنصت على ما هو مرسل عن طريق الشبكة المعلوماتية أو أحد أجهزة الحاسب الآلي - دون مسوغ نظامي صحيح - أو التقاطه أو اعتراضه. - الدخول غير المشروع لتهديد شخص أو ابتزازه ؛ لحمله على القيام بفعل أو الامتناع عنه، ولو كان القيام بهذا الفعل أو الامتناع عنه مشروعًا . - الدخول غير المشروع إلى موقع إلكتروني ، أو الدخول إلى موقع الكتروني لتغيير تصاميم هذا الموقع، أو إتلافه، أو تعديله، أو شغل عنوانه. - المساس بالحياة الخاصة عن طريق إساءة استخدام الهواتف النقالة المزودة بالكاميرا، أو ما في حكمها . - التشهير بالآخرين ، وإلحاق الضرر بهم ، عبر وسائل تقنيات المعلومات المختلفة ."
     },
     {
       "provision_ref": "art4",
       "section": "4",
-      "title": "Article 4. Content Offences",
-      "content": "The following acts related to unlawful content shall constitute cybercrimes subject to the penalties set out in this Law: (1) the production, preparation, transmission or storage of material that infringes upon public order, religious values, public morals or personal privacy through information networks or information technology tools — imprisonment not exceeding one year and fine not exceeding SAR 500,000; (2) the production, preparation, transmission or storage of content related to terrorism or extremist groups — imprisonment not exceeding three years and fine not exceeding SAR 2,000,000; (3) the establishment or management of websites promoting terrorism or criminal activity — imprisonment not exceeding five years and fine not exceeding SAR 3,000,000; (4) unlawful access to content or data encrypted by the state for security purposes — imprisonment not exceeding ten years and fine not exceeding SAR 5,000,000. The court may additionally order the closure of websites used in committing the offences."
+      "title": "المادة الرابعة",
+      "content": "يعاقب بالسجن مدة لا تزيد على ثلاث سنوات وبغرامة لا تزيد على مليوني ريال، أو بإحدى هاتين العقوبتين؛ كل شخص يرتكب أيًا من الجرائم المعلوماتية الآتية: - الاستيلاء لنفسه أو لغيره على مال منقول أو على سند ، أو توقيع هذا السند ، وذلك عن طريق الاحتيال، أو اتخاذ اسم كاذب، أو انتحال صفة غير صحيحة . - الوصول - دون مسوغ نظامي صحيح - إلى بيانات بنكية ، أو ائتمانية، أو بيانات متعلقة بملكية أوراق مالية للحصول على بيانات ، أو معلومات، أو أموال، أو ما تتيحه من خدمات."
     },
     {
       "provision_ref": "art5",
       "section": "5",
-      "title": "Article 5. Financial Cybercrimes",
-      "content": "Financial cybercrimes shall be punishable by imprisonment for a period not exceeding three years and a fine not exceeding two million Saudi Riyals (SAR 2,000,000), or either of these penalties, including: (1) online fraud — obtaining money or services by deception through information networks; (2) identity theft — the impersonation of another person through information networks for the purpose of obtaining money, goods or services; (3) phishing — the collection of login credentials, banking information or personal data by deception; (4) using information networks to facilitate the laundering of proceeds of crime; (5) the establishment or operation of fraudulent websites designed to deceive users or collect their personal or financial information. Where the financial cybercrime involves the misappropriation of amounts exceeding SAR 1,000,000, the penalty shall be increased to imprisonment for up to five years and a fine of up to five million Saudi Riyals. Electronic evidence collected in compliance with applicable procedural rules shall be admissible in court proceedings."
+      "title": "المادة الخامسة",
+      "content": "يعاقب بالسجن مدة لا تزيد على أربع سنوات وبغرامة لا تزيد على ثلاثة ملايين ريال، أو بإحدى هاتين العقوبتين؛ كل شخص يرتكب أيًا من الجرائم المعلوماتية الآتية: - الدخول غير المشروع لإلغاء بيانات خاصة، أو حذفها، أو تدميرها، أو تسريبها، أو إتلافها أو تغييرها، أو إعادة نشرها. - إيقاف الشبكة المعلوماتية عن العمل، أو تعطيلها، أو تدمير، أو مسح البرامج، أو البيانات الموجودة، أو المستخدمة فيها، أو حذفها، أو تسريبها، أو إتلافها، أو تعديلها. - إعاقة الوصول إلى الخدمة، أو تشويشها، أو تعطيلها، بأي وسيلة كانت."
     },
     {
       "provision_ref": "art6",
       "section": "6",
-      "title": "Article 6. Enforcement and Investigation",
-      "content": "The enforcement of this Law shall be the responsibility of: (1) the Presidency of State Security — for offences related to national security, terrorism, and attacks on state infrastructure; (2) the Directorate General of Investigation (mabahith) — for offences threatening public order; (3) the Bureau of Investigation and Public Prosecution — for all other cybercrimes. Investigators shall have the power to: (1) access and examine information systems and devices where there are grounds for suspecting cybercrimes; (2) request providers of information networks and internet services to preserve and provide electronic evidence; (3) intercept electronic communications with the appropriate judicial authorisation; (4) request assistance from relevant bodies including the Communications, Space and Technology Commission (CST). Service providers shall cooperate with lawful requests from competent authorities within the time limits specified by those authorities. Electronic service providers shall maintain technical logs for a period of at least one year, which shall be provided to competent authorities upon lawful request."
+      "title": "المادة السادسة",
+      "content": "يعاقب بالسجن مدة لا تزيد على خمس سنوات وبغرامة لا تزيد على ثلاثة ملايين ريال، أو بإحدى هاتين العقوبتين كلُّ شخص يرتكب أيًّا من الجرائم المعلوماتية الآتية: - إنتاج ما من شأنه المساس بالنظام العام ، او القيم الدينية، أو الآداب العامة ، أو حرمة الحياة الخاصة، أو إعداده ، أو إرساله، أو تخزينه عن طريق الشبكة المعلوماتية ، أو أحد أجهزة الحاسب الآلي . - إنشاء موقع على الشبكة المعلوماتية ، أو أحد أجهزة الحاسب الآلي أو نشره ، للاتجار في الجنس البشري، أو تسهيل التعامل به. - إنشاء المواد والبيانات المتعلقة بالشبكات الإباحية، أو أنشطة الميسر المخلة بالآداب العامة أو نشرها أو ترويجها. - إنشاء موقع على الشبكة المعلوماتية ، أو أحد أجهزة الحاسب الآلي أو نشره ، للاتجار بالمخدرات، أو المؤثرات العقلية، أو ترويجها، أو طرق تعاطيها، أو تسهيل التعامل بها."
     },
     {
       "provision_ref": "art7",
       "section": "7",
-      "title": "Article 7. Corporate Liability and Aggravating Factors",
-      "content": "A legal entity shall be jointly and severally liable for payment of fines imposed on persons who commit cybercrimes in its name or on its behalf, where the offence was the result of the legal entity's failure to exercise adequate supervision or control. In determining the appropriate penalty, the following shall be considered aggravating factors: (1) commission of the offence as part of an organised criminal group; (2) the defendant holds a position of authority or trust; (3) the offence involved violation of personal privacy; (4) the offence resulted in substantial financial loss to victims; (5) the offence targeted vulnerable persons including minors or the elderly. In addition to the prescribed penalties, the court may order: (1) confiscation of equipment and tools used in committing the offence; (2) publication of the verdict in one or more daily newspapers at the defendant's expense; (3) prohibition on using information technology services for a specified period following release."
+      "title": "المادة السابعة",
+      "content": "يعاقب بالسجن مدة لا تزيد على عشر سنوات وبغرامة لا تزيد على خمسة ملايين ريال، أو بإحدى هاتين العقوبتين كلُّ شخص يرتكب أيًّا من الجرائم المعلوماتية الآتية : - إنشاء موقع لمنظمات إرهابية على الشبكة المعلوماتية ، أو أحد أجهزة الحاسب الآلي أو نشره؛ لتسهيل الاتصال بقيادات تلك المنظمات، أو أي من أعضائها أو ترويج أفكارها أو تمويلها، أو نشر كيفية تصنيع الأجهزة الحارقة، أو المتفجرات، أو أي أداة تستخدم في الأعمال الإرهابية . - الدخول غير المشروع إلى موقع إلكتروني ، أو نظام معلوماتي مباشرة، أو عن طريق الشبكة المعلوماتية ، أو أحد أجهزة الحاسب الآلي للحصول على بيانات تمس الأمن الداخلي أو الخارجي للدولة، أو اقتصادها الوطني ."
     },
     {
       "provision_ref": "art8",
       "section": "8",
-      "title": "Article 8. Preservation of Evidence and Judicial Cooperation",
-      "content": "Information and communication technology service providers operating in Saudi Arabia shall: (1) preserve log data and technical records relating to cybercrime investigations for the period prescribed by the relevant authorities; (2) provide competent authorities with the technical means necessary to access and retrieve data as part of lawful investigations; (3) not disclose to suspects or third parties that an investigation is under way, except on judicial orders. International cooperation in cybercrime investigations shall be conducted through: (1) bilateral mutual legal assistance treaties (MLATs); (2) the Arab Convention on Combating Information Technology Offences; (3) through formal channels of the International Criminal Police Organization (INTERPOL). Requests from foreign authorities for judicial cooperation in cybercrime cases shall be handled by the Bureau of Investigation and Public Prosecution in coordination with the Ministry of Foreign Affairs. Evidence obtained through international cooperation shall be admissible in Saudi courts in accordance with applicable procedural rules."
+      "title": "المادة الثامنة",
+      "content": "لا تقل عقوبة السجن أو الغرامة عن نصف حدها الأعلى إذا اقترنت الجريمة بأي من الحالات الآتية: - ارتكاب الجاني الجريمة من خلال عصابة منظمة . - شغل الجاني وظيفة عامة ، واتصال الجريمة بهذه الوظيفة، أو ارتكابه الجريمة مستغلًا سلطاته أو نفوذه. - التغرير بالقُصَّر ومن في حكمهم، واستغلالهم . - صدور أحكام محلية أو أجنبية سابقة بالإدانة بحق الجاني في جرائم مماثلة."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "المادة التاسعة",
+      "content": "يعاقب كل من حرَّض غيره، أو ساعده، أو اتفق معه على ارتكاب أيٍّ من الجرائم المنصوص عليها في هذا النظام ؛ إذا وقعت الجريمة بناء على هذا التحريض، أو المساعدة، أو الاتفاق، بما لا يتجاوز الحد الأعلى للعقوبة المقررة لها ، ويعاقب بما لا يتجاوز نصف الحد الأعلى للعقوبة المقررة لها إذا لم تقع الجريمة الأصلية."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "المادة العاشرة",
+      "content": "يعاقب كل من شرع في القيام بأي من الجرائم المنصوص عليها في هذا النظام بما لا يتجاوز نصف الحد الأعلى للعقوبة المقررة ."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "المادة الحادية عشرة",
+      "content": "للمحكمة المختصة أن تعفي من هذه العقوبات كل من يبادر من الجناة بإبلاغ السلطة المختصة بالجريمة قبل العلم بها وقبل وقوع الضرر، وإن كان الإبلاغ بعد العلم بالجريمة تعين للإعفاء أن يكون من شأن الإبلاغ ضبط باقي الجناة في حال تعددهم، أو الأدوات المستخدمة في الجريمة."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "المادة الثانية عشرة",
+      "content": "لا يخل تطبيق هذا النظام بالأحكام الواردة في الأنظمة ذات العلاقة وخاصة ما يتعلق بحقوق الملكية الفكرية ، والاتفاقيات الدولية ذات الصلة التي تكون المملكة طرفًا فيها."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "المادة الثالثة عشرة",
+      "content": "مع عدم الإخلال بحقوق حسني النية ، يجوز الحكم بمصادرة الأجهزة، أو البرامج، أو الوسائل المستخدمة في ارتكاب أي من الجرائم المنصوص عليها في هذا النظام، أو الأموال المحصلة منها . كما يجوز الحكم بإغلاق الموقع الإلكتروني ، أو مكان تقديم الخدمة إغلاقًا نهائيًّا أو مؤقتًا متى كان مصدرًا لارتكاب أي من هذه الجرائم ، وكانت الجريمة قد ارتكبت بعلم مالكه."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "المادة الرابعة عشرة",
+      "content": "تتولى هيئة الاتصالات وتقنية المعلومات وفقًا لاختصاصها تقديم الدعم والمساندة الفنية للجهات الأمنية المختصة خلال مراحل ضبط هذه الجرائم والتحقيق فيها وأثناء المحاكمة ."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "المادة الخامسة عشرة",
+      "content": "تتولى هيئة التحقيق والادعاء العام التحقيق والادعاء في الجرائم الواردة في هذا النظام."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "المادة السادسة عشرة",
+      "content": "ينشر هذا النظام في الجريدة الرسمية ويعمل به بعد (مائة وعشرين) يومًا من تاريخ نشره."
     }
   ],
   "definitions": [
     {
-      "term": "شبكة المعلومات (Information Network)",
-      "definition": "Any computer network that allows the exchange, reception and transmission of data and information, including the Internet.",
+      "term": "الشخص",
+      "definition": "أي شخص ذي صفة طبيعية أو اعتبارية ، عامة أو خاصة .",
       "source_provision": "art1"
     },
     {
-      "term": "الجريمة المعلوماتية (Cyber Crime)",
-      "definition": "Any act committed through information networks or information technology tools in violation of this Law.",
+      "term": "النظام المعلوماتي",
+      "definition": "مجموعة برامج وأدوات معدة لمعالجة البيانات وإدارتها، وتشمل الحاسبات الآلية .",
       "source_provision": "art1"
     },
     {
-      "term": "الخصوصية الشخصية (Personal Privacy)",
-      "definition": "Any information that relates to a natural person's private life and includes his image, voice recording, address, family affairs, health and financial matters.",
+      "term": "الشبكة المعلوماتية",
+      "definition": "ارتباط بين أكثر من حاسب آلي أو نظام معلوماتي للحصول على البيانات وتبادلها، مثل الشبكات الخاصة والعامة والشبكة العالمية (الإنترنت) .",
+      "source_provision": "art1"
+    },
+    {
+      "term": "البيانات",
+      "definition": "المعلومات، أو الأوامر، أو الرسائل، أو الأصوات، أو الصور التي تعد، أو التي سبق إعدادها، لاستخدامها في الحاسب الآلي ، وكل ما يمكن تخزينه، ومعالجته، ونقله، وإنشاؤه بوساطة الحاسب الآلي ، كالأرقام والحروف والرموز وغيرها.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "برامج الحاسب الآلي",
+      "definition": "مجموعة من الأوامر، والبيانات التي تتضمن توجيهات أو تطبيقات حين تشغيلها في الحاسب الآلي ، أو شبكات الحاسب الآلي ، وتقوم بأداء الوظيفة المطلوبة.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الحاسب الآلي",
+      "definition": "أي جهاز إلكتروني ثابت أو منقول سلكي أو لا سلكي يحتوي على نظام معالجة البيانات، أو تخزينها، أو إرسالها، أو استقبالها، أو تصفحها ، يؤدي وظائف محددة بحسب البرامج ، والأوامر المعطاة له.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الدخول غير المشروع",
+      "definition": "دخول شخص بطريقة متعمدة إلى حاسب آلي ، أو موقع إلكتروني أو نظام معلوماتي ، أو شبكة حاسبات آلية غير مصرح لذلك الشخص بالدخول إليها.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الجريمة المعلوماتية",
+      "definition": "أي فعل يرتكب متضمنًا استخدام الحاسب الآلي أو الشبكة المعلوماتية بالمخالفة لأحكام هذا النظام.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الموقع الإلكتروني",
+      "definition": "مكان إتاحة البيانات على الشبكة المعلوماتية من خلال عنوان محدد.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "الالتقاط",
+      "definition": "مشاهدة البيانات ، أو الحصول عليها دون مسوغ نظامي صحيح .",
       "source_provision": "art1"
     }
   ]

@@ -3,21 +3,22 @@ mcp_name: "Saudi Law MCP"
 jurisdiction: "SA"
 
 sources:
-  - name: "Saudi Bureau of Experts"
-    authority: "Saudi Bureau of Experts"
-    official_portal: "https://laws.boe.gov.sa"
+  - name: "Saudi Bureau of Experts Legal Portal"
+    authority: "Saudi Bureau of Experts at the Council of Ministers"
+    official_portal: "https://laws.boe.gov.sa/BoeLaws/Laws/Search"
     retrieval_method: "HTML_SCRAPE"
-    update_frequency: "weekly"
+    update_frequency: "unknown"
     last_ingested: "2026-02-21"
     license_or_terms:
-      type: "Government Open Data"
-      url: "https://laws.boe.gov.sa"
-      summary: "Official legislative texts are public domain"
+      type: "government_terms"
+      url: "https://www.boe.gov.sa/ar/Pages/TermsOfUse.aspx"
+      summary: "Official legislative texts are publicly accessible on the government portal."
     coverage:
-      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
-      limitations: "AI-generated seed data; full official ingestion pending"
+      scope: "Saudi statutes/regulations focused on data protection, cybercrime, telecom/ICT, e-commerce, AML/CFT, credit information, and digital governance"
+      limitations: "This dataset currently includes 10 high-priority laws/regulations from the portal, not the full corpus"
     languages:
       - "ar"
+      - "en"
 
 data_freshness:
   automated_checks: true
