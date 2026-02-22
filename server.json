@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/saudi-law-mcp",
-  "description": "Saudi law database covering data protection, cybersecurity, e-commerce, and criminal law provisions via Model Context Protocol",
+  "description": "Saudi legislation via MCP — full-text search across statutes and provisions",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/Saudi-law-mcp",
     "source": "github"
@@ -14,7 +14,15 @@
       "registryType": "npm",
       "identifier": "@ansvar/saudi-law-mcp",
       "version": "1.0.0",
-      "transport": { "type": "stdio" }
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "transportType": "streamable-http",
+      "url": "https://saudi-law-mcp.vercel.app/mcp"
     }
   ]
 }
