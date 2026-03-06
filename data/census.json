@@ -1,0 +1,3226 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "SA",
+  "portal": "laws.boe.gov.sa",
+  "generated": "2026-02-22",
+  "total_laws": 536,
+  "total_provisions": 15954,
+  "laws": [
+    {
+      "id": "sa-anti-cybercrime",
+      "title": "نظام مكافحة جرائم المعلوماتية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/25df73d6-0f49-4dc5-b010-a9a700f2ec1d/1"
+    },
+    {
+      "id": "sa-anti-money-laundering",
+      "title": "نظام مكافحة غسل الأموال",
+      "provisions": 32,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4a8842df-9cd1-4ee7-bf97-a9a700f180d4/1"
+    },
+    {
+      "id": "sa-counter-terrorism-financing",
+      "title": "نظام مكافحة جرائم الإرهاب وتمويله",
+      "provisions": 96,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/57694209-3eed-46c7-a5d8-a9ed012761d4/1"
+    },
+    {
+      "id": "sa-credit-information",
+      "title": "نظام المعلومات الائتمانية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/63dc01a6-fc5c-4600-9171-a9a700f2d222/1"
+    },
+    {
+      "id": "sa-cst-regulation",
+      "title": "تنظيم هيئة الاتصالات والفضاء والتقنية",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f327464b-2f5a-475d-aa94-a9a700f2e817/1"
+    },
+    {
+      "id": "sa-dga-regulation",
+      "title": "تنظيم هيئة الحكومة الرقمية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cb98b088-6d6f-41a7-8633-acfc00b6db02/1"
+    },
+    {
+      "id": "sa-ecommerce",
+      "title": "نظام التجارة الإلكترونية",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/360de590-0286-4fa5-a243-aa9100c31979/1"
+    },
+    {
+      "id": "sa-electronic-transactions",
+      "title": "نظام التعاملات الإلكترونية",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6f509360-2c39-4358-ae2a-a9a700f2ed16/1"
+    },
+    {
+      "id": "sa-law-0041fa37-4a6d-4b68-a9ab-a9a700f2e88f",
+      "title": "تنظيم مؤسسة البريد السعودي",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0041fa37-4a6d-4b68-a9ab-a9a700f2e88f/1"
+    },
+    {
+      "id": "sa-law-0057fd8d-8ad4-48f9-b02f-a9a700f16a48",
+      "title": "نظام دارة الملك عبد العزيز",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0057fd8d-8ad4-48f9-b02f-a9a700f16a48/1"
+    },
+    {
+      "id": "sa-law-017d722d-4f95-4acd-be8c-ab6c00eb3f90",
+      "title": "تنظيم بنك التصدير والاستيراد السعودي",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/017d722d-4f95-4acd-be8c-ab6c00eb3f90/1"
+    },
+    {
+      "id": "sa-law-0264f52c-70bd-40f2-94c1-a9a700f2b561",
+      "title": "نظام الجمعيات التعاونية",
+      "provisions": 44,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0264f52c-70bd-40f2-94c1-a9a700f2b561/1"
+    },
+    {
+      "id": "sa-law-02a1eb0b-ab11-4900-851e-ad4600cd84a8",
+      "title": "اللائحة التنظيمية لدور الأحداث",
+      "provisions": 36,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/02a1eb0b-ab11-4900-851e-ad4600cd84a8/1"
+    },
+    {
+      "id": "sa-law-02dbc4d4-4763-41f9-9039-a9a700f1c0c1",
+      "title": "تنظيم المجلس الاقتصادي الأعلى",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/02dbc4d4-4763-41f9-9039-a9a700f1c0c1/1"
+    },
+    {
+      "id": "sa-law-03bf8e11-bc72-4996-96d5-afc000b859f3",
+      "title": "تنظيم مدينة الملك عبدالعزيز للعلوم والتقنية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/03bf8e11-bc72-4996-96d5-afc000b859f3/1"
+    },
+    {
+      "id": "sa-law-03de5462-eda0-4dd6-9efa-a9a700f1f802",
+      "title": "نظام العلم للمملكة العربية السعودية",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/03de5462-eda0-4dd6-9efa-a9a700f1f802/1"
+    },
+    {
+      "id": "sa-law-040228ce-9ca5-4666-aab1-a9a700f27c6d",
+      "title": "النظام الأساسي للاتحادات الرياضية واللجنة الأولمبية العربية السعودية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/040228ce-9ca5-4666-aab1-a9a700f27c6d/1"
+    },
+    {
+      "id": "sa-law-05690bd6-2c75-4b65-a148-a9a700f1bccf",
+      "title": "نظام الدفاتر التجارية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/05690bd6-2c75-4b65-a148-a9a700f1bccf/1"
+    },
+    {
+      "id": "sa-law-06272e6b-1fb9-4226-90b7-a9a700f21dc0",
+      "title": "اللائحة التنفيذية لنظام نزع ملكية العقارات للمنفعة العامة ووضع اليد المؤقت على العقار",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/06272e6b-1fb9-4226-90b7-a9a700f21dc0/1"
+    },
+    {
+      "id": "sa-law-0640036c-6e31-4479-9c8c-aef800e34d96",
+      "title": "الترتيبات التنظيمية للهيئة السعودية لتسويق الاستثمار",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0640036c-6e31-4479-9c8c-aef800e34d96/1"
+    },
+    {
+      "id": "sa-law-0657dfce-95f8-463a-9d87-aa3900ec7b51",
+      "title": "نظام مكافحة غسل الأموال",
+      "provisions": 51,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0657dfce-95f8-463a-9d87-aa3900ec7b51/1"
+    },
+    {
+      "id": "sa-law-07e87d88-b2c4-40ab-8770-a9a700f1af21",
+      "title": "نظام مكافحة التستر1425هـ",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/07e87d88-b2c4-40ab-8770-a9a700f1af21/1"
+    },
+    {
+      "id": "sa-law-08381293-6388-48e2-8ad2-a9a700f2aa94",
+      "title": "نظام العمل",
+      "provisions": 236,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/08381293-6388-48e2-8ad2-a9a700f2aa94/1"
+    },
+    {
+      "id": "sa-law-0838afd4-ca76-4b4a-b1d1-a9a700f22afd",
+      "title": "نظام التقاعد العسكري",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0838afd4-ca76-4b4a-b1d1-a9a700f22afd/1"
+    },
+    {
+      "id": "sa-law-09a30b92-50a5-41ce-b404-a9a700f2b4e6",
+      "title": "اللائحة التنظيمية لمراكز التنمية الاجتماعية",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/09a30b92-50a5-41ce-b404-a9a700f2b4e6/1"
+    },
+    {
+      "id": "sa-law-09eebc33-6b78-4a34-ad59-a9a700f173ce",
+      "title": "تنظيم مركز الملك عبد الله بن عبد العزيز الدولي لخدمة اللغة العربية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/09eebc33-6b78-4a34-ad59-a9a700f173ce/1"
+    },
+    {
+      "id": "sa-law-0a8d8ccf-dfc2-49a2-9881-ac3200aec3a0",
+      "title": "تنظيم مجمع الملك سلمان العالمي للغة العربية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0a8d8ccf-dfc2-49a2-9881-ac3200aec3a0/1"
+    },
+    {
+      "id": "sa-law-0ad8fc8e-73f8-48b6-9c5b-a9a700f2974b",
+      "title": "تنظيم الهيئة الملكية للجبيل وينبع",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0ad8fc8e-73f8-48b6-9c5b-a9a700f2974b/1"
+    },
+    {
+      "id": "sa-law-0b15d62d-6e3a-4894-b6fa-ad0700926350",
+      "title": "تنظيم الفحص الفني الدوري للمركبات",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0b15d62d-6e3a-4894-b6fa-ad0700926350/1"
+    },
+    {
+      "id": "sa-law-0b5b0f37-b2c9-4b3f-8657-acce001690f5",
+      "title": "اللائحة التنظيمية للخيل العربية الأصيلة",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0b5b0f37-b2c9-4b3f-8657-acce001690f5/1"
+    },
+    {
+      "id": "sa-law-0da0543b-72bf-4405-98f3-a9a700f1c593",
+      "title": "القانون \"النظام\" الموحد لمكافحة الإغراق والتدابير التعويضية والوقائية لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0da0543b-72bf-4405-98f3-a9a700f1c593/1"
+    },
+    {
+      "id": "sa-law-0f0ebdaa-a50b-4410-9460-abe500b03486",
+      "title": "نظام صندوق التنمية السياحي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0f0ebdaa-a50b-4410-9460-abe500b03486/1"
+    },
+    {
+      "id": "sa-law-0f1168b3-b5f0-46bd-ad62-a9a700f1ea17",
+      "title": "تنظيم الهيئة السعودية للمقاولين",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0f1168b3-b5f0-46bd-ad62-a9a700f1ea17/1"
+    },
+    {
+      "id": "sa-law-0f54d227-1450-4231-93cd-a9a700f29821",
+      "title": "نظام المعادن الثمينة والأحجار الكريمة",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0f54d227-1450-4231-93cd-a9a700f29821/1"
+    },
+    {
+      "id": "sa-law-0fceb9eb-d143-4d87-8a47-a9a700f20f2e",
+      "title": "نظام تعداد السكان العام",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/0fceb9eb-d143-4d87-8a47-a9a700f20f2e/1"
+    },
+    {
+      "id": "sa-law-107f22b5-81a2-47ee-84bc-a9a700f2907a",
+      "title": "نظام الرعاية الصحية النفسية",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/107f22b5-81a2-47ee-84bc-a9a700f2907a/1"
+    },
+    {
+      "id": "sa-law-109578cc-5c5c-42a9-9bae-a9a700f1c2a8",
+      "title": "النظام الأساسي لهيئة المحاسبة والمراجعة لدول مجلس التعاون",
+      "provisions": 35,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/109578cc-5c5c-42a9-9bae-a9a700f1c2a8/1"
+    },
+    {
+      "id": "sa-law-113554a2-190a-4afc-957e-ab1000cbe63d",
+      "title": "تنظيم المعهد الوطني للتطوير المهني التعليمي 1441هـ",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/113554a2-190a-4afc-957e-ab1000cbe63d/1"
+    },
+    {
+      "id": "sa-law-1169b2b7-4e7d-4775-86b0-a9a700f2841e",
+      "title": "النظام الصحي",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1169b2b7-4e7d-4775-86b0-a9a700f2841e/1"
+    },
+    {
+      "id": "sa-law-11d3d5b0-dddf-443a-9851-a9a700f23208",
+      "title": "نظام مجلس الخدمة العسكرية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/11d3d5b0-dddf-443a-9851-a9a700f23208/1"
+    },
+    {
+      "id": "sa-law-123ace97-8b0e-40a2-bb6f-a9a700f2b3fd",
+      "title": "نظام الضمان الاجتماعي 1427هـ",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/123ace97-8b0e-40a2-bb6f-a9a700f2b3fd/1"
+    },
+    {
+      "id": "sa-law-125423ca-43d6-40f5-9e2d-a9a700f20110",
+      "title": "تنظيم هيئة تقويم التعليم العام",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/125423ca-43d6-40f5-9e2d-a9a700f20110/1"
+    },
+    {
+      "id": "sa-law-12752a60-2a4a-4cab-a05d-a9a700f274a5",
+      "title": "اللائحة التنفيذية لنظام التحكيم",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/12752a60-2a4a-4cab-a05d-a9a700f274a5/1"
+    },
+    {
+      "id": "sa-law-13445632-e42b-4576-a671-a9a700f175f6",
+      "title": "تنظيم الهيئة العامة للإعلام المرئي والمسموع",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/13445632-e42b-4576-a671-a9a700f175f6/1"
+    },
+    {
+      "id": "sa-law-13d5bd75-47b5-44ff-8b84-aaee00c614f5",
+      "title": "تنظيم المركز الوطني لإدارة الدين",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/13d5bd75-47b5-44ff-8b84-aaee00c614f5/1"
+    },
+    {
+      "id": "sa-law-159008ad-198a-4439-b28b-b081009b92c2",
+      "title": "نظام صندوق التنمية الزراعية.",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/159008ad-198a-4439-b28b-b081009b92c2/1"
+    },
+    {
+      "id": "sa-law-1603064a-ab7e-48eb-9564-a9a700f2d2e0",
+      "title": "نظام النقد العربى السعودى",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1603064a-ab7e-48eb-9564-a9a700f2d2e0/1"
+    },
+    {
+      "id": "sa-law-164f8184-6c84-4794-96c7-a9a700f1f420",
+      "title": "تنظيم المركز الوطني للدراسات الاستراتيجية التنموية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/164f8184-6c84-4794-96c7-a9a700f1f420/1"
+    },
+    {
+      "id": "sa-law-16b97fcb-4833-4f66-8531-a9a700f161b6",
+      "title": "النظام الأساسي للحكم",
+      "provisions": 83,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/16b97fcb-4833-4f66-8531-a9a700f161b6/1"
+    },
+    {
+      "id": "sa-law-16c49913-599f-406b-b016-a9a700f172c9",
+      "title": "قواعد تنظيم لوحات الدعاية والإعلان",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/16c49913-599f-406b-b016-a9a700f172c9/1"
+    },
+    {
+      "id": "sa-law-1849b646-0b05-427d-9116-a9a700f2f175",
+      "title": "لائحة ضوابط دخول القوارب (السنابيك) إلى موانئ المملكة العربية السعودية والغرامات المترتبة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1849b646-0b05-427d-9116-a9a700f2f175/1"
+    },
+    {
+      "id": "sa-law-191dfdfc-b28f-443e-bb13-b0d600cb6e71",
+      "title": "تنظيم المؤسسة العامة للمحافظة على الشعب المرجانية والسلاحف في البحر الأحمر",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/191dfdfc-b28f-443e-bb13-b0d600cb6e71/1"
+    },
+    {
+      "id": "sa-law-197be463-0b2b-4b67-9cd2-a9a700f2733b",
+      "title": "تنظيم الهيئة السعودية للمحامين",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/197be463-0b2b-4b67-9cd2-a9a700f2733b/1"
+    },
+    {
+      "id": "sa-law-19945fe2-e690-4b24-9ab0-a9a700f17d03",
+      "title": "نظام السجن والتوقيف",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/19945fe2-e690-4b24-9ab0-a9a700f17d03/1"
+    },
+    {
+      "id": "sa-law-1ad6bc9a-eec1-4dd4-be16-af34010b4cbd",
+      "title": "تنظيم الهيئة العليا للأمن الصناعي",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1ad6bc9a-eec1-4dd4-be16-af34010b4cbd/1"
+    },
+    {
+      "id": "sa-law-1b787adb-3b1e-4b69-b04d-a9a700f28ca6",
+      "title": "نظام المراقبة الصحية في منافذ الدخول",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1b787adb-3b1e-4b69-b04d-a9a700f28ca6/1"
+    },
+    {
+      "id": "sa-law-1c026125-b0b2-4ea7-b374-a9a700f2c0ee",
+      "title": "تنظيم مجلس شؤون الأسرة",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1c026125-b0b2-4ea7-b374-a9a700f2c0ee/1"
+    },
+    {
+      "id": "sa-law-1cf187fc-fcee-4eec-be82-ace90181b86e",
+      "title": "الترتيبات التنظيمية لجائزة الملك عبد العزيز للجودة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1cf187fc-fcee-4eec-be82-ace90181b86e/1"
+    },
+    {
+      "id": "sa-law-1dd4c3d4-f4e9-4c15-852f-a9a700f21cab",
+      "title": "نظام إجراءات التراخيص البلدية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1dd4c3d4-f4e9-4c15-852f-a9a700f21cab/1"
+    },
+    {
+      "id": "sa-law-1e29de81-aa5e-4d27-9b90-a9a700f21aed",
+      "title": "تنظيم الدعم السكني",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1e29de81-aa5e-4d27-9b90-a9a700f21aed/1"
+    },
+    {
+      "id": "sa-law-1fe7fe77-d349-4fae-a561-a9a700f23a89",
+      "title": "نظام مجلس الخدمة المدنية",
+      "provisions": 11,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/1fe7fe77-d349-4fae-a561-a9a700f23a89/1"
+    },
+    {
+      "id": "sa-law-2072c9ff-5a70-444e-91cc-a9a700f26346",
+      "title": "نظام تركيز مسؤوليات القضاء الشرعي",
+      "provisions": 258,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2072c9ff-5a70-444e-91cc-a9a700f26346/1"
+    },
+    {
+      "id": "sa-law-216a2b6e-911e-4223-a11b-adab00c670a1",
+      "title": "تنظيم الهيئة العامة للمنافسة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/216a2b6e-911e-4223-a11b-adab00c670a1/1"
+    },
+    {
+      "id": "sa-law-21bbfc47-571d-4916-82b6-a9a700f2e06c",
+      "title": "نظام المؤسسة العامة للخطوط الجوية العربية السعودية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/21bbfc47-571d-4916-82b6-a9a700f2e06c/1"
+    },
+    {
+      "id": "sa-law-220f5444-31ee-4132-8712-aeee00ac1ba3",
+      "title": "نظام استئجار الدولة للعقار",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/220f5444-31ee-4132-8712-aeee00ac1ba3/1"
+    },
+    {
+      "id": "sa-law-221b3286-a3c6-4ea4-97c7-a9a700f18273",
+      "title": "نظام مكافحة المخدرات والمؤثرات العقلية",
+      "provisions": 74,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/221b3286-a3c6-4ea4-97c7-a9a700f18273/1"
+    },
+    {
+      "id": "sa-law-233c2b64-6824-4d1a-bd38-a9a700f24fc5",
+      "title": "نظام الاتجار بالكائنات الفطرية المهددة بالانقراض و منتجاتها",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/233c2b64-6824-4d1a-bd38-a9a700f24fc5/1"
+    },
+    {
+      "id": "sa-law-23576008-1ce4-4685-ac3e-a9a700f2cb02",
+      "title": "نظام ضريبة الدخل",
+      "provisions": 81,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/23576008-1ce4-4685-ac3e-a9a700f2cb02/1"
+    },
+    {
+      "id": "sa-law-2361f142-d009-41e9-ac3e-ac3200e13f0b",
+      "title": "تنظيم نادي سباقات الخيل",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2361f142-d009-41e9-ac3e-ac3200e13f0b/1"
+    },
+    {
+      "id": "sa-law-23b12c1f-6823-4759-982e-a9a700f2031a",
+      "title": "نظام الأئمة والمؤذنين وخدم المساجد",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/23b12c1f-6823-4759-982e-a9a700f2031a/1"
+    },
+    {
+      "id": "sa-law-24c563f9-7292-49c8-b0fb-aa9800b999f1",
+      "title": "نظام المنافسات و المشتريات الحكومية",
+      "provisions": 99,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/24c563f9-7292-49c8-b0fb-aa9800b999f1/1"
+    },
+    {
+      "id": "sa-law-2541255e-9e5b-4393-a8b0-a9a700f1a596",
+      "title": "نظام صندوق الاستثمارات العامة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2541255e-9e5b-4393-a8b0-a9a700f1a596/1"
+    },
+    {
+      "id": "sa-law-25450917-e26c-4532-a75f-a9a700f21996",
+      "title": "نظام نزع ملكية العقارات للمنفعة العامة ووضع اليد المؤقت على العقار",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/25450917-e26c-4532-a75f-a9a700f21996/1"
+    },
+    {
+      "id": "sa-law-25fed59a-2790-4a77-ab11-a9a700f2c5fd",
+      "title": "نظام جباية الزكاة",
+      "provisions": 4,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/25fed59a-2790-4a77-ab11-a9a700f2c5fd/1"
+    },
+    {
+      "id": "sa-law-262382ab-7ff9-4e3a-9291-acbb01406f5e",
+      "title": "لائحة تنظيم سلوكيات وأخلاقيات القائمين على تطبيق نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/262382ab-7ff9-4e3a-9291-acbb01406f5e/1"
+    },
+    {
+      "id": "sa-law-2640f5ff-1f7b-49fc-a57c-a9a700f192c9",
+      "title": "نظام مزاولة نقل النقود والمعادن الثمينة والمستندات ذات القيمة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2640f5ff-1f7b-49fc-a57c-a9a700f192c9/1"
+    },
+    {
+      "id": "sa-law-2682df03-16ab-4d93-b19d-a9a700f2915b",
+      "title": "نظام منتجات التجميل",
+      "provisions": 38,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2682df03-16ab-4d93-b19d-a9a700f2915b/1"
+    },
+    {
+      "id": "sa-law-2716057c-c097-4bad-8e1e-ae1400c678d5",
+      "title": "نظام الإثبات",
+      "provisions": 129,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2716057c-c097-4bad-8e1e-ae1400c678d5/1"
+    },
+    {
+      "id": "sa-law-2734fa93-a1a6-4c38-8e0d-a9a700f1e46f",
+      "title": "تنظيم الهيئة السعودية للمواصفات والمقاييس والجودة",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2734fa93-a1a6-4c38-8e0d-a9a700f1e46f/1"
+    },
+    {
+      "id": "sa-law-2991e70b-c30f-49d2-adeb-ac3e00d073a9",
+      "title": "قواعد عمل اللجان الإشرافية للقطاعات المستهدفة بالتخصيص ومهماتها1438هـ",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2991e70b-c30f-49d2-adeb-ac3e00d073a9/1"
+    },
+    {
+      "id": "sa-law-2a2a2b5d-ceb3-4d1f-893e-b058008b5638",
+      "title": "تنظيم المعهد الملكي للفنون التقليدية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2a2a2b5d-ceb3-4d1f-893e-b058008b5638/1"
+    },
+    {
+      "id": "sa-law-2a68bdd7-6395-417e-be02-a9f70181b49c",
+      "title": "نظام المسؤولية المدنية عن الأضرار النووية",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2a68bdd7-6395-417e-be02-a9f70181b49c/1"
+    },
+    {
+      "id": "sa-law-2ae2b616-e5c9-4b81-b55e-ae3d00acbf1a",
+      "title": "تنظيم هيئات تطوير المناطق والمدن واللائحة المالية لهيئات تطوير المناطق والمدن واللائحة الإدارية لهيئات تطوير المناطق والمدن",
+      "provisions": 137,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2ae2b616-e5c9-4b81-b55e-ae3d00acbf1a/1"
+    },
+    {
+      "id": "sa-law-2b007d5f-346c-45fc-9bb8-abff00d2bb6b",
+      "title": "تنظيم الهيئة العامة للتجارة الخارجية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2b007d5f-346c-45fc-9bb8-abff00d2bb6b/1"
+    },
+    {
+      "id": "sa-law-2c8fa0b0-32d4-4fec-9dce-a9a700f1767a",
+      "title": "تنظيم اللجنة الوطنية لمتابعة مبادرة خادم الحرمين الشريفين الملك عبدالله بن عبدالعزيز آل سعود للحوار بين أتباع الأديان والثقافات",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2c8fa0b0-32d4-4fec-9dce-a9a700f1767a/1"
+    },
+    {
+      "id": "sa-law-2d3cb83a-0379-4cde-8e0b-a9a700f272bd",
+      "title": "نظام حماية الطفل",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d3cb83a-0379-4cde-8e0b-a9a700f272bd/1"
+    },
+    {
+      "id": "sa-law-2d8aa57a-3b29-438e-a686-acae00b6728d",
+      "title": "نظام صندوق التنمية العقارية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d8aa57a-3b29-438e-a686-acae00b6728d/1"
+    },
+    {
+      "id": "sa-law-2ed6dfe1-d66e-41c8-bdf6-af4800cb050d",
+      "title": "نظام بنك المنشآت الصغيرة والمتوسطة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2ed6dfe1-d66e-41c8-bdf6-af4800cb050d/1"
+    },
+    {
+      "id": "sa-law-2f06117c-62e3-406c-a61e-a9fc009c5879",
+      "title": "تنظيم الهيئة العامة للصناعات العسكرية",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2f06117c-62e3-406c-a61e-a9fc009c5879/1"
+    },
+    {
+      "id": "sa-law-302fe435-6f39-4170-b12b-b13700bf55bd",
+      "title": "نظام الخطوط الحديدية",
+      "provisions": 35,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/302fe435-6f39-4170-b12b-b13700bf55bd/1"
+    },
+    {
+      "id": "sa-law-319fe343-cafd-4638-bc7d-af5e00b16b6b",
+      "title": "نظام المعالجات التجارية في التجارة الدولية",
+      "provisions": 37,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/319fe343-cafd-4638-bc7d-af5e00b16b6b/1"
+    },
+    {
+      "id": "sa-law-3213c2f6-eaf8-45dc-8f8c-a9a700f167ee",
+      "title": "نظام هيئة البيعة",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3213c2f6-eaf8-45dc-8f8c-a9a700f167ee/1"
+    },
+    {
+      "id": "sa-law-32f651e6-2976-439c-b418-a9a700f23fb2",
+      "title": "نظام الخدمة المدنية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/32f651e6-2976-439c-b418-a9a700f23fb2/1"
+    },
+    {
+      "id": "sa-law-33531bcc-0d4d-4193-9703-a9a700f2947a",
+      "title": "نظام حماية وتشجيع الصناعات الوطنية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/33531bcc-0d4d-4193-9703-a9a700f2947a/1"
+    },
+    {
+      "id": "sa-law-33ef05e2-f53e-4340-b5cb-a9a700f2ead1",
+      "title": "نظام الطيران المدني",
+      "provisions": 180,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/33ef05e2-f53e-4340-b5cb-a9a700f2ead1/1"
+    },
+    {
+      "id": "sa-law-3563a355-6ff9-4296-af66-a9a700f20e70",
+      "title": "نظام الإحصاءات العامة للدولة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3563a355-6ff9-4296-af66-a9a700f20e70/1"
+    },
+    {
+      "id": "sa-law-35c24150-3c9e-4031-8f52-a9a700f2e443",
+      "title": "نظام النقل العام على الطرق بالمملكة العربية السعودية",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/35c24150-3c9e-4031-8f52-a9a700f2e443/1"
+    },
+    {
+      "id": "sa-law-35ecc858-eec3-4543-9540-a9a700f2c681",
+      "title": "نظام مؤسسة النقد العربي السعودي",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/35ecc858-eec3-4543-9540-a9a700f2c681/1"
+    },
+    {
+      "id": "sa-law-362afe92-2d60-4f60-9ed9-a9a700f216df",
+      "title": "تنظيم الهيئة العامة للإسكان",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/362afe92-2d60-4f60-9ed9-a9a700f216df/1"
+    },
+    {
+      "id": "sa-law-366a4221-3214-4338-b3f2-b35c009f36cd",
+      "title": "نظام الحرف والصناعات اليدوية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/366a4221-3214-4338-b3f2-b35c009f36cd/1"
+    },
+    {
+      "id": "sa-law-36ccdf4a-396d-48aa-8231-acb0009c3cbd",
+      "title": "تنظيم هيئة تنظيم المياه والكهرباء ( الهيئة السعودية لتنظيم الكهرباء )",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/36ccdf4a-396d-48aa-8231-acb0009c3cbd/1"
+    },
+    {
+      "id": "sa-law-37e0768f-8e3c-493a-b951-a9a700f2bbb1",
+      "title": "نظام الجمعيات والمؤسسات الأهلية",
+      "provisions": 44,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/37e0768f-8e3c-493a-b951-a9a700f2bbb1/1"
+    },
+    {
+      "id": "sa-law-37f95015-f360-45be-8f91-a9a700f244c1",
+      "title": "نظام المؤسسة العامة لتحلية المياه المالحة",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/37f95015-f360-45be-8f91-a9a700f244c1/1"
+    },
+    {
+      "id": "sa-law-38334008-3b70-4c6c-b3af-aba3016a8061",
+      "title": "نظام المحاكم التجارية",
+      "provisions": 86,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/38334008-3b70-4c6c-b3af-aba3016a8061/1"
+    },
+    {
+      "id": "sa-law-39ee8b3c-770c-4e20-84bf-b33200b5b50a",
+      "title": "تنظيم مدينة الملك عبدالله للطاقة الذرية والمتجددة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/39ee8b3c-770c-4e20-84bf-b33200b5b50a/1"
+    },
+    {
+      "id": "sa-law-39f72c5b-1156-43fc-8b56-aa8000aebae2",
+      "title": "تنظيم المركز السعودي للاعتماد",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/39f72c5b-1156-43fc-8b56-aa8000aebae2/1"
+    },
+    {
+      "id": "sa-law-3a067704-6e6f-42bd-9767-ab5700c9524f",
+      "title": "تنظيم مجمع خادم الحرمين الشريفين الملك سلمان بن عبدالعزيز ال سعود للحديث النبوي الشريف",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3a067704-6e6f-42bd-9767-ab5700c9524f/1"
+    },
+    {
+      "id": "sa-law-3a56a72a-64f5-4902-b5f0-a9ec013d1bb1",
+      "title": "تنظيم مركز الملك عبدالعزيز للخيل العربية الأصيلة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3a56a72a-64f5-4902-b5f0-a9ec013d1bb1/1"
+    },
+    {
+      "id": "sa-law-3ab82e3c-de46-4463-a939-a9a700f1b2af",
+      "title": "نظام المشاركة بالوقت فى الوحدات العقارية السياحية",
+      "provisions": 4,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3ab82e3c-de46-4463-a939-a9a700f1b2af/1"
+    },
+    {
+      "id": "sa-law-3b96a591-47c8-4469-9abb-aa4700f1aa52",
+      "title": "لائحة المحافظة على الذوق العام",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3b96a591-47c8-4469-9abb-aa4700f1aa52/1"
+    },
+    {
+      "id": "sa-law-3c547223-8703-41cf-a850-b35c00d3ab9a",
+      "title": "نظام نزع ملكية العقارات للمصلحة العامة ووضع اليد المؤقت على العقارات",
+      "provisions": 39,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3c547223-8703-41cf-a850-b35c00d3ab9a/1"
+    },
+    {
+      "id": "sa-law-3c63e654-4046-468d-93fd-ae1a00de13be",
+      "title": "نظام حقوق كبير السن ورعايته",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3c63e654-4046-468d-93fd-ae1a00de13be/1"
+    },
+    {
+      "id": "sa-law-3d191772-e60b-4925-b5e7-aba50097641f",
+      "title": "نظام المنشآت والمستحضرات الصيدلانية والعشبية",
+      "provisions": 42,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3d191772-e60b-4925-b5e7-aba50097641f/1"
+    },
+    {
+      "id": "sa-law-3e1de77d-3cd1-44d8-b174-a9a700f1ab06",
+      "title": "نظام الهيئة السعودية للمهندسين",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3e1de77d-3cd1-44d8-b174-a9a700f1ab06/1"
+    },
+    {
+      "id": "sa-law-3e368087-7b31-46e7-8005-ada100b8f703",
+      "title": "نظام التكاليف القضائية",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3e368087-7b31-46e7-8005-ada100b8f703/1"
+    },
+    {
+      "id": "sa-law-3e3c6fc3-9a45-4a0e-b28e-a9a700f1ad14",
+      "title": "نظام مراقبة شركات التأمين التعاوني",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3e3c6fc3-9a45-4a0e-b28e-a9a700f1ad14/1"
+    },
+    {
+      "id": "sa-law-3e63e522-900b-48a8-9843-ad4600902324",
+      "title": "تنظيم المركز الوطني لتنمية القطاع غير الربحي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3e63e522-900b-48a8-9843-ad4600902324/1"
+    },
+    {
+      "id": "sa-law-3ec4414f-2ec5-48b1-bcb4-a9a700f1aa2b",
+      "title": "نظام العلامات التجارية",
+      "provisions": 58,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3ec4414f-2ec5-48b1-bcb4-a9a700f1aa2b/1"
+    },
+    {
+      "id": "sa-law-3f29ae83-240d-4626-8cb1-a9a700f25425",
+      "title": "الترتيب التنظيمي لمصانع المياه",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3f29ae83-240d-4626-8cb1-a9a700f25425/1"
+    },
+    {
+      "id": "sa-law-3fd2d5d4-e39f-4543-a69f-ad0100b32c4d",
+      "title": "تنظيم الهيئة السعودية للمراجعين والمحاسبين",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/3fd2d5d4-e39f-4543-a69f-ad0100b32c4d/1"
+    },
+    {
+      "id": "sa-law-4033de9e-45f5-406f-9b3c-a9a700f1fbf0",
+      "title": "نظام مدينة الملك عبد العزيز للعلوم والتقنية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4033de9e-45f5-406f-9b3c-a9a700f1fbf0/1"
+    },
+    {
+      "id": "sa-law-40754577-f250-47f6-8a5a-abf600af7d72",
+      "title": "نظام التوثيق",
+      "provisions": 57,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/40754577-f250-47f6-8a5a-abf600af7d72/1"
+    },
+    {
+      "id": "sa-law-407a32f0-2e60-4c3e-9994-a9a700f2952a",
+      "title": "نظام صندوق التنمية الصناعية السعودي",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/407a32f0-2e60-4c3e-9994-a9a700f2952a/1"
+    },
+    {
+      "id": "sa-law-4100e06a-1a43-458d-a3b4-a9a700f1e3d9",
+      "title": "تنظيم هيئة المدن الاقتصادية ( هيئة المدن والمناطق الاقتصادية الخاصة)",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4100e06a-1a43-458d-a3b4-a9a700f1e3d9/1"
+    },
+    {
+      "id": "sa-law-415d80f3-d9f9-4def-92d9-a9a700f25799",
+      "title": "نظام المناطق المحمية للحياة الفطرية",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/415d80f3-d9f9-4def-92d9-a9a700f25799/1"
+    },
+    {
+      "id": "sa-law-43151145-3b31-47d1-8a6c-b2db00a871d0",
+      "title": "تنظيم الهيئة السعودية لتسويق الاستثمار",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/43151145-3b31-47d1-8a6c-b2db00a871d0/1"
+    },
+    {
+      "id": "sa-law-43344715-1e0d-4e7f-9895-aa3d00f670e6",
+      "title": "النظام البحري التجاري",
+      "provisions": 391,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/43344715-1e0d-4e7f-9895-aa3d00f670e6/1"
+    },
+    {
+      "id": "sa-law-438c79cd-db47-437e-ade4-a9a700f17587",
+      "title": "تنظيم وكالة الأنباء السعودية1433هـ",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/438c79cd-db47-437e-ade4-a9a700f17587/1"
+    },
+    {
+      "id": "sa-law-43c53ab1-1cb3-4d76-ab39-a9f5012d437c",
+      "title": "النظام الأساسي للهيئة القضائية الاقتصادية لمجلس التعاون لدول الخليج العربية",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/43c53ab1-1cb3-4d76-ab39-a9f5012d437c/1"
+    },
+    {
+      "id": "sa-law-456ab486-9c16-4c7b-993c-a9a700f2cc4a",
+      "title": "نظام تعريفة الطيران المدني",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/456ab486-9c16-4c7b-993c-a9a700f2cc4a/1"
+    },
+    {
+      "id": "sa-law-45ebca20-c6de-4ce3-b593-ad2500d05ec7",
+      "title": "تنظيم هيئة المحتوى المحلي والمشتريات الحكومية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/45ebca20-c6de-4ce3-b593-ad2500d05ec7/1"
+    },
+    {
+      "id": "sa-law-4682a0f0-ba74-4a5f-b0e9-a9a700f2aa14",
+      "title": "قواعد ترشيح رواد العمل التطوعي واختيارهم وتكريمهم",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4682a0f0-ba74-4a5f-b0e9-a9a700f2aa14/1"
+    },
+    {
+      "id": "sa-law-469689de-5af0-4c28-b96c-b05a008bdda3",
+      "title": "نظام استخدام وحماية شارة واسم الهلال الأحمر وما في حكمهما",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/469689de-5af0-4c28-b96c-b05a008bdda3/1"
+    },
+    {
+      "id": "sa-law-46d3b1b2-6455-466d-8942-b13600c0414c",
+      "title": "تنظيم المعهد الوطني للتطوير المهني التعليمي",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/46d3b1b2-6455-466d-8942-b13600c0414c/1"
+    },
+    {
+      "id": "sa-law-47160380-97d9-47de-a08e-ac5f00cc3875",
+      "title": "تنظيم المركز السعودي لسلامة المرضى",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/47160380-97d9-47de-a08e-ac5f00cc3875/1"
+    },
+    {
+      "id": "sa-law-4763eb94-047b-46f1-9697-a9a700f1b7ed",
+      "title": "نظام الأوراق التجارية",
+      "provisions": 121,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4763eb94-047b-46f1-9697-a9a700f1b7ed/1"
+    },
+    {
+      "id": "sa-law-479e4f48-d35c-4dac-994b-b2eb00e44c48",
+      "title": "تنظيم الهيئة الوطنية لإدارة الطوارئ",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/479e4f48-d35c-4dac-994b-b2eb00e44c48/1"
+    },
+    {
+      "id": "sa-law-48da5c0f-b5a6-4e93-b76c-b33200be0330",
+      "title": "نظام المواد البترولية والبتروكيماوية",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/48da5c0f-b5a6-4e93-b76c-b33200be0330/1"
+    },
+    {
+      "id": "sa-law-4943163b-a079-4beb-b544-a9a700f286b1",
+      "title": "نظام وحدات الإخصاب والأجنة وعلاج العقم",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4943163b-a079-4beb-b544-a9a700f286b1/1"
+    },
+    {
+      "id": "sa-law-497918e9-dba2-4282-a410-aa3f00a6d256",
+      "title": "تنظيم الهيئة العامة للترفيه",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/497918e9-dba2-4282-a410-aa3f00a6d256/1"
+    },
+    {
+      "id": "sa-law-49ab78f2-a4ad-42f8-97ce-a9a700f28035",
+      "title": "تنظيم هيئة الهلال الأحمر السعودي",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/49ab78f2-a4ad-42f8-97ce-a9a700f28035/1"
+    },
+    {
+      "id": "sa-law-4a16fbc8-7f1d-4647-8acc-ad0900d849c2",
+      "title": "نظام التبرع بالأعضاء البشرية",
+      "provisions": 27,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4a16fbc8-7f1d-4647-8acc-ad0900d849c2/1"
+    },
+    {
+      "id": "sa-law-4c55f487-89fa-4d0f-80f1-a9a700f2835e",
+      "title": "نظام المختبرات الخاصة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4c55f487-89fa-4d0f-80f1-a9a700f2835e/1"
+    },
+    {
+      "id": "sa-law-4cbce34d-f9d3-4d07-bc08-a9a700f24bff",
+      "title": "نظام المراعي والغابات",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4cbce34d-f9d3-4d07-bc08-a9a700f24bff/1"
+    },
+    {
+      "id": "sa-law-4d0f16b6-fb15-44e3-b88c-ac4b00e40a6d",
+      "title": "تنظيم الهيئة الملكية لمحافظة العلا",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4d0f16b6-fb15-44e3-b88c-ac4b00e40a6d/1"
+    },
+    {
+      "id": "sa-law-4d5bda56-cc0d-4b16-a025-ad9d00b281ab",
+      "title": "نظام إدارة النفايات",
+      "provisions": 38,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4d5bda56-cc0d-4b16-a025-ad9d00b281ab/1"
+    },
+    {
+      "id": "sa-law-4d72d829-947b-45d5-b9b5-ae5800d6bac2",
+      "title": "نظام الأحوال الشخصية",
+      "provisions": 252,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4d72d829-947b-45d5-b9b5-ae5800d6bac2/1"
+    },
+    {
+      "id": "sa-law-4dab5511-f6af-442a-b4be-a9a700f24a3f",
+      "title": "النظام العام للبيئة",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4dab5511-f6af-442a-b4be-a9a700f24a3f/1"
+    },
+    {
+      "id": "sa-law-4db42334-ba00-47bf-b9f9-a9f4016e0ac1",
+      "title": "النظام الأساس لجمعية الكشافة العربية السعودية",
+      "provisions": 34,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4db42334-ba00-47bf-b9f9-a9f4016e0ac1/1"
+    },
+    {
+      "id": "sa-law-4e09c59d-f173-4971-8a38-a9a700f27025",
+      "title": "نظام مكافحة جرائم الاتجار بالأشخاص",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4e09c59d-f173-4971-8a38-a9a700f27025/1"
+    },
+    {
+      "id": "sa-law-4eb4bd77-cb8e-461d-b5bd-a9a700f2ee03",
+      "title": "نظام المؤسسة العامة لخطوط حديد حكومة المملكة العربية السعودية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4eb4bd77-cb8e-461d-b5bd-a9a700f2ee03/1"
+    },
+    {
+      "id": "sa-law-4ec27eee-f917-408c-85eb-a9f6011ea426",
+      "title": "نظام الأحداث",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/4ec27eee-f917-408c-85eb-a9f6011ea426/1"
+    },
+    {
+      "id": "sa-law-50924f95-f74e-430e-820c-a9a700f1abfa",
+      "title": "نظام السوق المالية",
+      "provisions": 64,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/50924f95-f74e-430e-820c-a9a700f1abfa/1"
+    },
+    {
+      "id": "sa-law-5160cfca-da74-4008-97e2-a9a700f23b92",
+      "title": "تنظيم المؤسسة العامة للتقاعد",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5160cfca-da74-4008-97e2-a9a700f23b92/1"
+    },
+    {
+      "id": "sa-law-51c9a546-fc5e-4607-ba34-a9a700f19012",
+      "title": "نظام الحراسة الأمنية المدنية الخاصة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/51c9a546-fc5e-4607-ba34-a9a700f19012/1"
+    },
+    {
+      "id": "sa-law-5203b65e-bf51-4e81-8701-a9a700f2d4b7",
+      "title": "تنظيم الجمعية السعودية للمراجعين الداخليين",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5203b65e-bf51-4e81-8701-a9a700f2d4b7/1"
+    },
+    {
+      "id": "sa-law-52da052e-9de3-4ead-abbf-aa3f00ef5083",
+      "title": "نظام صندوق الاستثمارات العامة",
+      "provisions": 32,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/52da052e-9de3-4ead-abbf-aa3f00ef5083/1"
+    },
+    {
+      "id": "sa-law-5329f61e-2ad8-42b8-8592-a9a700f298d1",
+      "title": "التنظيم الخاص بهيئة المساحة الجيولوجية السعودية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5329f61e-2ad8-42b8-8592-a9a700f298d1/1"
+    },
+    {
+      "id": "sa-law-532f29b6-5422-4f5b-9df3-b08000b06864",
+      "title": "تنظيم الهيئة العامة لتنظيم الإعلام",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/532f29b6-5422-4f5b-9df3-b08000b06864/1"
+    },
+    {
+      "id": "sa-law-53cfe087-dae1-4b95-8dff-a9a700f29f3b",
+      "title": "تنظيم المجلس الأعلى لشؤون البترول والمعادن",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/53cfe087-dae1-4b95-8dff-a9a700f29f3b/1"
+    },
+    {
+      "id": "sa-law-54ff827d-8488-49aa-b593-aa4400c961fd",
+      "title": "تنظيم المركز السعودي للتحكيم التجاري",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/54ff827d-8488-49aa-b593-aa4400c961fd/1"
+    },
+    {
+      "id": "sa-law-552d21ef-81c0-4373-bd8a-a9f6016398ef",
+      "title": "نظام التعامل مع الموارد الوراثية النباتية للأغذية والزراعة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/552d21ef-81c0-4373-bd8a-a9f6016398ef/1"
+    },
+    {
+      "id": "sa-law-5535039e-13da-43f6-8f53-a9a700f26485",
+      "title": "نظام التحكيم",
+      "provisions": 58,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5535039e-13da-43f6-8f53-a9a700f26485/1"
+    },
+    {
+      "id": "sa-law-56195fdf-46c2-44f0-88e5-a9a700f1be50",
+      "title": "نظام المحاسبين القانونيين",
+      "provisions": 38,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/56195fdf-46c2-44f0-88e5-a9a700f1be50/1"
+    },
+    {
+      "id": "sa-law-57261279-94b7-4ddc-8ad2-abf100d246be",
+      "title": "نظام المياه",
+      "provisions": 77,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/57261279-94b7-4ddc-8ad2-abf100d246be/1"
+    },
+    {
+      "id": "sa-law-588efd09-dc0d-4491-82e4-a9a700f245f6",
+      "title": "نظام المحافظة على مصادر المياه",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/588efd09-dc0d-4491-82e4-a9a700f245f6/1"
+    },
+    {
+      "id": "sa-law-58b1d864-0d14-4ed7-9c5e-ac4e00b5aff9",
+      "title": "الترتيبات التنظيمية للهيئة الملكية لمدينة مكة المكرمة والمشاعر المقدسة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/58b1d864-0d14-4ed7-9c5e-ac4e00b5aff9/1"
+    },
+    {
+      "id": "sa-law-58c61d55-df5b-4820-b2d6-afd300bc7e1e",
+      "title": "الترتيبات التنظيمية لهيئة تنمية البحث والتطوير والابتكار",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/58c61d55-df5b-4820-b2d6-afd300bc7e1e/1"
+    },
+    {
+      "id": "sa-law-59baf522-f5fb-4a93-8af2-b12100aa28ff",
+      "title": "تنظيم الهيئة السعودية للسياحة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/59baf522-f5fb-4a93-8af2-b12100aa28ff/1"
+    },
+    {
+      "id": "sa-law-59d8016f-daa9-463b-8a5d-a9a700f2d3eb",
+      "title": "نظام رسوم تسجيل السفن والوحدات العائمة",
+      "provisions": 4,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/59d8016f-daa9-463b-8a5d-a9a700f2d3eb/1"
+    },
+    {
+      "id": "sa-law-5a16cf9b-e1b8-426f-82ab-a9a700f2a640",
+      "title": "تنظيم صندوق تنمية الموارد البشرية",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5a16cf9b-e1b8-426f-82ab-a9a700f2a640/1"
+    },
+    {
+      "id": "sa-law-5c351f5d-0814-4b94-86a0-a9a700f1b1f8",
+      "title": "نظام تصنيف المقاولين1427هـ",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5c351f5d-0814-4b94-86a0-a9a700f1b1f8/1"
+    },
+    {
+      "id": "sa-law-5cfaf54a-f52f-427f-92bd-a9a700f21f30",
+      "title": "لائحة الغرامات والجزاءات عن المخالفات البلدية",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5cfaf54a-f52f-427f-92bd-a9a700f21f30/1"
+    },
+    {
+      "id": "sa-law-5d3379bd-3547-494e-9fbd-a9a700f26e24",
+      "title": "نظام ديوان المظالم",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5d3379bd-3547-494e-9fbd-a9a700f26e24/1"
+    },
+    {
+      "id": "sa-law-5dc538d4-5bbd-4995-8f0c-a9a700f2c88c",
+      "title": "نظام ديوان المراقبة العامة",
+      "provisions": 33,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5dc538d4-5bbd-4995-8f0c-a9a700f2c88c/1"
+    },
+    {
+      "id": "sa-law-5e9762df-2b15-4e66-8cdc-aa5200f62042",
+      "title": "نظام الإقامة المميزة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5e9762df-2b15-4e66-8cdc-aa5200f62042/1"
+    },
+    {
+      "id": "sa-law-5efb6f40-d859-47e6-9c8a-b04500943ecc",
+      "title": "نظام المساهمات العقارية",
+      "provisions": 38,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5efb6f40-d859-47e6-9c8a-b04500943ecc/1"
+    },
+    {
+      "id": "sa-law-5f028fb6-ec65-4745-8836-a9a700f28c38",
+      "title": "تنظيم صندوق مدينة الملك فهد الطبية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5f028fb6-ec65-4745-8836-a9a700f28c38/1"
+    },
+    {
+      "id": "sa-law-5fa38926-e89f-42fc-bf9f-ac4d00e16635",
+      "title": "تنظيم هيئة تطوير بوابة الدرعية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/5fa38926-e89f-42fc-bf9f-ac4d00e16635/1"
+    },
+    {
+      "id": "sa-law-61fa8a49-aa1b-49ed-b9ad-adaa00dc6272",
+      "title": "نظام مكافحة التسول",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/61fa8a49-aa1b-49ed-b9ad-adaa00dc6272/1"
+    },
+    {
+      "id": "sa-law-62679230-95a3-44d5-bc69-a9a700f28bbd",
+      "title": "تنظيم المركز الوطني للطب البديل والتكميلي",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/62679230-95a3-44d5-bc69-a9a700f28bbd/1"
+    },
+    {
+      "id": "sa-law-62d14b10-5bee-46e9-870a-a9a700f19762",
+      "title": "تنظيم صندوق الشهداء والمصابين والأسرى والمفقودين",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/62d14b10-5bee-46e9-870a-a9a700f19762/1"
+    },
+    {
+      "id": "sa-law-63831ff6-63d9-4212-8b54-abf800e146bd",
+      "title": "نظام البيئة",
+      "provisions": 49,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/63831ff6-63d9-4212-8b54-abf800e146bd/1"
+    },
+    {
+      "id": "sa-law-6383fcba-9d26-428a-8b5a-a9a700f29275",
+      "title": "تنظيم المركز السعودي لاعتماد المنشآت الصحية",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6383fcba-9d26-428a-8b5a-a9a700f29275/1"
+    },
+    {
+      "id": "sa-law-6435e205-a7ae-4a8c-9580-ad0000b6bef2",
+      "title": "نظام مهنة المحاسبة والمراجعة",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6435e205-a7ae-4a8c-9580-ad0000b6bef2/1"
+    },
+    {
+      "id": "sa-law-64aee787-4618-4979-b4d8-a9a700f1c647",
+      "title": "نظام استيراد المواد الكيميائية وإدارتها ( نظام إدارة المواد الكيميائية )",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/64aee787-4618-4979-b4d8-a9a700f1c647/1"
+    },
+    {
+      "id": "sa-law-64e307c5-ac8c-49d8-9174-a9a700f285a0",
+      "title": "نظام المؤسسات الصحية الخاصة",
+      "provisions": 35,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/64e307c5-ac8c-49d8-9174-a9a700f285a0/1"
+    },
+    {
+      "id": "sa-law-652bbeb0-fb94-4f08-b70c-a9a700f2a0c2",
+      "title": "القانون (النظام) الموحد للتعدين لدول مجلس التعاون",
+      "provisions": 62,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/652bbeb0-fb94-4f08-b70c-a9a700f2a0c2/1"
+    },
+    {
+      "id": "sa-law-655fdb42-8c96-422b-b8c4-b04f0095c94c",
+      "title": "نظام المعاملات المدنية",
+      "provisions": 721,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1"
+    },
+    {
+      "id": "sa-law-664d871f-7a44-4a52-b653-b2db00b55732",
+      "title": "الترتيبات التنظيمية للمركز السعودي لكود البناء",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/664d871f-7a44-4a52-b653-b2db00b55732/1"
+    },
+    {
+      "id": "sa-law-667e9149-19e3-451e-9212-ad2e0091def9",
+      "title": "تنظيم هيئة الزكاة والضريبة والجمارك",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/667e9149-19e3-451e-9212-ad2e0091def9/1"
+    },
+    {
+      "id": "sa-law-66c640db-fbb2-45fc-a797-a9a700f29c6a",
+      "title": "قانون (نظام) التنظيم الصناعي الموحد لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 33,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/66c640db-fbb2-45fc-a797-a9a700f29c6a/1"
+    },
+    {
+      "id": "sa-law-66eccea3-fc1c-471f-bcfa-ad9d009a7ec0",
+      "title": "نظام تصنيف المقاولين",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/66eccea3-fc1c-471f-bcfa-ad9d009a7ec0/1"
+    },
+    {
+      "id": "sa-law-67d159e6-ee98-4efc-a2ee-a9a700f17083",
+      "title": "نظام حماية حقوق المؤلف",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/67d159e6-ee98-4efc-a2ee-a9a700f17083/1"
+    },
+    {
+      "id": "sa-law-68204119-84f1-4789-8fad-a9ec014c3788",
+      "title": "نظام الإفلاس",
+      "provisions": 231,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/68204119-84f1-4789-8fad-a9ec014c3788/1"
+    },
+    {
+      "id": "sa-law-6932e745-0f61-4f25-9e4a-a9a700f21d6b",
+      "title": "نظام رسوم الأراضي البيضاء والعقارات الشاغرة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6932e745-0f61-4f25-9e4a-a9a700f21d6b/1"
+    },
+    {
+      "id": "sa-law-6994e763-5a47-4c4e-b796-b08000dccc7d",
+      "title": "تنظيم هيئة التأمين",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6994e763-5a47-4c4e-b796-b08000dccc7d/1"
+    },
+    {
+      "id": "sa-law-6a8286ec-baea-43ec-ab0d-a9a700f26c94",
+      "title": "نظام الهيئة العامة للولاية على أموال القاصرين ومن فى حكمهم",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6a8286ec-baea-43ec-ab0d-a9a700f26c94/1"
+    },
+    {
+      "id": "sa-law-6b33da12-2759-4787-9ee8-aa3f00f37224",
+      "title": "تنظيم المركز السعودي للأعمال الاقتصادية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6b33da12-2759-4787-9ee8-aa3f00f37224/1"
+    },
+    {
+      "id": "sa-law-6b615a05-f637-41cf-8419-a9a700f1afd7",
+      "title": "نظام المنافسة",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6b615a05-f637-41cf-8419-a9a700f1afd7/1"
+    },
+    {
+      "id": "sa-law-6c421c5c-c137-442e-a854-b12200c46ffe",
+      "title": "نظام حماية المبلغين والشهود والخبراء والضحايا",
+      "provisions": 37,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6c421c5c-c137-442e-a854-b12200c46ffe/1"
+    },
+    {
+      "id": "sa-law-6c8d5fc7-ce6c-4636-9c72-a9a700f28290",
+      "title": "نظام الهيئة السعودية للتخصصات الصحية",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6c8d5fc7-ce6c-4636-9c72-a9a700f28290/1"
+    },
+    {
+      "id": "sa-law-6cf17f84-7a45-4ff1-a61a-a9f600fd90bd",
+      "title": "تنظيم الهيئة السعودية للملكية الفكرية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6cf17f84-7a45-4ff1-a61a-a9f600fd90bd/1"
+    },
+    {
+      "id": "sa-law-6cfde53b-e803-49be-b2c6-a9a700f1c434",
+      "title": "نظام براءات الاختراع والتصميمات التخطيطية للدارات المتكاملة والأصناف النباتية والنماذج الصناعية",
+      "provisions": 65,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6cfde53b-e803-49be-b2c6-a9a700f1c434/1"
+    },
+    {
+      "id": "sa-law-6d1d7df9-b061-4830-8356-b332009f07ad",
+      "title": "تنظيم الهيئة العامة للأمن الغذائي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6d1d7df9-b061-4830-8356-b332009f07ad/1"
+    },
+    {
+      "id": "sa-law-6df93eb2-af1f-4c0b-bb4e-b0ec00a5e4ea",
+      "title": "الترتيبات التنظيمية للهيئة السعودية للألعاب والرياضات الإلكترونية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6df93eb2-af1f-4c0b-bb4e-b0ec00a5e4ea/1"
+    },
+    {
+      "id": "sa-law-6f3797d0-fc94-4930-b5e3-a9a700f25744",
+      "title": "قانون (نظام) الرفق بالحيوان لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/6f3797d0-fc94-4930-b5e3-a9a700f25744/1"
+    },
+    {
+      "id": "sa-law-7017dc70-15bb-4137-b87d-a9a700f1b950",
+      "title": "نظام الصندوق السعودي للتنمية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7017dc70-15bb-4137-b87d-a9a700f1b950/1"
+    },
+    {
+      "id": "sa-law-70405759-cf34-4260-a81e-a9a700f21241",
+      "title": "نظام حماية المرافق العامة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/70405759-cf34-4260-a81e-a9a700f21241/1"
+    },
+    {
+      "id": "sa-law-70da3158-a022-4dee-b94d-a9a700f1f9f1",
+      "title": "تنظيم مشاركة الوفود الرسمية في الاجتماعات",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/70da3158-a022-4dee-b94d-a9a700f1f9f1/1"
+    },
+    {
+      "id": "sa-law-7270187a-6cde-413d-9665-a9a700f29022",
+      "title": "تنظيم المدن الطبية والمستشفيات التخصصية التابعة لوزارة الصحة",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7270187a-6cde-413d-9665-a9a700f29022/1"
+    },
+    {
+      "id": "sa-law-7332c942-b24e-4903-9b1b-a9a700f2b726",
+      "title": "تنظيم إعانة البحث عن عمل 1432هـ",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7332c942-b24e-4903-9b1b-a9a700f2b726/1"
+    },
+    {
+      "id": "sa-law-737705df-17ad-42b0-9094-a9a700f1bb61",
+      "title": "نظام الغرف التجارية والصناعية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/737705df-17ad-42b0-9094-a9a700f1bb61/1"
+    },
+    {
+      "id": "sa-law-738c42bb-a29f-4da7-bed4-b1d300a55f20",
+      "title": "نظام جمع التبرعات",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/738c42bb-a29f-4da7-bed4-b1d300a55f20/1"
+    },
+    {
+      "id": "sa-law-73fd9170-ee6a-4380-8181-a9a700f29b65",
+      "title": "نظام الكهرباء1426هـ",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/73fd9170-ee6a-4380-8181-a9a700f29b65/1"
+    },
+    {
+      "id": "sa-law-7463cdec-7e4b-4781-9f95-add900b4bd80",
+      "title": "تنظيم مركز الملك عبدالله بن عبد العزيز للتخطيط والسياسات اللغوية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7463cdec-7e4b-4781-9f95-add900b4bd80/1"
+    },
+    {
+      "id": "sa-law-746f3ff2-0c3a-4b60-aac2-a9a700f1c4e8",
+      "title": "النظام الأساسي لهيئة التقييس لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/746f3ff2-0c3a-4b60-aac2-a9a700f1c4e8/1"
+    },
+    {
+      "id": "sa-law-748dc7f1-acae-43a2-b536-a9a700f2dfa3",
+      "title": "نظام حماية خطوط السكك الحديدية",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/748dc7f1-acae-43a2-b536-a9a700f2dfa3/1"
+    },
+    {
+      "id": "sa-law-750bf502-86c2-4928-bdb9-a9a700f1ff3b",
+      "title": "تنظيم المؤسسة العامة للتدريب التقني والمهني",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/750bf502-86c2-4928-bdb9-a9a700f1ff3b/1"
+    },
+    {
+      "id": "sa-law-753d7ffc-5e18-4f36-818d-a9a700f213a1",
+      "title": "نظام تملك غير السعوديين للعقار واستثماره",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/753d7ffc-5e18-4f36-818d-a9a700f213a1/1"
+    },
+    {
+      "id": "sa-law-75b36744-adcf-4642-80ce-a9a700f1f4d9",
+      "title": "تنظيم الهيئة العامة للزكاة والدخل",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/75b36744-adcf-4642-80ce-a9a700f1f4d9/1"
+    },
+    {
+      "id": "sa-law-75e963c8-9ff3-4d10-88a4-a9a700f17f21",
+      "title": "نظام مكافحة الرشوة",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/75e963c8-9ff3-4d10-88a4-a9a700f17f21/1"
+    },
+    {
+      "id": "sa-law-76988d51-8339-42a8-97d1-a9a700f194dc",
+      "title": "النظام الأساسي لمركز المعلومات الجنائية لمكافحة المخدرات لمجلس التعاون لدول الخليج العربية",
+      "provisions": 1,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/76988d51-8339-42a8-97d1-a9a700f194dc/1"
+    },
+    {
+      "id": "sa-law-76ad693d-d427-4de8-8980-a9a700f210be",
+      "title": "نظام صندوق التنمية العقارية1394هـ",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/76ad693d-d427-4de8-8980-a9a700f210be/1"
+    },
+    {
+      "id": "sa-law-7797548e-f8c5-4042-a383-a9a700f1fe68",
+      "title": "نظام معهد الإدارة العامة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7797548e-f8c5-4042-a383-a9a700f1fe68/1"
+    },
+    {
+      "id": "sa-law-7799b707-e228-452c-8b19-ac7b00b4b64e",
+      "title": "نظام الضمان الاجتماعي",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7799b707-e228-452c-8b19-ac7b00b4b64e/1"
+    },
+    {
+      "id": "sa-law-77d77bae-afbb-4481-a1cd-a9a700f1744b",
+      "title": "نظام عقوبات نشر الوثائق والمعلومات السرية وإفشائها",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/77d77bae-afbb-4481-a1cd-a9a700f1744b/1"
+    },
+    {
+      "id": "sa-law-77ff78f3-6da2-451f-9a97-ab6d00bd094a",
+      "title": "تنظيم مؤسسة المسار الرياضي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/77ff78f3-6da2-451f-9a97-ab6d00bd094a/1"
+    },
+    {
+      "id": "sa-law-788be42c-94c8-48ae-bdf9-a9a700f273f4",
+      "title": "لائحة أعضاء هيئة التحقيق والادعاء العام والعاملين فيها",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/788be42c-94c8-48ae-bdf9-a9a700f273f4/1"
+    },
+    {
+      "id": "sa-law-7912ce55-36b8-4db2-8e59-a9eb016d382f",
+      "title": "تنظيم المؤسسة العامة للري 1439هـ",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7912ce55-36b8-4db2-8e59-a9eb016d382f/1"
+    },
+    {
+      "id": "sa-law-793145a2-986b-4df3-b95d-a9a700f2bf18",
+      "title": "اللائحة التنظيمية لتأشيرات الأعمال المؤقتة والموسمية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/793145a2-986b-4df3-b95d-a9a700f2bf18/1"
+    },
+    {
+      "id": "sa-law-79511847-3c0d-490a-957c-a9a700f25573",
+      "title": "تنظيم الجمعية السعودية للزراعة العضوية",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/79511847-3c0d-490a-957c-a9a700f25573/1"
+    },
+    {
+      "id": "sa-law-796a6587-8da2-4583-8603-ac4500d5b8bc",
+      "title": "تنظيم الهيئة العامة للمساحة والمعلومات الجيومكانية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/796a6587-8da2-4583-8603-ac4500d5b8bc/1"
+    },
+    {
+      "id": "sa-law-799f2563-d262-4444-9646-a9a700f24f08",
+      "title": "نظام البحث العلمي البحري في المناطق البحرية التابِعة للمملكة العربية السعودية",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/799f2563-d262-4444-9646-a9a700f24f08/1"
+    },
+    {
+      "id": "sa-law-7a84188e-a8b5-4ed2-bede-a9eb015999e0",
+      "title": "تنظيم الهيئة العامة للثقافة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7a84188e-a8b5-4ed2-bede-a9eb015999e0/1"
+    },
+    {
+      "id": "sa-law-7ac1a448-b042-4c73-8164-b2eb00ceb54f",
+      "title": "نظام الطوارئ",
+      "provisions": 32,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7ac1a448-b042-4c73-8164-b2eb00ceb54f/1"
+    },
+    {
+      "id": "sa-law-7b1c33b7-c2af-4c88-bb3e-ab5700b28ae4",
+      "title": "لائحة تفضيل المحتوى المحلي والمنشآت الصغيرة والمتوسطة المحلية والشركات المدرجة في السوق المالية في الأعمال والمشتريات",
+      "provisions": 39,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7b1c33b7-c2af-4c88-bb3e-ab5700b28ae4/1"
+    },
+    {
+      "id": "sa-law-7b3d4c04-1816-4c89-bdc7-b32200e54fee",
+      "title": "تنظيم الهيئة العامة للطيران المدني",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7b3d4c04-1816-4c89-bdc7-b32200e54fee/1"
+    },
+    {
+      "id": "sa-law-7b6436fd-e7c0-4a51-afcc-a9a700f1ae15",
+      "title": "نظام الرهن التجاري",
+      "provisions": 27,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7b6436fd-e7c0-4a51-afcc-a9a700f1ae15/1"
+    },
+    {
+      "id": "sa-law-7ca85356-ad9c-438d-8712-a9a700f19588",
+      "title": "تنظيم الفحص الفني الدوري للمركبات 1431هـ",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7ca85356-ad9c-438d-8712-a9a700f19588/1"
+    },
+    {
+      "id": "sa-law-7d777c66-d28b-43de-9305-af23013b1738",
+      "title": "نظام السياحة",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7d777c66-d28b-43de-9305-af23013b1738/1"
+    },
+    {
+      "id": "sa-law-7dd058e6-3f77-4eaa-a069-a9f801447c70",
+      "title": "نظام مطاحن إنتاج الدقيق",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7dd058e6-3f77-4eaa-a069-a9f801447c70/1"
+    },
+    {
+      "id": "sa-law-7e2b99b1-0e84-4dd1-90c7-a9a700f18cdf",
+      "title": "نظام الأحوال المدنية",
+      "provisions": 96,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7e2b99b1-0e84-4dd1-90c7-a9a700f18cdf/1"
+    },
+    {
+      "id": "sa-law-7ea51f01-916d-4f4b-81b3-a9ed010a6dc5",
+      "title": "نظام المواد الهيدروكربونية",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7ea51f01-916d-4f4b-81b3-a9ed010a6dc5/1"
+    },
+    {
+      "id": "sa-law-7f147afb-5a81-4744-a4bf-b1cd00b831ea",
+      "title": "نظام سلامة المنتجات",
+      "provisions": 37,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7f147afb-5a81-4744-a4bf-b1cd00b831ea/1"
+    },
+    {
+      "id": "sa-law-7f647ef9-d8ae-4a23-90a2-a9a700f1f999",
+      "title": "اللائحة التنفيذية لنظام الأوسمة السعودية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/7f647ef9-d8ae-4a23-90a2-a9a700f1f999/1"
+    },
+    {
+      "id": "sa-law-807582c2-555f-4ee0-aeea-a9a700f2b6b3",
+      "title": "تنظيم الصندوق الخيري الاجتماعي",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/807582c2-555f-4ee0-aeea-a9a700f2b6b3/1"
+    },
+    {
+      "id": "sa-law-80edfc3f-789b-4abf-9920-b13700da43e8",
+      "title": "اللائحة التنظيمية للبرامج الاجتماعية والمهنية للأشخاص ذوي الإعاقة",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/80edfc3f-789b-4abf-9920-b13700da43e8/1"
+    },
+    {
+      "id": "sa-law-812ac6e0-430d-4c9d-b6cb-a9a700f2080c",
+      "title": "تنظيم خدمات المعتمرين وزوار المسجد النبوي الشريف القادمين من خارج المملكة",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/812ac6e0-430d-4c9d-b6cb-a9a700f2080c/1"
+    },
+    {
+      "id": "sa-law-81556dde-a88b-460f-b96a-a9a700f288d6",
+      "title": "النظام الموحد لإدارة نفايات الرعاية الصحية بدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 1,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/81556dde-a88b-460f-b96a-a9a700f288d6/1"
+    },
+    {
+      "id": "sa-law-8161ec24-d5e0-48b4-8392-a9a700f278d8",
+      "title": "نظام حماية التراث المخطوط في المملكة العربية السعودية",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8161ec24-d5e0-48b4-8392-a9a700f278d8/1"
+    },
+    {
+      "id": "sa-law-81bd35e9-ee8d-47bf-97c7-a9a700f2100a",
+      "title": "نظام التصرف في العقارات البلدية",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/81bd35e9-ee8d-47bf-97c7-a9a700f2100a/1"
+    },
+    {
+      "id": "sa-law-81fa0eb9-de83-4e83-b2aa-a9a700f21774",
+      "title": "تنظيم تملك مواطني دول المجلس للعقار في الدول الأعضاء بمجلس التعاون لغرض السكن والاستثمار",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/81fa0eb9-de83-4e83-b2aa-a9a700f21774/1"
+    },
+    {
+      "id": "sa-law-82b804f6-0075-47c2-a772-acc4002f8b3e",
+      "title": "نظام معالجة المنشآت المالية المهمة",
+      "provisions": 38,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/82b804f6-0075-47c2-a772-acc4002f8b3e/1"
+    },
+    {
+      "id": "sa-law-82e66c29-bff3-4e5e-abfd-ac6d00a50895",
+      "title": "تنظيم المركز الوطني للوقاية من الآفات النباتية والأمراض الحيوانية ومكافحتها",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/82e66c29-bff3-4e5e-abfd-ac6d00a50895/1"
+    },
+    {
+      "id": "sa-law-831af69c-9bad-4f06-9843-b33100926b3c",
+      "title": "تنظيم المؤسسة العامة للري",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/831af69c-9bad-4f06-9843-b33100926b3c/1"
+    },
+    {
+      "id": "sa-law-83431376-5cf3-4374-875a-a9a700f16985",
+      "title": "نظام الإذاعة الأساسي",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/83431376-5cf3-4374-875a-a9a700f16985/1"
+    },
+    {
+      "id": "sa-law-836460dd-2750-40a8-b8b1-a9a700f26ede",
+      "title": "تنظيم هيئة حقوق الإنسان",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/836460dd-2750-40a8-b8b1-a9a700f26ede/1"
+    },
+    {
+      "id": "sa-law-83f450eb-7985-461f-b053-a9a700f2ba08",
+      "title": "نظام الحماية من الإيذاء",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/83f450eb-7985-461f-b053-a9a700f2ba08/1"
+    },
+    {
+      "id": "sa-law-85364e57-c01e-41ba-8def-a9a700f183e9",
+      "title": "نظام المرور",
+      "provisions": 85,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/85364e57-c01e-41ba-8def-a9a700f183e9/1"
+    },
+    {
+      "id": "sa-law-856b8992-cf28-422a-96a8-a9ec0127f6e7",
+      "title": "تنظيم صندوق النفقة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/856b8992-cf28-422a-96a8-a9ec0127f6e7/1"
+    },
+    {
+      "id": "sa-law-859d4e56-627b-4766-a7aa-a9a700f23975",
+      "title": "نظام التقاعد المدني",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/859d4e56-627b-4766-a7aa-a9a700f23975/1"
+    },
+    {
+      "id": "sa-law-85eb2897-bec6-4c0c-b1d7-ac7c008ec09c",
+      "title": "نظام مكافحة الغش التجاري",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/85eb2897-bec6-4c0c-b1d7-ac7c008ec09c/1"
+    },
+    {
+      "id": "sa-law-861bfe91-e37d-4c72-8f07-acc700231794",
+      "title": "لائحة رقابة ديوان المراقبة العامة على المؤسسات الخاصة والشركات التي تساهم الدولة في رأسمالها أو تضمن لها حدا ادنى من الأرباح (لائحة رقابة الديوان العام للمحاسبة)",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/861bfe91-e37d-4c72-8f07-acc700231794/1"
+    },
+    {
+      "id": "sa-law-86f03d34-3650-4553-b6a0-a9a700f2cdae",
+      "title": "نظام الإيداع في المخازن العامة",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/86f03d34-3650-4553-b6a0-a9a700f2cdae/1"
+    },
+    {
+      "id": "sa-law-871b7db0-6d40-4380-90a1-a9a700f188c7",
+      "title": "نظام أمن الحدود",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/871b7db0-6d40-4380-90a1-a9a700f188c7/1"
+    },
+    {
+      "id": "sa-law-872950d8-7059-41fd-a6f1-a9a700f2a962",
+      "title": "نظام رعاية المعوقين",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/872950d8-7059-41fd-a6f1-a9a700f2a962/1"
+    },
+    {
+      "id": "sa-law-8799f302-3ad8-41ae-a8d8-b11d008a40f6",
+      "title": "نظام صندوق البنية التحتية الوطني",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8799f302-3ad8-41ae-a8d8-b11d008a40f6/1"
+    },
+    {
+      "id": "sa-law-87a6bf6e-e4e2-468d-bd9e-b0b400a55bbb",
+      "title": "تنظيم الهيئة السعودية للبحر الأحمر",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/87a6bf6e-e4e2-468d-bd9e-b0b400a55bbb/1"
+    },
+    {
+      "id": "sa-law-87aa6473-8e77-4dc5-b45d-a9a700f2e50f",
+      "title": "نظام البريد 1406هـ",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/87aa6473-8e77-4dc5-b45d-a9a700f2e50f/1"
+    },
+    {
+      "id": "sa-law-87c1482d-fa95-41ea-98b6-a9a700f2a529",
+      "title": "نظام الضمان الصحي التعاوني",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/87c1482d-fa95-41ea-98b6-a9a700f2a529/1"
+    },
+    {
+      "id": "sa-law-87e36287-f62c-4006-b677-a9a700f20677",
+      "title": "تنظيم معاملة القادمين للمملكة بتأشيرات دخول للحج أو العمرة وغيرها",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/87e36287-f62c-4006-b677-a9a700f20677/1"
+    },
+    {
+      "id": "sa-law-88254f6b-0311-4ed2-be96-a9a700f2d6f2",
+      "title": "نظام التمويل العقاري",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/88254f6b-0311-4ed2-be96-a9a700f2d6f2/1"
+    },
+    {
+      "id": "sa-law-8847a132-156b-49e8-add9-aa52010570f2",
+      "title": "تنظيم مركز الإسناد والتصفية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8847a132-156b-49e8-add9-aa52010570f2/1"
+    },
+    {
+      "id": "sa-law-884a0f1e-1e36-4ba3-9574-a9f6010f31ce",
+      "title": "تنظيم دارة الملك عبدالعزيز",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/884a0f1e-1e36-4ba3-9574-a9f6010f31ce/1"
+    },
+    {
+      "id": "sa-law-88e6a3d3-5a45-452b-8d0b-a9a700f1961d",
+      "title": "تنظيم المؤسسة العامة للصناعات العسكرية",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/88e6a3d3-5a45-452b-8d0b-a9a700f1961d/1"
+    },
+    {
+      "id": "sa-law-8912f72f-38b2-400e-8d4e-ac3e00c3a0aa",
+      "title": "تنظيم مجلس التنمية السياحي",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8912f72f-38b2-400e-8d4e-ac3e00c3a0aa/1"
+    },
+    {
+      "id": "sa-law-891a3908-3c1b-4b06-85ac-a9a700f17132",
+      "title": "نظام مكتبة الملك فهد الوطنية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/891a3908-3c1b-4b06-85ac-a9a700f17132/1"
+    },
+    {
+      "id": "sa-law-896f4986-334b-4c76-b938-ada500eae2eb",
+      "title": "نظام الانضباط الوظيفي",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/896f4986-334b-4c76-b938-ada500eae2eb/1"
+    },
+    {
+      "id": "sa-law-898062b9-805f-4bab-974c-ac4500ed4262",
+      "title": "تنظيم وزارة السياحة",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/898062b9-805f-4bab-974c-ac4500ed4262/1"
+    },
+    {
+      "id": "sa-law-8a12c94e-5a31-45cf-9c57-ac4400be8677",
+      "title": "نظام خدمة الضباط",
+      "provisions": 161,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8a12c94e-5a31-45cf-9c57-ac4400be8677/1"
+    },
+    {
+      "id": "sa-law-8a1799f2-3cd4-4619-b2ce-a9a700f18741",
+      "title": "النظام الجزائي الخاص بتزييف وتقليد النقود",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8a1799f2-3cd4-4619-b2ce-a9a700f18741/1"
+    },
+    {
+      "id": "sa-law-8a1c4fdb-bd2e-4b80-865f-a9eb00f8fed1",
+      "title": "تنظيم المركز السعودي للشراكات الاستراتيجية الدولية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8a1c4fdb-bd2e-4b80-865f-a9eb00f8fed1/1"
+    },
+    {
+      "id": "sa-law-8a661e5c-5844-4d90-87fd-adb900ba3c3a",
+      "title": "تنظيم مجلس المحتوى الرقمي",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8a661e5c-5844-4d90-87fd-adb900ba3c3a/1"
+    },
+    {
+      "id": "sa-law-8af67ec1-6776-4f67-abb4-ad0900eadf2f",
+      "title": "نظام التخصيص",
+      "provisions": 45,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8af67ec1-6776-4f67-abb4-ad0900eadf2f/1"
+    },
+    {
+      "id": "sa-law-8b100aee-54a5-48c1-9866-a9a700f2d539",
+      "title": "نظام إيرادات الدولة",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8b100aee-54a5-48c1-9866-a9a700f2d539/1"
+    },
+    {
+      "id": "sa-law-8b59b6e9-94ff-4d7c-90df-acc60000e5ee",
+      "title": "آلية العمل التنفيذية لنظام القضاء ونظام ديوان المظالم",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8b59b6e9-94ff-4d7c-90df-acc60000e5ee/1"
+    },
+    {
+      "id": "sa-law-8bb51bc2-69b3-4dfa-83de-ada400bd49e3",
+      "title": "هيئة كفاءة الإنفاق والمشروعات الحكومية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8bb51bc2-69b3-4dfa-83de-ada400bd49e3/1"
+    },
+    {
+      "id": "sa-law-8c75513b-3ed2-4261-a55f-a9a700f2bb03",
+      "title": "تنظيم المخصص المالي لصعوبة الحصول على عمل",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8c75513b-3ed2-4261-a55f-a9a700f2bb03/1"
+    },
+    {
+      "id": "sa-law-8ca91427-5be7-4807-80ae-adc700a97f0d",
+      "title": "نظام البريد",
+      "provisions": 37,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8ca91427-5be7-4807-80ae-adc700a97f0d/1"
+    },
+    {
+      "id": "sa-law-8d3508da-fafc-4fb7-bc66-a9a700f29d23",
+      "title": "تنظيم الهيئة العامة للمساحة",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8d3508da-fafc-4fb7-bc66-a9a700f29d23/1"
+    },
+    {
+      "id": "sa-law-8d68a28a-3ca8-4093-8f53-a9a700f28818",
+      "title": "نظام تداول بدائل حليب الأم",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8d68a28a-3ca8-4093-8f53-a9a700f28818/1"
+    },
+    {
+      "id": "sa-law-8e4bbe17-7156-445b-9928-a9a700f2c03d",
+      "title": "لائحة دور الرعاية الاجتماعية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8e4bbe17-7156-445b-9928-a9a700f2c03d/1"
+    },
+    {
+      "id": "sa-law-8ed6aa8c-707c-4987-9c56-a9eb013b8d6f",
+      "title": "تنظيم المركز الوطني للتعليم الإلكتروني",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8ed6aa8c-707c-4987-9c56-a9eb013b8d6f/1"
+    },
+    {
+      "id": "sa-law-8ee74282-7f0d-49ff-b6ee-aafc00a3d801",
+      "title": "نظام الجامعات",
+      "provisions": 58,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8ee74282-7f0d-49ff-b6ee-aafc00a3d801/1"
+    },
+    {
+      "id": "sa-law-8f0b8e8e-a856-4567-9396-a9a700f20b4d",
+      "title": "تنظيم مجمع الملك عبدالعزيز للمكتبات الوقفية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8f0b8e8e-a856-4567-9396-a9a700f20b4d/1"
+    },
+    {
+      "id": "sa-law-8f1b7079-a5f0-425d-b5e0-a9a700f26b2d",
+      "title": "نظام الإجراءات الجزائية",
+      "provisions": 178,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8f1b7079-a5f0-425d-b5e0-a9a700f26b2d/1"
+    },
+    {
+      "id": "sa-law-8f70dc63-dd9a-4734-9216-a9a700f2c78c",
+      "title": "نظام مراقبة البنوك",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8f70dc63-dd9a-4734-9216-a9a700f2c78c/1"
+    },
+    {
+      "id": "sa-law-8ff3cd90-e466-4bf9-a071-a9a700f2a70d",
+      "title": "نظام التأمينات الاجتماعية 1421هـ",
+      "provisions": 69,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/8ff3cd90-e466-4bf9-a071-a9a700f2a70d/1"
+    },
+    {
+      "id": "sa-law-903dafd6-34ee-441e-b104-a9fc00a60c78",
+      "title": "تنظيم المركز الوطني للتنافسية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/903dafd6-34ee-441e-b104-a9fc00a60c78/1"
+    },
+    {
+      "id": "sa-law-905e11b3-4d66-496c-9c1b-ad240106367f",
+      "title": "نظام مكافحة الاحتيال المالي وخيانة الأمانة",
+      "provisions": 11,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/905e11b3-4d66-496c-9c1b-ad240106367f/1"
+    },
+    {
+      "id": "sa-law-90b81287-baab-4f66-a9c1-a9a700f2ce78",
+      "title": "نظام البنك السعودي للتسليف والادخار ( بنك التنمية الاجتماعية )",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/90b81287-baab-4f66-a9c1-a9a700f2ce78/1"
+    },
+    {
+      "id": "sa-law-90f66860-d28b-40ed-b49d-ac3700baf50e",
+      "title": "لائحة حقوق وواجبات من يستعان بهم في أعمال الدفاع المدني وعلاقتهم بجهاتهم",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/90f66860-d28b-40ed-b49d-ac3700baf50e/1"
+    },
+    {
+      "id": "sa-law-9167ec51-a011-4a22-b6c3-a9a700f290f8",
+      "title": "نظام الغذاء",
+      "provisions": 45,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9167ec51-a011-4a22-b6c3-a9a700f290f8/1"
+    },
+    {
+      "id": "sa-law-921c3d40-85cd-4f5e-aa97-aca900b92c72",
+      "title": "لائحة الجزاءات عن المخالفات البلدية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/921c3d40-85cd-4f5e-aa97-aca900b92c72/1"
+    },
+    {
+      "id": "sa-law-93365bc0-8aa6-47a7-aed9-a9a700f29ecb",
+      "title": "التنظيم الخاص بمركز الدراسات والبحوث البترولية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/93365bc0-8aa6-47a7-aed9-a9a700f29ecb/1"
+    },
+    {
+      "id": "sa-law-93b6f7f3-1083-46e7-b30e-a9a700f291b0",
+      "title": "نظام مكافحة التدخين",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/93b6f7f3-1083-46e7-b30e-a9a700f291b0/1"
+    },
+    {
+      "id": "sa-law-93e87aa7-f344-4711-b97c-a9a700f1662b",
+      "title": "نظام مجلس الوزراء",
+      "provisions": 32,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/93e87aa7-f344-4711-b97c-a9a700f1662b/1"
+    },
+    {
+      "id": "sa-law-93f81644-fbbc-49ca-b33c-a9a700f16701",
+      "title": "نظام المناطق",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/93f81644-fbbc-49ca-b33c-a9a700f16701/1"
+    },
+    {
+      "id": "sa-law-9537b1e5-bfb5-499e-b0f9-accd0142beda",
+      "title": "تنظيم الهيئة العامة لعقارات الدولة",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9537b1e5-bfb5-499e-b0f9-accd0142beda/1"
+    },
+    {
+      "id": "sa-law-9560f620-e77e-476c-b9ea-abdd00b87480",
+      "title": "نظام الاستــثمار التعديني.",
+      "provisions": 63,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9560f620-e77e-476c-b9ea-abdd00b87480/1"
+    },
+    {
+      "id": "sa-law-95a6369d-d712-4028-842e-a9a700f1a957",
+      "title": "نظام البيانات التجارية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/95a6369d-d712-4028-842e-a9a700f1a957/1"
+    },
+    {
+      "id": "sa-law-95b320eb-06f8-4e5c-95d1-aa3a0106ede6",
+      "title": "تنظيم المركز السعودي لكفاءة الطاقة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/95b320eb-06f8-4e5c-95d1-aa3a0106ede6/1"
+    },
+    {
+      "id": "sa-law-962235c2-9fa8-4c1a-b835-aa6400dd851e",
+      "title": "نظام مقدمي خدمة حجاج الخارج",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/962235c2-9fa8-4c1a-b835-aa6400dd851e/1"
+    },
+    {
+      "id": "sa-law-965f24c7-0ddb-4d8f-a658-a9a700f24b24",
+      "title": "نظام الثروة الحيوانية",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/965f24c7-0ddb-4d8f-a658-a9a700f24b24/1"
+    },
+    {
+      "id": "sa-law-985cf9ba-02ec-4eb1-9e36-a9a700f23514",
+      "title": "نظام الملابس والتجهيزات العسكرية الفردية",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/985cf9ba-02ec-4eb1-9e36-a9a700f23514/1"
+    },
+    {
+      "id": "sa-law-98642c12-dd48-4148-841d-a9a700f1b3ea",
+      "title": "تنظيم هيئة تنمية الصادرات السعودية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/98642c12-dd48-4148-841d-a9a700f1b3ea/1"
+    },
+    {
+      "id": "sa-law-98b1d2e8-4724-439b-af00-a9a700f255ef",
+      "title": "نظام المناطق البحرية للمملكة العربية السعودية",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/98b1d2e8-4724-439b-af00-a9a700f255ef/1"
+    },
+    {
+      "id": "sa-law-98ee4b51-d398-4323-ae69-b2b8009f3156",
+      "title": "نظام السجل التجاري",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/98ee4b51-d398-4323-ae69-b2b8009f3156/1"
+    },
+    {
+      "id": "sa-law-99613e6a-6b85-423c-87af-b0ec00b4633e",
+      "title": "نظام بيع وتأجير مشروعات عقارية على الخارطة",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/99613e6a-6b85-423c-87af-b0ec00b4633e/1"
+    },
+    {
+      "id": "sa-law-99f64251-7873-4627-80c5-ad3f009a3bb5",
+      "title": "الترتيبات التنظيمية للمعهد الملكي للفنون التقليدية",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/99f64251-7873-4627-80c5-ad3f009a3bb5/1"
+    },
+    {
+      "id": "sa-law-9a0249b7-f835-48fa-8d1e-a9a700f1981a",
+      "title": "اللائحة التنفيذية لنظام الإجراءات الجزائية",
+      "provisions": 181,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9a0249b7-f835-48fa-8d1e-a9a700f1981a/1"
+    },
+    {
+      "id": "sa-law-9a1c4977-c539-4e01-8c88-a9a700f2efa9",
+      "title": "تنظيم هيئة النقل العام ( الهيئة العامة للنقل )",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9a1c4977-c539-4e01-8c88-a9a700f2efa9/1"
+    },
+    {
+      "id": "sa-law-9b461caf-dc11-46bd-a8fd-ac74009a8724",
+      "title": "نظام خدمة الأفراد",
+      "provisions": 70,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b461caf-dc11-46bd-a8fd-ac74009a8724/1"
+    },
+    {
+      "id": "sa-law-9b61c9c0-71e2-4096-a3da-a9a700f2d79a",
+      "title": "نظام الايجار التمويلي",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b61c9c0-71e2-4096-a3da-a9a700f2d79a/1"
+    },
+    {
+      "id": "sa-law-9b79b62a-da9e-4f66-8a7d-a9a700f25369",
+      "title": "قانون (نظام) المبيدات في دول مجلس التعاون لدول الخليج العربية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b79b62a-da9e-4f66-8a7d-a9a700f25369/1"
+    },
+    {
+      "id": "sa-law-9b96a85d-7a9e-4adb-9379-a9a700f27a9c",
+      "title": "تنظيم الجمعية السعودية لمرافق الإيواء السياحي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9b96a85d-7a9e-4adb-9379-a9a700f27a9c/1"
+    },
+    {
+      "id": "sa-law-9ba0d5dc-2dc4-4b71-b979-a9a700f1f5fd",
+      "title": "نظام الأوسمة السعودية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9ba0d5dc-2dc4-4b71-b979-a9a700f1f5fd/1"
+    },
+    {
+      "id": "sa-law-9bfa5aa2-77cb-4e3d-a3e7-b20a00c3dccb",
+      "title": "اللائحة التنظيمية لتأشيرات العمل المؤقت والعمل المؤقت لخدمات الحج والعمرة",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9bfa5aa2-77cb-4e3d-a3e7-b20a00c3dccb/1"
+    },
+    {
+      "id": "sa-law-9cff56dc-09be-45e1-a736-a9a700f218db",
+      "title": "نظام الأنشطة المقلقة للراحة أو الخطرة أو المضرة بالصحة أو البيئة",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9cff56dc-09be-45e1-a736-a9a700f218db/1"
+    },
+    {
+      "id": "sa-law-9d091f8f-5de0-4603-9adc-a9a700f28d86",
+      "title": "تنظيم المركز الوطني للمعلومات الصحية",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9d091f8f-5de0-4603-9adc-a9a700f28d86/1"
+    },
+    {
+      "id": "sa-law-9d240ae2-a709-48ee-ac82-a9ed0119f62d",
+      "title": "نظام الوقاية من متلازمة العوز المناعي المكتسب (الإيدز) وحقوق المصابين وواجباتهم",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9d240ae2-a709-48ee-ac82-a9ed0119f62d/1"
+    },
+    {
+      "id": "sa-law-9da91b16-62ba-41d8-b6f7-a9a700f21d07",
+      "title": "نظام المجالس البلدية",
+      "provisions": 69,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9da91b16-62ba-41d8-b6f7-a9a700f21d07/1"
+    },
+    {
+      "id": "sa-law-9daec1bf-6bda-4a65-a111-ace90163af7e",
+      "title": "نظام الأجهزة والمستلزمات الطبية",
+      "provisions": 49,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9daec1bf-6bda-4a65-a111-ace90163af7e/1"
+    },
+    {
+      "id": "sa-law-9f08ef46-6240-4fd7-a437-ac8900df75a8",
+      "title": "اللائحة التنفيذية لنظام الأحداث",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/9f08ef46-6240-4fd7-a437-ac8900df75a8/1"
+    },
+    {
+      "id": "sa-law-a04e017e-cefb-4939-973f-a9ee00ff5646",
+      "title": "تنظيم الهيئة العامة للموانئ",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a04e017e-cefb-4939-973f-a9ee00ff5646/1"
+    },
+    {
+      "id": "sa-law-a05632b0-ac19-4659-af2a-a9a700f18337",
+      "title": "نظام المتفجرات والمفرقعات",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a05632b0-ac19-4659-af2a-a9a700f18337/1"
+    },
+    {
+      "id": "sa-law-a0f63eab-fc76-402b-89b3-a9a700f20968",
+      "title": "تنظيم المجمع الفقهي في المملكة العربية السعودية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a0f63eab-fc76-402b-89b3-a9a700f20968/1"
+    },
+    {
+      "id": "sa-law-a122634e-98ea-4e40-b4dd-ab5700c51c7d",
+      "title": "نظام العمل التطوعي",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a122634e-98ea-4e40-b4dd-ab5700c51c7d/1"
+    },
+    {
+      "id": "sa-law-a187d565-1a52-45cc-a1de-b2dc00daae23",
+      "title": "النظام الأساس لمستشفى الملك خالد التخصصي للعيون ومركز الأبحاث (مؤسسة مستقلة ذات طبيعة خاصة وغير هادفة للربح)",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a187d565-1a52-45cc-a1de-b2dc00daae23/1"
+    },
+    {
+      "id": "sa-law-a1bdadb5-c518-48bb-a1d0-b33000e66fd1",
+      "title": "نظام تملك غير السعوديين للعقار",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a1bdadb5-c518-48bb-a1d0-b33000e66fd1/1"
+    },
+    {
+      "id": "sa-law-a292ec7e-85fb-4ceb-9ad0-ac9200ced829",
+      "title": "نظام البنك المركزي السعودي",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a292ec7e-85fb-4ceb-9ad0-ac9200ced829/1"
+    },
+    {
+      "id": "sa-law-a30e7653-6c25-471d-859e-a9a700f2e5bb",
+      "title": "نظام الاتصالات",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a30e7653-6c25-471d-859e-a9a700f2e5bb/1"
+    },
+    {
+      "id": "sa-law-a445af93-671f-496b-818a-a9a700f19150",
+      "title": "نظام الأسلحة والذخائر",
+      "provisions": 63,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a445af93-671f-496b-818a-a9a700f19150/1"
+    },
+    {
+      "id": "sa-law-a4d3a985-a838-47e8-977e-a9a700f16c1c",
+      "title": "نظام الوثائق والمحفوظات",
+      "provisions": 11,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a4d3a985-a838-47e8-977e-a9a700f16c1c/1"
+    },
+    {
+      "id": "sa-law-a5fa054e-a124-4cce-96a2-a9a700f254a0",
+      "title": "نظام تربية النحل",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a5fa054e-a124-4cce-96a2-a9a700f254a0/1"
+    },
+    {
+      "id": "sa-law-a62c4bd7-03c7-42fb-8356-b2ec00e341d7",
+      "title": "ضوابط شراء واستئجار الجهات الحكومية للمركبات",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a62c4bd7-03c7-42fb-8356-b2ec00e341d7/1"
+    },
+    {
+      "id": "sa-law-a64ba260-aa19-46f7-8b9f-acbb014c23b5",
+      "title": "لائحة تنظيم تعارض المصالح في تطبيق نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a64ba260-aa19-46f7-8b9f-acbb014c23b5/1"
+    },
+    {
+      "id": "sa-law-a6843359-3237-4553-8271-a9a700f1fcda",
+      "title": "نظام مجلس التعليم العالي والجامعات",
+      "provisions": 60,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a6843359-3237-4553-8271-a9a700f1fcda/1"
+    },
+    {
+      "id": "sa-law-a7119cfe-7668-488f-853f-a9a700f1ea6c",
+      "title": "تنظيم الهيئة العامة للإحصاء",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a7119cfe-7668-488f-853f-a9a700f1ea6c/1"
+    },
+    {
+      "id": "sa-law-a748e485-620c-45c4-8ca8-a9f40166406d",
+      "title": "اللائحة التنفيذية لنظام الإفلاس",
+      "provisions": 98,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a748e485-620c-45c4-8ca8-a9f40166406d/1"
+    },
+    {
+      "id": "sa-law-a7d4493b-7c03-4c2d-b3c6-a9a700f275cd",
+      "title": "نظام الآثار والمتاحف والتراث العمراني",
+      "provisions": 94,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a7d4493b-7c03-4c2d-b3c6-a9a700f275cd/1"
+    },
+    {
+      "id": "sa-law-a8376aea-1bc3-49d4-9027-aed900b555af",
+      "title": "نظام الشركات",
+      "provisions": 281,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a8376aea-1bc3-49d4-9027-aed900b555af/1"
+    },
+    {
+      "id": "sa-law-a8ebff8e-412c-4f67-ac5f-b1ca008d18d9",
+      "title": "نظام هيئة الرقابة ومكافحة الفساد",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a8ebff8e-412c-4f67-ac5f-b1ca008d18d9/1"
+    },
+    {
+      "id": "sa-law-a910b5ff-6770-4978-99f5-a9a700f2c140",
+      "title": "قواعد التعامل مع الوافدين من مخالفي الأنظمة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a910b5ff-6770-4978-99f5-a9a700f2c140/1"
+    },
+    {
+      "id": "sa-law-a98158eb-927b-4f8c-a9ff-a9a700f21e78",
+      "title": "تنظيم الهيئة العامة للعقار",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/a98158eb-927b-4f8c-a9ff-a9a700f21e78/1"
+    },
+    {
+      "id": "sa-law-aac8d59d-b423-4890-89f1-af9900a57ca3",
+      "title": "الترتيبات التنظيمية للهيئة العامة للأمن الغذائي",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/aac8d59d-b423-4890-89f1-af9900a57ca3/1"
+    },
+    {
+      "id": "sa-law-ab80058f-0e34-4750-82cd-ad3f00937698",
+      "title": "الترتيبات التنظيمية لمركز تنظيم المعدّات الثقيلة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ab80058f-0e34-4750-82cd-ad3f00937698/1"
+    },
+    {
+      "id": "sa-law-abfdc6be-18f4-4daf-ac9b-b13600b9691e",
+      "title": "الترتيبات التنظيمية للمركز الوطني للمناهج",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/abfdc6be-18f4-4daf-ac9b-b13600b9691e/1"
+    },
+    {
+      "id": "sa-law-ac892eff-4aa4-4b26-b312-a9a700f2663d",
+      "title": "نظام هيئة التحقيق والادعاء العام ( نظام النيابة العامة )",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ac892eff-4aa4-4b26-b312-a9a700f2663d/1"
+    },
+    {
+      "id": "sa-law-acf735b8-a606-424e-8c0e-aaab016118b6",
+      "title": "تنظيم المركز الوطني لتعزيز الصحة النفسية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/acf735b8-a606-424e-8c0e-aaab016118b6/1"
+    },
+    {
+      "id": "sa-law-ad0354f7-9756-4a4e-8948-a9a700f19705",
+      "title": "نظام نقل معلومات المتعاملين مع المنشآت الخاصة إلكترونياً إلى مركز المعلومات الوطني في وزارة الداخلية (نظام شموس الأمني)",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ad0354f7-9756-4a4e-8948-a9a700f19705/1"
+    },
+    {
+      "id": "sa-law-ad9ed861-70e6-4d31-9268-b20400d68915",
+      "title": "نظام القياس والمعايرة",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ad9ed861-70e6-4d31-9268-b20400d68915/1"
+    },
+    {
+      "id": "sa-law-ae1d79bf-3716-4bc5-a85e-ada100c8a870",
+      "title": "نظام التنفيذ أمام ديوان المظالم",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ae1d79bf-3716-4bc5-a85e-ada100c8a870/1"
+    },
+    {
+      "id": "sa-law-ae482429-33b8-4e3f-a3ae-a9a700f23d5c",
+      "title": "نظام تبادل المنافع بين نظامي التقاعد المدني والعسكري ونظام التأمينات الإجتماعية",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ae482429-33b8-4e3f-a3ae-a9a700f23d5c/1"
+    },
+    {
+      "id": "sa-law-ae6dac2c-6da4-47fc-b605-a9a700f251c2",
+      "title": "نظام (قانون) الحجر البيطري لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ae6dac2c-6da4-47fc-b605-a9a700f251c2/1"
+    },
+    {
+      "id": "sa-law-af2a6b93-51dd-4f16-b781-aafd00d9fbbc",
+      "title": "نظام الامتياز التجاري",
+      "provisions": 27,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/af2a6b93-51dd-4f16-b781-aafd00d9fbbc/1"
+    },
+    {
+      "id": "sa-law-b06b79ad-efe0-4d3e-8c45-ab1000b16b96",
+      "title": "تنظيم الهيئة العامة للرياضة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b06b79ad-efe0-4d3e-8c45-ab1000b16b96/1"
+    },
+    {
+      "id": "sa-law-b19a8aa6-7b50-43f0-ab8c-a9a700f1a446",
+      "title": "نظام الوكالات التجارية",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b19a8aa6-7b50-43f0-ab8c-a9a700f1a446/1"
+    },
+    {
+      "id": "sa-law-b21452eb-20af-4ffa-892a-aa3f010082c5",
+      "title": "تنظيم صندوق البيئة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b21452eb-20af-4ffa-892a-aa3f010082c5/1"
+    },
+    {
+      "id": "sa-law-b2a002e4-a3da-474b-9735-a9a700f2386c",
+      "title": "نظام الوزراء ونواب الوزراء وموظفي المرتبة الممتازة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b2a002e4-a3da-474b-9735-a9a700f2386c/1"
+    },
+    {
+      "id": "sa-law-b2a5786f-45c4-42e5-8dfd-a9f901511e2c",
+      "title": "اللائحة التنظيمية لعمل الأسر المنتجة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b2a5786f-45c4-42e5-8dfd-a9f901511e2c/1"
+    },
+    {
+      "id": "sa-law-b2c545f0-d65f-4c13-b712-a9a700f193b6",
+      "title": "تنظيم اللجنة الوطنية لمكافحة المخدرات",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b2c545f0-d65f-4c13-b712-a9a700f193b6/1"
+    },
+    {
+      "id": "sa-law-b2d0decd-a691-45b9-9af0-a9a700f1e86f",
+      "title": "قانون (نظام) العلامات التجارية لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b2d0decd-a691-45b9-9af0-a9a700f1e86f/1"
+    },
+    {
+      "id": "sa-law-b3060214-c11a-4709-b191-aca700cbcc58",
+      "title": "نظام الكهرباء",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b3060214-c11a-4709-b191-aca700cbcc58/1"
+    },
+    {
+      "id": "sa-law-b359badb-2ea0-4cbc-bbfb-a9a700f2f11b",
+      "title": "لائحة إنشاء الطرق من قبل الأهالي والشركات",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b359badb-2ea0-4cbc-bbfb-a9a700f2f11b/1"
+    },
+    {
+      "id": "sa-law-b3f0cb3a-6338-4995-91d7-a9a700f1fad2",
+      "title": "نظام معهد الدراسات الدبلوماسية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b3f0cb3a-6338-4995-91d7-a9a700f1fad2/1"
+    },
+    {
+      "id": "sa-law-b4edc050-18f3-4b23-aabc-b35b00ddaab7",
+      "title": "نظام الإحصاء",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b4edc050-18f3-4b23-aabc-b35b00ddaab7/1"
+    },
+    {
+      "id": "sa-law-b5cf540a-e6ac-426a-b348-a9a700f163de",
+      "title": "نظام مجلس الشورى",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b5cf540a-e6ac-426a-b348-a9a700f163de/1"
+    },
+    {
+      "id": "sa-law-b615dc50-327f-4e76-a911-b17c00886fa9",
+      "title": "تنظيم هيئة الصحة العامة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b615dc50-327f-4e76-a911-b17c00886fa9/1"
+    },
+    {
+      "id": "sa-law-b680a5b2-1ed3-4014-9f49-a9a700f2e298",
+      "title": "نظام الموانئ والمرافئ والمنائر البحرية",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b680a5b2-1ed3-4014-9f49-a9a700f2e298/1"
+    },
+    {
+      "id": "sa-law-b83d96ce-df0e-4444-a225-ab6d00ca12da",
+      "title": "تنظيم مؤسسة حديقة الملك سلمان",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b83d96ce-df0e-4444-a225-ab6d00ca12da/1"
+    },
+    {
+      "id": "sa-law-b8a7e5ff-d9a4-466b-b4b8-a9a700f256e1",
+      "title": "نظام الأعلاف",
+      "provisions": 39,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b8a7e5ff-d9a4-466b-b4b8-a9a700f256e1/1"
+    },
+    {
+      "id": "sa-law-b93d0275-775f-482a-9d52-a9a700f2ca15",
+      "title": "نظام (قانون) الجمارك الموحد لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 179,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b93d0275-775f-482a-9d52-a9a700f2ca15/1"
+    },
+    {
+      "id": "sa-law-b9fbe3d4-2952-4f9b-b881-b05d008baeec",
+      "title": "لائحة حقوق والتزامات مستخدمي وسائل النقل العام",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b9fbe3d4-2952-4f9b-b881-b05d008baeec/1"
+    },
+    {
+      "id": "sa-law-bbfab460-8fe8-4425-9202-a9a700f27ba7",
+      "title": "نظام جمعية الكشافة العربية السعودية",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bbfab460-8fe8-4425-9202-a9a700f27ba7/1"
+    },
+    {
+      "id": "sa-law-bc27d6e4-560a-4778-9364-aeac00ca7e3b",
+      "title": "تنظيم مركز الإقامة المميزة",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bc27d6e4-560a-4778-9364-aeac00ca7e3b/1"
+    },
+    {
+      "id": "sa-law-bdf15375-52e6-4c94-9153-a9a700f16cc3",
+      "title": "نظام المركز الوطني للوثائق والمحفوظات",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bdf15375-52e6-4c94-9153-a9a700f16cc3/1"
+    },
+    {
+      "id": "sa-law-be479758-9a84-4e94-b1d3-a9a700f19454",
+      "title": "اللائحة التنفيذية لنظام مكافحة المخدرات والمؤثرات العقلية",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/be479758-9a84-4e94-b1d3-a9a700f19454/1"
+    },
+    {
+      "id": "sa-law-bf568515-eef9-4356-9d52-a9a700f2d8c3",
+      "title": "نظام الرهن العقاري المسجل",
+      "provisions": 46,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bf568515-eef9-4356-9d52-a9a700f2d8c3/1"
+    },
+    {
+      "id": "sa-law-bf8b73e3-a411-400d-b34b-ad2c00eb44e9",
+      "title": "تنظيم إعانة البحث عن عمل",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bf8b73e3-a411-400d-b34b-ad2c00eb44e9/1"
+    },
+    {
+      "id": "sa-law-bf9e0aae-6df6-4785-a305-ac2300bd0856",
+      "title": "نظام مكافحة التستر",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/bf9e0aae-6df6-4785-a305-ac2300bd0856/1"
+    },
+    {
+      "id": "sa-law-c0469b2e-535b-43ca-a5a8-a9a700f2c095",
+      "title": "اللائحة التنفيذية لضبط أعمال تفتيش العمل وتنظيمها",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c0469b2e-535b-43ca-a5a8-a9a700f2c095/1"
+    },
+    {
+      "id": "sa-law-c104908b-d32d-411a-b71e-a9a700f214b0",
+      "title": "نظام ملكية الوحدات العقارية وفرزها",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c104908b-d32d-411a-b71e-a9a700f214b0/1"
+    },
+    {
+      "id": "sa-law-c1777105-e927-4fa8-978d-af9900e23e18",
+      "title": "نظام إمدادات الطاقة",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c1777105-e927-4fa8-978d-af9900e23e18/1"
+    },
+    {
+      "id": "sa-law-c1878d16-7ce0-4710-993b-a9a700f17ac5",
+      "title": "النظام الجزائي لجرائم التزوير",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c1878d16-7ce0-4710-993b-a9a700f17ac5/1"
+    },
+    {
+      "id": "sa-law-c18a4f9b-cd0a-45fd-9038-a9a700f17508",
+      "title": "تنظيم هيئة الإذاعة والتلفزيون",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c18a4f9b-cd0a-45fd-9038-a9a700f17508/1"
+    },
+    {
+      "id": "sa-law-c1a67dbf-6959-437d-bb86-a9a700f2a126",
+      "title": "النظام الموحد بشأن المواد المستنفدة لطبقة الأوزون لدول مجلس التعاون لدول الخليج العربية (المعدل)",
+      "provisions": 19,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c1a67dbf-6959-437d-bb86-a9a700f2a126/1"
+    },
+    {
+      "id": "sa-law-c1a70c2f-ba99-45ce-9dd8-a9a700f243ef",
+      "title": "نظام توزيع الأراضي البور",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c1a70c2f-ba99-45ce-9dd8-a9a700f243ef/1"
+    },
+    {
+      "id": "sa-law-c2c05ee1-201a-48de-91e7-a9a700f2d14f",
+      "title": "نظام المنافسات والمشتريات الحكومية",
+      "provisions": 81,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c2c05ee1-201a-48de-91e7-a9a700f2d14f/1"
+    },
+    {
+      "id": "sa-law-c331efa7-58ec-48c9-b70e-a9a700f2ba82",
+      "title": "نظام التأمين ضد التعطل عن العمل",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c331efa7-58ec-48c9-b70e-a9a700f2ba82/1"
+    },
+    {
+      "id": "sa-law-c3825760-995a-4f0e-83ca-af230115f2f5",
+      "title": "النظام الأساس لجامعة الملك سعود (مؤسسة أكاديمية مستقلة غير هادفة للربح)",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c3825760-995a-4f0e-83ca-af230115f2f5/1"
+    },
+    {
+      "id": "sa-law-c385b62c-c635-484c-afa1-a9a700f16fe1",
+      "title": "نظام المؤسسات الصحفية",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c385b62c-c635-484c-afa1-a9a700f16fe1/1"
+    },
+    {
+      "id": "sa-law-c440e774-b1d8-42f5-9169-a9a700f24951",
+      "title": "نظام مياه الصرف الصحي المعالجة وإعادة استخدامها",
+      "provisions": 34,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c440e774-b1d8-42f5-9169-a9a700f24951/1"
+    },
+    {
+      "id": "sa-law-c447d12a-6c10-40c2-a51e-a9f7000a97cb",
+      "title": "نظام الرقابة على الاستخدامات النووية والاشعاعية",
+      "provisions": 35,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c447d12a-6c10-40c2-a51e-a9f7000a97cb/1"
+    },
+    {
+      "id": "sa-law-c46966ec-0e03-41a3-96fa-a9a700f250b1",
+      "title": "نظام (قانون) الحجر الزراعي لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 34,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c46966ec-0e03-41a3-96fa-a9a700f250b1/1"
+    },
+    {
+      "id": "sa-law-c47e6347-4d53-4a50-b92d-a9a700f1a76d",
+      "title": "تنظيم الهيئة العامة للاستثمار",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c47e6347-4d53-4a50-b92d-a9a700f1a76d/1"
+    },
+    {
+      "id": "sa-law-c487b0ff-8e52-442d-bf62-b1cd009fdc57",
+      "title": "نظام المواصفات والجودة",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c487b0ff-8e52-442d-bf62-b1cd009fdc57/1"
+    },
+    {
+      "id": "sa-law-c4a35dbe-fa16-4cd3-b539-a9a700f27af5",
+      "title": "تنظيم الجمعية السعودية للسفر والسياحة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c4a35dbe-fa16-4cd3-b539-a9a700f27af5/1"
+    },
+    {
+      "id": "sa-law-c4af9503-d0f4-4d07-a7c3-add500a67d0c",
+      "title": "نظام المدفوعات وخدماتها",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c4af9503-d0f4-4d07-a7c3-add500a67d0c/1"
+    },
+    {
+      "id": "sa-law-c4da61a8-c85e-49de-a751-a9a700f2db8b",
+      "title": "تنظيم المركز الوطني لقياس أداء الأجهزة العامة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c4da61a8-c85e-49de-a751-a9a700f2db8b/1"
+    },
+    {
+      "id": "sa-law-c57d7f19-9b3e-4161-bb91-a9a700f203fb",
+      "title": "نظام نقل الحجاج إلى المملكة وإعادتهم إلى بلادهم",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c57d7f19-9b3e-4161-bb91-a9a700f203fb/1"
+    },
+    {
+      "id": "sa-law-c58ba10c-4e89-4c06-98d7-a9a700f1c706",
+      "title": "النظام التجاري ( نظام المحكمة التجارية)",
+      "provisions": 633,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c58ba10c-4e89-4c06-98d7-a9a700f1c706/1"
+    },
+    {
+      "id": "sa-law-c5bf1170-5ee7-4d6f-b69d-a9eb017e7912",
+      "title": "تنظيم الهيئة العامة للجمارك",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c5bf1170-5ee7-4d6f-b69d-a9eb017e7912/1"
+    },
+    {
+      "id": "sa-law-c6b7358c-cc66-4a6b-8694-aef800d07e5e",
+      "title": "الترتيبات التنظيمية للهيئة العامة للطرق",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c6b7358c-cc66-4a6b-8694-aef800d07e5e/1"
+    },
+    {
+      "id": "sa-law-c7a054a8-6dbc-4323-9405-aa3f00bd5985",
+      "title": "تنظيم هيئة تقويم التعليم والتدريب",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c7a054a8-6dbc-4323-9405-aa3f00bd5985/1"
+    },
+    {
+      "id": "sa-law-c7a10e52-37e6-492d-a3cf-acea0013f2f0",
+      "title": "الترتيبات التنظيمية لهيئة الصحة العامة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c7a10e52-37e6-492d-a3cf-acea0013f2f0/1"
+    },
+    {
+      "id": "sa-law-c81ba2f1-1bf1-443b-9b1c-a9a700f27110",
+      "title": "نظام التنفيذ",
+      "provisions": 98,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c81ba2f1-1bf1-443b-9b1c-a9a700f27110/1"
+    },
+    {
+      "id": "sa-law-c9756bfb-ff81-4226-a820-ae8200dc074c",
+      "title": "نظام التسجيل العيني للعقار",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c9756bfb-ff81-4226-a820-ae8200dc074c/1"
+    },
+    {
+      "id": "sa-law-c99fc50a-eeb9-46ab-8144-a9ec01007992",
+      "title": "تنظيم هيئة رعاية الأشخاص ذوي الإعاقة",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c99fc50a-eeb9-46ab-8144-a9ec01007992/1"
+    },
+    {
+      "id": "sa-law-c9b0b7b9-a586-45ec-87c1-ac9000e6a783",
+      "title": "تنظيم الهيئة العليا للفروسية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c9b0b7b9-a586-45ec-87c1-ac9000e6a783/1"
+    },
+    {
+      "id": "sa-law-cabff788-438d-4003-be74-a9a700f2bcde",
+      "title": "نظام الهيئة العامة للأوقاف",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cabff788-438d-4003-be74-a9a700f2bcde/1"
+    },
+    {
+      "id": "sa-law-caca1b4d-f344-444b-a1f3-afce00d6840b",
+      "title": "ضوابط إيقاف الخدمات",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/caca1b4d-f344-444b-a1f3-afce00d6840b/1"
+    },
+    {
+      "id": "sa-law-cad66e4d-38d3-4baa-8049-a9a700f1e7a8",
+      "title": "نظام المقيمين المعتمدين",
+      "provisions": 45,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cad66e4d-38d3-4baa-8049-a9a700f1e7a8/1"
+    },
+    {
+      "id": "sa-law-cb055cd5-3055-4b20-8ec7-abef00ae3433",
+      "title": "ضوابط تصدير مياه الشرب المعبأة",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cb055cd5-3055-4b20-8ec7-abef00ae3433/1"
+    },
+    {
+      "id": "sa-law-cb94c5cf-017b-46c1-92b8-ac3e00deaff7",
+      "title": "قواعد عمل اللجان الإشرافية للقطاعات المستهدفة بالتخصيص ومهماتها (المعدلة)",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cb94c5cf-017b-46c1-92b8-ac3e00deaff7/1"
+    },
+    {
+      "id": "sa-law-cc46debb-482e-48be-9daf-a9a700f2bfe7",
+      "title": "لائحة عمال الخدمة المنزلية ومن في حكمهم",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cc46debb-482e-48be-9daf-a9a700f2bfe7/1"
+    },
+    {
+      "id": "sa-law-cc6aa1e2-f6d3-4fb3-9208-b17500e9c0e4",
+      "title": "الترتيبات التنظيمية للهيئة السعودية للمياه",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cc6aa1e2-f6d3-4fb3-9208-b17500e9c0e4/1"
+    },
+    {
+      "id": "sa-law-cd3a793a-ab18-4ad3-b28e-ad2e00a7f88f",
+      "title": "نظام الأرصاد",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cd3a793a-ab18-4ad3-b28e-ad2e00a7f88f/1"
+    },
+    {
+      "id": "sa-law-cdb31382-3f97-4232-82e8-ae0b00dc2727",
+      "title": "النظام الأساس لمستشفى الملك فيصل التخصصي ومركز الأبحاث (مؤسسة مستقلة ذات طبيعة خاصة وغير هادفة للربح)",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cdb31382-3f97-4232-82e8-ae0b00dc2727/1"
+    },
+    {
+      "id": "sa-law-cddb94e2-167b-4158-af5f-a9a700f2de58",
+      "title": "نظام نقابة السيارات",
+      "provisions": 64,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cddb94e2-167b-4158-af5f-a9a700f2de58/1"
+    },
+    {
+      "id": "sa-law-cdfe6d5c-ad3c-45e3-8544-a9a700f1e8ca",
+      "title": "تنظيم جمعية حماية المستهلك",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cdfe6d5c-ad3c-45e3-8544-a9a700f1e8ca/1"
+    },
+    {
+      "id": "sa-law-ce1982e0-5c1c-4f2e-91fa-b13700eeb592",
+      "title": "اللائحة التنظيمية للمنشآت الاجتماعية غير الحكومية للأشخاص ذوي الإعاقة",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ce1982e0-5c1c-4f2e-91fa-b13700eeb592/1"
+    },
+    {
+      "id": "sa-law-cf510039-d022-421f-9901-a9a700f1a8a0",
+      "title": "نظام محلات بيع المركبات الملغى تسجيلها",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cf510039-d022-421f-9901-a9a700f1a8a0/1"
+    },
+    {
+      "id": "sa-law-cfc97985-4a9f-4012-832b-a9a700f21ed2",
+      "title": "نظام تطبيق كود البناء السعودي",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/cfc97985-4a9f-4012-832b-a9a700f21ed2/1"
+    },
+    {
+      "id": "sa-law-d0d49e6b-0989-40ae-a889-a9a700f2488c",
+      "title": "نظام صيد الحيوانات والطيور البرية",
+      "provisions": 11,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d0d49e6b-0989-40ae-a889-a9a700f2488c/1"
+    },
+    {
+      "id": "sa-law-d113fa79-5ad8-42b1-9955-acfb00a2c7ed",
+      "title": "نظام الزراعة",
+      "provisions": 37,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d113fa79-5ad8-42b1-9955-acfb00a2c7ed/1"
+    },
+    {
+      "id": "sa-law-d19fbfe8-6517-4e8b-b06a-b09000cefe1b",
+      "title": "نظام ملكية الوحدات العقارية وفرزها وإدارتها",
+      "provisions": 33,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d19fbfe8-6517-4e8b-b06a-b09000cefe1b/1"
+    },
+    {
+      "id": "sa-law-d33175c0-1755-4b1f-8925-a9a700f2b996",
+      "title": "تنظيم المركز الوطني للدراسات والبحوث الاجتماعية",
+      "provisions": 11,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d33175c0-1755-4b1f-8925-a9a700f2b996/1"
+    },
+    {
+      "id": "sa-law-d4801a45-7f76-4414-bdca-b20900db6fc4",
+      "title": "نظام الأسماء التجارية",
+      "provisions": 23,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d4801a45-7f76-4414-bdca-b20900db6fc4/1"
+    },
+    {
+      "id": "sa-law-d4a64a81-307e-4899-a555-af34014304ad",
+      "title": "اللائحة التنظيمية للجان إصلاح ذات البين في إمارات المناطق",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d4a64a81-307e-4899-a555-af34014304ad/1"
+    },
+    {
+      "id": "sa-law-d4a9cc4c-61cb-4053-8fe5-a9a700f28d1a",
+      "title": "تنظيم المركز السعودي لزراعة الأعضاء",
+      "provisions": 10,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d4a9cc4c-61cb-4053-8fe5-a9a700f28d1a/1"
+    },
+    {
+      "id": "sa-law-d4ae4834-f19a-48b5-8577-a9a700f21e14",
+      "title": "اللائحة التنفيذية لنظام رسوم الأراضي البيضاء",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d4ae4834-f19a-48b5-8577-a9a700f21e14/1"
+    },
+    {
+      "id": "sa-law-d54dd8db-5d3c-4b5c-bfa7-a9a700f246cd",
+      "title": "نظام الهيئة الوطنية لحماية الحياة الفطرية وإنمائها",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d54dd8db-5d3c-4b5c-bfa7-a9a700f246cd/1"
+    },
+    {
+      "id": "sa-law-d6bd59f3-b94c-4b6e-8ced-a9a700f2c955",
+      "title": "نظام رسوم وأجور خدمات الموانئ",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d6bd59f3-b94c-4b6e-8ced-a9a700f2c955/1"
+    },
+    {
+      "id": "sa-law-d7ab6b0a-b50b-4be5-9284-a9a700f209d4",
+      "title": "تنظيم الرئاسة العامة لهيئة الأمر بالمعروف والنهي عن المنكر",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d7ab6b0a-b50b-4be5-9284-a9a700f209d4/1"
+    },
+    {
+      "id": "sa-law-d7e8efd3-4021-4413-8255-ae7c00f190de",
+      "title": "اللائحة التنفيذية لنظام التكاليف القضائية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d7e8efd3-4021-4413-8255-ae7c00f190de/1"
+    },
+    {
+      "id": "sa-law-d805702d-77b9-40d0-92bd-a9a700f27da2",
+      "title": "نظام أندية السيارات والدراجات النارية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d805702d-77b9-40d0-92bd-a9a700f27da2/1"
+    },
+    {
+      "id": "sa-law-d93b5ced-1adb-494d-85fd-a9a700f1e817",
+      "title": "النظام الأساسي للمركز الإحصائي لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d93b5ced-1adb-494d-85fd-a9a700f1e817/1"
+    },
+    {
+      "id": "sa-law-d9f183b6-3afc-4405-834f-a9a700f18571",
+      "title": "نظام الجنسية العربية السعودية",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/d9f183b6-3afc-4405-834f-a9a700f18571/1"
+    },
+    {
+      "id": "sa-law-da239a6c-1c67-443e-9b6b-a9ed003fd9e6",
+      "title": "تـنظيم هيـئـة الرقابة النوويـة والإشعـاعـية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/da239a6c-1c67-443e-9b6b-a9ed003fd9e6/1"
+    },
+    {
+      "id": "sa-law-db0851bf-16ee-41d5-b87f-a9a700f2e35d",
+      "title": "نظام المؤسسة العامة للموانئ السعودية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/db0851bf-16ee-41d5-b87f-a9a700f2e35d/1"
+    },
+    {
+      "id": "sa-law-db470744-edce-47a9-8f45-a9a700f201f3",
+      "title": "لائحة المدارس الأجنبية",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/db470744-edce-47a9-8f45-a9a700f201f3/1"
+    },
+    {
+      "id": "sa-law-db8ba5c5-726b-471a-aeb0-b02800a195fd",
+      "title": "تنظيم وكالة الفضاء السعودية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/db8ba5c5-726b-471a-aeb0-b02800a195fd/1"
+    },
+    {
+      "id": "sa-law-dbc3e41b-e877-48f2-a213-a9a700f1fdab",
+      "title": "نظام إنتاج المواد التعليمية المساعدة وتسويقها",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/dbc3e41b-e877-48f2-a213-a9a700f1fdab/1"
+    },
+    {
+      "id": "sa-law-dc90bcd7-26fe-44c0-a40d-a9a700f17216",
+      "title": "نظام الإيداع",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/dc90bcd7-26fe-44c0-a40d-a9a700f17216/1"
+    },
+    {
+      "id": "sa-law-dcc76b09-2e3b-41cc-8b8f-a9a700f2bb5e",
+      "title": "اللائحة الأساسية لبرامج تأهيل المعوقين",
+      "provisions": 30,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/dcc76b09-2e3b-41cc-8b8f-a9a700f2bb5e/1"
+    },
+    {
+      "id": "sa-law-dcdc450d-8afc-40e0-9f05-b36a0090f65e",
+      "title": "تنظيم المركز الوطني لسلامة النقل",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/dcdc450d-8afc-40e0-9f05-b36a0090f65e/1"
+    },
+    {
+      "id": "sa-law-dd7a7d7d-a92d-431b-9ec3-a9a700f28a46",
+      "title": "نظام الهيئة العامة للغذاء والدواء",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/dd7a7d7d-a92d-431b-9ec3-a9a700f28a46/1"
+    },
+    {
+      "id": "sa-law-ddbe2b46-01ab-43b0-9fd8-af6300c1a649",
+      "title": "الترتيبات التنظيمية للمركز الوطني لسلامة النقل",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ddbe2b46-01ab-43b0-9fd8-af6300c1a649/1"
+    },
+    {
+      "id": "sa-law-de0a2f61-27e3-47fa-a710-a9a700f21a67",
+      "title": "نظام إدارة النفايات البلدية الصلبة",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/de0a2f61-27e3-47fa-a710-a9a700f21a67/1"
+    },
+    {
+      "id": "sa-law-de7dfbea-f1ca-4cd0-b664-a9a700f28e01",
+      "title": "تنظيم نفقات المرضى السعوديين ومرافقيهم المحولين للعلاج خارج مناطق إقامتهم",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/de7dfbea-f1ca-4cd0-b664-a9a700f28e01/1"
+    },
+    {
+      "id": "sa-law-df2f2e83-ba65-4564-8c6f-ae2900cd879a",
+      "title": "الترتيبات التنظيمية للمركز الوطني للنخيل والتمور",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/df2f2e83-ba65-4564-8c6f-ae2900cd879a/1"
+    },
+    {
+      "id": "sa-law-e143d9d5-1889-45d8-8d99-a9a700f263cd",
+      "title": "نظام محاكمة الوزراء",
+      "provisions": 27,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e143d9d5-1889-45d8-8d99-a9a700f263cd/1"
+    },
+    {
+      "id": "sa-law-e14d5204-6b1f-432e-b139-a9a700f28765",
+      "title": "نظام المنشآت والمستحضرات الصيدلانية",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e14d5204-6b1f-432e-b139-a9a700f28765/1"
+    },
+    {
+      "id": "sa-law-e1fd0b90-ced3-4402-ad60-a9a700f1f755",
+      "title": "نظام الميداليات المدنية والعسكرية",
+      "provisions": 7,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e1fd0b90-ced3-4402-ad60-a9a700f1f755/1"
+    },
+    {
+      "id": "sa-law-e2263a48-092e-481d-84e5-a9a700f2529e",
+      "title": "قانون (نظام) الأسمدة ومحسنات التربة الزراعية في دول مجلس التعاون لدول الخليج العربية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e2263a48-092e-481d-84e5-a9a700f2529e/1"
+    },
+    {
+      "id": "sa-law-e26d2707-afe5-4a81-894f-ac3800a8d131",
+      "title": "تنظيم المركز الوطني للتنمية الصناعية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e26d2707-afe5-4a81-894f-ac3800a8d131/1"
+    },
+    {
+      "id": "sa-law-e2997001-1d2c-4113-b322-a9fa01631039",
+      "title": "اللائحة التنفيذية لنظام مكافحة جرائم الإرهاب وتمويله",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e2997001-1d2c-4113-b322-a9fa01631039/1"
+    },
+    {
+      "id": "sa-law-e29f08fa-d53e-4944-b22b-a9a700f17fd9",
+      "title": "نظام وثائق السفر",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e29f08fa-d53e-4944-b22b-a9a700f17fd9/1"
+    },
+    {
+      "id": "sa-law-e2c00ba7-2af3-41fa-a1ab-ab9f00af1dec",
+      "title": "نظام ضمان الحقوق بالأموال المنقولة",
+      "provisions": 29,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e2c00ba7-2af3-41fa-a1ab-ab9f00af1dec/1"
+    },
+    {
+      "id": "sa-law-e3605c0d-ef87-4cff-b5da-aa3f0102bbb4",
+      "title": "نظام المنافسة",
+      "provisions": 28,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e3605c0d-ef87-4cff-b5da-aa3f0102bbb4/1"
+    },
+    {
+      "id": "sa-law-e36e899b-f29b-4db0-8b71-a9a700f23065",
+      "title": "نظام الكليات العسكرية",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e36e899b-f29b-4db0-8b71-a9a700f23065/1"
+    },
+    {
+      "id": "sa-law-e37044a1-c673-4e80-af59-a9a700f25663",
+      "title": "نظام الزراعة العضوية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e37044a1-c673-4e80-af59-a9a700f25663/1"
+    },
+    {
+      "id": "sa-law-e4436403-31ee-439c-bac4-a9a700f2a17d",
+      "title": "نظام توزيع الغاز الجاف وغاز البترول السائل للأغراض السكنية والتجارية",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e4436403-31ee-439c-bac4-a9a700f2a17d/1"
+    },
+    {
+      "id": "sa-law-e4e5f15c-9728-4ed1-b1b9-a9fc00b15fef",
+      "title": "تنظيم المنطقة الخاصة اللوجستية المتكاملة",
+      "provisions": 21,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e4e5f15c-9728-4ed1-b1b9-a9fc00b15fef/1"
+    },
+    {
+      "id": "sa-law-e52b691a-785c-42a7-8916-b07d00e4fd38",
+      "title": "نظام حقوق الأشخاص ذوي الإعاقة",
+      "provisions": 33,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e52b691a-785c-42a7-8916-b07d00e4fd38/1"
+    },
+    {
+      "id": "sa-law-e5bfc2bb-5ad0-493f-b10c-a9a700f1f2e1",
+      "title": "تنظيم الهيئة العامة للمنشآت الصغيرة والمتوسطة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e5bfc2bb-5ad0-493f-b10c-a9a700f1f2e1/1"
+    },
+    {
+      "id": "sa-law-e5f63d07-7de5-4a4d-a02f-a9a700f21187",
+      "title": "نظام البلديات والقرى",
+      "provisions": 49,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e5f63d07-7de5-4a4d-a02f-a9a700f21187/1"
+    },
+    {
+      "id": "sa-law-e73fd7d3-e812-477b-8112-ad3f00d16fd9",
+      "title": "الترتيبات التنظيمية لمركز الفعاليات (المركز الوطني للفعاليات)",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e73fd7d3-e812-477b-8112-ad3f00d16fd9/1"
+    },
+    {
+      "id": "sa-law-e74c8b2e-f6e6-4eaf-ad6d-a9a700f24e39",
+      "title": "نظام صيد واستثمار وحماية الثروات المائية الحية في المياه الاقليمية للمملكة العربية السعودية",
+      "provisions": 13,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e74c8b2e-f6e6-4eaf-ad6d-a9a700f24e39/1"
+    },
+    {
+      "id": "sa-law-e7bd6fcc-c29c-4696-8032-aae9009b113a",
+      "title": "نظام الرهن التجاري",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e7bd6fcc-c29c-4696-8032-aae9009b113a/1"
+    },
+    {
+      "id": "sa-law-e864b80e-c186-4cca-b546-a9a700f1e67e",
+      "title": "تنظيم الجمعية السعودية للجودة",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e864b80e-c186-4cca-b546-a9a700f1e67e/1"
+    },
+    {
+      "id": "sa-law-e9c8ba58-4cca-4f5a-bb02-a9a700f200a3",
+      "title": "القواعد التنظيمية الخاصة بإنشاء وحدات التدريب غير الربحية في مجال التدريب التقني والمهني",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/e9c8ba58-4cca-4f5a-bb02-a9a700f200a3/1"
+    },
+    {
+      "id": "sa-law-ea1765a3-dec3-41a0-a32f-a9a700f26d58",
+      "title": "نظام القضاء",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ea1765a3-dec3-41a0-a32f-a9a700f26d58/1"
+    },
+    {
+      "id": "sa-law-ea6489f2-9c4e-43ce-892e-a9a700f23355",
+      "title": "نظام الأنواط العسكرية السعودية ولائحته التنظيمية",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ea6489f2-9c4e-43ce-892e-a9a700f23355/1"
+    },
+    {
+      "id": "sa-law-eaee8a20-3a54-4aaf-b0d9-b1ad00998962",
+      "title": "نظام التأمينات الاجتماعية",
+      "provisions": 63,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/eaee8a20-3a54-4aaf-b0d9-b1ad00998962/1"
+    },
+    {
+      "id": "sa-law-eb1ceceb-d684-404c-afd7-aa6400f17220",
+      "title": "ضوابط استخدام تقنيات المعلومات والاتصالات في الجهات الحكومية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/eb1ceceb-d684-404c-afd7-aa6400f17220/1"
+    },
+    {
+      "id": "sa-law-eb5cc9e3-b938-42db-b375-a9a700f2156b",
+      "title": "نظام التسجيل العيني للعقار 1423هـ",
+      "provisions": 78,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/eb5cc9e3-b938-42db-b375-a9a700f2156b/1"
+    },
+    {
+      "id": "sa-law-ebb751a1-6f0b-4595-9736-a9a700f1f47b",
+      "title": "نظام مزاولة المهن الهندسية",
+      "provisions": 17,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ebb751a1-6f0b-4595-9736-a9a700f1f47b/1"
+    },
+    {
+      "id": "sa-law-ebd54fd4-fb61-458b-a837-a9a700f17e56",
+      "title": "نظام عقوبات انتحال صفة رجل السلطة العامة",
+      "provisions": 6,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ebd54fd4-fb61-458b-a837-a9a700f17e56/1"
+    },
+    {
+      "id": "sa-law-ecaaec43-8ff9-46b8-b269-a9a700f16e66",
+      "title": "نظام المطبوعات والنشر",
+      "provisions": 49,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ecaaec43-8ff9-46b8-b269-a9a700f16e66/1"
+    },
+    {
+      "id": "sa-law-ece2f7dc-db78-4ba4-a9e4-a9a700f20da3",
+      "title": "نظام الطرق والمباني",
+      "provisions": 160,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ece2f7dc-db78-4ba4-a9e4-a9a700f20da3/1"
+    },
+    {
+      "id": "sa-law-ed5fdbc0-c183-4a8a-a8b7-a9ed004b5900",
+      "title": "نظام الإعلام المرئي والمسموع",
+      "provisions": 25,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ed5fdbc0-c183-4a8a-a8b7-a9ed004b5900/1"
+    },
+    {
+      "id": "sa-law-ed69b738-fa85-4777-9f56-a9a700f2b630",
+      "title": "الضوابط الخاصة بوضع الأطفال السعوديين في الخارج من أب سعودي وأم غير سعودية",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ed69b738-fa85-4777-9f56-a9a700f2b630/1"
+    },
+    {
+      "id": "sa-law-eda86cc3-3a00-4b90-900d-b1d000c8a863",
+      "title": "نظام الاستثمار",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/eda86cc3-3a00-4b90-900d-b1d000c8a863/1"
+    },
+    {
+      "id": "sa-law-eef585a5-c63a-4906-a951-b208009b3eff",
+      "title": "نظام ضريبة التصرفات العقارية",
+      "provisions": 20,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/eef585a5-c63a-4906-a951-b208009b3eff/1"
+    },
+    {
+      "id": "sa-law-f0761b32-f420-4435-bd2f-a9a700f25a36",
+      "title": "النظام الأساسي للمجلس الدولي للتمور",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f0761b32-f420-4435-bd2f-a9a700f25a36/1"
+    },
+    {
+      "id": "sa-law-f09eda85-7150-4803-b87a-a9a700f189f3",
+      "title": "نظام الدفاع المدني",
+      "provisions": 36,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f09eda85-7150-4803-b87a-a9a700f189f3/1"
+    },
+    {
+      "id": "sa-law-f0b5bf9f-efb9-4dd1-9f35-ad3b00b3aef3",
+      "title": "تنظيم وزارة الاستثمار",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f0b5bf9f-efb9-4dd1-9f35-ad3b00b3aef3/1"
+    },
+    {
+      "id": "sa-law-f0eaae46-9f84-40ee-815e-a9a700f268b3",
+      "title": "نظام المرافعات الشرعية",
+      "provisions": 242,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f0eaae46-9f84-40ee-815e-a9a700f268b3/1"
+    },
+    {
+      "id": "sa-law-f1bfd1f1-0c50-468e-b9a5-aeee008e493a",
+      "title": "نظام الوساطة العقارية",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f1bfd1f1-0c50-468e-b9a5-aeee008e493a/1"
+    },
+    {
+      "id": "sa-law-f1de206c-eef4-4a76-904a-a9a700f2899a",
+      "title": "نظام مزاولة المهن الصحية",
+      "provisions": 44,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f1de206c-eef4-4a76-904a-a9a700f2899a/1"
+    },
+    {
+      "id": "sa-law-f2f7b465-b576-4f47-a8e7-a9a700f27202",
+      "title": "نظام المرافعات أمام ديوان المظالم",
+      "provisions": 63,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f2f7b465-b576-4f47-a8e7-a9a700f27202/1"
+    },
+    {
+      "id": "sa-law-f34db566-b4d4-48fc-a64b-ac4500e680b6",
+      "title": "تنظيم وزارة الرياضة",
+      "provisions": 5,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f34db566-b4d4-48fc-a64b-ac4500e680b6/1"
+    },
+    {
+      "id": "sa-law-f3a44a6f-9217-478b-b7ca-af3401391514",
+      "title": "نظام استخدام كاميرات المراقبة الأمنية",
+      "provisions": 18,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f3a44a6f-9217-478b-b7ca-af3401391514/1"
+    },
+    {
+      "id": "sa-law-f42655be-79b0-4fd4-bb90-a9a700f26a3e",
+      "title": "نظام المحاماة",
+      "provisions": 45,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f42655be-79b0-4fd4-bb90-a9a700f26a3e/1"
+    },
+    {
+      "id": "sa-law-f457818f-2d89-4339-b7e7-a9a700f1fff2",
+      "title": "نظام تعليم الكبار ومحو الأمية في المملكة العربية السعودية",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f457818f-2d89-4339-b7e7-a9a700f1fff2/1"
+    },
+    {
+      "id": "sa-law-f53c97f5-d253-4828-89d4-a9a700f2d829",
+      "title": "نظام مراقبة شركات التمويل",
+      "provisions": 40,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f53c97f5-d253-4828-89d4-a9a700f2d829/1"
+    },
+    {
+      "id": "sa-law-f55f0003-8b87-4ff0-8f0f-a9a700f20578",
+      "title": "نظام خدمة حجاج الداخل",
+      "provisions": 33,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f55f0003-8b87-4ff0-8f0f-a9a700f20578/1"
+    },
+    {
+      "id": "sa-law-f5b4288e-5625-4cf3-8ce8-a9a700f17bf9",
+      "title": "نظام جوازات السفر السياسية والخاصة",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f5b4288e-5625-4cf3-8ce8-a9a700f17bf9/1"
+    },
+    {
+      "id": "sa-law-f6093ffa-cdb4-4b47-86b1-b025008fdf45",
+      "title": "تنظيم وكالة الأنباء السعودية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f6093ffa-cdb4-4b47-86b1-b025008fdf45/1"
+    },
+    {
+      "id": "sa-law-f62643d0-eff3-43c2-8629-a9a700f18812",
+      "title": "نظام استبدال الغرامة بالحبس",
+      "provisions": 4,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f62643d0-eff3-43c2-8629-a9a700f18812/1"
+    },
+    {
+      "id": "sa-law-f7092b7f-77b4-4205-8dcf-a9a700f2e91c",
+      "title": "تنظيم الهيئة العامة للطيران المدني 1426هـ",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f7092b7f-77b4-4205-8dcf-a9a700f2e91c/1"
+    },
+    {
+      "id": "sa-law-f935b20b-e275-4f4f-9441-acad00e22fdb",
+      "title": "نظام صندوق التنمية الثقافي",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f935b20b-e275-4f4f-9441-acad00e22fdb/1"
+    },
+    {
+      "id": "sa-law-f95138ff-0892-49b0-921c-a9a700f1c37f",
+      "title": "نظام براءات الاختراع لدول مجلس التعاون لدول الخليج العربية",
+      "provisions": 34,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f95138ff-0892-49b0-921c-a9a700f1c37f/1"
+    },
+    {
+      "id": "sa-law-f95abff1-7f8b-4aea-9e97-adb900a2576e",
+      "title": "القواعد المنظمة للتخصيص",
+      "provisions": 24,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f95abff1-7f8b-4aea-9e97-adb900a2576e/1"
+    },
+    {
+      "id": "sa-law-f98f4238-0289-4891-8a22-a9a700f1f538",
+      "title": "نظام ضريبة القيمة المضافة",
+      "provisions": 31,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f98f4238-0289-4891-8a22-a9a700f1f538/1"
+    },
+    {
+      "id": "sa-law-f9ad230e-bae1-47f7-a9f2-a9a700f2bf96",
+      "title": "اللائحة الأساسية للبيوت الاجتماعية",
+      "provisions": 16,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f9ad230e-bae1-47f7-a9f2-a9a700f2bf96/1"
+    },
+    {
+      "id": "sa-law-f9bd197e-980e-4e9f-948c-a9a700f2994e",
+      "title": "تنظيم الهيئة السعودية للمدن الصناعية ومناطق التقنية",
+      "provisions": 26,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f9bd197e-980e-4e9f-948c-a9a700f2994e/1"
+    },
+    {
+      "id": "sa-law-f9c638b2-ee80-4f2b-8406-a9a700f292d3",
+      "title": "لائحة البحوث والدراسات في وزارة الصحة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f9c638b2-ee80-4f2b-8406-a9a700f292d3/1"
+    },
+    {
+      "id": "sa-law-f9de1b7f-7526-4c44-b9f3-a9f8015cf5b6",
+      "title": "نظام مكافحة جريمة التحرش",
+      "provisions": 8,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/f9de1b7f-7526-4c44-b9f3-a9f8015cf5b6/1"
+    },
+    {
+      "id": "sa-law-fa6e1c30-cf23-49ff-9573-b0d600a82c9f",
+      "title": "تنظيم المركز الوطني لنظم الموارد الحكومية",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fa6e1c30-cf23-49ff-9573-b0d600a82c9f/1"
+    },
+    {
+      "id": "sa-law-fad7b0d1-e536-46ea-8202-a9a700f28b03",
+      "title": "نظام أخلاقيات البحث على المخلوقات الحية",
+      "provisions": 51,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fad7b0d1-e536-46ea-8202-a9a700f28b03/1"
+    },
+    {
+      "id": "sa-law-fb3e69e4-84a6-45b4-85d6-ac8c00cb3d67",
+      "title": "نظام الغرف التجارية",
+      "provisions": 54,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fb3e69e4-84a6-45b4-85d6-ac8c00cb3d67/1"
+    },
+    {
+      "id": "sa-law-fb9e0ae5-12c0-4ebd-816d-accd0174328c",
+      "title": "تنظيم المركز الوطني لكفاءة وترشيد المياه",
+      "provisions": 14,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fb9e0ae5-12c0-4ebd-816d-accd0174328c/1"
+    },
+    {
+      "id": "sa-law-fc7adddb-03cc-49b8-bbbb-a9a700f27a38",
+      "title": "تنظيم الجمعية السعودية للمرشدين السياحيين",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fc7adddb-03cc-49b8-bbbb-a9a700f27a38/1"
+    },
+    {
+      "id": "sa-law-fc9ac74c-fc7d-4456-a0e2-a9a700f23eff",
+      "title": "النظام الموحد لمد الحماية التأمينية لمواطني دول مجلس التعاون لدول الخليج العربية العاملين في غير دولهم في أي دولة عضو في المجلس",
+      "provisions": 0,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fc9ac74c-fc7d-4456-a0e2-a9a700f23eff/1"
+    },
+    {
+      "id": "sa-law-fd05e9ef-bf19-4766-9121-a9ec01152301",
+      "title": "تنظيم صندوق التنمية الوطني",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fd05e9ef-bf19-4766-9121-a9ec01152301/1"
+    },
+    {
+      "id": "sa-law-fd30f9c7-8606-4367-bb22-a9a700f2d952",
+      "title": "نظام وظائف مباشرة الأموال العامة",
+      "provisions": 15,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fd30f9c7-8606-4367-bb22-a9a700f2d952/1"
+    },
+    {
+      "id": "sa-law-fdc204c9-f7a3-4e17-9ce8-aa4700feac9f",
+      "title": "تنظيم المركز الوطني لأبحاث وتطوير الزراعة المستدامة",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fdc204c9-f7a3-4e17-9ce8-aa4700feac9f/1"
+    },
+    {
+      "id": "sa-law-fe1771f7-158f-4570-9bb1-a9a700f16dec",
+      "title": "نظام مكتبة الملك عبد العزيز العامة",
+      "provisions": 22,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/fe1771f7-158f-4570-9bb1-a9a700f16dec/1"
+    },
+    {
+      "id": "sa-law-ff94406f-9cba-4e01-bc22-a9a700f27d2b",
+      "title": "إنشاء الهيئة العليا لأندية الفروسية",
+      "provisions": 12,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ff94406f-9cba-4e01-bc22-a9a700f27d2b/1"
+    },
+    {
+      "id": "sa-law-ffa77a62-ef58-4cf2-a6f6-a9a700f1e70f",
+      "title": "تنظيم اللجنة الوطنية لتقنين أعمال التشغيل والصيانة وتقييسها",
+      "provisions": 9,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ffa77a62-ef58-4cf2-a6f6-a9a700f1e70f/1"
+    },
+    {
+      "id": "sa-pdpl",
+      "title": "نظام حماية البيانات الشخصية",
+      "provisions": 43,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/b7cfae89-828e-4994-b167-adaa00e37188/1"
+    },
+    {
+      "id": "sa-telecommunications-ict",
+      "title": "نظام الاتصالات وتقنية المعلومات",
+      "provisions": 41,
+      "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/ae610645-e094-48ef-814e-aeb4009d244f/1"
+    }
+  ]
+}

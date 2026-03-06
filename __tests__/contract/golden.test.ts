@@ -1,10 +1,13 @@
 /**
  * Golden contract tests for Saudi Law MCP.
  * Validates core tool functionality against seed data.
+ *
+ * Skipped in CI when database.db is not present (e.g. npm-only installs).
  */
 
 import { describe, it, expect, beforeAll } from 'vitest';
 import Database from 'better-sqlite3';
+import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -12,14 +15,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DB_PATH = path.resolve(__dirname, '../../data/database.db');
 
+const DB_EXISTS = fs.existsSync(DB_PATH);
+
+const describeIfDb = DB_EXISTS ? describe : describe.skip;
+
 let db: InstanceType<typeof Database>;
 
 beforeAll(() => {
+  if (!DB_EXISTS) return;
   db = new Database(DB_PATH, { readonly: true });
   db.pragma('journal_mode = DELETE');
 });
 
-describe('Database integrity', () => {
+describeIfDb('Database integrity', () => {
   it('should have full-corpus legal documents (excluding EU cross-refs)', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
@@ -40,7 +48,7 @@ describe('Database integrity', () => {
   });
 });
 
-describe('Article retrieval', () => {
+describeIfDb('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
       "SELECT content FROM legal_provisions WHERE document_id = 'sa-pdpl' AND section = '1'"
@@ -50,7 +58,7 @@ describe('Article retrieval', () => {
   });
 });
 
-describe('Search', () => {
+describeIfDb('Search', () => {
   it('should find results via FTS search', () => {
     const rows = db.prepare(
       "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'البيانات'"
@@ -59,7 +67,7 @@ describe('Search', () => {
   });
 });
 
-describe('Negative tests', () => {
+describeIfDb('Negative tests', () => {
   it('should return no results for fictional document', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'fictional-law-2099'"
@@ -75,7 +83,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('Core laws are present', () => {
+describeIfDb('Core laws are present', () => {
   const expectedDocs = [
     'sa-anti-cybercrime',
     'sa-anti-money-laundering',
@@ -100,7 +108,7 @@ describe('Core laws are present', () => {
   }
 });
 
-describe('list_sources', () => {
+describeIfDb('list_sources', () => {
   it('should have db_metadata table', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM db_metadata').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
