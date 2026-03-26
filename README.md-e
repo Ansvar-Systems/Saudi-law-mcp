@@ -40,12 +40,12 @@ This MCP server makes Saudi law **searchable, cross-referenceable, and AI-readab
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mcp.ansvar.eu/law-saudi-law-mcp/mcp`
+**Endpoint:** `https://saudi-law-mcp.vercel.app/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add saudi-law --transport http https://mcp.ansvar.eu/law-saudi-law-mcp/mcp` |
+| **Claude Code** | `claude mcp add saudi-law --transport http https://saudi-law-mcp.vercel.app/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -56,7 +56,7 @@ This MCP server makes Saudi law **searchable, cross-referenceable, and AI-readab
   "mcpServers": {
     "saudi-law": {
       "type": "url",
-      "url": "https://mcp.ansvar.eu/law-saudi-law-mcp/mcp"
+      "url": "https://saudi-law-mcp.vercel.app/mcp"
     }
   }
 }
@@ -69,7 +69,7 @@ This MCP server makes Saudi law **searchable, cross-referenceable, and AI-readab
   "github.copilot.chat.mcp.servers": {
     "saudi-law": {
       "type": "http",
-      "url": "https://mcp.ansvar.eu/law-saudi-law-mcp/mcp"
+      "url": "https://saudi-law-mcp.vercel.app/mcp"
     }
   }
 }

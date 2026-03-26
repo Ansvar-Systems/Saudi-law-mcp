@@ -24,7 +24,7 @@
       "version": "1.0.0",
       "transport": {
         "type": "streamable-http",
-        "url": "https://mcp.ansvar.eu/law-saudi-law-mcp/mcp"
+        "url": "https://saudi-law-mcp.vercel.app/mcp"
       }
     }
   ]
